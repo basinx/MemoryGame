@@ -1,0 +1,82 @@
+Port & TCP or UDP> FTP: Data Connection, 20/TCP, Used for transferring files after control connection is established.
+Port & TCP or UDP> FTP: Control Connection, 21/TCP, Manages the FTP session and authentication.
+Port & TCP or UDP> SSH, 22/TCP, Secure remote login and command execution.
+Port & TCP or UDP> Telnet, 23/TCP, Unsecure text-based remote login (not recommended).
+Port & TCP or UDP> SMTP, 25/TCP, Used to send email between mail servers.
+Port & TCP or UDP> SMTP Secure, 587/TCP, Secure version of SMTP using STARTTLS.
+Port & TCP or UDP> DNS, 53/BOTH, Resolves hostnames to IP addresses (TCP for zone transfers, UDP for queries).
+Port & TCP or UDP> DHCP: Provision IP, 67/UDP, Server side of DHCP handshake.
+Port & TCP or UDP> DHCP: Request IP, 68/UDP, Client side of DHCP handshake.
+Port & TCP or UDP> HTTPS, 443/TCP, Secure web traffic using SSL/TLS.
+Port & TCP or UDP> POP, 110/TCP, Downloads email to a single device and deletes it from server.
+Port & TCP or UDP> POP Secure, 995/TCP, Secure version of POP using SSL/TLS.
+Port & TCP or UDP> NetBIOS over TCP/IP, 137-139/BOTH, Name datagram and session services for legacy systems.
+Port & TCP or UDP> IMAP, 143/TCP, Email access protocol that syncs across devices.
+Port & TCP or UDP> IMAP Secure, 993/TCP, Secure version of IMAP.
+Port & TCP or UDP> SNMP Query status from network devices, 161/UDP, Used by SNMP manager to poll devices.
+Port & TCP or UDP> SNMP Trap, 162/UDP, Used by devices to send alerts/events to SNMP manager.
+Port & TCP or UDP> LDAP, 389/TCP, Lightweight directory access (like AD) over TCP.
+Port & TCP or UDP> LDAPS, 636/TCP, Lightweight directory access (like AD) over TCP using SSL/TLS.
+Port & TCP or UDP> SMB, 445/TCP, Windows file and printer sharing over TCP.
+Port & TCP or UDP> RDP, 3389/TCP, Remote desktop protocol to connect to Windows systems.
+Port & TCP or UDP> mDNS, 5353/UDP, Used for local hostname resolution without DNS server.
+Port & TCP or UDP> WS-Discovery, 3702/UDP, Helps discover services on local network (mostly Windows). means Web Services Dynamic Discovery.
+2.4 GHz Channel 1-13 Frequencies, 2.412-2.472, Each channel steps 5 MHz; avoid overlap for better Wi-Fi; channel 14 is 2.484 (+12 jump)
+5 GHz Channel U-NII-1 20 Mhz channels low-high,36-48,Not in DFS range
+5 GHz Channel U-NII-2 20 Mhz channels low-high,52-64,Inside DFS range
+5 GHz Channel U-NII-2 (Extended) 20 Mhz channels low-high,100-140,Inside DFS range
+5 GHz Channel U-NII-3 20 Mhz channels low-high,149-161,Not in DFS range
+Adobe's PDL, PostScript,Used mostly for high-quality prints and graphics.
+HP's PDL (Acronym), PCL, Printer Control Language, efficient but less precise than PS.
+Microsoft's PDL (Acronym), XPS, XML-based print language used in Windows.
+IDC on Patch Panel (Meaning), Insulation Displacement Connector, Wire pierces insulation to connect without stripping.
+3D Print FFF (Meaning), fused filament fabrication, Consumer-friendly 3D print method (same as FDM).
+3D Print FDM (Meaning), fused deposition modeling, Another name for FFF; filament melted and layered.
+MDI (Meaning) *cabling*, Medium Dependent Interface, Used in networking—MDI vs MDI-X (crossover).
+What is the maximum number of primary partitions on an MBR disk?,4, MBR only supports 4 primary or 3 + 1 extended partition.
+What is the maximum number of partitions on an MBR disk?,128, GPT supports up to 128 partitions with no extended/logical distinction
+USB 2.0 is a high speed standard that specifies a data rate of:, 480Mbps, shared between all devices attached to the same controller.
+USB 1.1 maximum speed, 12Mbps, Rarely asked/but may be mentioned as "Full Speed"
+TCP/IP protocol used to query and update resources in an X.500 directory., LDAP, primarily uses TCP (port 389) for unencrypted communication and TCP (port 636) for encrypted communication (LDAPS)
+AAA First A?,Authentication,Verifies identity—"Are you who you say you are?"
+AAA Second A?,Authorization,Grants access—"What are you allowed to do?"
+AAA Third A?,Accounting,Tracks activity—"What did you do and when?"
+Device Requesting Access in an AAA Setup, Supplicant,The device (like a user computer or phone) that is trying to gain access to the network
+Server that uses RADIUS or TACACS+, AAA,Performs authentication/authorization/and accounting tasks using protocols like RADIUS or TACACS+
+RADIUS (R and A Mean?), Remote Authentication,RADIUS: Used for verifying the identity of clients before granting access to a network
+RADIUS (DIUS Means?), Dial In User Service,RADIUS: Originally designed for dial-up but now used for centralized AAA over IP networks
+NAS Meaning related to AAA, Network Access Server, Acts as the gateway device between the user and the AAA server / Firewalls/Switches/VPN Gateways
+NAP Meaning related to AAA, Network Access Point, Evaluates device health/compliance before allowing full access / Often part of network access control (NAC) systems (eg. ISP NAC or Managed Switch Port)
+IEEE 802.3af PoE Watts <100m/>328ft,15.4/13,PoE Type 1/Delivers 15.4 W but device receives less over distance (Short: 14+/ Long ~13)
+IEEE 802.3af PoE #mA@#V, 350mA@48V, Provides ~13W usable power to PD at 100m/Phones, access points, cameras
+IEEE 802.3at standard PoE Watts/mA,25/600,PoE Type 2 (PoE+)/Delivers up to 25 W/Used for higher-power WAPs and cameras/Cameras with heaters, better APs
+IEEE 802.3bt standard PoE Watts Type3/Type4,51/73,PoE++ Type 3 and 4/Device receives ~51 W or ~73 W/Source may deliver 60–100 W/Lighting, PTZ cams, multi-radio APs
+Adds PoE to a non PoE connection,power injector,One port on the injector is connected to the switch port. The other port is connected to the device. The overall cable length cannot exceed 100m.
+WPA2 Meaning (WPA2 or WPA3), WiFi Protected Access,A security standard for wireless networks - better user authentication than WEP
+WEP Meaning, Wired Equivalent Privacy, the oldest and most common Wi-Fi security protocol - vulnerable to security breaches
+Blank Pages or White Stripes (Laser Print Stage) Toner/driver is fine/toner seal removed, Transferring, Transfer Roller is dirty or damaged
+WPA2-Enterprise requires?, RADIUS server, Used in enterprise environments to authenticate users individually using 802.1X
+M.2 adapter sizes(mm) no spaces, 426080110, (B-Key = 6 Pin & SATA or x2)/(M-Key = 5 Pin & x4)/(B+M-Key = SATA or x2)
+FDI Meaning (PCH Feature), Flexible Display Interface, Only used to support a processor with integrated graphics
+PCH Meaning, Platform Control Hub, Replaced Southbridge & some Northbridge motherboard functions
+DMI Meaning (Motherboards), Direct Media Interface, Connects the processor and the Platform Control Hub (PCH)
+RSSI Meaning, Received Signal Strength Indicator, measured in decibel-milliwatts (dBm). Closer to 0 is better (-30 dBm is great)
+SCADA Meaning (Embedded Systems), Supervisory Control And Data Acquisition, typically run as software on ordinary computers, gathering data from and managing plant devices and equipment with embedded PLCs, referred to as "field devices."
+Three items that define a problem, Cause Symptom Consequence, Once the symptoms are defined, narrow down the cause. Identifying the cause of the problem is an important problem-solving step.
+PLC Meaning (Embedded Systems), Programmable Logic Controller, Linked by a cabled network to actuators that operate valves/motors/circuit breakers/other mechanical components/sensors - Output and configuration done at HMI's.
+HDD slow read/write cause?, Bad Sectors Bad Blocks, Physical/logical drive issues cause performance drop; NOT disk thrashing (RAM issue)
+BCD store meaning on an MBR Disk, Boot Configuration Data, Where Windows boot options are stored. It includes boot configuration parameters for how to launch Windows. GRUB or LILO is Linux equivalent.
+GPT meaning in disk partitioning/boot scheme, GUID Partition Table, boot information is not restricted to a single sector but still serves the same basic purpose of identifying partitions and OS boot loaders.
+SMART meaning, Self-Monitoring Analysis and Reporting Technology, Fixed disk self-diagnostic program. SMART can alert the operating system if a failure is detected.
+VDI meaning, Virtual Desktop Infrastructure, Using VM's as a means of Provisioning corporate desktops, often accessed via thin clients.
+ONT meaning, Optical Network Terminal, installed at the customer’s premises converts the optical signal to an electrical one. Connected to the customer’s router using an RJ45 copper wire patch cord.
+OLT meaning, Optical Line Terminal, Located in a street cabinet. From the OLT- splitters direct each subscriber’s traffic over a short length of fiber to an optical network terminal (ONT) installed at the customer’s premises.
+PoP meaning, Point of Presence, A connection to an internet service provider's (ISP’s) network uses its nearest point of presence (PoP) such as a local telephone exchange.
+PON meaning, Passive Optical Network, In a PON, FTTP: a single fiber cable is run from the point of presence to a street cabinet; a splitter directs traffic over a shorter length fiber to ONT on premises.
+Small core fiber that carries long wavelength, Single Mode Fiber, SMF: supports data rates up to 10 Gbps and cable runs of many kilometers. 8-10 micron core/1310 or 1550 nm wavelength.
+Large core fiber that carries shorter wavelengths, Multi Mode Fiber, MMF: slower signal speeds and shorter distances - better for LANs than WANs. 50 or 62.5 micron core/850 or 1300 nm wavelength. Cheaper.
+VCSEL, Vertical Cavity Surface Emitting Laser, Low-cost laser used in Multi-mode fiber; faster than LED; good for short-range fiber like 10GBASE-SR
+Fiber: bayonet-style connector that uses a push-and-twist locking mechanism, Straight Tip, ST: bayonet-style, push-and-twist; used mostly on older multi-mode networks.
+Fiber: simple push/pull connector, Subscriber Connector, SC: simple push/pull insertion. Simplex and Duplex versions (duplex = 2 connectors clipped together). Single or Multi-Mode.
+Fiber: small/tabbed push/pull connector, Lucent Connector, LC: small form factor; Tabbed push/pull design. Small size allows higher port density than SC.
+
