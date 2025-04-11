@@ -4,7 +4,7 @@ Port & TCP or UDP> SSH, 22/TCP, Secure remote login and command execution.
 Port & TCP or UDP> Telnet, 23/TCP, Unsecure text-based remote login (not recommended).
 Port & TCP or UDP> SMTP, 25/TCP, Used to send email between mail servers.
 Port & TCP or UDP> SMTP Secure, 587/TCP, Secure version of SMTP using STARTTLS.
-Port & TCP or UDP> DNS, 53/BOTH, Resolves hostnames to IP addresses (TCP for zone transfers, UDP for queries).
+Port & TCP or UDP> DNS, 53/BOTH, Resolves hostnames to IP addresses (TCP for zone transfers; UDP for queries).
 Port & TCP or UDP> DHCP: Provision IP, 67/UDP, Server side of DHCP handshake.
 Port & TCP or UDP> DHCP: Request IP, 68/UDP, Client side of DHCP handshake.
 Port & TCP or UDP> HTTPS, 443/TCP, Secure web traffic using SSL/TLS.
@@ -27,7 +27,7 @@ Port & TCP or UDP> WS-Discovery, 3702/UDP, Helps discover services on local netw
 5 GHz Channel U-NII-2 (Extended) 20 Mhz channels low-high,100-140,Inside DFS range
 5 GHz Channel U-NII-3 20 Mhz channels low-high,149-161,Not in DFS range
 Adobe's PDL, PostScript,Used mostly for high-quality prints and graphics.
-HP's PDL (Acronym), PCL, Printer Control Language, efficient but less precise than PS.
+HP's PDL (Acronym), PCL, Printer Control Language; efficient but less precise than PS.
 Microsoft's PDL (Acronym), XPS, XML-based print language used in Windows.
 IDC on Patch Panel (Meaning), Insulation Displacement Connector, Wire pierces insulation to connect without stripping.
 3D Print FFF (Meaning), fused filament fabrication, Consumer-friendly 3D print method (same as FDM).
@@ -48,9 +48,10 @@ RADIUS (DIUS Means?), Dial In User Service,RADIUS: Originally designed for dial-
 NAS Meaning related to AAA, Network Access Server, Acts as the gateway device between the user and the AAA server / Firewalls/Switches/VPN Gateways
 NAP Meaning related to AAA, Network Access Point, Evaluates device health/compliance before allowing full access / Often part of network access control (NAC) systems (eg. ISP NAC or Managed Switch Port)
 IEEE 802.3af PoE Watts <100m/>328ft,15.4/13,PoE Type 1/Delivers 15.4 W but device receives less over distance (Short: 14+/ Long ~13)
-IEEE 802.3af PoE #mA@#V, 350mA@48V, Provides ~13W usable power to PD at 100m/Phones, access points, cameras
-IEEE 802.3at standard PoE Watts/mA,25/600,PoE Type 2 (PoE+)/Delivers up to 25 W/Used for higher-power WAPs and cameras/Cameras with heaters, better APs
-IEEE 802.3bt standard PoE Watts Type3/Type4,51/73,PoE++ Type 3 and 4/Device receives ~51 W or ~73 W/Source may deliver 60–100 W/Lighting, PTZ cams, multi-radio APs
+IEEE meaning, Institute of Electrical and Electronics Engineers, does the 802.whatever standards.
+IEEE 802.3af PoE #mA@#V, 350mA@48V, Provides ~13W usable power to PD at 100m/Phones; access points; cameras
+IEEE 802.3at standard PoE Watts/mA,25/600,PoE Type 2 (PoE+)/Delivers up to 25 W/Used for higher-power WAPs and cameras/Cameras with heaters; better APs
+IEEE 802.3bt standard PoE Watts Type3/Type4,51/73,PoE++ Type 3 and 4/Device receives ~51 W or ~73 W/Source may deliver 60–100 W/Lighting; PTZ cams; multi-radio APs
 Adds PoE to a non PoE connection,power injector,One port on the injector is connected to the switch port. The other port is connected to the device. The overall cable length cannot exceed 100m.
 WPA2 Meaning (WPA2 or WPA3), WiFi Protected Access,A security standard for wireless networks - better user authentication than WEP
 WEP Meaning, Wired Equivalent Privacy, the oldest and most common Wi-Fi security protocol - vulnerable to security breaches
@@ -61,22 +62,34 @@ FDI Meaning (PCH Feature), Flexible Display Interface, Only used to support a pr
 PCH Meaning, Platform Control Hub, Replaced Southbridge & some Northbridge motherboard functions
 DMI Meaning (Motherboards), Direct Media Interface, Connects the processor and the Platform Control Hub (PCH)
 RSSI Meaning, Received Signal Strength Indicator, measured in decibel-milliwatts (dBm). Closer to 0 is better (-30 dBm is great)
-SCADA Meaning (Embedded Systems), Supervisory Control And Data Acquisition, typically run as software on ordinary computers, gathering data from and managing plant devices and equipment with embedded PLCs, referred to as "field devices."
-Three items that define a problem, Cause Symptom Consequence, Once the symptoms are defined, narrow down the cause. Identifying the cause of the problem is an important problem-solving step.
+SCADA Meaning (Embedded Systems), Supervisory Control And Data Acquisition, typically run as software on ordinary computers; gathering data from and managing plant devices and equipment with embedded PLCs; referred to as "field devices."
+Three items that define a problem, Cause Symptom Consequence, Once the symptoms are defined; narrow down the cause. Identifying the cause of the problem is an important problem-solving step.
 PLC Meaning (Embedded Systems), Programmable Logic Controller, Linked by a cabled network to actuators that operate valves/motors/circuit breakers/other mechanical components/sensors - Output and configuration done at HMI's.
 HDD slow read/write cause?, Bad Sectors Bad Blocks, Physical/logical drive issues cause performance drop; NOT disk thrashing (RAM issue)
 BCD store meaning on an MBR Disk, Boot Configuration Data, Where Windows boot options are stored. It includes boot configuration parameters for how to launch Windows. GRUB or LILO is Linux equivalent.
 GPT meaning in disk partitioning/boot scheme, GUID Partition Table, boot information is not restricted to a single sector but still serves the same basic purpose of identifying partitions and OS boot loaders.
 SMART meaning, Self-Monitoring Analysis and Reporting Technology, Fixed disk self-diagnostic program. SMART can alert the operating system if a failure is detected.
-VDI meaning, Virtual Desktop Infrastructure, Using VM's as a means of Provisioning corporate desktops, often accessed via thin clients.
+VDI meaning, Virtual Desktop Infrastructure, Using VM's as a means of Provisioning corporate desktops; often accessed via thin clients.
 ONT meaning, Optical Network Terminal, installed at the customer’s premises converts the optical signal to an electrical one. Connected to the customer’s router using an RJ45 copper wire patch cord.
 OLT meaning, Optical Line Terminal, Located in a street cabinet. From the OLT- splitters direct each subscriber’s traffic over a short length of fiber to an optical network terminal (ONT) installed at the customer’s premises.
 PoP meaning, Point of Presence, A connection to an internet service provider's (ISP’s) network uses its nearest point of presence (PoP) such as a local telephone exchange.
-PON meaning, Passive Optical Network, In a PON, FTTP: a single fiber cable is run from the point of presence to a street cabinet; a splitter directs traffic over a shorter length fiber to ONT on premises.
+PON meaning, Passive Optical Network, In a PON- FTTP: a single fiber cable is run from the point of presence to a street cabinet; a splitter directs traffic over a shorter length fiber to ONT on premises.
 Small core fiber that carries long wavelength, Single Mode Fiber, SMF: supports data rates up to 10 Gbps and cable runs of many kilometers. 8-10 micron core/1310 or 1550 nm wavelength.
 Large core fiber that carries shorter wavelengths, Multi Mode Fiber, MMF: slower signal speeds and shorter distances - better for LANs than WANs. 50 or 62.5 micron core/850 or 1300 nm wavelength. Cheaper.
 VCSEL, Vertical Cavity Surface Emitting Laser, Low-cost laser used in Multi-mode fiber; faster than LED; good for short-range fiber like 10GBASE-SR
-Fiber: bayonet-style connector that uses a push-and-twist locking mechanism, Straight Tip, ST: bayonet-style, push-and-twist; used mostly on older multi-mode networks.
+Fiber: bayonet-style connector that uses a push-and-twist locking mechanism, Straight Tip, ST: bayonet-style; push-and-twist; used mostly on older multi-mode networks.
 Fiber: simple push/pull connector, Subscriber Connector, SC: simple push/pull insertion. Simplex and Duplex versions (duplex = 2 connectors clipped together). Single or Multi-Mode.
 Fiber: small/tabbed push/pull connector, Lucent Connector, LC: small form factor; Tabbed push/pull design. Small size allows higher port density than SC.
+When should a tech perform a backup during troubleshooting?, Step 1, Backups are part of identifying the problem to avoid data loss before performing repairs
+What does UEFI stand for?, Unified Extensible Firmware Interface, UEFI provides support for 64-bit CPU operation at boot; a full GUI and mouse operation at boot; networking functionality at boot; and better boot security.
+First step if you are working inside the case, ESD Wriststrap, Perform backups if possible prior to working inside the case as well.
+Applies a continuous audio signal on the cable, Tone Generator, A Toner Probe is used to detect the signal and follow the cable or identify from a bundle.
+Finish connecting cable to an IDC, Punchdown Tool, Cable Stripper and Snips needed to expose inner wires and snip Star Filler and Rip Cord.
+Finish connecting an RJ45 jack to cable, Crimper, Cable Stripper and Snips needed to expose inner wires and snip Star Filler and Rip Cord
+TIA meaning, Telecommunications Industry Association,
+multiple execution units and registers in a CPU, chip level multiprocessing, A multi-core central processing unit (CPU) is multiple processors combined in one - known as CMP.
+What’s the difference inside the 8 wires in stranded vs solid Ethernet cable?, The conductor type,
+Two types of Ethernet Cable with different physical properties ?/?, Stranded/Solid Core, Each of the 8 wires is solid copper in solid-core cables; made of tiny strands in stranded cables.
+
+
 
