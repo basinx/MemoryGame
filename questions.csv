@@ -87,8 +87,15 @@ Applies a continuous audio signal on the cable, Tone Generator, A Toner Probe is
 Finish connecting cable to an IDC, Punchdown Tool, Cable Stripper and Snips needed to expose inner wires and snip Star Filler and Rip Cord.
 Finish connecting an RJ45 jack to cable, Crimper, Cable Stripper and Snips needed to expose inner wires and snip Star Filler and Rip Cord
 TIA meaning, Telecommunications Industry Association, TIA develops cabling and communications standards such as TIA/EIA-568 for structured cabling
-Multiple execution units and registers in a CPU, Chip-Level Multiprocessing, A multi-core CPU has multiple processors (cores) in one chip; allowing simultaneous execution of tasks - (CMP)
+Multiple execution units and registers in a CPU, Chip Level Multiprocessing, (CMP): A multi-core CPU has multiple processors (cores) in one chip; allowing simultaneous execution of tasks
+The use of two or more physical CPUs in a multi-socket motherboard, Symmetric Multiprocessing, An SMP-aware OS can then make efficient use of CPUs on a multi-socket motherboard.
+
 Two types of Ethernet Cable with different physical properties ?/?, Stranded/Solid Core, Each of the 8 wires is solid copper in solid-core cables; made of tiny strands in stranded cables.
+ALU Meaning?, arithmetic logic unit, A combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers.
+FPU Meaning?, floating point unit, Provides a faster way for the CPU to handle calculations with non-integer numbers.
+4 steps in CPU execution process, fetch decode execute writeback, Fetch gets instruction from memory; decode interprets it; execute performs it; writeback stores result in register or memory
+
+
 
 
 
