@@ -59,7 +59,7 @@ Blank Pages or White Stripes (Laser Print Stage) Toner/driver is fine/toner seal
 WPA2-Enterprise requires?, RADIUS server, Used in enterprise environments to authenticate users individually using 802.1X
 M.2 adapter sizes(mm) no spaces, 426080110, (B-Key = 6 Pin & SATA or x2)/(M-Key = 5 Pin & x4)/(B+M-Key = SATA or x2)
 FDI Meaning (PCH Feature), Flexible Display Interface, Only used to support a processor with integrated graphics
-PCH Meaning, Platform Control Hub, Replaced Southbridge & some Northbridge motherboard functions
+PCH Meaning, Platform Controller Hub, Replaced Southbridge and took over some Northbridge roles like clocking while CPU now handles RAM and PCIe
 DMI Meaning (Motherboards), Direct Media Interface, Connects the processor and the Platform Control Hub (PCH)
 RSSI Meaning, Received Signal Strength Indicator, measured in decibel-milliwatts (dBm). Closer to 0 is better (-30 dBm is great)
 SCADA Meaning (Embedded Systems), Supervisory Control And Data Acquisition, typically run as software on ordinary computers; gathering data from and managing plant devices and equipment with embedded PLCs; referred to as "field devices."
@@ -95,6 +95,8 @@ ALU Meaning?, arithmetic logic unit, A combinational digital circuit that perfor
 FPU Meaning?, floating point unit, Provides a faster way for the CPU to handle calculations with non-integer numbers.
 4 steps in CPU execution process, fetch decode execute writeback, Fetch gets instruction from memory; decode interprets it; execute performs it; writeback stores result in register or memory
 RISC Meaning?, reduced instruction set computing, A typical Advanced RISC Machines (ARM) design implements a system-on-chip (SoC). SoC means that all the controllers—video; sound; networking; and storage—are part of the CPU.
+Allows multiple threads to run through the CPU at the same time, Simultaneous Multithreading, (SMT): referred to as HyperThreading by Intel. One core runs multiple threads by using idle units (ALU/FPU/etc..) that the other thread isn't using
+
 
 
 
