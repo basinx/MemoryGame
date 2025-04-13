@@ -96,8 +96,8 @@ FPU Meaning?, floating point unit, Provides a faster way for the CPU to handle c
 4 steps in CPU execution process, fetch decode execute writeback, Fetch gets instruction from memory; decode interprets it; execute performs it; writeback stores result in register or memory
 RISC Meaning?, reduced instruction set computing, A typical Advanced RISC Machines (ARM) design implements a system-on-chip (SoC). SoC means that all the controllers—video; sound; networking; and storage—are part of the CPU.
 Allows multiple threads to run through the CPU at the same time, Simultaneous Multithreading, (SMT): referred to as HyperThreading by Intel. One core runs multiple threads by using idle units (ALU/FPU/etc..) that the other thread isn't using
-Intel/AMD CPU level virtualization designations (short form), VT/AMD-V, Required for Type 1 & 2 hypervisors to run VMs efficiently
-Why is SLAT useful?, Reduces VM memory overhead, Handles second-level memory translation in hardware to improve performance
+Intel/AMD CPU level virtualization designations (short form), VT/AMD-V, Required for Type 1 & 2 hypervisors to run VMs efficiently (Virtualization Technology / AMD Virtualization)
+Why is SLAT useful?, Reduces VM memory overhead, Handles second-level memory (address) translation in hardware to improve performance
 When removing a CPU with a heat sink and fan assembly how to remove heat sink, gentle twist, to remove the heat sink to avoid it sticking to the CPU.
 Common AMD desktop CPU socket/type, AM4/PGA, Pin Grid Array; The platform for select AMD Ryzen(gen 1-5); Athlon; and 7th Gen A-Series processors
 What is the EDB?, External Data Bus, connects the processor to adapters; the keyboard; the mouse; the hard drive; and other devices.
@@ -124,6 +124,11 @@ DMARC Meaning >  Domain based Message *what*?, Authentication Reporting and Conf
 Set of rules that control which users or systems can access network resources, Access Control List, ACLs can be configured on various network devices like routers; switches; and firewalls to regulate traffic
 Fancy term for a mail client, Message Submission Agent, Usually uses port 587 to submit mail to an SMTP server. Can also refer to that server in broader definitions.
 Fancy term for an SMTP server, Message Transfer Agents, uses DNS to find MX record and usually uses port 25 to send to remote mail server.
+SDN Meaning in cloud computing, Software Defined Networking, Centralized network control where software defines traffic flow using APIs; separates control from hardware for flexibility and automation
+Another name for SMB protocol, Common Internet File System, SMB/CIFS Implement WIndows-compatible file and printer sharing services on a local network
+What does PCI mean? Peripheral Component Interconnect, An industry-standard; high-speed bus found in nearly all desktop computers.
+
+
 
 
 
