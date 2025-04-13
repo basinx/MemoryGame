@@ -96,6 +96,25 @@ FPU Meaning?, floating point unit, Provides a faster way for the CPU to handle c
 4 steps in CPU execution process, fetch decode execute writeback, Fetch gets instruction from memory; decode interprets it; execute performs it; writeback stores result in register or memory
 RISC Meaning?, reduced instruction set computing, A typical Advanced RISC Machines (ARM) design implements a system-on-chip (SoC). SoC means that all the controllers—video; sound; networking; and storage—are part of the CPU.
 Allows multiple threads to run through the CPU at the same time, Simultaneous Multithreading, (SMT): referred to as HyperThreading by Intel. One core runs multiple threads by using idle units (ALU/FPU/etc..) that the other thread isn't using
+Intel/AMD CPU level virtualization designations (short form), VT/AMD-V, Required for Type 1 & 2 hypervisors to run VMs efficiently
+Why is SLAT useful?, Reduces VM memory overhead, Handles second-level memory translation in hardware to improve performance
+When removing a CPU with a heat sink and fan assembly how to remove heat sink, gentle twist, to remove the heat sink to avoid it sticking to the CPU.
+Common AMD desktop CPU socket/type, AM4/PGA, Pin Grid Array; The platform for select AMD Ryzen™; Athlon™; and 7th Gen A-Series processors
+What is the EDB?, External Data Bus, connects the processor to adapters; the keyboard; the mouse; the hard drive; and other devices.
+What does Ryzen 7 mean?, High performance tier, AMD CPU tier similar to Intel i7
+What does the 5 in Ryzen 5800X mean?, 5th generation, Higher generations = newer/better
+What does 800 mean in Ryzen 5800X?, Model within gen, Higher number = more powerful model
+What does the X mean in Ryzen 5800X?, Extra performance, Indicates unlocked/high-performance model
+Intel LGA 1151 Socket generations (Core CPUs), 6-9, Common desktop CPUs like i5-8400 use this socket; DDR4 supported
+Intel LGA 1200 Socket generations (Core CPUs), 10-11, Replaced 1151 with slight design changes; still uses DDR4
+Intel LGA 1700 Socket generations (Core CPUs), 12-14, Supports DDR5 or DDR4 depending on motherboard; longer socket
+Intel/Xeon/Sockets, 1150/1151/2011, Workstation/server CPUs; not typically seen on desktops
+AMD AM4 Socket, Ryzen 1000–5000 Series, Most Ryzen CPUs up to 2022 use this socket; PGA type
+AMD AM5 Socket, Ryzen 7000 and newer, Uses LGA layout and supports DDR5 memory
+AMD EPYC Socket, SP3, Used in servers and workstations; large LGA socket for multi-core CPUs
+
+
+
 
 
 
