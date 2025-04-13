@@ -112,7 +112,7 @@ Intel/Xeon/Sockets, 1150/1151/2011, Workstation/server CPUs; not typically seen 
 AMD AM4 Socket, Ryzen 1000–5000 Series, Most Ryzen CPUs up to 2022 use this socket; PGA type
 AMD AM5 Socket, Ryzen 7000 and newer, Uses LGA layout and supports DDR5 memory
 AMD EPYC Socket, SP3, Used in servers and workstations; large LGA socket for multi-core CPUs
-
+25 pin or more common 9 pin DB-9, RS-232, legacy serial ports - not to be confused with 15 pin VGA ports
 
 
 
