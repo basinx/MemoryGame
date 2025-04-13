@@ -99,7 +99,7 @@ Allows multiple threads to run through the CPU at the same time, Simultaneous Mu
 Intel/AMD CPU level virtualization designations (short form), VT/AMD-V, Required for Type 1 & 2 hypervisors to run VMs efficiently
 Why is SLAT useful?, Reduces VM memory overhead, Handles second-level memory translation in hardware to improve performance
 When removing a CPU with a heat sink and fan assembly how to remove heat sink, gentle twist, to remove the heat sink to avoid it sticking to the CPU.
-Common AMD desktop CPU socket/type, AM4/PGA, Pin Grid Array; The platform for select AMD Ryzen™; Athlon™; and 7th Gen A-Series processors
+Common AMD desktop CPU socket/type, AM4/PGA, Pin Grid Array; The platform for select AMD Ryzen(gen 1-5); Athlon; and 7th Gen A-Series processors
 What is the EDB?, External Data Bus, connects the processor to adapters; the keyboard; the mouse; the hard drive; and other devices.
 What does Ryzen 7 mean?, High performance tier, AMD CPU tier similar to Intel i7
 What does the 5 in Ryzen 5800X mean?, 5th generation, Higher generations = newer/better
