@@ -113,6 +113,13 @@ AMD AM4 Socket, Ryzen 1000–5000 Series, Most Ryzen CPUs up to 2022 use this so
 AMD AM5 Socket, Ryzen 7000 and newer, Uses LGA layout and supports DDR5 memory
 AMD EPYC Socket, SP3, Used in servers and workstations; large LGA socket for multi-core CPUs
 25 pin or more common 9 pin DB-9, RS-232, legacy serial ports - not to be confused with 15 pin VGA ports
+SCSI Meaning/Max Data Rate, Small Computer System Interface/320MBps, high density (HD) 68-pin or single connector attachment (SCA) 80-pin most common
+UART Meaning, Universal Asynchronous Receiver Transmitter, Converts data between parallel and serial form; used in low-speed communication like debugging or with Bluetooth and embedded systems
+What can use UART on modern mobile devices?, Bluetooth and USB, Bluetooth modules and USB controllers often use UART for low-level serial communication
+HMI Meaning, Human Machine Interface, Touchscreen or control panel that allows a person to interact with a machine or industrial system
+ICS Meaning, Industrial Control System, General term for systems used to control industrial processes; often includes PLCs and SCADA
+
+
 
 
 
