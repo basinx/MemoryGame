@@ -247,7 +247,7 @@ class TypingGame:
                     # Display extra info (wrapped) if available.
                     if self.last_question_info.strip():
                         info_text = f"Info: {self.last_question_info}"
-                        draw_wrapped_text(screen, info_text, (50, 430), font, color=(200, 200, 0), max_width=775)
+                        draw_wrapped_text(screen, info_text, (25, 430), font, color=(200, 200, 0), max_width=775)
         elif self.state == GAME_OVER:
             draw_text(screen, "Game Over", (350, 200), font)
             draw_text(screen, f"Final Score: {self.score}", (330, 250), font)
