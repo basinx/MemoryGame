@@ -136,6 +136,11 @@ Citrix/Microsoft's Application Virtualization solutions, XenApp/App-V, Client ac
 CSP Meaning?, Cloud Service Provider, A public (or multitenant) model is offered over the internet by CSP's to cloud consumers; often referred to as tenants. (subscriptions or pay-as-you-go)
 Improves virtual memory performance in VM's Top/Intel/AMD, SLAT/EPT/RVI, Second Level Address Translation / Extended Page Table (Intel) / Rapid Virtualization Indexing (AMD)
 SAN Meaning, Storage Area Network, is a network of storage devices that can be accessed by multiple servers or computers; providing a shared pool of storage space.
+Malware moves from one VM to another and attempts to interact with the hypervisor,Escape,Breaking isolation between virtual machines is known as virtual machine escape
+Too many virtual machines are created without proper management,Sprawl,Virtual machine sprawl increases security and maintenance risks
+VM's installed without proper authorization,Rogue,System management software can detect rogue VM's; deployment procedures should be tightly drafted and monitored
+a type of malicious code embedded in software that remains dormant until specific conditions are met, logic bomb, You really don't want to be deploying VM images with these hiding in them
+
 
 
 
