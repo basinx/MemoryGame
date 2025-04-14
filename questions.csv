@@ -130,7 +130,7 @@ What does PCI mean?, Peripheral Component Interconnect, An industry-standard; hi
 Charging a fully charged battery at a rate equal to its self-discharge rate, Trickle Charge, Repeated trickle charging can reduce battery life; use a power management plan/driver
 Store Li-ion batteries below what % charge/ºC, 40/20, Li-ion batteries are sensitive to heat
 First thing to test in a no power scenario, known good, Check that other equipment in the area is working; Try known-good equipment in outlet & cable plugged/known-good power cable
-Next steps in no power if outlet & cable confirmed, disconnect extra devices, May need higher wattage PSU or one of the devices is faulty. Can also test PSU with multimeter or power supply tester.
+Next steps in no power if outlet & cable confirmed, disconnect extra devices, May need higher wattage PSU or one of the devices is faulty. Can also test PSU with multimeter or power supply tester**.
 
 
 
