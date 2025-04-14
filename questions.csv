@@ -126,7 +126,7 @@ Fancy term for a mail client, Message Submission Agent, Usually uses port 587 to
 Fancy term for an SMTP server, Message Transfer Agents, uses DNS to find MX record and usually uses port 25 to send to remote mail server.
 SDN Meaning in cloud computing, Software Defined Networking, Centralized network control where software defines traffic flow using APIs; separates control from hardware for flexibility and automation
 Another name for SMB protocol, Common Internet File System, SMB/CIFS Implement WIndows-compatible file and printer sharing services on a local network
-What does PCI mean? Peripheral Component Interconnect, An industry-standard; high-speed bus found in nearly all desktop computers.
+What does PCI mean?, Peripheral Component Interconnect, An industry-standard; high-speed bus found in nearly all desktop computers.
 
 
 
