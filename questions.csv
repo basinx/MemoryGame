@@ -140,6 +140,20 @@ Malware moves from one VM to another and attempts to interact with the hyperviso
 Too many virtual machines are created without proper management,Sprawl,Virtual machine sprawl increases security and maintenance risks
 VM's installed without proper authorization,Rogue,System management software can detect rogue VM's; deployment procedures should be tightly drafted and monitored
 a type of malicious code embedded in software that remains dormant until specific conditions are met, logic bomb, You really don't want to be deploying VM images with these hiding in them
+Uses ground-basesd long-range fixed access wireless technology & requires unobstructed LoS, wireless internet service provider, The WISP installs and maintains a directional antenna to bridge customers network and service provider
+Uses a VSAT antenna connected via coax to a DVB-S modem, Geostationary Orbial Satellite, Satellite does not move relative to the Very Small Aperture Terminal (VSAT) dish. DVB-S is Digital Video Broadcast Satellite. Low speed/High Latency (>600ms)
+Requires an antenna with a motor and "phased array" technology, Low Earth Orbital Satellite, LEO supports better bandwidth (around 70-100 Mbps) and lower latency (100-200 ms RTT)
+3G format that allows a removable SIM card in unlocked handsets, Global System for Mobile Communications,GSM: 3G works in 850/1900 MHz freq bands (mostly Americas) and 900/1800 in rest of world.
+3G format where handset directly managed by provider with no removable SIM card, Code Division Multiple Access, CDMA: Area served by each base in 3G refered to as a "cell". Cells have effective range up to 5 miles(8km)
+Minimal cellular service levels with speeds 50-400 Kbps (3 with spaces), G E 1X, Not even 3G - 2G era tech or in-between
+Approximate speed of regular 3G UMTS/CDMA networks (Mbps), 3, Universal Mobile Telecommunications Service (UMTS) on GSM / Evolution-Data Optimized (EV-DO) on CDMA
+Maximum speed of HSPA+ cellular (Mbps), 42, High Speed Packet Access (HSPA) provides improved data on GSM networks
+DiplayPort MST meaning and versions (#/#) for daisy chaining, Multi-Stream Transport 1.2/1.4, You can connect up to four monitors to a desktop or three to a laptop. Can handle two 4K monitors at 60Hz or one 8K monitor at 30Hz.
+Thunderbolt can daisy chain up to how many devices?, 6, including external GPUs; storage drives; docking stations; and monitors
+Thunderbolt 4 supports up to #/# of monitors: 4K at 60Hz/8K at 60Hz, 2/1, Max speed 40Gbps. A strong choice for users who need ultra-high-definition visuals.
+DisplayPort speeds per lane (Original/Current version 2.0 - Gbps), 2.7/20, Up to 4 bonded lanes = max speed of 80Gbps
+
+
 
 
 
