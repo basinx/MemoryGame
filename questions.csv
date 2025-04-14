@@ -28,7 +28,7 @@ Port & TCP or UDP> WS-Discovery, 3702/UDP, Helps discover services on local netw
 5 GHz Channel U-NII-3 20 Mhz channels low-high,149-161,Not in DFS range
 Adobe's PDL, PostScript,Used mostly for high-quality prints and graphics.
 HP's PDL (Acronym), PCL, Printer Control Language; efficient but less precise than PS.
-Microsoft's PDL (Acronym), XPS, XML-based print language used in Windows.
+Microsoft's PDL (Acronym), XPS, XML-based print language used in Windows. XML Paper Specification
 IDC on Patch Panel (Meaning), Insulation Displacement Connector, Wire pierces insulation to connect without stripping.
 3D Print FFF (Meaning), fused filament fabrication, Consumer-friendly 3D print method (same as FDM).
 3D Print FDM (Meaning), fused deposition modeling, Another name for FFF; filament melted and layered.
@@ -69,7 +69,7 @@ HDD slow read/write cause?, Bad Sectors Bad Blocks, Physical/logical drive issue
 BCD store meaning on an MBR Disk, Boot Configuration Data, Where Windows boot options are stored. It includes boot configuration parameters for how to launch Windows. GRUB or LILO is Linux equivalent.
 GPT meaning in disk partitioning/boot scheme, GUID Partition Table, boot information is not restricted to a single sector but still serves the same basic purpose of identifying partitions and OS boot loaders.
 SMART meaning, Self-Monitoring Analysis and Reporting Technology, Fixed disk self-diagnostic program. SMART can alert the operating system if a failure is detected.
-VDI meaning, Virtual Desktop Infrastructure, Using VM's as a means of Provisioning corporate desktops; often accessed via thin clients.
+VDI meaning, Virtual Desktop Infrastructure, Using VM's as a means of Provisioning corporate desktops; often accessed via thin clients. Server-side virtualization where desktop environments are hosted on a centralized server
 ONT meaning, Optical Network Terminal, installed at the customer’s premises converts the optical signal to an electrical one. Connected to the customer’s router using an RJ45 copper wire patch cord.
 OLT meaning, Optical Line Terminal, Located in a street cabinet. From the OLT- splitters direct each subscriber’s traffic over a short length of fiber to an optical network terminal (ONT) installed at the customer’s premises.
 PoP meaning, Point of Presence, A connection to an internet service provider's (ISP’s) network uses its nearest point of presence (PoP) such as a local telephone exchange.
@@ -96,7 +96,7 @@ FPU Meaning?, floating point unit, Provides a faster way for the CPU to handle c
 4 steps in CPU execution process, fetch decode execute writeback, Fetch gets instruction from memory; decode interprets it; execute performs it; writeback stores result in register or memory
 RISC Meaning?, reduced instruction set computing, A typical Advanced RISC Machines (ARM) design implements a system-on-chip (SoC). SoC means that all the controllers—video; sound; networking; and storage—are part of the CPU.
 Allows multiple threads to run through the CPU at the same time, Simultaneous Multithreading, (SMT): referred to as HyperThreading by Intel. One core runs multiple threads by using idle units (ALU/FPU/etc..) that the other thread isn't using
-Intel/AMD CPU level virtualization designations (short form), VT/AMD-V, Required for Type 1 & 2 hypervisors to run VMs efficiently (Virtualization Technology / AMD Virtualization)
+Intel/AMD CPU level virtualization optimization designations (short form), VT-x/AMD-V, Required for Type 1 & 2 hypervisors to run VMs efficiently (Virtualization Technology / AMD Virtualization)
 Why is SLAT useful?, Reduces VM memory overhead, Handles second-level memory (address) translation in hardware to improve performance
 When removing a CPU with a heat sink and fan assembly how to remove heat sink, gentle twist, to remove the heat sink to avoid it sticking to the CPU.
 Common AMD desktop CPU socket/type, AM4/PGA, Pin Grid Array; The platform for select AMD Ryzen(gen 1-5); Athlon; and 7th Gen A-Series processors
@@ -131,6 +131,16 @@ Charging a fully charged battery at a rate equal to its self-discharge rate, Tri
 Store Li-ion batteries below what % charge/ºC, 40/20, Li-ion batteries are sensitive to heat
 First thing to test in a no power scenario, known good, Check that other equipment in the area is working; Try known-good equipment in outlet & cable plugged/known-good power cable
 Next steps in no power if outlet & cable confirmed, disconnect extra devices, May need higher wattage PSU or one of the devices is faulty. Can also test PSU with multimeter or power supply tester**.
+The per-use billing for resources consumed by the cloud, metered utilization, based on the type of resource such as storage; processing; bandwidth; or active users. should be accessible to the customer via a reporting dashboard.
+Citrix/Microsoft's Application Virtualization solutions, XenApp/App-V, Client accesses application hosted on a server or streams it from the server.
+CSP Meaning?, Cloud Service Provider, A public (or multitenant) model is offered over the internet by CSP's to cloud consumers; often referred to as tenants. (subscriptions or pay-as-you-go)
+Improves virtual memory performance in VM's Top/Intel/AMD, SLAT/EPT/RVI, Second Level Address Translation / Extended Page Table (Intel) / Rapid Virtualization Indexing (AMD)
+SAN Meaning, Storage Area Network, is a network of storage devices that can be accessed by multiple servers or computers; providing a shared pool of storage space.
+
+
+
+
+
 
 
 

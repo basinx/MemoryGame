@@ -62,7 +62,7 @@ def button(rect, text):
     return rect
 
 
-# Text input box class (auto-overwrites on click)
+# Text input box class with auto-overwrite on click.
 class TextInputBox:
     def __init__(self, x, y, w, h, text=''):
         self.rect = pygame.Rect(x, y, w, h)
@@ -75,9 +75,10 @@ class TextInputBox:
 
     def handle_event(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN:
+            # Toggle active state if clicked inside the box.
             if self.rect.collidepoint(event.pos):
                 self.active = True
-                # Clear text on click.
+                # Clear text on click so new typing overwrites previous entry.
                 self.text = ""
                 self.txt_surface = font.render(self.text, True, (0, 0, 0))
                 self.color = self.color_active
@@ -95,6 +96,7 @@ class TextInputBox:
             self.txt_surface = font.render(self.text, True, (0, 0, 0))
 
     def draw(self, surface):
+        # Draw a background for the text box that changes shade when active.
         bg_color = (150, 150, 150) if self.active else (200, 200, 200)
         pygame.draw.rect(surface, bg_color, self.rect)
         pygame.draw.rect(surface, self.color, self.rect, 2)
@@ -128,7 +130,7 @@ class TypingGame:
         self.learning_mode = False  # Learning mode off by default
         self.correct_streak = 0  # For consecutive correct answers
 
-        # Text input boxes for settings
+        # Create text input boxes for settings.
         self.input_box_game_length = TextInputBox(300, 300, 200, 40, str(default_game_length))
         self.input_box_question_time = TextInputBox(300, 370, 200, 40, str(default_question_time))
 
@@ -150,12 +152,12 @@ class TypingGame:
         self.feedback_timer = 0
         self.last_question_answer = ""
         self.last_question_info = ""
-        self.correct_streak = 0  # Reset streak at game start
+        self.correct_streak = 0  # Reset streak at game start.
         self.next_question()
         self.state = PLAYING
 
     def next_question(self):
-        # Store previous question's info
+        # Store the previous question's info.
         if self.current_question is not None:
             self.last_question_answer = self.current_question[1]
             self.last_question_info = self.current_question[2]
@@ -169,7 +171,7 @@ class TypingGame:
             self.current_question = random.choice(self.questions)
         self.question_timer = time.time() + self.question_time
         self.user_input = ""
-        self.feedback_timer = time.time() + self.question_time
+        self.feedback_timer = time.time() + 1
 
     def draw_question_timer_bar(self):
         if self.state == PLAYING and self.current_question:
@@ -188,25 +190,22 @@ class TypingGame:
             elif time.time() > self.question_timer:
                 self.feedback = "Pass"
                 self.feedback_color = (255, 255, 255)
-                self.correct_streak = 0  # Reset streak on pass
+                self.correct_streak = 0  # Reset streak on pass.
                 self.next_question()
 
     def handle_input(self, event):
         if self.state == PLAYING and event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER:
                 if self.user_input.strip().lower() == self.current_question[1].strip().lower():
-                    # Correct answer – increase correct streak.
+                    # Correct answer.
                     self.correct_streak += 1
-                    # Calculate multiplier: streak of 3 gives 2x, then increases.
                     multiplier = 1
                     if self.correct_streak >= 3:
                         multiplier = self.correct_streak - 1
                     self.score += 10 * multiplier
-                    # Optionally, you could update feedback to show multiplier.
                     self.feedback = f"Correct x{multiplier}"
                     self.feedback_color = (0, 255, 0)
                 else:
-                    # Incorrect answer resets streak.
                     self.feedback = "Incorrect"
                     self.feedback_color = (255, 0, 0)
                     self.correct_streak = 0
@@ -218,6 +217,7 @@ class TypingGame:
 
     def draw(self):
         screen.fill((0, 0, 0))
+        # Display Learning Mode status in top-right.
         lm_text = f"F12 > Learning Mode: {'On' if self.learning_mode else 'Off'}"
         lm_surface = font.render(lm_text, True, (255, 255, 255))
         lm_rect = lm_surface.get_rect(topright=(790, 10))
@@ -272,14 +272,37 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
+        # Toggle Learning Mode with F12.
         if event.type == pygame.KEYDOWN and event.key == pygame.K_F12:
             game.learning_mode = not game.learning_mode
 
         if game.state == MENU:
+            # If Tab is pressed, switch focus and skip further processing for this event.
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_TAB:
+                if game.input_box_game_length.active:
+                    game.input_box_game_length.active = False
+                    game.input_box_game_length.color = game.input_box_game_length.color_inactive
+                    game.input_box_question_time.active = True
+                    game.input_box_question_time.color = game.input_box_question_time.color_active
+                elif game.input_box_question_time.active:
+                    game.input_box_question_time.active = False
+                    game.input_box_question_time.color = game.input_box_question_time.color_inactive
+                    game.input_box_game_length.active = True
+                    game.input_box_game_length.color = game.input_box_game_length.color_active
+                else:
+                    # If none is active, default to the game length box.
+                    game.input_box_game_length.active = True
+                    game.input_box_game_length.color = game.input_box_game_length.color_active
+                # Skip processing of the Tab key for the text boxes.
+                continue
+
+            # Process events for the input boxes.
             game.input_box_game_length.handle_event(event)
             game.input_box_question_time.handle_event(event)
+
         if game.state == PLAYING:
             game.handle_input(event)
+
 
     game.update()
     game.draw()
