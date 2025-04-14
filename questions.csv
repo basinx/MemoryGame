@@ -156,6 +156,9 @@ Next step in wired conn troubleshooting if cables good and connected?, loopback 
 Next step if you confirm network cable and interface ports are good?, cable tester on structured cable, Could also be a termination or external interference problem.
 Final steps in troubleshooting wired connectivity, speed/duplex/driver, speed/duplex settings should usually be set to autonegotiate. You can also try updating driver
 If the temperature is too high the CPU and other components are likely to do what, throttling, Check temperature sensors and fan speeds. Maybe computer needs cleaning or cooling systems need to be replaced or upgraded.
+First thing to check in network speed troubleshooting (after narrowing down what they doing), nominal vs test speed, Use a utility to measure transfer rate independent of specific apps or network services.
+What can cause interference in network besides external factors, bad termination, Check the ends of cables for excessive untwisting of the wire pairs or improper termination. Can also use network tap to look for damaged frames.
+
 
 
 
