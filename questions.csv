@@ -172,6 +172,9 @@ VDSL speeds async↑/↓/ sync↑/↓ (in Mbps), 52/6 26/26, rated for 300m (100
 What do we call 192.168.10.0, for example?, Network ID; First IP address in the subnet
 What do we call 192.168.10.255 in a /24 subnet?, Broadcast address, Last IP used to reach all devices in the subnet
 How many usable hosts are in a /24 subnet?, 254, 256 total minus 2 (network + broadcast)
+Core of the internet is high b/w fiber connecting what?, Internet Exchange Points, These trunk links and IXP's are mostly created by telecommunications companies and academic institutions.
+supports long distances over precise directional antennas, Long Range Fixed Wireless, Point-to-point line-of-sight fixed wireless uses ground-based high-gain microwave antennas that must be precisely aligned with one another.
+Range of precisely aligned high-gain directional antenna transmission (aprox), 30 miles, as long as they are unobstructed by physical objects. The antennas themselves are typically affixed to the top of tall buildings or mounted on tall poles.
 
 
 
