@@ -163,6 +163,7 @@ Uses a TXT record published via DNS to identify the hosts authorized to send ema
 Uses cryptography to validate the source server for a given email message., DomainKeys Identified Mail, To configure DKIM; the organization uploads a public encryption key as a TXT record.
 Handles email auth failures with policy in DNS (acronym), DMARC, Builds on SPF and DKIM by adding control over failed authentication (e.g. reject/quarantine/monitor)
 What kind of lighting do most smartphone and tablet screens use?, edge lighting, LEDs arranged at top or bottom of the screen; a diffuser makes the light evenly bright across whole screen
+Two main drawbacks of OLED displays?, brightness/burn in, technically called active-matrix OLED (AMOLED) these are NOT considered LCD or TFT displays.
 
 
 
