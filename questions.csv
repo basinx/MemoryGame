@@ -178,6 +178,9 @@ Range of precisely aligned high-gain directional antenna transmission (aprox), 3
 Wi-Fi signal strength is measured in, decibel milliwatts, dBm: signal strength represented as a ratio of measure to 1 mW; 1 mW is 0 dBm and negatives are fractions of a mW.
 The amount that a signal is boosted by directionality/measured in?, Antenna Gain/dBi, focusing the signal in a single direction rather than spreading it over a wide area.
 The sum of transmit power; antenna cable/connector loss and antenna gain, Effective Isotropic Radiated Power, EIRP is the sum of transmit power and gain; expressed in dBm.
+What is the maximum downtime per year with five nines of availability?,5.256,Aim for <5.256 minutes/year; for fewer nines move decimal right (more downtime); for more nines move it left (less downtime)
+
+
 
 
 
