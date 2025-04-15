@@ -175,6 +175,9 @@ How many usable hosts are in a /24 subnet?, 254, 256 total minus 2 (network + br
 Core of the internet is high b/w fiber connecting what?, Internet Exchange Points, These trunk links and IXP's are mostly created by telecommunications companies and academic institutions.
 supports long distances over precise directional antennas, Long Range Fixed Wireless, Point-to-point line-of-sight fixed wireless uses ground-based high-gain microwave antennas that must be precisely aligned with one another.
 Range of precisely aligned high-gain directional antenna transmission (aprox), 30 miles, as long as they are unobstructed by physical objects. The antennas themselves are typically affixed to the top of tall buildings or mounted on tall poles.
+Wi-Fi signal strength is measured in, decibel milliwatts, dBm: signal strength represented as a ratio of measure to 1 mW; 1 mW is 0 dBm and negatives are fractions of a mW.
+The amount that a signal is boosted by directionality/measured in?, Antenna Gain/dBi, focusing the signal in a single direction rather than spreading it over a wide area.
+
 
 
 
