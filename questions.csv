@@ -179,6 +179,11 @@ Wi-Fi signal strength is measured in, decibel milliwatts, dBm: signal strength r
 The amount that a signal is boosted by directionality/measured in?, Antenna Gain/dBi, focusing the signal in a single direction rather than spreading it over a wide area.
 The sum of transmit power; antenna cable/connector loss and antenna gain, Effective Isotropic Radiated Power, EIRP is the sum of transmit power and gain; expressed in dBm.
 What is the maximum downtime per year with five nines of availability?,5.256,Aim for <5.256 minutes/year; for fewer nines move decimal right (more downtime); for more nines move it left (less downtime)
+ACPI Meaning?, advanced configuration and power interface, a power management standard that defines power states such as "sleep" and "hibernate."
+POST memory error beeps?, continuous, Problem with system memory or memory controller
+POST beeps for Power supply fault or motherboard problem?, repeating short, tip for black screen no beeps: 1) ask what has changed; 2) check cable and connections; 3) check faulty interface and devices
+POST beeps for Motherboard problem?, 1 long 1 short, tip for black screen no beeps: 4) check the PSU; 5) check for faulty CPU or system firmware (maybe update it)
+POST beeps for Video adapter problem?, 1 long 2 or 3 short, extra tip: keyboard issue or key stuck is 3 long beeps
 
 
 
