@@ -162,6 +162,8 @@ Record used to identify an email server for the domain so that other servers can
 Uses a TXT record published via DNS to identify the hosts authorized to send email from that domain., Sender Policy Framework, With an SPF record in place; ISPs can verify that a mail server is authorized to send email for a specific domain.
 Uses cryptography to validate the source server for a given email message., DomainKeys Identified Mail, To configure DKIM; the organization uploads a public encryption key as a TXT record.
 Handles email auth failures with policy in DNS (acronym), DMARC, Builds on SPF and DKIM by adding control over failed authentication (e.g. reject/quarantine/monitor)
+What kind of lighting do most smartphone and tablet screens use?, edge lighting, LEDs arranged at top or bottom of the screen; a diffuser makes the light evenly bright across whole screen
+
 
 
 
