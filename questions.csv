@@ -169,6 +169,9 @@ What Windows-native protocol allows file and printer sharing internally?, SMB, C
 What legacy protocol supports name resolution and older Windows file sharing?, NetBIOS, Very outdated and insecure; uses ports 137–139 and shouldn't be used externally
 What does the "T" in 1000BASE-T stand for?, Twisted pair, Commonly copper cables like Cat5e/Cat6 used for Gigabit Ethernet
 VDSL speeds async↑/↓/ sync↑/↓ (in Mbps), 52/6 26/26, rated for 300m (1000 feet); Very High-Speed DSL 2 (VDSL2) gets 100 Mbps over 100m (300 feet)
+What do we call 192.168.10.0, for example?, Network ID; First IP address in the subnet
+What do we call 192.168.10.255 in a /24 subnet?, Broadcast address, Last IP used to reach all devices in the subnet
+How many usable hosts are in a /24 subnet?, 254, 256 total minus 2 (network + broadcast)
 
 
 
