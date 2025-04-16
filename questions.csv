@@ -184,6 +184,16 @@ POST memory error beeps?, continuous, Problem with system memory or memory contr
 POST beeps for Power supply fault or motherboard problem?, repeating short, tip for black screen no beeps: 1) ask what has changed; 2) check cable and connections; 3) check faulty interface and devices
 POST beeps for Motherboard problem?, 1 long 1 short, tip for black screen no beeps: 4) check the PSU; 5) check for faulty CPU or system firmware (maybe update it)
 POST beeps for Video adapter problem?, 1 long 2 or 3 short, extra tip: keyboard issue or key stuck is 3 long beeps
+Graphics cards use what kind of memory?, Graphics DDR, GDDR: 3-D cards need a substantial amount of memory for processing and texture effects.
+Network layer protocol used for error reporting & diagnostics (ping/tracert too), Internet Control Message Protocol, Mainly used to determine whether or not data is reaching intended destination in a timely manner.
+3D printing: a flat glass plate onto which the material is extruded. Usually heated to prevent warping, Print bed/build plate, The bed must be leveled for each print job—this is usually automated; but cheaper printer models require manual calibration.
+3D printing: a sheet placed onto the base plate to hold the object. Allows removal after completion, Bed/build surface, The bed surface material may need to be matched to the filament material for best results.
+Stereolithography (SLA) 3D printing uses what to print?, resin or photopolymer, uses liquid plastic resin or photopolymer to create objects which are cured using an ultraviolet laser.
+3D printing method that fuses layers together using a pulse laser, Selective laser sintering, SLS: The object is created from a powder and lowered into a tank as each layer is added. The powder can be plastic or metal.
+Two most popular plastics for fillament in 3D printing? ?/?, PLA/ABS, 'Polylactic Acid' (PLA) and 'Acrylonitrile Butadiene Styrene' (ABS). Most printers can use a range of filament types; but it is best to check compatibility.
+Bluetooth 4 introduced this non backwards compatible standard, BLE, Bluetooth Low Energy: designed for small battery-powered devices that transmit small amounts of data infrequently.
+Bluetooth aprox range in feet (earliest/newest), 30/100, early max was 10m (30 feet); newer can go over 100 ft though signal strength will be weak.
+Bluetooth max theoretical speed (v2/v3 in Mbps), 3/24, EDR (Enhanced Data Rate) gives 3 Mbps in v2.0; v3.0 uses Wi-Fi for 24 Mbps bursts; v5.0 tops out at 2 Mbps in Low Energy mode.
 
 
 
