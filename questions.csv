@@ -5,8 +5,8 @@ Port & TCP or UDP> Telnet, 23/TCP, Unsecure text-based remote login (not recomme
 Port & TCP or UDP> SMTP, 25/TCP, Used to send email between mail servers.
 Port & TCP or UDP> SMTP Secure, 587/TCP, Secure version of SMTP using STARTTLS.
 Port & TCP or UDP> DNS, 53/BOTH, Resolves hostnames to IP addresses (TCP for zone transfers; UDP for queries).
-Port & TCP or UDP> DHCP: Provision IP, 67/UDP, Server side of DHCP handshake.
-Port & TCP or UDP> DHCP: Request IP, 68/UDP, Client side of DHCP handshake.
+Port & TCP or UDP> DHCP: Server Port>Provisions IP from here, 67/UDP, Server side of DHCP handshake.
+Port & TCP or UDP> DHCP: Client Port>Requests IP from here, 68/UDP, Client side of DHCP handshake.
 Port & TCP or UDP> HTTPS, 443/TCP, Secure web traffic using SSL/TLS.
 Port & TCP or UDP> POP, 110/TCP, Downloads email to a single device and deletes it from server.
 Port & TCP or UDP> POP Secure, 995/TCP, Secure version of POP using SSL/TLS.
@@ -89,7 +89,7 @@ Finish connecting an RJ45 jack to cable, Crimper, Cable Stripper and Snips neede
 TIA meaning, Telecommunications Industry Association, TIA develops cabling and communications standards such as TIA/EIA-568 for structured cabling
 Multiple execution units and registers in a CPU, Chip Level Multiprocessing, (CMP): A multi-core CPU has multiple processors (cores) in one chip; allowing simultaneous execution of tasks
 The use of two or more physical CPUs in a multi-socket motherboard, Symmetric Multiprocessing, An SMP-aware OS can then make efficient use of CPUs on a multi-socket motherboard.
-EM64T Meaning, Extended Memory 64 Technology, Intels 64-bit processor platform; also just called Intel64
+EM64T Meaning, Extended Memory 64 Technology, Intels 64-bit processor architechture; also just called Intel64 (x86-64 generally / AMD64 from AMD)
 Two types of Ethernet Cable with different physical properties ?/?, Stranded/Solid Core, Each of the 8 wires is solid copper in solid-core cables; made of tiny strands in stranded cables.
 ALU Meaning?, arithmetic logic unit, A combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers.
 FPU Meaning?, floating point unit, Provides a faster way for the CPU to handle calculations with non-integer numbers.
@@ -123,18 +123,18 @@ A device programmed with scripts that can identify known malicious traffic patte
 DMARC Meaning >  Domain based Message *what*?, Authentication Reporting and Conformance, DMARC verifies email senders by building on DNS; DKIM and SPF. Has a policy mechanism for senders to specify how authentication failures should be treated.
 Set of rules that control which users or systems can access network resources, Access Control List, ACLs can be configured on various network devices like routers; switches; and firewalls to regulate traffic
 Fancy term for a mail client, Message Submission Agent, Usually uses port 587 to submit mail to an SMTP server. Can also refer to that server in broader definitions.
-Fancy term for an SMTP server, Message Transfer Agents, uses DNS to find MX record and usually uses port 25 to send to remote mail server.
+Fancy term for an SMTP server, Message Transfer Agent, uses DNS to find MX record and usually uses port 25 to send to remote mail server.
 SDN Meaning in cloud computing, Software Defined Networking, Centralized network control where software defines traffic flow using APIs; separates control from hardware for flexibility and automation
 Another name for SMB protocol, Common Internet File System, SMB/CIFS Implement WIndows-compatible file and printer sharing services on a local network
 What does PCI mean?, Peripheral Component Interconnect, An industry-standard; high-speed bus found in nearly all desktop computers.
-Charging a fully charged battery at a rate equal to its self-discharge rate, Trickle Charge, Repeated trickle charging can reduce battery life; use a power management plan/driver
+Charging a fully charged battery at a rate equal to its self-discharge rate, Trickle Charging, Repeated trickle charging can reduce battery life; use a power management plan/driver
 Store Li-ion batteries below what % charge/ºC, 40/20, Li-ion batteries are sensitive to heat
 First thing to test in a no power scenario, known good, Check that other equipment in the area is working; Try known-good equipment in outlet & cable plugged/known-good power cable
 Next steps in no power if outlet & cable confirmed, disconnect extra devices, May need higher wattage PSU or one of the devices is faulty. Can also test PSU with multimeter or power supply tester**.
 The per-use billing for resources consumed by the cloud, metered utilization, based on the type of resource such as storage; processing; bandwidth; or active users. should be accessible to the customer via a reporting dashboard.
 Citrix/Microsoft's Application Virtualization solutions, XenApp/App-V, Client accesses application hosted on a server or streams it from the server.
 CSP Meaning?, Cloud Service Provider, A public (or multitenant) model is offered over the internet by CSP's to cloud consumers; often referred to as tenants. (subscriptions or pay-as-you-go)
-Improves virtual memory performance in VM's Top/Intel/AMD, SLAT/EPT/RVI, Second Level Address Translation / Extended Page Table (Intel) / Rapid Virtualization Indexing (AMD)
+Improves virtual *memory* performance in VM's Top/Intel/AMD, SLAT/EPT/RVI, Second Level Address Translation / Extended Page Table (Intel) / Rapid Virtualization Indexing (AMD)
 SAN Meaning, Storage Area Network, is a network of storage devices that can be accessed by multiple servers or computers; providing a shared pool of storage space.
 Malware moves from one VM to another and attempts to interact with the hypervisor,Escape,Breaking isolation between virtual machines is known as virtual machine escape
 Too many virtual machines are created without proper management,Sprawl,Virtual machine sprawl increases security and maintenance risks
@@ -163,13 +163,13 @@ Uses a TXT record published via DNS to identify the hosts authorized to send ema
 Uses cryptography to validate the source server for a given email message., DomainKeys Identified Mail, To configure DKIM; the organization uploads a public encryption key as a TXT record.
 Handles email auth failures with policy in DNS (acronym), DMARC, Builds on SPF and DKIM by adding control over failed authentication (e.g. reject/quarantine/monitor)
 What kind of lighting do most smartphone and tablet screens use?, edge lighting, LEDs arranged at top or bottom of the screen; a diffuser makes the light evenly bright across whole screen
-Two main drawbacks of OLED displays?, brightness/burn in, technically called active-matrix OLED (AMOLED) these are NOT considered LCD or TFT displays.
+Two main drawbacks of OLED displays? ?/?, brightness/burn in, technically called active-matrix OLED (AMOLED) these are NOT considered LCD or TFT displays.
 What protocol allows secure upload/download of files to external users?, FTPS, Uses SSL/TLS to encrypt file transfers over FTP; ideal for sharing with outside collaborators
 What Windows-native protocol allows file and printer sharing internally?, SMB, Can be encrypted in newer versions like SMBv3 but not typically exposed to external users
 What legacy protocol supports name resolution and older Windows file sharing?, NetBIOS, Very outdated and insecure; uses ports 137–139 and shouldn't be used externally
 What does the "T" in 1000BASE-T stand for?, Twisted pair, Commonly copper cables like Cat5e/Cat6 used for Gigabit Ethernet
 VDSL speeds async↑/↓/ sync↑/↓ (in Mbps), 52/6 26/26, rated for 300m (1000 feet); Very High-Speed DSL 2 (VDSL2) gets 100 Mbps over 100m (300 feet)
-What do we call 192.168.10.0, for example?, Network ID; First IP address in the subnet
+What do we call 192.168.10.0 on /24 subnet?, Network ID, First IP address in the subnet
 What do we call 192.168.10.255 in a /24 subnet?, Broadcast address, Last IP used to reach all devices in the subnet
 How many usable hosts are in a /24 subnet?, 254, 256 total minus 2 (network + broadcast)
 Core of the internet is high b/w fiber connecting what?, Internet Exchange Points, These trunk links and IXP's are mostly created by telecommunications companies and academic institutions.
@@ -184,8 +184,8 @@ POST memory error beeps?, continuous, Problem with system memory or memory contr
 POST beeps for Power supply fault or motherboard problem?, repeating short, tip for black screen no beeps: 1) ask what has changed; 2) check cable and connections; 3) check faulty interface and devices
 POST beeps for Motherboard problem?, 1 long 1 short, tip for black screen no beeps: 4) check the PSU; 5) check for faulty CPU or system firmware (maybe update it)
 POST beeps for Video adapter problem?, 1 long 2 or 3 short, extra tip: keyboard issue or key stuck is 3 long beeps
-Graphics cards use what kind of memory?, Graphics DDR, GDDR: 3-D cards need a substantial amount of memory for processing and texture effects.
-Network layer protocol used for error reporting & diagnostics (ping/tracert too), Internet Control Message Protocol, Mainly used to determine whether or not data is reaching intended destination in a timely manner.
+Graphics cards use what kind of memory?, GDDR, Graphics DDR: 3-D cards need a substantial amount of memory for processing and texture effects.
+Network layer protocol used for error reporting & diagnostics (ping/tracert too), Internet Control Message Protocol, ICMP: Mainly used to determine whether or not data is reaching intended destination in a timely manner.
 3D printing: a flat glass plate onto which the material is extruded. Usually heated to prevent warping, Print bed/build plate, The bed must be leveled for each print job—this is usually automated; but cheaper printer models require manual calibration.
 3D printing: a sheet placed onto the base plate to hold the object. Allows removal after completion, Bed/build surface, The bed surface material may need to be matched to the filament material for best results.
 Stereolithography (SLA) 3D printing uses what to print?, resin or photopolymer, uses liquid plastic resin or photopolymer to create objects which are cured using an ultraviolet laser.
@@ -194,6 +194,7 @@ Two most popular plastics for fillament in 3D printing? ?/?, PLA/ABS, 'Polylacti
 Bluetooth 4 introduced this non backwards compatible standard, BLE, Bluetooth Low Energy: designed for small battery-powered devices that transmit small amounts of data infrequently.
 Bluetooth aprox range in feet (earliest/newest), 30/100, early max was 10m (30 feet); newer can go over 100 ft though signal strength will be weak.
 Bluetooth max theoretical speed (v2/v3 in Mbps), 3/24, EDR (Enhanced Data Rate) gives 3 Mbps in v2.0; v3.0 uses Wi-Fi for 24 Mbps bursts; v5.0 tops out at 2 Mbps in Low Energy mode.
+CHADDR Meaning, Client Hardware Address, stores that MAC address 
 
 
 

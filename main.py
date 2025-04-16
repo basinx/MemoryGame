@@ -3,12 +3,18 @@ import random
 import csv
 import time
 
-# Initialize Pygame
+# Initialize Pygame and the mixer for sound.
 pygame.init()
+pygame.mixer.init()
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("A+ Typing Game")
 font = pygame.font.Font(None, 36)
 clock = pygame.time.Clock()
+
+# Load sound files.
+# Place your MP3 files (correct.mp3 and wrong.mp3) in your working folder.
+correct_sound = pygame.mixer.Sound("sounds/success.mp3")
+wrong_sound = pygame.mixer.Sound("sounds/failure.mp3")
 
 # Default game settings
 default_game_length = 180  # seconds
@@ -128,6 +134,7 @@ class TypingGame:
         self.last_question_answer = ""  # Previous question's answer
         self.last_question_info = ""  # Previous question's extra info
         self.learning_mode = False  # Learning mode off by default
+        self.sound_enabled = True  # Sound on by default
         self.correct_streak = 0  # For consecutive correct answers
 
         # Create text input boxes for settings.
@@ -161,7 +168,7 @@ class TypingGame:
         if self.current_question is not None:
             self.last_question_answer = self.current_question[1]
             self.last_question_info = self.current_question[2]
-        # Prevent same question twice in a row.
+        # Prevent the same question twice in a row.
         if len(self.questions) > 1:
             new_question = random.choice(self.questions)
             while self.current_question is not None and new_question == self.current_question:
@@ -171,7 +178,7 @@ class TypingGame:
             self.current_question = random.choice(self.questions)
         self.question_timer = time.time() + self.question_time
         self.user_input = ""
-        self.feedback_timer = time.time() + 1
+        self.feedback_timer = time.time() + self.question_time
 
     def draw_question_timer_bar(self):
         if self.state == PLAYING and self.current_question:
@@ -205,10 +212,14 @@ class TypingGame:
                     self.score += 10 * multiplier
                     self.feedback = f"Correct x{multiplier}"
                     self.feedback_color = (0, 255, 0)
+                    if self.sound_enabled:
+                        correct_sound.play()
                 else:
                     self.feedback = "Incorrect"
                     self.feedback_color = (255, 0, 0)
                     self.correct_streak = 0
+                    if self.sound_enabled:
+                        wrong_sound.play()
                 self.next_question()
             elif event.key == pygame.K_BACKSPACE:
                 self.user_input = self.user_input[:-1]
@@ -217,10 +228,14 @@ class TypingGame:
 
     def draw(self):
         screen.fill((0, 0, 0))
-        # Display Learning Mode status in top-right.
+        # Display F11 (Sound) and F12 (Learning Mode) toggles in the top-right.
+        sound_text = f"F11 > Sound: {'On' if self.sound_enabled else 'Off'}"
         lm_text = f"F12 > Learning Mode: {'On' if self.learning_mode else 'Off'}"
+        sound_surface = font.render(sound_text, True, (255, 255, 255))
         lm_surface = font.render(lm_text, True, (255, 255, 255))
-        lm_rect = lm_surface.get_rect(topright=(790, 10))
+        sound_rect = sound_surface.get_rect(topright=(790, 10))
+        lm_rect = lm_surface.get_rect(topright=(790, 40))
+        screen.blit(sound_surface, sound_rect)
         screen.blit(lm_surface, lm_rect)
 
         if self.state == MENU:
@@ -272,12 +287,17 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
+        # Toggle Sound with F11.
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_F11:
+            game.sound_enabled = not game.sound_enabled
+
         # Toggle Learning Mode with F12.
         if event.type == pygame.KEYDOWN and event.key == pygame.K_F12:
             game.learning_mode = not game.learning_mode
 
+        # Handle input box events in the MENU state.
         if game.state == MENU:
-            # If Tab is pressed, switch focus and skip further processing for this event.
+            # Handle tabbing between input boxes.
             if event.type == pygame.KEYDOWN and event.key == pygame.K_TAB:
                 if game.input_box_game_length.active:
                     game.input_box_game_length.active = False
@@ -290,19 +310,15 @@ while running:
                     game.input_box_game_length.active = True
                     game.input_box_game_length.color = game.input_box_game_length.color_active
                 else:
-                    # If none is active, default to the game length box.
                     game.input_box_game_length.active = True
                     game.input_box_game_length.color = game.input_box_game_length.color_active
-                # Skip processing of the Tab key for the text boxes.
-                continue
+                continue  # Skip further processing of the Tab key.
 
-            # Process events for the input boxes.
             game.input_box_game_length.handle_event(event)
             game.input_box_question_time.handle_event(event)
-
+        # Handle gameplay input in the PLAYING state.
         if game.state == PLAYING:
             game.handle_input(event)
-
 
     game.update()
     game.draw()
