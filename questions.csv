@@ -113,7 +113,7 @@ AMD Ryzen 1000–5000 Series Socket, AM4, Most Ryzen CPUs up to 2022 use this so
 AMD Ryzen 7000 and newer Socket, AM5, Uses LGA layout and supports DDR5 memory
 AMD EPYC Socket, SP3, Used in servers and workstations; large LGA socket for multi-core CPUs
 25 pin or more common 9 pin DB-9, RS-232, legacy serial ports - not to be confused with 15 pin VGA ports
-SCSI Meaning/Max Data Rate, Small Computer System Interface/320MBps, high density (HD) 68-pin or single connector attachment (SCA) 80-pin most common
+SCSI Meaning/Max Data Rate (MBps), Small Computer System Interface/320MBps, high density (HD) 68-pin or single connector attachment (SCA) 80-pin most common (A legacy parallel bus)
 UART Meaning, Universal Asynchronous Receiver Transmitter, Converts data between parallel and serial form; used in low-speed communication like debugging or with Bluetooth and embedded systems
 What can use UART on modern mobile devices?, Bluetooth and USB, Bluetooth modules and USB controllers often use UART for low-level serial communication
 HMI Meaning, Human Machine Interface, Touchscreen or control panel that allows a person to interact with a machine or industrial system
@@ -199,3 +199,6 @@ PCIe wattage supplied to dedicated graphics card slot/other cards, 75/25, An ext
 PSTN Meaning, Public Switched Telephone Network, Core is fiber optic; at the edge is still often legacy two pair copper cabling (POTS: Plain Old Telephone System)
 APIPA Meaning, Automatic Private IP Addressing, 169.254.x.x -> "Local Link Only" enables communication within local network
 HDMI 2.0 and 2.1 Premium High Speed / Ultra High Speed (Gbps), 18/48, High-Definition Multimedia Interface: supports both video and audio; plus remote control and digital content protection (HDCP)
+What old Thunderbolt 1 and 2 ports are the same shape as?, Mini DisplayPort, TB1/2 ports can carry Mini DP signals but Mini DP ports do not support Thunderbolt signals.
+An adaptation of an old interface still used for enterprise-class storage devices, Serial Attached SCSI, Faster and more reliable than SATA; supports dual-porting and full-duplex for redundancy and performance in servers.
+Another name for the x86-32 instruction set, IA-32, Intel Architecture 32
