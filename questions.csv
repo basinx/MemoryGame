@@ -211,4 +211,8 @@ IPv6 function to discover routers and local hosts, Neighbor Discovery, ND: Handl
 RFID Range Passive/Active, 25/100, passive device that only responds when scanned at close range (up to about 25 m) or a powered; active device with a range of 100 m.
 Paper types impact printer use, plain carbon tractor-fed, Ensure that the lever is in the correct position for friction feed or tractor feed as appropriate for the media being used.
 Moving roller in an impact printer, platen, Plain paper is held firmly against the platen; The holes on tractor-fed paper are secured over studded rollers at each end of the platen.
+IP meaning (device protection), Ingress Protection, A case or device will have two numbers; such as IP67. The first (6) is a rating for repelling solids and the second (7) is for repelling liquids.
+IP code for dust proof/immersion protection beyond 1m, IP68, If dust protection is unrated; the IP value will be IPX7 or IPX8. IP57 is dust protected and immersion protection UP to 1m.
+Legacy Serial Port is also known as what/commonly uses what connector?, RS-232/DB-9, RS-232 specifies a 25-pin hardware interface; but in practice; PC manufacturers used the cheaper 9-pin D-subminiature (DB-9) female port
+
 
