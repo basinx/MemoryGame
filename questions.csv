@@ -119,7 +119,7 @@ What can use UART on modern mobile devices?, Bluetooth and USB, Bluetooth module
 HMI Meaning, Human Machine Interface, Touchscreen or control panel that allows a person to interact with a machine or industrial system
 ICS Meaning, Industrial Control System, General term for systems used to control industrial processes; often includes PLCs and SCADA
 UTM Meaning, Unified Threat Management, All-in-one network security appliance with features like firewall; content filtering; and malware scanning
-A device programmed with scripts that can identify known malicious traffic patterns, Intrusion Detection System, onitors network traffic for suspicious activity and alerts admin; may take *some* action to block
+A device programmed with scripts that can identify known malicious traffic patterns, Intrusion Detection System, Monitors network traffic for suspicious activity and alerts admin; may take *some* action to block
 DMARC Meaning >  Domain based Message *what*?, Authentication Reporting and Conformance, DMARC verifies email senders by building on DNS; DKIM and SPF. Has a policy mechanism for senders to specify how authentication failures should be treated.
 Set of rules that control which users or systems can access network resources, Access Control List, ACLs can be configured on various network devices like routers; switches; and firewalls to regulate traffic
 Fancy term for a mail client, Message Submission Agent, Usually uses port 587 to submit mail to an SMTP server. Can also refer to that server in broader definitions.
@@ -168,7 +168,7 @@ What protocol allows secure upload/download of files to external users?, FTPS, U
 What Windows-native protocol allows file and printer sharing internally?, SMB, Can be encrypted in newer versions like SMBv3 but not typically exposed to external users
 What legacy protocol supports name resolution and older Windows file sharing?, NetBIOS, Very outdated and insecure; uses ports 137–139 and shouldn't be used externally
 What does the "T" in 1000BASE-T stand for?, Twisted pair, Commonly copper cables like Cat5e/Cat6 used for Gigabit Ethernet
-VDSL speeds async↑/↓/ sync↑/↓ (in Mbps), 52/6 26/26, rated for 300m (1000 feet); Very High-Speed DSL 2 (VDSL2) gets 100 Mbps over 100m (300 feet)
+VDSL speeds async up/down/ sync up/down (in Mbps), 52/6 26/26, rated for 300m (1000 feet); Very High-Speed DSL 2 (VDSL2) gets 100 Mbps over 100m (300 feet)
 What do we call 192.168.10.0 on /24 subnet?, Network ID, First IP address in the subnet
 What do we call 192.168.10.255 in a /24 subnet?, Broadcast address, Last IP used to reach all devices in the subnet
 How many usable hosts are in a /24 subnet?, 254, 256 total minus 2 (network + broadcast)
@@ -198,30 +198,4 @@ CHADDR Meaning, Client Hardware Address, stores the MAC address in "Client MAC a
 PCIe wattage supplied to dedicated graphics card slot/other cards, 75/25, An extra 75W power can be supplied via a PCIe power connector
 PSTN Meaning, Public Switched Telephone Network, Core is fiber optic; at the edge is still often legacy two pair copper cabling (POTS: Plain Old Telephone System)
 APIPA Meaning, Automatic Private IP Addressing, 169.254.x.x -> "Local Link Only" enables communication within local network
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+HDMI 2.0 and 2.1 Premium High Speed / Ultra High Speed (Gbps), 18/48, High-Definition Multimedia Interface: supports both video and audio; plus remote control and digital content protection (HDCP)
