@@ -168,7 +168,7 @@ What protocol allows secure upload/download of files to external users?, FTPS, U
 What Windows-native protocol allows file and printer sharing internally?, SMB, Can be encrypted in newer versions like SMBv3 but not typically exposed to external users
 What legacy protocol supports name resolution and older Windows file sharing?, NetBIOS, Very outdated and insecure; uses ports 137–139 and shouldn't be used externally
 What does the "T" in 1000BASE-T stand for?, Twisted pair, Commonly copper cables like Cat5e/Cat6 used for Gigabit Ethernet
-VVDSL speeds asymmetric down/up symmetric down/up (in Mbps), 52/6 26/26, rated for 300m (1000 feet); Very High-Speed DSL 2 (VDSL2) gets 100 Mbps over 100m (300 feet)
+FttC VDSL speeds asymmetric down/up symmetric down/up (in Mbps), 52/6 26/26, rated for 300m (1000 feet); Very High-Speed DSL 2 (VDSL2) gets 100 Mbps over 100m (300 feet)
 What do we call 192.168.10.0 on /24 subnet?, Network ID, First IP address in the subnet
 What do we call 192.168.10.255 in a /24 subnet?, Broadcast address, Last IP used to reach all devices in the subnet
 How many usable hosts are in a /24 subnet?, 254, 256 total minus 2 (network + broadcast)
@@ -209,3 +209,5 @@ Global IPv6 Starts with a # or #? (#/#), 2/3, ISP might get 2001:0db8:abcd::/48;
 IPv6 auto-addressing using RA (no DHCP needed), SLAAC, Stateless Address Autoconfiguration: Uses Router Advertisements from ND to auto-configure global & link-local addresses without DHCP.
 IPv6 function to discover routers and local hosts, Neighbor Discovery, ND: Handles router/prefix discovery; duplicate address detection; and neighbor reachability.
 RFID Range Passive/Active, 25/100, passive device that only responds when scanned at close range (up to about 25 m) or a powered; active device with a range of 100 m.
+Paper types impact printer use, plain carbon tractor-fed, Ensure that the lever is in the correct position for friction feed or tractor feed as appropriate for the media being used.
+
