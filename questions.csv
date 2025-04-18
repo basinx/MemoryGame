@@ -194,7 +194,10 @@ Two most popular plastics for fillament in 3D printing? ?/?, PLA/ABS, 'Polylacti
 Bluetooth 4 introduced this non backwards compatible standard, BLE, Bluetooth Low Energy: designed for small battery-powered devices that transmit small amounts of data infrequently.
 Bluetooth aprox range in feet (earliest/newest), 30/100, early max was 10m (30 feet); newer can go over 100 ft though signal strength will be weak.
 Bluetooth max theoretical speed (v2/v3 in Mbps), 3/24, EDR (Enhanced Data Rate) gives 3 Mbps in v2.0; v3.0 uses Wi-Fi for 24 Mbps bursts; v5.0 tops out at 2 Mbps in Low Energy mode.
-CHADDR Meaning, Client Hardware Address, stores that MAC address 
+CHADDR Meaning, Client Hardware Address, stores the MAC address in "Client MAC address" field on DCHP protocol
+PCIe wattage supplied to dedicated graphics card slot/other cards, 75/25, An extra 75W power can be supplied via a PCIe power connector
+PSTN Meaning, Public Switched Telephone Network, Core is fiber optic; at the edge is still often legacy two pair copper cabling (POTS: Plain Old Telephone System)
+APIPA Meaning, Automatic Private IP Addressing, 169.254.x.x -> "Local Link Only" enables communication within local network
 
 
 
