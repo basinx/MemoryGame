@@ -33,8 +33,8 @@ IDC on Patch Panel (Meaning), Insulation Displacement Connector, Wire pierces in
 3D Print FFF (Meaning), fused filament fabrication, Consumer-friendly 3D print method (same as FDM).
 3D Print FDM (Meaning), fused deposition modeling, Another name for FFF; filament melted and layered.
 MDI (Meaning) *cabling*, Medium Dependent Interface, Used in networking—MDI vs MDI-X (crossover).
-What is the maximum number of primary partitions on an MBR disk?,4, MBR only supports 4 primary or 3 + 1 extended partition.
-What is the maximum number of partitions on an MBR disk?,128, GPT supports up to 128 partitions with no extended/logical distinction
+What is the maximum number of primary partitions on an MBR disk?,4, Master Boot Record only supports 4 primary or 3 + 1 extended partition.
+What is the maximum number of partitions on a GPT disk?,128, GUID Partition Table supports up to 128 partitions with no extended/logical distinction (GUID = Globally Unique Identifier)
 USB 2.0 is a high speed standard that specifies a data rate of:, 480Mbps, shared between all devices attached to the same controller.
 USB 1.1 maximum speed, 12Mbps, Rarely asked/but may be mentioned as "Full Speed"
 TCP/IP protocol used to query and update resources in an X.500 directory., LDAP, primarily uses TCP (port 389) for unencrypted communication and TCP (port 636) for encrypted communication (LDAPS)
@@ -58,7 +58,7 @@ WEP Meaning, Wired Equivalent Privacy, the oldest and most common Wi-Fi security
 Blank Pages or White Stripes (Laser Print Stage) Toner/driver is fine/toner seal removed, Transferring, Transfer Roller is dirty or damaged
 WPA2-Enterprise requires?, RADIUS server, Used in enterprise environments to authenticate users individually using 802.1X
 M.2 adapter sizes(mm) no spaces, 426080110, (B-Key = 6 Pin & SATA or x2)/(M-Key = 5 Pin & x4)/(B+M-Key = SATA or x2)
-FDI Meaning (PCH Feature), Flexible Display Interface, Only used to support a processor with integrated graphics
+FDI Meaning (PCH Feature), Flexible Display Interface, Transmits display output data from the integrated GPU (iGPU) inside the CPU to the PCH
 PCH Meaning, Platform Controller Hub, Replaced Southbridge and took over some Northbridge roles like clocking while CPU now handles RAM and PCIe
 DMI Meaning (Motherboards), Direct Media Interface, Connects the processor and the Platform Control Hub (PCH)
 RSSI Meaning, Received Signal Strength Indicator, measured in decibel-milliwatts (dBm). Closer to 0 is better (-30 dBm is great)
@@ -104,12 +104,13 @@ What is the EDB?, External Data Bus, connects the processor to adapters; the key
 What does Ryzen 7 mean?, High performance tier, AMD CPU tier similar to Intel i7
 What does the 5 in Ryzen 5800X mean?, 5th generation, Higher generations = newer/better
 What does 800 mean in Ryzen 5800X?, Model within gen, Higher number = more powerful model
-What does the X mean in Ryzen 5800X?, Extra performance, Indicates unlocked/high-performance model
+What does the X mean in Ryzen 5800X?, High performance, Indicates unlocked/high-performance model
+Intel LGA 1150 Socket generations (Core CPUs), 4-5, Supports Haswell and Broadwell CPUs released around 2013–2015; replaced by LGA 1151
 Intel LGA 1151 Socket generations (Core CPUs), 6-9, Common desktop CPUs like i5-8400 use this socket; DDR4 supported
 Intel LGA 1200 Socket generations (Core CPUs), 10-11, Replaced 1151 with slight design changes; still uses DDR4
 Intel LGA 1700 Socket generations (Core CPUs), 12-14, Supports DDR5 or DDR4 depending on motherboard; longer socket
-Intel/Xeon/Sockets, 1150/1151/2011, Workstation/server CPUs; not typically seen on desktops
-AMD Ryzen 1000–5000 Series Socket, AM4, Most Ryzen CPUs up to 2022 use this socket; PGA type
+Sockets used by Intel Xeon Processors ?/?/?, 1150/1151/2011, LGA Workstation/server CPUs; not typically seen on desktops
+AMD Ryzen 1000–5000 Series Socket, AM4, Uses PGA Layout; Most Ryzen CPUs up to 2022 use this socket
 AMD Ryzen 7000 and newer Socket, AM5, Uses LGA layout and supports DDR5 memory
 AMD EPYC Socket, SP3, Used in servers and workstations; large LGA socket for multi-core CPUs
 25 pin or more common 9 pin DB-9, RS-232, legacy serial ports - not to be confused with 15 pin VGA ports
@@ -141,7 +142,7 @@ Too many virtual machines are created without proper management,Sprawl,Virtual m
 VM's installed without proper authorization,Rogue,System management software can detect rogue VM's; deployment procedures should be tightly drafted and monitored
 a type of malicious code embedded in software that remains dormant until specific conditions are met, logic bomb, You really don't want to be deploying VM images with these hiding in them
 Uses ground-basesd long-range fixed access wireless technology & requires unobstructed LoS, wireless internet service provider, The WISP installs and maintains a directional antenna to bridge customers network and service provider
-Uses a VSAT antenna connected via coax to a DVB-S modem, Geostationary Orbial Satellite, Satellite does not move relative to the Very Small Aperture Terminal (VSAT) dish. DVB-S is Digital Video Broadcast Satellite. Low speed/High Latency (>600ms)
+Uses a VSAT antenna connected via coax to a DVB-S modem, Geostationary Orbital Satellite, Satellite does not move relative to the Very Small Aperture Terminal (VSAT) dish. DVB-S is Digital Video Broadcast Satellite. Low speed/High Latency (>600ms)
 Requires an antenna with a motor and "phased array" technology, Low Earth Orbital Satellite, LEO supports better bandwidth (around 70-100 Mbps) and lower latency (100-200 ms RTT)
 3G format that allows a removable SIM card in unlocked handsets, Global System for Mobile Communications,GSM: 3G works in 850/1900 MHz freq bands (mostly Americas) and 900/1800 in rest of world.
 3G format where handset directly managed by provider with no removable SIM card, Code Division Multiple Access, CDMA: Area served by each base in 3G refered to as a "cell". Cells have effective range up to 5 miles(8km)
@@ -172,6 +173,7 @@ FttC VDSL speeds asymmetric down/up symmetric down/up (in Mbps), 52/6 26/26, rat
 What do we call 192.168.10.0 on /24 subnet?, Network ID, First IP address in the subnet
 What do we call 192.168.10.255 in a /24 subnet?, Broadcast address, Last IP used to reach all devices in the subnet
 How many usable hosts are in a /24 subnet?, 254, 256 total minus 2 (network + broadcast)
+How many usable hosts are in a /16 subnet?, 65534, 65536 total minus 2 (network + broadcast)
 Core of the internet is high b/w fiber connecting what?, Internet Exchange Points, These trunk links and IXP's are mostly created by telecommunications companies and academic institutions.
 supports long distances over precise directional antennas, Long Range Fixed Wireless, Point-to-point line-of-sight fixed wireless uses ground-based high-gain microwave antennas that must be precisely aligned with one another.
 Range of precisely aligned high-gain directional antenna transmission (aprox), 30 miles, as long as they are unobstructed by physical objects. The antennas themselves are typically affixed to the top of tall buildings or mounted on tall poles.
@@ -191,7 +193,7 @@ Network layer protocol used for error reporting & diagnostics (ping/tracert too)
 Stereolithography (SLA) 3D printing uses what to print?, resin or photopolymer, uses liquid plastic resin or photopolymer to create objects which are cured using an ultraviolet laser.
 3D printing method that fuses layers together using a pulse laser, Selective laser sintering, SLS: The object is created from a powder and lowered into a tank as each layer is added. The powder can be plastic or metal.
 Two most popular plastics for fillament in 3D printing? ?/?, PLA/ABS, 'Polylactic Acid' (PLA) and 'Acrylonitrile Butadiene Styrene' (ABS). Most printers can use a range of filament types; but it is best to check compatibility.
-Bluetooth 4 introduced this non backwards compatible standard, BLE, Bluetooth Low Energy: designed for small battery-powered devices that transmit small amounts of data infrequently.
+Bluetooth 4 introduced this non backwards compatible standard, BLE, Bluetooth Low Energy: designed for small battery-powered devices that transmit small amounts of data infrequently. ~1Mbps
 Bluetooth aprox range in feet (earliest/newest), 30/100, early max was 10m (30 feet); newer can go over 100 ft though signal strength will be weak. v5 legit says over 240 METERS.
 Bluetooth max theoretical speed (v2/v3 in Mbps), 3/24, EDR (Enhanced Data Rate) gives 3 Mbps in v2.0; v3.0 uses Wi-Fi for 24 Mbps bursts; v5.0 tops out at 2 Mbps in Low Energy mode.
 CHADDR Meaning, Client Hardware Address, stores the MAC address in "Client MAC address" field on DCHP protocol
@@ -214,5 +216,27 @@ Moving roller in an impact printer, platen, Plain paper is held firmly against t
 IP meaning (device protection), Ingress Protection, A case or device will have two numbers; such as IP67. The first (6) is a rating for repelling solids and the second (7) is for repelling liquids.
 IP code for dust proof/immersion protection beyond 1m, IP68, If dust protection is unrated; the IP value will be IPX7 or IPX8. IP57 is dust protected and immersion protection UP to 1m.
 Legacy Serial Port is also known as what/commonly uses what connector?, RS-232/DB-9, RS-232 specifies a 25-pin hardware interface; but in practice; PC manufacturers used the cheaper 9-pin D-subminiature (DB-9) female port
+TCP connection sequence packet identifiers (???/???), SYN/ACK, Connection handshake sequence of SYN; SYN/ACK; and ACK packets. Assigns each packet a sequence number so that it can be tracked.
+TCP receiver code to force retransmission of a missing or damaged packet?, NACK, Also the termination of a session uses the FIN code. The client requesting connection ususally generates a random port number for responses.
+If one of the underlying devices in RAID array fails volume will be listed as, Degraded, Data on the volume will still be accessible and it should continue to function as a boot device if so configured. (Not RAID 0 tho)
+K on Intel Processors means?, Unlocked, High performance/Unlocked to be more specific
+A layer 2 protocol used to map MAC addresses to IP addresses, Address Resolution Protocol, The ARP packet contains a simple question: What is the MAC address corresponding to IP address
+Server-class motherboards include support for extra ?/?, ECC Ram/Cache, There are dedicated CPU ranges for servers; such as Intel’s Xeon and AMD’s Epyc brands.
+AMD Socket for Threadripper CPUs, sTRX4, Used for high-end desktop and workstation CPUs with up to 64 cores and massive PCIe lanes
+Laser printing issue - Black stripes or whole page black (stage?), Charging, Primary Charge Roller (PCR) is dirty or damaged or High Voltage Power Supply (HVPS) is fucked.
+Laser printing issue - Blank pages ?/?/?, driver/seals/transfer, Driver problem; toner installed without removing packing seals; or possible transfer roller damaged (image not transfering)
+Laser printing issue - Vertical or horizontal lines appear in same place (Repetitive Defects) ?/?, Feed Rollers/Drum, Dirty feed rollers (may be in toner or fuser too) or damaged/dirty photosensitive drum.
+Laser printing issue - Double/Echo images (stage?), Cleaning, drum has not been fully cleaned; repeat images on same page or next pages; printing a bunch may fix or replace drum/toner.
+Laser printing issue - Cast or Shadow like effect (issue?), Misalignment, Transfer belt or one/all of the cartridges may be misaligned. Reseat and run calibration utility.
+Laser printing issue - Color missing (solutions ?/?), Replace/Clean, replace the cartridge or clean the contacts between printer and cartridge.
+NFC Range(inches)/Max Speed(Kbps), 2/424, 2in = 6cm; NFC is mostly used for contactless payment readers; security ID tags; and shop shelf-edge labels for stock control.
+One Meter equals how many Feet?, 3.281, 1 Foot = 0.3048 Meters. For an approximate result; divide the length (Feet) by 3.281
+One Inch equal how many Centimeters?, 2.54, 1 Centimeter = 0.3937 Inches. Divide the length (Centimeters) by 2.54
+
+
+
+
+
+
 
 
