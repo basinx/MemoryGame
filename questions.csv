@@ -16,6 +16,7 @@ Port & TCP or UDP> IMAP Secure, 993/TCP, Secure version of IMAP.
 Port & TCP or UDP> SNMP Query status from network devices, 161/UDP, Used by SNMP manager to poll devices.
 Port & TCP or UDP> SNMP Trap, 162/UDP, Used by devices to send alerts/events to SNMP manager.
 Port & TCP or UDP> LDAP, 389/TCP, Lightweight directory access (like AD) over TCP. Rarely UDP can be used
+Port & TCP or UDP> Syslog, 514/UDP, Protocol and supporting software that facilitates log collection
 Port & TCP or UDP> LDAPS, 636/TCP, Lightweight directory access (like AD) over TCP using SSL/TLS.
 Port & TCP or UDP> SMB, 445/TCP, Windows file and printer sharing over TCP.
 Port & TCP or UDP> RDP, 3389/TCP, Remote desktop protocol to connect to Windows systems.
