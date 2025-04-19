@@ -245,6 +245,7 @@ Port 989/990/protocol, Data/Control/FTPS, Implicit FTPS — secure from the mome
 DDR3/4/5 max size in GB ?/?/?, 8/32/128, According to the course anyways -> shit is always improving.
 allows a Windows client to access a Linux host as though it were a Windows file or print server, Samba Software, provides support for SMB in UNIX- or Linux-based machines and network attached storage (NAS) appliances
 database of information maintained by an SNMP agent, Management Information Base, MIB: holds statistics relating to the activity of the device. An example of such a statistic is the number of frames per second handled by a switch.
+Syslog severity level code, PRI, Priority value: Facility and Severity of the message. Facility represents the part of the system sending the message; Severity marks its importance.
 
 
 
