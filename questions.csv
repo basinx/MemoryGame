@@ -102,7 +102,7 @@ When removing a CPU with a heat sink and fan assembly how to remove heat sink, g
 Common AMD desktop CPU socket/type, AM4/PGA, Pin Grid Array; The platform for select AMD Ryzen(gen 1-5); Athlon; and 7th Gen A-Series processors
 What is the EDB?, External Data Bus, connects the processor to adapters; the keyboard; the mouse; the hard drive; and other devices.
 What does Ryzen 7 mean?, High performance tier, AMD CPU tier similar to Intel i7
-What does the 5 in Ryzen 5800X mean?, 5th generation, Higher generations = newer/better
+What does the 5 in Ryzen 5800X mean?, generation, Higher generations = newer/better
 What does 800 mean in Ryzen 5800X?, Model within gen, Higher number = more powerful model
 What does the X mean in Ryzen 5800X?, High performance, Indicates unlocked/high-performance model
 Intel LGA 1150 Socket generations (Core CPUs), 4-5, Supports Haswell and Broadwell CPUs released around 2013–2015; replaced by LGA 1151
@@ -141,7 +141,7 @@ Malware moves from one VM to another and attempts to interact with the hyperviso
 Too many virtual machines are created without proper management,Sprawl,Virtual machine sprawl increases security and maintenance risks
 VM's installed without proper authorization,Rogue,System management software can detect rogue VM's; deployment procedures should be tightly drafted and monitored
 a type of malicious code embedded in software that remains dormant until specific conditions are met, logic bomb, You really don't want to be deploying VM images with these hiding in them
-Uses ground-basesd long-range fixed access wireless technology & requires unobstructed LoS, wireless internet service provider, The WISP installs and maintains a directional antenna to bridge customers network and service provider
+Uses ground-basesd long-range fixed access wireless technology to provide internet access, wireless internet service provider, The WISP installs and maintains a directional antenna to bridge customers network and service provider
 Uses a VSAT antenna connected via coax to a DVB-S modem, Geostationary Orbital Satellite, Satellite does not move relative to the Very Small Aperture Terminal (VSAT) dish. DVB-S is Digital Video Broadcast Satellite. Low speed/High Latency (>600ms)
 Requires an antenna with a motor and "phased array" technology, Low Earth Orbital Satellite, LEO supports better bandwidth (around 70-100 Mbps) and lower latency (100-200 ms RTT)
 3G format that allows a removable SIM card in unlocked handsets, Global System for Mobile Communications,GSM: 3G works in 850/1900 MHz freq bands (mostly Americas) and 900/1800 in rest of world.
@@ -175,7 +175,7 @@ What do we call 192.168.10.255 in a /24 subnet?, Broadcast address, Last IP used
 How many usable hosts are in a /24 subnet?, 254, 256 total minus 2 (network + broadcast)
 How many usable hosts are in a /16 subnet?, 65534, 65536 total minus 2 (network + broadcast)
 Core of the internet is high b/w fiber connecting what?, Internet Exchange Points, These trunk links and IXP's are mostly created by telecommunications companies and academic institutions.
-supports long distances over precise directional antennas, Long Range Fixed Wireless, Point-to-point line-of-sight fixed wireless uses ground-based high-gain microwave antennas that must be precisely aligned with one another.
+supports long distances over precise directional antennas; requires line-of-sight, Long Range Fixed Wireless, Point-to-point; uses ground-based high-gain microwave antennas that must be precisely aligned with one another. (up to 30 Miles)
 Range of precisely aligned high-gain directional antenna transmission (aprox), 30 miles, as long as they are unobstructed by physical objects. The antennas themselves are typically affixed to the top of tall buildings or mounted on tall poles.
 Wi-Fi signal strength is measured in, decibel milliwatts, dBm: signal strength represented as a ratio of measure to 1 mW; 1 mW is 0 dBm and negatives are fractions of a mW.
 The amount that a signal is boosted by directionality/measured in?, Antenna Gain/dBi, focusing the signal in a single direction rather than spreading it over a wide area.
@@ -232,6 +232,14 @@ Laser printing issue - Color missing (solutions ?/?), Replace/Clean, replace the
 NFC Range(inches)/Max Speed(Kbps), 2/424, 2in = 6cm; NFC is mostly used for contactless payment readers; security ID tags; and shop shelf-edge labels for stock control.
 One Meter equals how many Feet?, 3.281, 1 Foot = 0.3048 Meters. For an approximate result; divide the length (Feet) by 3.281
 One Inch equal how many Centimeters?, 2.54, 1 Centimeter = 0.3937 Inches. Divide the length (Centimeters) by 2.54
+Unlicensed frequency for LRFW besides 2.4 and 5 Ghz, 900Mhz, Anyone can use these frequencies; meaning that interference is a risk.
+Works out a device's location by triangulating its proximity to other radio sources, Indoor Positioning System, derive a device's location when indoors by triangulating its proximity to radio sources such as Bluetooth beacons or Wi-Fi access points.
+SNR Meaning in wireless, Signal to Noise Ratio, Noise is also measured in dBm; but here values closer to zero are less welcome; as they represent higher noise levels.
+4G & 5G Standards that removed the CDMA/GSM distinction ?/?, LTE/LTE-A, LTE-Advanced (on 4G/4G+) has a maximum downlink of 300 Mb/s in theory; real world is more like 20–90 Mb/s
+WPS meaning, WiFi Protected Setup, Enables simplified connection to a (usually home) Wi-Fi; most often using push button.
+Real world speeds of 5G (Mbps), 50-300, They hoped for 1 Gb/s rate but that didn't play out.
+
+
 
 
 
