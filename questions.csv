@@ -121,7 +121,7 @@ What can use UART on modern mobile devices?, Bluetooth and USB, Bluetooth module
 HMI Meaning, Human Machine Interface, Touchscreen or control panel that allows a person to interact with a machine or industrial system
 ICS Meaning, Industrial Control System, General term for systems used to control industrial processes; often includes PLCs and SCADA
 UTM Meaning, Unified Threat Management, All-in-one network security appliance with features like firewall; content filtering; and malware scanning
-A device programmed with scripts that can identify known malicious traffic patterns, Intrusion Detection System, Monitors network traffic for suspicious activity and alerts admin; may take *some* action to block
+A device programmed with scripts that can identify known malicious traffic patterns, Intrusion Detection System, Programmed with scripts. Monitors network traffic for suspicious activity and alerts admin; may take *some* action to block
 DMARC Meaning >  Domain based Message *what*?, Authentication Reporting and Conformance, DMARC verifies email senders by building on DNS; DKIM and SPF. Has a policy mechanism for senders to specify how authentication failures should be treated.
 Set of rules that control which users or systems can access network resources, Access Control List, ACLs can be configured on various network devices like routers; switches; and firewalls to regulate traffic
 Fancy term for a mail client, Message Submission Agent, Usually uses port 587 to submit mail to an SMTP server. Can also refer to that server in broader definitions.
