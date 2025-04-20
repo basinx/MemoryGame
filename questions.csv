@@ -105,7 +105,7 @@ What is the EDB?, External Data Bus, connects the processor to adapters; the key
 What does Ryzen 7 mean?, High performance tier, AMD CPU tier similar to Intel i7
 What does the 5 in Ryzen 5800X mean?, generation, Higher generations = newer/better
 What does 800 mean in Ryzen 5800X?, Model within gen, Higher number = more powerful model
-What does the X mean in Ryzen 5800X?, High performance, Indicates unlocked/high-performance model
+What does the X mean in Ryzen 5800X?, extra performance, Indicates unlocked/high-performance model
 Intel LGA 1150 Socket generations (Core CPUs), 4-5, Supports Haswell and Broadwell CPUs released around 2013–2015; replaced by LGA 1151
 Intel LGA 1151 Socket generations (Core CPUs), 6-9, Common desktop CPUs like i5-8400 use this socket; DDR4 supported
 Intel LGA 1200 Socket generations (Core CPUs), 10-11, Replaced 1151 with slight design changes; still uses DDR4
@@ -115,7 +115,7 @@ AMD Ryzen 1000–5000 Series Socket, AM4, Uses PGA Layout; Most Ryzen CPUs up to
 AMD Ryzen 7000 and newer Socket, AM5, Uses LGA layout and supports DDR5 memory
 AMD EPYC Socket, SP3, Used in servers and workstations; large LGA socket for multi-core CPUs
 25 pin or more common 9 pin DB-9, RS-232, legacy serial ports - not to be confused with 15 pin VGA ports
-SCSI Meaning/Max Data Rate (MBps), Small Computer System Interface/320MBps, high density (HD) 68-pin or single connector attachment (SCA) 80-pin most common (A legacy parallel bus)
+SCSI Meaning/Max Data Rate (MBps), Small Computer System Interface/320, high density (HD) 68-pin or single connector attachment (SCA) 80-pin most common (A legacy parallel bus)
 UART Meaning, Universal Asynchronous Receiver Transmitter, Converts data between parallel and serial form; used in low-speed communication like debugging or with Bluetooth/USB and embedded systems
 What can use UART on modern mobile devices?, Bluetooth and USB, Bluetooth modules and USB controllers often use UART for low-level serial communication
 HMI Meaning, Human Machine Interface, Touchscreen or control panel that allows a person to interact with a machine or industrial system
@@ -158,7 +158,7 @@ Next step in wired conn troubleshooting if cables good and connected?, loopback 
 Next step if you confirm patch cable and interface ports are good?, cable tester on structured cable, Could also be a termination or external interference problem.
 Final steps in troubleshooting wired connectivity, speed/duplex/driver, speed/duplex settings should usually be set to autonegotiate. You can also try updating driver.
 If the temperature is too high the CPU and other components are likely to do what, throttling, Check temperature sensors and fan speeds. Maybe computer needs cleaning or cooling systems need to be replaced or upgraded.
-First thing to check in network speed troubleshooting (after narrowing down what they doing), nominal vs test speed, Use a utility to measure transfer rate independent of specific apps or network services.
+First thing to check in network speed troubleshooting (after narrowing down what they doing) 1/2, duplex/nominal speed, Should be 'autonegotiate'; then measure transfer rate independent of specific apps or network services.
 What can cause interference in network besides external factors, bad termination, Check the ends of cables for excessive untwisting of the wire pairs or improper termination. Can also use network tap to look for damaged frames.
 Record used to identify an email server for the domain so that other servers can send messages to it, Mail Exchange, MX: a DNS record that routes emails to specified mail servers.
 Uses a TXT record published via DNS to identify the hosts authorized to send email from that domain., Sender Policy Framework, With an SPF record in place; ISPs can verify that a mail server is authorized to send email for a specific domain.
