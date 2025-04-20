@@ -255,6 +255,8 @@ Full-size ATX board size (in), 12x9.6, (305 mm x 244 mm). An ATX board can conta
 Micro-ATX (mATX) board size (in), 9.6x9.6, (244 mm x 244 mm) square board. mATX boards can have a maximum of four expansion slots.
 Mini-ITX board size (in), 6.7x6.7, (170 mm x 170 mm) square board. These are designed for small cases; but do note that most mini-ITX boards can be mounted in ATX cases.
 USB 3 headers on motherboard use (pinxpin), 2x10, can be cabled to two ports.
+3 or 4 pin Molex KK connectors are for?, Fans, 4-pin fan connectors support pulse width modulation (PWM) signal carried by the blue wire. 3-pin fans are controlled by varying the voltage.
+
 
 
 
