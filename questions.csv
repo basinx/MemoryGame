@@ -248,8 +248,13 @@ database of information maintained by an SNMP agent, Management Information Base
 Syslog severity level code, PRI, Priority value: Facility and Severity of the message. Facility represents the part of the system sending the message; Severity marks its importance.
 CPU Power 8 Pin vs/4 Pin names, EPS12V/ATX12V, Power connectors always have half square and halve rounded connectors
 Input VAC values in North America vs Europe (low-line)/(high-line), 120/230, Most PSUs are dual voltage and are auto-switching; some have a manual switch; *Some are fixed voltage!*
-ATX Meaning in power supplies, Advanced Technology Extended, Most systems are now based on the ATX12V version 2 specification. This defines a 24-pin (2x12) P1 form factor.
+ATX Meaning in power supplies/motherboards, Advanced Technology Extended, Most systems are now based on the ATX12V version 2 specification. This defines a 24-pin (2x12) P1 form factor.
 Attached to each device in closed loop water cooling to remove heat by convection, Water blocks and brackets, These are attached in a similar way to heat sink/fan assemblies and then connected to the water loop.
+PCI Max Transfer Speed (MBps), 133, That is 32 bits divided by 8 to get 4 bytes; then multiplied by the clock rate of 33.3
+Full-size ATX board size (in), 12x9.6, (305 mm x 244 mm). An ATX board can contain up to seven expansion slots.
+Micro-ATX (mATX) board size (in), 9.6x9.6, (244 mm x 244 mm) square board. mATX boards can have a maximum of four expansion slots.
+Mini-ITX board size (in), 6.7x6.7, (170 mm x 170 mm) square board. These are designed for small cases; but do note that most mini-ITX boards can be mounted in ATX cases.
+USB 3 headers on motherboard use (pinxpin), 2x10, can be cabled to two ports.
 
 
 
