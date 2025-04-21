@@ -266,7 +266,8 @@ Which inkjet technology uses vibration from a crystal to eject ink?, Piezoelectr
 IDE Meaning, Integrated Drive Electronics, Also known as PATA (Parallel Advanced Technology Attachment).  Pin 1 indicated by a red stripe on the side of cable.
 HBA Meaning (Re: SCSI), Host Bus Adapter, One SCSI host bus adapter (HBA) can control multiple devices attached by internal ribbon cables or external SCSI cables.
 An advanced type of cable tester, Certifier, Can report detailed information about cable performance and interference.
-
+EIDE cable connector colors: Device 0/Device 1/Motherboard, black/grey/blue, Enhanced integrated drive electronics. Pin 1 has red stripe on that side.
+Inkjet carriage system uses these 3 to move print head, stepper motor pulley and belt, Plus a guide shaft to keep the print head stable; and sensors to detect the position of the print head.
 
 
 
