@@ -114,7 +114,7 @@ Sockets used by Intel Xeon Processors ?/?/?, 1150/1151/2011, LGA Workstation/ser
 AMD Ryzen 1000–5000 Series Socket, AM4, Uses PGA Layout; Most Ryzen CPUs up to 2022 use this socket
 AMD Ryzen 7000 and newer Socket, AM5, Uses LGA layout and supports DDR5 memory
 AMD EPYC Socket, SP3, Used in servers and workstations; large LGA socket for multi-core CPUs
-25 pin or more common 9 pin DB-9, RS-232, legacy serial ports - not to be confused with 15 pin VGA ports
+25 pin or more common 9 pin DB-9, RS-232, legacy serial ports - also known as a COM port - not to be confused with 15 pin VGA ports
 SCSI Meaning/Max Data Rate (MBps), Small Computer System Interface/320, high density (HD) 68-pin or single connector attachment (SCA) 80-pin most common (A legacy parallel bus)
 UART Meaning, Universal Asynchronous Receiver Transmitter, Converts data between parallel and serial form; used in low-speed communication like debugging or with Bluetooth/USB and embedded systems
 What can use UART on modern mobile devices?, Bluetooth and USB, Bluetooth modules and USB controllers often use UART for low-level serial communication
@@ -259,9 +259,12 @@ USB 3 headers on motherboard use (pinxpin), 2x10, can be cabled to two ports.
 What Cat Cable specification has two speed specs #/long/short, 6/1/10, [1 Gbps at @ 100 m (328 ft)] and [10 Gbps @ 55 m (180 ft)]
 Monitor communications passing over the switch using mirror port, switched port analyzer, The sensor is attached to a specially configured port on a network switch. The mirror port receives copies of frames addressed to nominated access ports.
 Cable that uses treated PVC or fluorinated ethylene polymer (FEP) jackets, Plenum Cable, CMP: Communications Multipurpose Plenum (General-purpose cables are marked as CMG or MMG for PVC jackets; and CM or MP for plenum-rated cables.)
-
-
-
+What laser printer component causes ghost images if it fails to remove leftover toner?, Drum or cleaning blade, Residual toner from previous print cycle causes faint duplicates
+What does the static eliminator strip or corona wire do in a laser printer?, Removes charge from paper, Prevents paper from sticking or attracting extra toner after transfer
+Which inkjet technology uses heat to form a bubble that ejects ink?, Thermal bubble,A tiny heater boils ink to form a bubble that pushes droplets out. HP; Canon; Brother
+Which inkjet technology uses vibration from a crystal to eject ink?, Piezoelectric,A voltage flexes a piezo crystal to force ink out without heat. Epson
+IDE Meaning, Integrated Drive Electronics, Also known as PATA (Parallel Advanced Technology Attachment).  Pin 1 indicated by a red stripe on the side of cable.
+HBA Meaning (Re: SCSI), Host Bus Adapter, One SCSI host bus adapter (HBA) can control multiple devices attached by internal ribbon cables or external SCSI cables.
 
 
 
