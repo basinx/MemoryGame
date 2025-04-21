@@ -269,6 +269,7 @@ An advanced type of cable tester, Certifier, Can report detailed information abo
 EIDE cable connector colors: Device 0/Device 1/Motherboard, black/grey/blue, Enhanced integrated drive electronics. Pin 1 has red stripe on that side.
 Inkjet carriage system uses these 3 to move print head ?/?/?, stepper motor/pulley/belt, Plus a guide shaft to keep the print head stable; and sensors to detect the position of the print head.
 Prevents more than one sheet entering an inkjet printer, seperation roller, A load roller turns against the paper stack to move the top sheet while a separation roller prevents more than one sheet entering.
+The power supply standard that changed from 20 to 24 pin main MB connector, ATX-12V, This can also refer to the 4 pin square CPU connector; it's whatever.
 
 
 
