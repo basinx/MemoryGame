@@ -112,6 +112,7 @@ class TextInputBox:
 # Game States
 MENU = "menu"
 PLAYING = "playing"
+PAUSED = "paused"
 GAME_OVER = "game_over"
 
 
@@ -119,6 +120,7 @@ GAME_OVER = "game_over"
 class TypingGame:
     def __init__(self):
         self.state = MENU
+        self.pause_start = None  # Timestamp captured on pause
         self.questions = load_questions()
         self.score = 0
         self.start_time = None
@@ -140,6 +142,20 @@ class TypingGame:
         # Create text input boxes for settings.
         self.input_box_game_length = TextInputBox(300, 300, 200, 40, str(default_game_length))
         self.input_box_question_time = TextInputBox(300, 370, 200, 40, str(default_question_time))
+
+    def pause(self):
+        if self.state == PLAYING:
+            self.state = PAUSED
+            self.pause_start = time.time()
+
+    def resume(self):
+        if self.state == PAUSED:
+            delta = time.time() - self.pause_start
+            # shift every running timer forward by the time we were paused
+            self.start_time += delta  # overall game clock
+            self.question_timer += delta  # current‑question deadline
+            self.feedback_timer += delta  # feedback visibility
+            self.state = PLAYING
 
     def reset_game(self):
         try:
@@ -190,6 +206,8 @@ class TypingGame:
             pygame.draw.rect(screen, (0, 200, 0), (50, 170, bar_width, 10))
 
     def update(self):
+        if self.state != PLAYING:
+            return  # skip countdowns while paused or on menus
         if self.state == PLAYING:
             self.time_left = self.game_length - int(time.time() - self.start_time)
             if self.time_left <= 0:
@@ -237,6 +255,10 @@ class TypingGame:
         lm_rect = lm_surface.get_rect(topright=(790, 40))
         screen.blit(sound_surface, sound_rect)
         screen.blit(lm_surface, lm_rect)
+        pause_text = "F9 > Pause/Resume"
+        pause_surface = font.render(pause_text, True, (255, 255, 255))
+        pause_rect = pause_surface.get_rect(topright=(790, 70))
+        screen.blit(pause_surface, pause_rect)
 
         if self.state == MENU:
             draw_text(screen, "A+ Typing Game", (300, 100), font)
@@ -266,6 +288,24 @@ class TypingGame:
                     if self.last_question_info.strip():
                         info_text = f"Info: {self.last_question_info}"
                         draw_wrapped_text(screen, info_text, (50, 430), font, color=(200, 200, 0), max_width=700)
+        elif self.state == PAUSED:
+            # First draw the normal PLAYING screen so the question stays visible
+            draw_text(screen, f"Time Left: {self.time_left}s", (10, 10), font)
+            draw_text(screen, f"Score: {self.score}", (10, 550), font)
+            self.draw_question_timer_bar()
+            draw_wrapped_text(screen, f"{self.current_question[0]}", (40, 200), font)
+            draw_text(screen, f"> {self.user_input}", (40, 300), font)
+
+            # … plus any feedback/learning‑mode lines you normally show …
+
+            # Overlay (semi‑transparent dark layer)
+            overlay = pygame.Surface((800, 600), pygame.SRCALPHA)
+            overlay.fill((0, 0, 0, 150))  # RGBA – last value is alpha
+            screen.blit(overlay, (0, 0))
+
+            pause_msg = font.render("PAUSED – press F9 to resume", True, (255, 255, 0))
+            rect = pause_msg.get_rect(center=(400, 300))
+            screen.blit(pause_msg, rect)
         elif self.state == GAME_OVER:
             draw_text(screen, "Game Over", (350, 200), font)
             draw_text(screen, f"Final Score: {self.score}", (330, 250), font)
@@ -286,6 +326,12 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_F9:
+            if game.state == PLAYING:
+                game.pause()
+            elif game.state == PAUSED:
+                game.resume()
 
         # Toggle Sound with F11.
         if event.type == pygame.KEYDOWN and event.key == pygame.K_F11:
