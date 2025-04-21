@@ -270,8 +270,12 @@ EIDE cable connector colors: Device 0/Device 1/Motherboard, black/grey/blue, Enh
 Inkjet carriage system uses these 3 to move print head ?/?/?, stepper motor/pulley/belt, Plus a guide shaft to keep the print head stable; and sensors to detect the position of the print head.
 Prevents more than one sheet entering an inkjet printer, seperation roller, A load roller turns against the paper stack to move the top sheet while a separation roller prevents more than one sheet entering.
 The power supply standard that changed from 20 to 24 pin main MB connector, ATX-12V, This can also refer to the 4 pin square CPU connector; it's whatever.
-
-
+Generic/Intel/AMD alternate names for EM64T, x86-64/Intel64/AMD64, Extends the x86 instruction set for 64-bit operation.
+How is DDR5 different from DDR4 in terms of channel layout?,2 32-bit channels,DDR5 still transfers 64 bits per cycle total but uses two 32-bit channels to reduce latency and improve multi-core performance
+HSM Meaning, Hardware Security Module, A secure USB key or thumb drive used to store cryptographic material; user must authenticate before they can access the keys stored on the module.
+Which security feature stores and compares hashes of boot components?,TPM,This is part of TPM’s measured boot process to detect tampering
+What is a network drop?,Ethernet wall jack,It’s where a device connects to the network using structured cabling and is often tested during hardware troubleshooting
+RMA Meaning?, Returned Materials Authorization, If a part or system is under warranty; you can return the broken part for a replacement with RMA ticket from vendor.
 
 
 
