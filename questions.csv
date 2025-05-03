@@ -1,5 +1,5 @@
 Location Settings inside which Settings screen, Privacy, Many web browsers allow location on a per-site basis also
-Quick Access to create a user account, netplwiz, Network Places Wizard/also 'control userpasswords' will get you to users basic control panel app.
+Run command: Quick Access to create a user account, netplwiz, Network Places Wizard/also 'control userpasswords' will get you to users basic control panel app.
 Extra key to reverse an alt-tab, shift, alt-shift-tab is correct
 major releases that introduce new features and improvements of Windows, Feature Update, Feature updates are essentially new versions of Windows; offering a comprehensive refresh of the operating system.
 ACPI meaning?, Advanced Configuration and Power Interface, Designed to ensure software and hardware compatibility for different power saving modes
@@ -8,3 +8,9 @@ Apps that install to AppData folder and do not need credentials to install, user
 Where to change date/time formats?, region settings, It is buried under time & language settings
 Run command for Defrag & Optimize Drives, dfrgui.exe, Found in Administrative (Windows) Tools in Control Panel
 Run command for Computer Management, compmgmt.msc, Tasks; Shared Folders; Performance; Dev Manager; Users/Groups; Disks; Services; etc..
+Run command for Disk Cleanup, cleanmgr.exe, Regain disk capacity by deleting unwanted files.
+Run command for Event Viewer, eventvwr.msc, Review system; security; and application logs.
+Run command for Local Security Policy, secpol.msc, View and edit the security settings. Not available on Home edition.
+Run command for Resource Monitor, resmon.exe, Old school resource monitor
+Run command for Performance Monitor, perfmon.exe, Performance statistics and logging
+Run command for Task Scheduler, taskschd.msc, Run software and scripts according to calendar or event triggers.
