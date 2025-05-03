@@ -14,3 +14,6 @@ Run command for Local Security Policy, secpol.msc, View and edit the security se
 Run command for Resource Monitor, resmon.exe, Old school resource monitor
 Run command for Performance Monitor, perfmon.exe, Performance statistics and logging
 Run command for Task Scheduler, taskschd.msc, Run software and scripts according to calendar or event triggers.
+Screws with USB Power and can interrupt use, Selective Suspend, Power Options -> Change Plan Settings -> Change Advanced Power Settings
+Run command for Power Settings Control Applet, powercfg.cpl, or ms-settings:powersleep for the new settings version
+
