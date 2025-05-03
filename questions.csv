@@ -7,3 +7,4 @@ ACPI S4 relevant filename, hiberfil.sys, Hibernate mode/Suspend to disk; hiberfi
 Apps that install to AppData folder and do not need credentials to install, user-context, They do not install in either the System folders or Program Files folders.
 Where to change date/time formats?, region settings, It is buried under time & language settings
 Run command for Defrag & Optimize Drives, dfrgui.exe, Found in Administrative (Windows) Tools in Control Panel
+Run command for Computer Management, compmgmt.msc, Tasks; Shared Folders; Performance; Dev Manager; Users/Groups; Disks; Services; etc..
