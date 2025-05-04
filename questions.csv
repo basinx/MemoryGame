@@ -15,7 +15,8 @@ Run command for Resource Monitor, resmon.exe, Old school resource monitor
 Run command for Performance Monitor, perfmon.exe, Performance statistics and logging
 Run command for Task Scheduler, taskschd.msc, Run software and scripts according to calendar or event triggers.
 RUn command for Network Adapters, ncpa.cpl, Skips the 'Network and Sharing Center' straight to adapters.
-Run command for Device Manager, devmgmt.msc, You know what it do
+Run command for Device Manager, devmgmt.msc, Driver Details / Update/ Roll Back / Disable / Uninstall
+Run command for Disk Management, diskmgmt.msc, Initialize; (Re)Partition; Format; Configure Dynamic Disks/RAID replaced by Storage Spaces now.
 Screws with USB Power and can interrupt use, Selective Suspend, Power Options -> Change Plan Settings -> Change Advanced Power Settings
 Run command for Power Settings Control Applet, powercfg.cpl, or ms-settings:powersleep for the new settings version
 Windows 11 where to find Taskbar in Settings (menu), Personalization, Change alignment under Taskbar Behaviors
@@ -23,6 +24,11 @@ Where to find Optional Updates in Windows Update Settings, Advanced Options,
 In Windows 11 the Update and Security button became what?, Privacy and Security, Privacy merged with security and Windows Update became it's own option.
 What was 'Accessibility' called win Windows 10?, Ease of Access, Ease of Access options changed to Accessibility in Windows 11
 WSL Meaning, Windows Subsystem for Linux, Allows the installation of a Linux distribution and the use of Linux applications.
+Low disk warning MB remaining, 200, And under 20% capacity may affect performance.
+Automates disk cleanup activities, Storage Sense, System->Storage->Storage Sense: Time to run and clear recycle/downloads folders
+
+
+
 
 
 
