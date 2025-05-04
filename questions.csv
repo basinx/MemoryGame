@@ -15,6 +15,7 @@ Run command for Resource Monitor, resmon.exe, Old school resource monitor
 Run command for Performance Monitor, perfmon.exe, Performance statistics and logging
 Run command for Task Scheduler, taskschd.msc, Run software and scripts according to calendar or event triggers.
 RUn command for Network Adapters, ncpa.cpl, Skips the 'Network and Sharing Center' straight to adapters.
+Run command for Device Manager, devmgmt.msc, You know what it do
 Screws with USB Power and can interrupt use, Selective Suspend, Power Options -> Change Plan Settings -> Change Advanced Power Settings
 Run command for Power Settings Control Applet, powercfg.cpl, or ms-settings:powersleep for the new settings version
 Windows 11 where to find Taskbar in Settings (menu), Personalization, Change alignment under Taskbar Behaviors
