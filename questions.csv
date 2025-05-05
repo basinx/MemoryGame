@@ -17,6 +17,10 @@ Run command for Task Scheduler, taskschd.msc, Run software and scripts according
 RUn command for Network Adapters, ncpa.cpl, Skips the 'Network and Sharing Center' straight to adapters.
 Run command for Device Manager, devmgmt.msc, Driver Details / Update/ Roll Back / Disable / Uninstall
 Run command for Disk Management, diskmgmt.msc, Initialize; (Re)Partition; Format; Configure Dynamic Disks/RAID replaced by Storage Spaces now.
+Run command for Local Users and Groups, lusrmgr.msc, Not available on Home Editions
+Run command for Certificate Manager for Local User, certmgr.msc, A digital certificate is a means of proving identity; validity guaranteed by the issuing certification authority (CA).
+Run command for Certificate Manager for Computer, certlm.msc, Trusting an unsafe CA raises critical security vulnerabilities
+Run command for Registry Editor, regedit.exe,
 Screws with USB Power and can interrupt use, Selective Suspend, Power Options -> Change Plan Settings -> Change Advanced Power Settings
 Run command for Power Settings Control Applet, powercfg.cpl, or ms-settings:powersleep for the new settings version
 Windows 11 where to find Taskbar in Settings (menu), Personalization, Change alignment under Taskbar Behaviors
@@ -26,6 +30,11 @@ What was 'Accessibility' called win Windows 10?, Ease of Access, Ease of Access 
 WSL Meaning, Windows Subsystem for Linux, Allows the installation of a Linux distribution and the use of Linux applications.
 Low disk warning MB remaining, 200, And under 20% capacity may affect performance.
 Automates disk cleanup activities, Storage Sense, System->Storage->Storage Sense: Time to run and clear recycle/downloads folders
+Run command for Local Security Policy editor, secpol.msc, Can be used to modify security settings specifically.
+Run command for Group Policy Editor, gpedit.msc, Provides a more robust means of configuring many of these Windows settings than editing the registry directly.
+Command to make a custom management console, mmc, Most MMC snap-ins can be used to manage either the local computer or a remote computer.
+Run command to get to System Information, msinfo32.exe, system resources; firmware and OS versions; driver file locations; env. variables; network and so on.
+
 
 
 
