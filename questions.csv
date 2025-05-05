@@ -12,7 +12,7 @@ Run command for Disk Cleanup, cleanmgr.exe, Regain disk capacity by deleting unw
 Run command for Event Viewer, eventvwr.msc, Review system; security; and application logs.
 Run command for Local Security Policy, secpol.msc, View and edit the security settings. Not available on Home edition.
 Run command for Resource Monitor, resmon.exe, Old school resource monitor
-Run command for Performance Monitor, perfmon.exe, Performance statistics and logging
+Run command for Performance Monitor, perfmon.exe, Performance statistics and logging (also perfmon.msc)
 Run command for Task Scheduler, taskschd.msc, Run software and scripts according to calendar or event triggers.
 RUn command for Network Adapters, ncpa.cpl, Skips the 'Network and Sharing Center' straight to adapters.
 Run command for Device Manager, devmgmt.msc, Driver Details / Update/ Roll Back / Disable / Uninstall
