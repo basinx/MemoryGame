@@ -34,6 +34,8 @@ Run command for Local Security Policy editor, secpol.msc, Can be used to modify 
 Run command for Group Policy Editor, gpedit.msc, Provides a more robust means of configuring many of these Windows settings than editing the registry directly.
 Command to make a custom management console, mmc, Most MMC snap-ins can be used to manage either the local computer or a remote computer.
 Run command to get to System Information, msinfo32.exe, system resources; firmware and OS versions; driver file locations; env. variables; network and so on.
+Fast Task Manager hotkeys Ctrl+(?/?), Shift/Esc, also it is 'taskmgr.exe' or right click task bar or start button. or ctrl+alt+delete. literally it's everywhere.
+
 
 
 
