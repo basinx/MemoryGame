@@ -48,6 +48,9 @@ Make System File Checker scan every time the computer boots, sfc /scanboot, Sche
 Where is the version controlled backup of system files for sfc? (folder name), WINSxS, ystem files (and shared program files) are maintained; and version-controlled in the WINSxS system folder.
 Only check for logical errors on hard disk file system, chkdsk /f, CHKDSK /R begins by performing the same function as CHKDSK /F. (This implies that “CHKDSK /F /R” is redundant; as /R includes /F.)
 Skip doing scan for bad sectors when running format, /q, Quick Format will skip the scan; both standard and quick do leave sectors un-scrubbed however.
+Where does an elevated command prompt begin? %SYSTEMDRIVE%:/?, Windows/System32, Non-elecvated will begin in %USERPROFILE% (eg C:\Users\Jim)
+Registry hive: Contains file name extension associations and COM class registration information, HKEY_CLASSES_ROOT, Primarily intended for compatibility with the registry in 16-bit Windows.
+Registry hive: contains information about the current hardware profile being used by the system., HKEY-CURRENT_CONFIG, This profile includes settings related to display resolutions; color profiles; printer configurations; and other hardware-related options.
 
 
 
