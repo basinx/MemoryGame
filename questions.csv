@@ -1,0 +1,54 @@
+Location Settings inside which Settings screen, Privacy, Many web browsers allow location on a per-site basis also
+Run command: Quick Access to create a user account, netplwiz, or 'control userpasswords2'/'control userpasswords' will get you to users basic control panel app.
+Extra key to reverse an alt-tab, shift, alt-shift-tab is correct
+major releases that introduce new features and improvements of Windows, Feature Update, Feature updates are essentially new versions of Windows; offering a comprehensive refresh of the operating system.
+ACPI meaning?, Advanced Configuration and Power Interface, Designed to ensure software and hardware compatibility for different power saving modes
+ACPI S4 relevant filename, hiberfil.sys, Hibernate mode/Suspend to disk; hiberfil.sys is created in the root of the boot volume.
+Apps that install to AppData folder and do not need credentials to install, user-context, They do not install in either the System folders or Program Files folders.
+Where to change date/time formats?, region settings, It is buried under time & language settings
+Run command for Defrag & Optimize Drives, dfrgui.exe, Found in Administrative (Windows) Tools in Control Panel
+Run command for Computer Management, compmgmt.msc, Tasks; Shared Folders; Performance; Dev Manager; Users/Groups; Disks; Services; etc..
+Run command for Disk Cleanup, cleanmgr.exe, Regain disk capacity by deleting unwanted files.
+Run command for Event Viewer, eventvwr.msc, Review system; security; and application logs.
+Run command for Local Security Policy, secpol.msc, View and edit the security settings. Not available on Home edition.
+Run command for Resource Monitor, resmon.exe, Old school resource monitor
+Run command for Performance Monitor, perfmon.msc, Performance statistics and logging (also perfmon.exe)
+Run command for Task Scheduler, taskschd.msc, Run software and scripts according to calendar or event triggers.
+RUn command for Network Adapters, ncpa.cpl, Skips the 'Network and Sharing Center' straight to adapters.
+Run command for Device Manager, devmgmt.msc, Driver Details / Update/ Roll Back / Disable / Uninstall
+Run command for Disk Management, diskmgmt.msc, Initialize; (Re)Partition; Format; Configure Dynamic Disks/RAID replaced by Storage Spaces now.
+Run command for Local Users and Groups, lusrmgr.msc, Not available on Home Editions
+Run command for Certificate Manager for Local User, certmgr.msc, A digital certificate is a means of proving identity; validity guaranteed by the issuing certification authority (CA).
+Run command for Certificate Manager for Computer, certlm.msc, Trusting an unsafe CA raises critical security vulnerabilities
+Run command for Registry Editor, regedit.exe,
+Screws with USB Power and can interrupt use, Selective Suspend, Power Options -> Change Plan Settings -> Change Advanced Power Settings
+Run command for Power Settings Control Applet, powercfg.cpl, or ms-settings:powersleep for the new settings version
+Windows 11 where to find Taskbar in Settings (menu), Personalization, Change alignment under Taskbar Behaviors
+Where to find Optional Updates in Windows Update Settings, Advanced Options,
+In Windows 11 the Update and Security button became what?, Privacy and Security, Privacy merged with security and Windows Update became it's own option.
+What was 'Accessibility' called win Windows 10?, Ease of Access, Ease of Access options changed to Accessibility in Windows 11
+WSL Meaning, Windows Subsystem for Linux, Allows the installation of a Linux distribution and the use of Linux applications.
+Low disk warning MB remaining, 200, And under 20% capacity may affect performance.
+Automates disk cleanup activities, Storage Sense, System->Storage->Storage Sense: Time to run and clear recycle/downloads folders
+Run command for Local Security Policy editor, secpol.msc, Can be used to modify security settings specifically.
+Run command for Group Policy Editor, gpedit.msc, Provides a more robust means of configuring many of these Windows settings than editing the registry directly.
+Command to make a custom management console, mmc, Most MMC snap-ins can be used to manage either the local computer or a remote computer.
+Run command to get to System Information, msinfo32.exe, system resources; firmware and OS versions; driver file locations; env. variables; network and so on.
+Fast Task Manager hotkeys Ctrl+(?/?), Shift/Esc, also it is 'taskmgr.exe' or right click task bar or start button. or ctrl+alt+delete. literally it's everywhere.
+If *this* increasing and disk time is high then you have a disk problem, Average Disk Queue Length, The number of requests outstanding on the disk at the time the performance data is collected.
+Overall good indicator counter for how busy a disk is, % Disk Time, if the average exceeds 85% for a sustained period you may have a disk problem.
+Counter that might indicate a hard fault in memory, pages/sec, The number of pages read from or written to disk to resolve hard page faults. This means your system is using the paging file.
+ETW Meaning, Event Tracing for Windows, ETW is a mechanism that allows applications and services to record detailed information about their activities
+Where is the boot log saved (msconfig setting), %systemroot%\ntbtlog.txt, not shown in event viewer!
+BCD Meaning, Boot Configuration Data, \boot\bcd on the system (EFI) partition.  bcdedit or msconfig boot tab to edit.
+Where are list of configurable properties in a Device Manger item properties?, Advanced Tab, Many things here
+What tab is 'Scan for Hardware Changes' under in Device Manager?, Action, Use this if you uninstalled a device and want to reinstall it.
+
+
+
+
+
+
+
+
+
