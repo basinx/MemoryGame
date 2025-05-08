@@ -47,6 +47,7 @@ Make System File Checker scan on the next startup, sfc /scanonce, Schedules a sc
 Make System File Checker scan every time the computer boots, sfc /scanboot, Schedules a scan that runs each time the PC boots.
 Where is the version controlled backup of system files for sfc? (folder name), WINSxS, ystem files (and shared program files) are maintained; and version-controlled in the WINSxS system folder.
 Only check for logical errors on hard disk file system, chkdsk /f, CHKDSK /R begins by performing the same function as CHKDSK /F. (This implies that “CHKDSK /F /R” is redundant; as /R includes /F.)
+Skip doing scan for bad sectors when running format, /q, Quick Format will skip the scan; both standard and quick do leave sectors un-scrubbed however.
 
 
 
