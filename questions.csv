@@ -43,6 +43,9 @@ Where is the boot log saved (msconfig setting), %systemroot%\ntbtlog.txt, not sh
 BCD Meaning, Boot Configuration Data, \boot\bcd on the system (EFI) partition.  bcdedit or msconfig boot tab to edit.
 Where are list of configurable properties in a Device Manger item properties?, Advanced Tab, Many things here
 What tab is 'Scan for Hardware Changes' under in Device Manager?, Action, Use this if you uninstalled a device and want to reinstall it.
+Make System File Checker scan on the next startup, sfc /scanonce, Schedules a scan when the computer is next restarted.
+Make System File Checker scan every time the computer boots, sfc /scanboot, Schedules a scan that runs each time the PC boots.
+Where is the version controlled backup of system files for sfc? (folder name), WINSxS, ystem files (and shared program files) are maintained; and version-controlled in the WINSxS system folder.
 
 
 
