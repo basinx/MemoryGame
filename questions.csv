@@ -53,7 +53,11 @@ Where does an elevated command prompt begin? %SYSTEMDRIVE%:/?, Windows/System32,
 Registry hive: Contains file name extension associations and COM class registration information, HKEY_CLASSES_ROOT,	Primarily intended for compatibility with the registry in 16-bit Windows.
 Registry hive: contains information about the current hardware profile being used by the system., HKEY_CURRENT_CONFIG, This profile includes settings related to display resolutions; color profiles; printer configurations; and other hardware-related options.
 a set of formal descriptions that provide a standard for the design of operating systems compatible with Unix., Posix, NTFS is Posix compliant supporting case-sensitive naming.
-
+Maximum possible NTFS Volume size in recent Windows feature updates, 8 Petabytes, Between 137 GB and 256 Terabytes listed previously.
+FAT32 maximum Volume size/File Size, 2TB/4GB, FAT32 is a variant of FAT that uses a 32-bit allocation table; max file size is 4GB minus 1 byte.
+The Linux file system that added support for journaling., Ext3, Max File Size: 2TB ; Max Volume Size: 32TB
+Linux implementation of FAT with long filename support., VFAT, Virtual FAT; It's not a distinct file system; just a driver label.
+In Linux; can be used to mount remote storage devices into the local file system., NFS, Network File System
 
 
 
