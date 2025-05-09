@@ -55,11 +55,12 @@ Registry hive: contains information about the current hardware profile being use
 a set of formal descriptions that provide a standard for the design of operating systems compatible with Unix., Posix, NTFS is Posix compliant supporting case-sensitive naming.
 Maximum possible NTFS Volume size in recent Windows feature updates, 8 Petabytes, Between 137 GB and 256 Terabytes listed previously.
 FAT32 maximum Volume size/File Size, 2TB/4GB, FAT32 is a variant of FAT that uses a 32-bit allocation table; max file size is 4GB minus 1 byte.
+ExFAT recommended maximum Volume size, 512TB, There is also support for access permissions but not encryption.
 The Linux file system that added support for journaling., Ext3, Max File Size: 2TB ; Max Volume Size: 32TB
 Linux implementation of FAT with long filename support., VFAT, Virtual FAT; It's not a distinct file system; just a driver label.
 In Linux; can be used to mount remote storage devices into the local file system., NFS, Network File System
 The main compatibility issues for a web application ?/?, touch/size, supporting a touch interface and a very wide range of display resolutions on the different devices that might connect to it.
-
+This disk management feature allows space on multiple physical disks to be combined into volumes., Dynamic Disks, Windows Home editions do not support dynamic disks or encryption.
 
 
 
