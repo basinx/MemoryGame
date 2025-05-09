@@ -58,6 +58,7 @@ FAT32 maximum Volume size/File Size, 2TB/4GB, FAT32 is a variant of FAT that use
 The Linux file system that added support for journaling., Ext3, Max File Size: 2TB ; Max Volume Size: 32TB
 Linux implementation of FAT with long filename support., VFAT, Virtual FAT; It's not a distinct file system; just a driver label.
 In Linux; can be used to mount remote storage devices into the local file system., NFS, Network File System
+The main compatibility issues for a web application ?/?, touch/size, supporting a touch interface and a very wide range of display resolutions on the different devices that might connect to it.
 
 
 
