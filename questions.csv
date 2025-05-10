@@ -61,6 +61,9 @@ Linux implementation of FAT with long filename support., VFAT, Virtual FAT; It's
 In Linux; can be used to mount remote storage devices into the local file system., NFS, Network File System
 The main compatibility issues for a web application ?/?, touch/size, supporting a touch interface and a very wide range of display resolutions on the different devices that might connect to it.
 This disk management feature allows space on multiple physical disks to be combined into volumes., Dynamic Disks, Windows Home editions do not support dynamic disks or encryption.
+Feature update where 32-bit stopped shipping with new OEM installs?, 2004, April 2020: from then on new versions only ship for 64 bit hardware (but old PC's still got updates)
+Feature update that introduced Dark Mode (Windows 10), 1607, Released August 2; 2016
+FPP Meaning, Fully Packaged Product, Each box contains a copy of the software that you manually install on your computer and one license.
 
 
 
