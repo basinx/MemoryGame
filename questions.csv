@@ -78,6 +78,10 @@ What does EFS stand for?, Encrypting File System, NTFS feature for encrypting in
 Protocol used by BranchCache to find peers with cached data, WS-Discovery, Also used in local discovery for devices like printers and smart TVs
 What Linux distributions are subscription based ?/?, SUSE/Red Hat, SUSE loosely translates to 'software and system development'; SUSE Linux Enterprise Server = SLES
 Linux distributions that are community supported?, Fedora Debian Mint Arch, Supported by volunteer communities; often cutting edge or customizable; no official enterprise support
+What is a rolling release Linux distro? One that:, updates continuously, Always has latest software; no need for full OS reinstall; examples: Arch; openSUSE; Tumbleweed
+What is a fixed release Linux distro? One that:, updates in versioned jumps, Receives updates within a version; major upgrades require reinstall or full upgrade; examples: Ubuntu; Debian
+Windows Server 2019 and 2022 are optimized for use as a, Network Operating System, Typically; a NOS provides file-to-print services; directory services and security.
+
 
 
 
