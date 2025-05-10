@@ -74,8 +74,10 @@ RAM Limit for Pro and Education Windows editions (TB), 2, More than enough for m
 RAM Limit for Pro for WS and Enterprise Windows editions (TB), 6, Supports massive RAM for demanding workloads like VMs or scientific computing
 Max RAM for Windows Home Editions (GB): 32-bit/64-bit, 4/128, 4 GB is the limit of 32-bit architecture; 64-bit removes that barrier
 Maximum number of CPU cores allowed on Windows Home edition, 64, Limited to 1 physical CPU but supports lots of cores and HyperThreading
-
-
+What does EFS stand for?, Encrypting File System, NTFS feature for encrypting individual files/folders; tied to user account; not available on Home edition
+Protocol used by BranchCache to find peers with cached data, WS-Discovery, Also used in local discovery for devices like printers and smart TVs
+What Linux distributions are subscription based ?/?, SUSE/Red Hat, SUSE loosely translates to 'software and system development'; SUSE Linux Enterprise Server = SLES
+Linux distributions that are community supported?, Fedora Debian Mint Arch, Supported by volunteer communities; often cutting edge or customizable; no official enterprise support
 
 
 
