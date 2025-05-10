@@ -68,8 +68,12 @@ Version of Windows that supports more RAM and persistant NVDIMMs RAM, Pro for Wo
 App Control Windows Enterprise feature is called, AppLocker, AppLocker helps you control which apps and files users can run.
 Fancy persistent VPN on Windows Enterprise only, DirectAccess, although it is now depreciated and MS recommends AlwaysOn VPN.
 MDOP Meaning? (Microsoft) ???, Desktop Optimization Pack, App-V; User Experience Virtualization (UE-V); Bitlocker Admin & Monitoring; Adv. Group Policy Managmt; Diag. & Recovery Toolkit (DaRT)
-
-
+Processor limit of Pro & Education Windows editions: Procs/Cores, 2/128, Enough for most desktops and workstations
+Processor limit for Pro for WS and Enterprise Windows Editions: Procs/Cores, 4/256, Designed for high-end servers or workstations
+RAM Limit for Pro and Education Windows editions (TB), 2, More than enough for most business-grade PCs
+RAM Limit for Pro for WS and Enterprise Windows editions (TB), 6, Supports massive RAM for demanding workloads like VMs or scientific computing
+Max RAM for Windows Home Editions (GB): 32-bit/64-bit, 4/128, 4 GB is the limit of 32-bit architecture; 64-bit removes that barrier
+Maximum number of CPU cores allowed on Windows Home edition, 64, Limited to 1 physical CPU but supports lots of cores and HyperThreading
 
 
 
