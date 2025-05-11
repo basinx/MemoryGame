@@ -84,7 +84,8 @@ Windows Server 2019 and 2022 are optimized for use as a, Network Operating Syste
 Devices running different operating systems need what in common to talk to each-other?, Network Protocols, This will allow data to be exchanged in a standard format.
 RoboCopy: Include Non-Empty directories, /s, Copies Subdirectories; but not empty ones. /E to include empty ones.
 DiskPart: Shrink a Volume, Shrink desired=, = the amount to shrink the volume by in MB > run this after 'select volume #'
-
+Script or config file to input the choices and settings that need to be made during setup> Windows name, Answer File,
+What does DISM manage and service in Windows?, Windows images, Can add features to running system or customize install.wim offline
 
 
 
