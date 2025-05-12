@@ -89,7 +89,9 @@ What does DISM manage and service in Windows?, Windows images, Can add features 
 Option when using an external/hot-swappable hard drive or solid-state flash drive as boot media, priority, Determines the order in which your computer's hardware checks for a bootable device.
 For internet boot; what must be supplied by the DHCP server, DNS Name, Of the installation server; To tell the PXE boot where to install from.
 Another name for the boot sector at start of each primary partition on MBR, partition boot record, PBR: When a partition is marked as active; its boot sector is populated with a record that points to the OS boot loader.
-
+Convert a disk from MBR to GPT name/win 10 version, mbr2gpt/1703, Backup first and remember to change to UEFI boot mode after.
+What is the macOS file system called?, APFS, Apple File System; The file system used by macOS 10.13 or later.
+a Windows command-line tool used to manage file and folder permissions, icacls, icacls img0.jpg /grant administrators:F
 
 
 
