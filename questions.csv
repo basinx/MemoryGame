@@ -88,6 +88,7 @@ Script or config file to input the choices and settings that need to be made dur
 What does DISM manage and service in Windows?, Windows images, Can add features to running system or customize install.wim offline
 Option when using an external/hot-swappable hard drive or solid-state flash drive as boot media, priority, Determines the order in which your computer's hardware checks for a bootable device.
 For internet boot; what must be supplied by the DHCP server, DNS Name, Of the installation server; To tell the PXE boot where to install from.
+Another name for the boot sector at start of each primary partition on MBR, partition boot record, PBR: When a partition is marked as active; its boot sector is populated with a record that points to the OS boot loader.
 
 
 
