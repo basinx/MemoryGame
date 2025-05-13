@@ -89,7 +89,7 @@ What does DISM manage and service in Windows?, Windows images, Can add features 
 Option when using an external/hot-swappable hard drive or solid-state flash drive as boot media, priority, Determines the order in which your computer's hardware checks for a bootable device.
 For internet boot; what must be supplied by the DHCP server, DNS Name, Of the installation server; To tell the PXE boot where to install from.
 Another name for the boot sector at start of each primary partition on MBR, partition boot record, PBR: When a partition is marked as active; its boot sector is populated with a record that points to the OS boot loader.
-Convert a disk from MBR to GPT name/win 10 version, mbr2gpt/1703, Backup first and remember to change to UEFI boot mode after.
+Convert a disk from MBR to GPT name/win 10 feature update, mbr2gpt/1703, Backup first and remember to change to UEFI boot mode after.
 What is the macOS file system called?, APFS, Apple File System; The file system used by macOS 10.13 or later.
 a Windows command-line tool used to manage file and folder permissions, icacls, icacls img0.jpg /grant administrators:F
 Where are 32-bit shared system files stored in 64-bit versions of windows?, syswow64, %systemroot%\syswow64 - meaning Windows on Windows 64 bit emulation for 32 bit programs.
@@ -98,4 +98,8 @@ Installation packages for Linux APT/YUM, DEB/RPM, APT (Debian/Ubuntu) uses .deb 
 How to verify authenticity of package in linux?, Hash Value, After download; you should generate your own hash of the package and compare it to the value published by the package maintainer.
 What must be assessed and mitigated when deplying new apps?, potential impacts, It is important that the IT department maintains control and oversight of all third-party software installed to network hosts.
 Cool term for unsanctioned software and devices, Shadow IT, But they raise substantial operational and business risks.
+Three main App considerings regarding Impact to *Business* ?/?/?, Licensing/Support/Training, Who supports/trains/maintains; who/how many can use with license? by machine or by user?
+What can you use in Windows to get a PC to remotely install an app? (Acronym), GPO, You can use Group Policy Objects to remotely installfrom a network folder automatically.
+Method of automated deployment products like centrally managed antivirus use?, Push, Server or system pushes updates; configurations; or software to multiple client devices
+Besides malware threats what could new software affect on a PC or Network?, Stability and Performance, Could also contain unpatched vulnerabilities; best to test in labe environment first.
 
