@@ -93,6 +93,8 @@ Convert a disk from MBR to GPT name/win 10 version, mbr2gpt/1703, Backup first a
 What is the macOS file system called?, APFS, Apple File System; The file system used by macOS 10.13 or later.
 a Windows command-line tool used to manage file and folder permissions, icacls, icacls img0.jpg /grant administrators:F
 Where are 32-bit shared system files stored in 64-bit versions of windows?, syswow64, %systemroot%\syswow64 - meaning Windows on Windows 64 bit emulation for 32 bit programs.
-
+Installation package extensions for macOS ?/?, DMG/PKG, Disk Image vs Package file
+Installation packages for Linux APT/YUM, DEB/RPM, APT (Debian/Ubuntu) uses .deb packages; YUM/DNF (Red Hat/Fedora) uses .rpm.
+How to verify authenticity of package in linux?, Hash Value, After download; you should generate your own hash of the package and compare it to the value published by the package maintainer.
 
 
