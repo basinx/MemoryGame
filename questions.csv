@@ -97,4 +97,5 @@ Installation package extensions for macOS ?/?, DMG/PKG, Disk Image vs Package fi
 Installation packages for Linux APT/YUM, DEB/RPM, APT (Debian/Ubuntu) uses .deb packages; YUM/DNF (Red Hat/Fedora) uses .rpm.
 How to verify authenticity of package in linux?, Hash Value, After download; you should generate your own hash of the package and compare it to the value published by the package maintainer.
 What must be assessed and mitigated when deplying new apps?, potential impacts, It is important that the IT department maintains control and oversight of all third-party software installed to network hosts.
+Cool term for unsanctioned software and devices, Shadow IT, But they raise substantial operational and business risks.
 
