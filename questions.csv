@@ -147,3 +147,10 @@ ACL: unless there is a rule specifying that access should be granted.., Implicit
 Prinicple that a user should be granted the minimum possible rights necessary to perform the job, Least Privilege, A complementary principle to implicit deny; can be challenging to get right.
 A local user account is stored in a database known as the:, Security Account Manager, SAM is part of the HKEY_LOCAL_MACHINE registry; Each machine maintains its own SAM and set of SIDs for accounts.
 page where account can be switched from MS to local or local to MS as preferred (in Settings), Your Info, Accounts->Your Info; 
+command to show all Windows accounts, Net User, add; modify; or delete user accounts; and display detailed information about user accounts on a local computer or domain.
+What type of authentication is a fingerprint or biometrics, Inherence, Something you *are*
+The format of a credential is called an authentication ?, factor, knowledge; possession; inherence
+what does 2-step verification generate when user try log in?, soft token, also referred to as a one-time password (OTP).
+QR Code stands for what?, Quick Response, A common tool for registering an Authenticator App with a service or network
+FIDO stands for?, Fast Identity Online, A 'hard token' (smart card or USB thumb drive) for authentication is typically compliant with this standard.
+
