@@ -1,5 +1,5 @@
 Location Settings inside which Settings screen, Privacy, Many web browsers allow location on a per-site basis also
-Run command: Quick Access to create a user account, netplwiz, or 'control userpasswords2'/'control userpasswords' will get you to users basic control panel app.
+Run command: Quick Access to create a user account (Admin Tools screen), netplwiz, or 'control userpasswords2'/'control userpasswords' will get you to users basic control panel app.
 Extra key to reverse an alt-tab, shift, alt-shift-tab is correct
 major releases that introduce new features and improvements of Windows, Feature Update, Feature updates are essentially new versions of Windows; offering a comprehensive refresh of the operating system.
 ACPI meaning?, Advanced Configuration and Power Interface, Designed to ensure software and hardware compatibility for different power saving modes
@@ -28,7 +28,7 @@ Where to find Optional Updates in Windows Update Settings, Advanced Options,
 In Windows 11 the Update and Security button became what?, Privacy and Security, Privacy merged with security and Windows Update became it's own option.
 What was 'Accessibility' called win Windows 10?, Ease of Access, Ease of Access options changed to Accessibility in Windows 11
 WSL Meaning, Windows Subsystem for Linux, Allows the installation of a Linux distribution and the use of Linux applications.
-Low disk warning MB remaining, 200, And under 20% capacity may affect performance.
+Low disk warning *MB* remaining, 200, And under 20% capacity may affect performance.
 Automates disk cleanup activities, Storage Sense, System->Storage->Storage Sense: Time to run and clear recycle/downloads folders
 Run command for Local Security Policy editor, secpol.msc, Can be used to modify security settings specifically.
 Run command for Group Policy Editor, gpedit.msc, Provides a more robust means of configuring many of these Windows settings than editing the registry directly.
@@ -41,7 +41,7 @@ Counter that might indicate a hard fault in memory, pages/sec, The number of pag
 ETW Meaning, Event Tracing for Windows, ETW is a mechanism that allows applications and services to record detailed information about their activities
 Where is the boot log saved (msconfig setting), %systemroot%\ntbtlog.txt, not shown in event viewer!
 BCD Meaning, Boot Configuration Data, \boot\bcd on the system (EFI) partition.  bcdedit or msconfig boot tab to edit.
-Where are list of configurable properties in the properties screen of a Device Manger item?, Advanced Tab, Many things here
+Where are list of configurable properties in the properties screen of a Device Manger item?, Advanced, Many things here such as Speed & Duplex for a NIC.
 What tab is 'Scan for Hardware Changes' under in Device Manager?, Action, Use this if you uninstalled a device and want to reinstall it.
 What year did apple switch to a seperate iPadOS for tablets?, 2019, Better support for multitasking (using more than one app at once) and the Apple Pencil stylus device.
 Make System File Checker scan on the next startup, sfc /scanonce, Schedules a scan when the computer is next restarted.
@@ -58,13 +58,13 @@ FAT32 maximum Volume size/File Size, 2TB/4GB, FAT32 is a variant of FAT that use
 ExFAT recommended maximum Volume size, 512TB, There is also support for access permissions but not encryption.
 The Linux file system that added support for journaling., Ext3, Max File Size: 2TB ; Max Volume Size: 32TB
 Linux implementation of FAT with long filename support., VFAT, Virtual FAT; It's not a distinct file system; just a driver label.
-In Linux; can be used to mount remote storage devices into the local file system., NFS, Network File System
+Linux protocol that can be used to share or remotely mount files/folders (Acronym), NFS, Network File System
 The main compatibility issues for a web application ?/?, touch/size, supporting a touch interface and a very wide range of display resolutions on the different devices that might connect to it.
 This disk management feature allows space on multiple physical disks to be combined into volumes., Dynamic Disks, Windows Home editions do not support dynamic disks or encryption.
 Feature update where 32-bit stopped shipping with new OEM installs?, 2004, April 2020: from then on new versions only ship for 64 bit hardware (but old PC's still got updates)
 Feature update that introduced Dark Mode (Windows 10), 1607, Released August 2; 2016
 FPP Meaning, Fully Packaged Product, Each box contains a copy of the software that you manually install on your computer and one license.
-Version of Windows that supports more RAM and persistant NVDIMMs RAM, Pro for Workstations, NVDIMMs integrate non-volatile NAND flash memory with dynamic random access memory (DRAM) and dedicated backup power on a single memory subsystem.
+Version of Windows that supports more RAM and advanced hardware such as persistant NVDIMMs RAM, Pro for Workstations, NVDIMMs integrate non-volatile NAND flash memory with dynamic random access memory (DRAM) and dedicated backup power on a single memory subsystem.
 App Control Windows Enterprise feature is called, AppLocker, AppLocker helps you control which apps and files users can run.
 Fancy persistent VPN on Windows Enterprise only, DirectAccess, although it is now depreciated and MS recommends AlwaysOn VPN.
 MDOP Meaning? (Microsoft) ???, Desktop Optimization Pack, App-V; User Experience Virtualization (UE-V); Bitlocker Admin & Monitoring; Adv. Group Policy Managmt; Diag. & Recovery Toolkit (DaRT)
@@ -79,14 +79,14 @@ Protocol used by BranchCache to find peers with cached data, WS-Discovery, Also 
 What Linux distributions are subscription based ?/?, SUSE/Red Hat, SUSE loosely translates to 'software and system development'; SUSE Linux Enterprise Server = SLES
 Linux distributions that are community supported?, Fedora Debian Mint Arch, Supported by volunteer communities; often cutting edge or customizable; no official enterprise support
 What is a rolling release Linux distro? One that:, updates continuously, Always has latest software; no need for full OS reinstall; examples: Arch; openSUSE; Tumbleweed
-What is a fixed release Linux distro? One that:, updates in versioned jumps, Receives updates within a version; major upgrades require reinstall or full upgrade; examples: Ubuntu; Debian
+What is a fixed release Linux distro? One that updates in:, versioned jumps, Receives updates within a version; major upgrades require reinstall or full upgrade; examples: Ubuntu; Debian
 Windows Server 2019 and 2022 are optimized for use as a, Network Operating Systems, Typically; a NOS provides file-to-print services; directory services and security.
 Devices running different operating systems need what in common to talk to each-other?, Network Protocols, This will allow data to be exchanged in a standard format.
 RoboCopy: Include Non-Empty directories, /s, Copies Subdirectories; but not empty ones. /E to include empty ones.
 DiskPart: Shrink a Volume, Shrink desired=, = the amount to shrink the volume by in MB > run this after 'select volume #'
 Script or config file to input the choices and settings that need to be made during setup> Windows name, Answer File,
 What does DISM manage and service in Windows?, Windows images, Can add features to running system or customize install.wim offline
-Option when using an external/hot-swappable hard drive or solid-state flash drive as boot media, priority, Determines the order in which your computer's hardware checks for a bootable device.
+Option to make sure the PC uses external/hot-swappable HD or a flash drive as boot media, priority, Determines the order in which your computer's hardware checks for a bootable device.
 For internet boot; what must be supplied by the DHCP server, DNS Name, Of the installation server; To tell the PXE boot where to install from.
 Another name for the boot sector at start of each primary partition on MBR, partition boot record, PBR: When a partition is marked as active; its boot sector is populated with a record that points to the OS boot loader.
 Convert a disk from MBR to GPT name/win 10 feature update, mbr2gpt/1703, Backup first and remember to change to UEFI boot mode after.
@@ -96,10 +96,54 @@ Where are 32-bit shared system files stored in 64-bit versions of windows?, sysw
 Installation package extensions for macOS ?/?, DMG/PKG, Disk Image vs Package file
 Installation packages for Linux APT/YUM, DEB/RPM, APT (Debian/Ubuntu) uses .deb packages; YUM/DNF (Red Hat/Fedora) uses .rpm.
 How to verify authenticity of package in linux?, Hash Value, After download; you should generate your own hash of the package and compare it to the value published by the package maintainer.
-What must be assessed and mitigated when deplying new apps?, potential impacts, It is important that the IT department maintains control and oversight of all third-party software installed to network hosts.
+What must be assessed and mitigated when depolying new apps?, potential impacts, It is important that the IT department maintains control and oversight of all third-party software installed to network hosts.
 Cool term for unsanctioned software and devices, Shadow IT, But they raise substantial operational and business risks.
 Three main App considerings regarding Impact to *Business* ?/?/?, Licensing/Support/Training, Who supports/trains/maintains; who/how many can use with license? by machine or by user?
 What can you use in Windows to get a PC to remotely install an app? (Acronym), GPO, You can use Group Policy Objects to remotely installfrom a network folder automatically.
 Method of automated deployment products like centrally managed antivirus use?, Push, Server or system pushes updates; configurations; or software to multiple client devices
 Besides malware threats what could new software affect on a PC or Network?, Stability and Performance, Could also contain unpatched vulnerabilities; best to test in labe environment first.
-
+Linux bootloader, grub, Grand Unified Bootloader / grubx64.efi
+Where does legacy BIOS firmware look for the MBR on the boot device?, first sector, The MBR then identifies the boot sector for the partition marked as active.
+Boot manager file used by BIOS firmware (Windows), BOOTMGR.exe, Reads information from the BCD file; ID's operating systems installed on the computer; Loads WINLOAD.EXE boot loader.
+Boot manager file used by UEFI firmware (Windows), bootmgfw.efi, Choose OS (if multiple) & then passes control to the boot loader (C:\Windows\system32\WINLOAD.EFI)
+Name of the Boot Loader found stored in the system root folder on the boot partition?, WINLOAD, WINLOAD.EXE for BIOS/MBR and WINLOAD.EFI for UEFI/GPT
+With BIOS boot; what to press to access Advanced Boot Options?, F8, Startup options are displayed automatically if the system cannot start the OS.
+Where to find 'Startup Options' on the Advanced Boot Options screen?, Advanced Options, Then press F4 to select Safe Mode; or choose another option as necessary.
+MBR: WINLOAD then continues the Windows boot process by loading, NTOSKRNL.EXE, (Windows NT Operating System Kernel Executable); also HAL.DLL (hardware abstraction layer) and boot device drivers.
+If the boot files are damaged what option on 'Startup Options' to try repair?, Startup Repair, You can also launch System Restore or restore from an image backup or perform a refresh or reset of Windows
+Run command for System Restore tool, rstrui.exe, Opens directly to the pick a restore point dialog.
+Bootrec command to fix the BCD, /rebuildbcd, add missing Windows installations to the boot configuration database (BCD).
+Test if system is responsive with WINDOWS+CTRL+, SHIFT+B, Should hear a beep and display may reinitialize
+Files not to copy when rebuilding a user profile NTUSER. ?/?/?, DAT/LOG/INI, NTUSER.DAT; NTUSER.DAT.LOG & NTUSER.INI
+Hotkey during Windows Memory Diagnostics to configure test options, F1, From Administrative Tools or boot to the recovery environment. The computer will restart and run the test.
+SFC switch to only check the Windows files; not repair, verifyonly, you can do /scanfile or verifyfile to target specific file; /offbootdir and /offwindir for offline folders for repair
+Built in tool in Windows that will periodically backup files, File History, Just type filehistory in run and click "Configure File History Settings"
+What should you look for to verify software is from a trusted source?, digital signature, Digital Signature tab on properties; but still run a scan & test in a lab env if possible.
+Where can you look for a catalog of tested devices and drivers for Windows?, HCL, Microsofts Hardware Compatibility List; also known as the Windows Logo'd Product List (LPL) catalog.
+LLDP meaning (network - ???Protocol), Link Layer Discovery, Provides network mapping and discovery functions for networks without dedicated name servers.
+The Windows service that prompts to set a new networks 'Profile Type', Network Location Awareness, NLA: public is higher security / private means PC is discoverable and folder/printer sharing active (by default)
+UNC Meaning (Windows), Universal Naming Convention, \\ Host\Path ; where Host is the host name; FQDN; or IP address and Path is a shared folder or file path.
+Setting on Windows to make sure a WWAN connection doesn't go over data limit, metered, Network & Internet -> Connection -> metered
+In Settings what to click to find 'Advanced Sharing Settings'?, Advanced Network Settings, Or network & sharing option in control panel then it's on the side.
+'No Internet Access': windows test to this address was unsuccessful, msftncsi.com, Checks that DNS resolves the IP address correctly. Could be a problem with the router; with DNS; or with both. (www.msftncsi.com)
+In addition to Netbios what else does /all add to ipconfig output ? ? ?, DHCP DNS MAC, MAC Address shows as 'Physical Address' and DHCP shows seperate than 'Default Gateway'
+How to use IPConfig to show the DNS resolver cache? /?, displaydns, This contains host and domain names that have been queried recently.
+Command to clear any custom net/vpn adapter settings in Windows, Network Reset, The Network reset command is on the Settings > Network & Internet > Status page.
+Where is the Network Reset command found in Windows 10? (Network & Internet)->, Status, this will clear any custom adapter configurations and network connections; including VPN connections.
+Ping this address to verify TCP/IP is installed and loaded correctly, loopback, 127.0.0.1 > The loopback address is a reserved IP address used for testing purposes.
+Indicates no response to Address Resolution Protocol (ARP) probes locally. (Reply from ? Dst Host Unreachable), SenderIP, The most likely cause is that the destination host is disconnected or configured as non-discoverable.
+Fancy alternative to tracert, pathping, It will trace the route and also do ping tests to determine the RTT and measure link latency.
+If you identify or suspect a problem with name resolution; you can troubleshoot DNS with, nslookup, ex: nslookup -type=mx comptia.org 8.8.8.8; you can compare the results to those returned by your own name server.
+netstat switch > includes UDP ports in the listening state?, -a, UDP 0.0.0.0:3702 *:* is a UDP listener (connectionless — no "established" state) (WS-Discovery in example)
+netstat switch that shows the process that has opened the port?, -b, Alternatively; use the -o switch to list the (Owning) process ID (PID) rather than the process name.
+netstat switch> displays ports and addresses in numerical format?, -n, Skipping name resolution speeds up each query. (n = numeric)
+netstat switch> Ethernet statistics and Protocol statistic ?/?, -e/-s, Useful for tracking dropped packets or protocol-level errors; “e” for Ethernet; “s” for Stack (protocols)
+FPP meaning, Full Packaged Product, FPPs are sold in stores in shrink-wrapped boxes.
+AAA First A?,Authentication,Verifies identity—"Are you who you say you are?"; Account and Credentials /d
+AAA Second A?,Authorization,Grants access—"What are you allowed to do?"; Access to resource controlled by ACL's /d
+AAA Third A?,Accounting,Tracks activity—"What did you do and when?"; Logging /d
+directory permissions in Windows: each user and security group account has a unique (acronym), SID, Security ID: the only identifier used in the underlying permission entries. Even account re-created with same name will have dif SID.
+ACL: unless there is a rule specifying that access should be granted.., Implicit Deny, unless there is a rule specifying that access should be granted; any request for access is denied.
+Prinicple that a user should be granted the minimum possible rights necessary to perform the job, Least Privilege, A complementary principle to implicit deny; can be challenging to get right.
+A local user account is stored in a database known as the:, Security Account Manager, SAM is part of the HKEY_LOCAL_MACHINE registry; Each machine maintains its own SAM and set of SIDs for accounts.
+page where account can be switched from MS to local or local to MS as preferred (in Settings), Your Info, Accounts->Your Info; 
