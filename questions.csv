@@ -155,6 +155,7 @@ QR Code stands for what?, Quick Response, A common tool for registering an Authe
 FIDO stands for?, Fast Identity Online, A 'hard token' (smart card or USB thumb drive) for authentication is typically compliant with this standard.
 What tab in AD User Properties do you configure a 'Home Folder' on?, Profile, Check 'Home Folder'; pick drive letter & enter the path.
 what is \\<device name>\<share name>\<optional path> refered to as? (Acronym), UNC, Universal Naming Convention; used in Windows for different shared resources on the local network.
+Quick run 'Active Directory Users and Computers', dsa.msc, Or in Server Manager on the DC: Local Server->Tools menu
 
 
 
