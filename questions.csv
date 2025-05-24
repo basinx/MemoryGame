@@ -165,7 +165,7 @@ How to launch Nano so it shows file numbers (switch?), -l, nano -l filepath
 How to append text after the current position in Vi?, a, i will insert
 How to append text at the end of the current line in Vi?, A, :q! to quit without saving
 How to save and quit from Vi?, :wq, dd to delete an entire line
-fd
+f
 
 
 
