@@ -169,7 +169,7 @@ Specifies how the dirs under root should be named and where files should be plac
 Linux command to print your current working directory, PWD, Print Working Directory - on some distros will show tilde ~ for home directory.
 How to display directory contents long form in Linux, ls -l, -l is long form and -a is hidden stuffs
 how to add line numbers with cat command in Linux?, -n, Often; cat output is piped to a pager ( cat | more or cat | less ) to control scrolling.
-
+how to ignore case in a grep search?, -i, 'grep -i "uid=1003" /var/log/messages' for example
 
 
 
