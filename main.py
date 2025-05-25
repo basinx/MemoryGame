@@ -40,7 +40,6 @@ def draw_text(surface, text, pos, font, color=(255, 255, 255)):
     text_surface = font.render(text, True, color)
     surface.blit(text_surface, pos)
 
-
 def draw_wrapped_text(surface, text, pos, font, color=(255, 255, 255), max_width=700):
     words = text.split(' ')
     lines = []
