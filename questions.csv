@@ -170,6 +170,7 @@ Linux command to print your current working directory, PWD, Print Working Direct
 How to display directory contents long form in Linux, ls -l, -l is long form and -a is hidden stuffs
 how to add line numbers with cat command in Linux?, -n, Often; cat output is piped to a pager ( cat | more or cat | less ) to control scrolling.
 how to ignore case in a grep search?, -i, 'grep -i "uid=1003" /var/log/messages' for example
+how to make cp display copied files in Linux?, -v, c'p -v /var/log/message* /home/david' copy all files beginning with message to /home/david
 
 
 
