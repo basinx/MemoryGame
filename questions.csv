@@ -176,7 +176,8 @@ Linux: where are user settings stores?, /etc/passwd, And group settings are stor
 Linux: where is encrypted hash generally stores?, /etc/shadow, it's a secret to everyone
 What numeric format are Linux can Linux permissions be expressed in?, Octal, The leading zero identifies the value as an octal but can often be omitted. (eg. 0754)
 What are the numeric values for Read; Write and Execute in Linux (nospaces), 421, Read = 4; Write = 2; Execute = 1 and Deny = 0 (add em up for the permission)
-
+What Linux packages does APT work with?, deb, Advanced Packaging Tool (APT) is used by Debian distros / .deb format packages.
+What Linux packages does YUM work with?, rpm, Yellowdog Updater/Modifier (YUM) is used by Red Hat distros / .rpm format packages.
 
 
 
