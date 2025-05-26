@@ -174,7 +174,8 @@ how to make cp display copied files in Linux?, -v, c'p -v /var/log/message* /hom
 Linux: where is the list of accounts allowed to run sudo stored?, /etc/sudoers, The user might be asked to confirm his or her password if it has not been cached recently.
 Linux: where are user settings stores?, /etc/passwd, And group settings are stored in the /etc/group; use 'getent passwd dave' to check if dave is there.
 Linux: where is encrypted hash generally stores?, /etc/shadow, it's a secret to everyone
-What numeric format are Linux can Linux permissions be expressed in?, Octal, Read = 4; Write = 2; Execute = 1 and Deny = 0 (add em up for the permission)
+What numeric format are Linux can Linux permissions be expressed in?, Octal, The leading zero identifies the value as an octal but can often be omitted.
+What are the numeric values for Read; Write and Execute in Linux (nospaces), 421, Read = 4; Write = 2; Execute = 1 and Deny = 0 (add em up for the permission)
 
 
 
