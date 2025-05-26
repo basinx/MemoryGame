@@ -172,7 +172,7 @@ how to add line numbers with cat command in Linux?, -n, Often; cat output is pip
 how to ignore case in a grep search?, -i, 'grep -i "uid=1003" /var/log/messages' for example
 how to make cp display copied files in Linux?, -v, c'p -v /var/log/message* /home/david' copy all files beginning with message to /home/david
 Linux: where is the list of accounts allowed to run sudo stored?, /etc/sudoers, The user might be asked to confirm his or her password if it has not been cached recently.
-Linux: where are user settings stores?, /etc/passwd, And group settings are stored in the /etc/group
+Linux: where are user settings stores?, /etc/passwd, And group settings are stored in the /etc/group; getent passwd name > get user information for a name
 Linux: where is encrypted hash generally stores?, /etc/shadow, it's a secret to everyone
 
 
