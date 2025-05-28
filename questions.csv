@@ -193,4 +193,5 @@ Show a single device with 'ip addr' command, show dev, 'ip addr show dev eth0' f
 Linux: Show status of interfaces WITH STATISTICS; ip ?, -s link, 'ip -s link' same as 'ip link' but adds Tx and Rx statistics (Send/Receive)
 Linux: Enable or disable an interface; ip ?, link set, 'ip link set eth0 up|down' for example
 command from iproute2 package that replicates the basic reporting functionality of ifconfig, ip addr, show the current address configuration; though ifconfig is nicer (net-tools package)
+Historically edit this Linux file to modify persistent network config, /etc/network/interfaces, you would bring interfaces up or down with the ifup and ifdown scripts
 
