@@ -178,8 +178,14 @@ What numeric format are Linux can Linux permissions be expressed in?, Octal, The
 What are the numeric values for Read; Write and Execute in Linux (nospaces), 421, Read = 4; Write = 2; Execute = 1 and Deny = 0 (add em up for the permission)
 What Linux packages does APT work with?, deb, Advanced Packaging Tool (APT) is used by Debian distros / .deb format packages.
 What Linux packages does YUM work with?, rpm, Yellowdog Updater/Modifier (YUM) is used by Red Hat distros / .rpm format packages.
-
-
+Refresh the local database with info about packages available (apt-get), update, Gets latest package lists from repositories
+Refresh the local database with info about packages available (yum), check-update, Gets latest package lists from repositories
+Update all packages with the newest versions (apt-get), upgrade, Downloads and installs newer versions of currently installed packages
+Update all packages with the newest versions (yum), update, Downloads and installs newer versions of currently installed packages
+A Linux Intrusion Prevention System (IPS) they mention, Snort, ClamAV scans for viruses and malware; often used on mail servers or to check files manually
+A Linux Antivirus they mentions, Clam, Detects and blocks suspicious traffic by analyzing packets using custom rulesets
+Linux command that displays dynamic process status; reflecting real-time changes, top, M = Sort by Memory / P = Sort by CPU / u = Sort by User / N = Sort by PID desc / Enter = Refresh / q = quit
+Functions used for making a cryptographic hash of the compiled package ?/?/?, MD5/SHA-256/GPG, GPG=GNU Privacy Guard; The hash value and function are published on the package vendor's site.
 
 
 
