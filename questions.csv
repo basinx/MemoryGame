@@ -194,4 +194,5 @@ Linux: Show status of interfaces WITH STATISTICS; ip ?, -s link, 'ip -s link' sa
 Linux: Enable or disable an interface; ip ?, link set, 'ip link set eth0 up|down' for example
 command from iproute2 package that replicates the basic reporting functionality of ifconfig, ip addr, show the current address configuration; though ifconfig is nicer (net-tools package)
 Historically edit this Linux file to modify persistent network config, /etc/network/interfaces, you would bring interfaces up or down with the ifup and ifdown scripts
+Linux: good tool for gathering information and testing name resolution, dig, (dig domainname); 'dig @server domain' will resolve the domain name against the DNS server specified by @server.
 
