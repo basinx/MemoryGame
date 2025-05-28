@@ -190,7 +190,7 @@ Linux command to display all Network Adapter/IP info cleanly in terminal, nmlci,
 Linux: what legacy tool did the 'ip' command replace?, ifconfig, ifconfig is part of the net-tools package; now replaced by the iproute2 package
 Linux: Modern network management package that can be operated using a GUI or the nmcli tools, NetworkManager, Alternatively; a network configuration might be managed using the systemd-networkd configuration manager.
 Show a single device with 'ip addr' command, show dev, 'ip addr show dev eth0' for example
-Show status of interfaces WITH STATISTICS; ip ?, -s link, 'ip -s link' same as 'ip link' but adds Tx and Rx statistics (Send/Receive)
+Linux: Show status of interfaces WITH STATISTICS; ip ?, -s link, 'ip -s link' same as 'ip link' but adds Tx and Rx statistics (Send/Receive)
 Linux: Enable or disable an interface; ip ?, link set, 'ip link set eth0 up|down' for example
-
+command from iproute2 package that replicates the basic reporting functionality of ifconfig, ip addr, show the current address configuration; though ifconfig is nicer (net-tools package)
 
