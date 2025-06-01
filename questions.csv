@@ -222,3 +222,4 @@ what 'portal' is used to push apps to a supervised macOS?, Business Manager, Pla
 What prefpane do you set up 'Remote Disk' in?, Sharing, sys pref->sharing; Then check box next to DVD or CD sharing.
 Mac OS - indicator you need to attach external drive for Time Machine restore, dim tick, the backup drive needs to be attached to restore that item.
 Mac OS - how to close unresponsive Apps?, Force Quit, 'Force Quit' from the Apple menu or press COMMAND+OPTION+ESC
+How get to recovery menu in macOS?, COMMAND-R, hold until you see the Apple logo. After selecting your language; it will boot into macOS Recovery
