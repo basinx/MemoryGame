@@ -93,7 +93,7 @@ Convert a disk from MBR to GPT name/win 10 feature update, mbr2gpt/1703, Backup 
 What is the macOS file system called?, APFS, Apple File System; The file system used by macOS 10.13 or later.
 a Windows command-line tool used to manage file and folder permissions, icacls, icacls img0.jpg /grant administrators:F
 Where are 32-bit shared system files stored in 64-bit versions of windows?, syswow64, %systemroot%\syswow64 - meaning Windows on Windows 64 bit emulation for 32 bit programs.
-Installation package extensions for macOS ?/?, DMG/PKG, Disk Image vs Package file
+Installation package extensions for macOS ?/?, DMG/PKG, Disk Image (simple copy) vs Package file (complex install service / multiple folders)
 Installation packages for Linux APT/YUM, DEB/RPM, APT (Debian/Ubuntu) uses .deb packages; YUM/DNF (Red Hat/Fedora) uses .rpm.
 How to verify authenticity of package in linux?, Hash Value, After download; you should generate your own hash of the package and compare it to the value published by the package maintainer.
 What must be assessed and mitigated when depolying new apps?, potential impacts, It is important that the IT department maintains control and oversight of all third-party software installed to network hosts.
@@ -209,6 +209,13 @@ MacOS: Options to make the display adapt to ambient light conditions, Night Shif
 MacOS: What is the Narration option called?, VoiceOver, In 'Accessibility': VoiceOver; Cursor Size & Motion; Zoom tools; Display Contrast; Font Size; Captioning
 MacOS: Where to find 'Users & Groups'?, System Preferences, Also; sign in and out of your Apple ID using the button on the System Preferences home page.
 MacOS: Where to find permissions for apps to use features (like camera etc..), Security & Privacy, also options for what what analytics/telemetry data and personalized information can be collected
-MacOS: How to make 'Admin Approval' settings available, lock icon, 
+MacOS: How to make 'Admin Approval' settings available, lock icon, click it and type password then you can do admin stuffs.
 MacOS: Where to find 'Keychain Access' app to look at problems with Keychain?, Utilities, search box for web site->select password to change. check box "show password" & enter admin pass to see what is.
 MacOS: Does the disk encryption (if wanted), FileVault, When disk encryption enabled; each user account must be configured with a password. Also store recovery key iCloud or seperate disk.
+MacOS: Default amount of storage for a user on iCloud?, 5GB, This space is shared across all iCloud components and devices.
+MacOS: How to install a downloaded app?, drag, After the app is downloaded; it will need to be dragged to the Applications folder to install.
+MacOS: Where in System Preferences to set allow install downloaded Apps? (nospace), Security&Privacy, Select the padlock to make changes to the settings
+MacOS: What does an installed application appear as?, .APP, In the Applications folder.
+MacOS: Some antiviruses you could use ?/?/?, Avira/Avast/Sophos, will detect malware directed at macOS—and Windows viruses too
+How to have a bootable Windows partition on macOS?, Boot Camp, allow you to install Microsoft Windows 10 on your Intel-based Mac
+what 'portal' is used to push apps to a supervised macOS?, Business Manager, Platform Deployment guide covering device management at support.apple.com/guide/deployment/welcome/1/web
