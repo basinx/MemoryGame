@@ -220,3 +220,4 @@ MacOS: Some antiviruses you could use ?/?/?, Avira/Avast/Sophos, will detect mal
 How to have a bootable Windows partition on macOS?, Boot Camp, allow you to install Microsoft Windows 10 on your Intel-based Mac
 what 'portal' is used to push apps to a supervised macOS?, Business Manager, Platform Deployment guide covering device management at support.apple.com/guide/deployment/welcome/1/web
 What prefpane do you set up 'Remote Disk' in?, Sharing, sys pref->sharing; Then check box next to DVD or CD sharing.
+Mac OS - indicator you need to attach external drive for Time Machine restore, dim tick, the backup drive needs to be attached to restore that item.
