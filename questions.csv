@@ -49,7 +49,7 @@ Make System File Checker scan every time the computer boots, sfc /scanboot, Sche
 Where is the version controlled backup of system files for sfc? (folder name), WINSxS, System files (and shared program files) are maintained; and version-controlled in the WINSxS system folder.
 Only check for logical errors on hard disk file system, chkdsk /f, CHKDSK /R begins by performing the same function as CHKDSK /F. (This implies that “CHKDSK /F /R” is redundant; as /R includes /F.)
 Skip doing scan for bad sectors when running format, /q, Quick Format will skip the scan; both standard and quick do leave sectors un-scrubbed however.
-Where does an elevated command prompt begin? %SYSTEMDRIVE%:/?, Windows/System32, Non-elecvated will begin in %USERPROFILE% (eg C:\Users\Jim)
+Where does an elevated command prompt begin? %SYSTEMDRIVE%:/?, Windows/System32, Non-elevated will begin in %USERPROFILE% (eg C:\Users\Jim)
 Registry hive: Contains file name extension associations and COM class registration information, HKEY_CLASSES_ROOT,	Primarily intended for compatibility with the registry in 16-bit Windows.
 Registry hive: contains information about the current hardware profile being used by the system., HKEY_CURRENT_CONFIG, This profile includes settings related to display resolutions; color profiles; printer configurations; and other hardware-related options.
 a set of formal descriptions that provide a standard for the design of operating systems compatible with Unix., Posix, NTFS is Posix compliant supporting case-sensitive naming.
@@ -99,7 +99,7 @@ How to verify authenticity of package in linux?, Hash Value, After download; you
 What must be assessed and mitigated when depolying new apps?, potential impacts, It is important that the IT department maintains control and oversight of all third-party software installed to network hosts.
 Cool term for unsanctioned software and devices, Shadow IT, But they raise substantial operational and business risks.
 Three main App considerings regarding Impact to *Business* ?/?/?, Licensing/Support/Training, Who supports/trains/maintains; who/how many can use with license? by machine or by user?
-What can you use in Windows to get a PC to remotely install an app? (Acronym), GPO, You can use Group Policy Objects to remotely installfrom a network folder automatically.
+What can you use in Windows Domain to get a PC to remotely install an app? (Acronym), GPO, You can use Group Policy Objects to remotely install from a network folder automatically.
 Method of automated deployment products like centrally managed antivirus use?, Push, Server or system pushes updates; configurations; or software to multiple client devices
 Besides malware threats what could new software affect on a PC or Network?, Stability and Performance, Could also contain unpatched vulnerabilities; best to test in labe environment first.
 Linux bootloader, grub, Grand Unified Bootloader / grubx64.efi
@@ -173,7 +173,7 @@ how to ignore case in a grep search?, -i, 'grep -i "uid=1003" /var/log/messages'
 how to make cp display copied files in Linux?, -v, c'p -v /var/log/message* /home/david' copy all files beginning with message to /home/david
 Linux: where is the list of accounts allowed to run sudo stored?, /etc/sudoers, The user might be asked to confirm his or her password if it has not been cached recently.
 Linux: where are user settings stores?, /etc/passwd, And group settings are stored in the /etc/group; use 'getent passwd dave' to check if dave is there.
-Linux: where is encrypted hash generally stores?, /etc/shadow, it's a secret to everyone
+Linux: where are encrypted password hashes generally stored?, /etc/shadow, it's a secret to everyone
 What numeric format are Linux can Linux permissions be expressed in?, Octal, The leading zero identifies the value as an octal but can often be omitted. (eg. 0754)
 What are the numeric values for Read; Write and Execute in Linux (nospaces), 421, Read = 4; Write = 2; Execute = 1 and Deny = 0 (add em up for the permission)
 What Linux packages does APT work with?, deb, Advanced Packaging Tool (APT) is used by Debian distros / .deb format packages.
@@ -214,7 +214,7 @@ MacOS: Where to find 'Keychain Access' app to look at problems with Keychain?, U
 MacOS: Does the disk encryption (if wanted), FileVault, When disk encryption enabled; each user account must be configured with a password. Also store recovery key iCloud or seperate disk.
 MacOS: Default amount of storage for a user on iCloud?, 5GB, This space is shared across all iCloud components and devices.
 MacOS: How to install a downloaded app?, drag, After the app is downloaded; it will need to be dragged to the Applications folder to install.
-MacOS: Where in System Preferences to set allow install downloaded Apps? (nospace), Security&Privacy, Select the padlock to make changes to the settings
+MacOS: Where in System Preferences to set allow install downloaded Apps? (nospace), Security & Privacy, Select the padlock to make changes to the settings
 MacOS: What does an installed application appear as?, .APP, In the Applications folder.
 MacOS: Some antiviruses you could use ?/?/?, Avira/Avast/Sophos, will detect malware directed at macOS—and Windows viruses too
 How to have a bootable Windows partition on macOS?, Boot Camp, allow you to install Microsoft Windows 10 on your Intel-based Mac
