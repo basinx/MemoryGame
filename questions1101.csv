@@ -278,10 +278,3 @@ What is a network drop?,Ethernet wall jack,It’s where a device connects to the
 RMA Meaning?, Returned Materials Authorization, If a part or system is under warranty; you can return the broken part for a replacement with RMA ticket from vendor.
 A passive network TAP uses ?/?, Inductor/optical splitter, No logic decisions are made; so the monitor port receives every frame—corrupt or malformed or not—and the copying is unaffected by load.
 An active network TAP uses?, Signal Regeneration,  Gigabit signaling over copper wire is too complex for a passive tap to monitor; and some types of fiber links may be adversely affected by optical splitting.
-
-
-
-
-
-
-
