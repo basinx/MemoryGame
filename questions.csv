@@ -182,8 +182,8 @@ Refresh the local database with info about packages available (apt-get), update,
 Refresh the local database with info about packages available (yum), check-update, Gets latest package lists from repositories
 Update all packages with the newest versions (apt-get), upgrade, Downloads and installs newer versions of currently installed packages
 Update all packages with the newest versions (yum), update, Downloads and installs newer versions of currently installed packages
-A Linux Intrusion Prevention System (IPS) they mention, Snort, ClamAV scans for viruses and malware; often used on mail servers or to check files manually
-A Linux Antivirus they mentions, Clam, Detects and blocks suspicious traffic by analyzing packets using custom rulesets
+A Linux Intrusion Prevention System (IPS) they mention, Snort, Detects and blocks suspicious traffic by analyzing packets using custom rulesets
+A Linux Antivirus they mentions, Clam, ClamAV scans for viruses and malware; often used on mail servers or to check files manually
 Linux command that displays dynamic process status; reflecting real-time changes, top, M = Sort by Memory / P = Sort by CPU / u = Sort by User / N = Sort by PID desc / Enter = Refresh / q = quit
 Functions used for making a cryptographic hash of the compiled package ?/?/?, MD5/SHA-256/GPG, GPG=GNU Privacy Guard; The hash value and function are published on the package vendor's site.
 Linux command to display all Network Adapter/IP info cleanly in terminal, nmlci, nmcli device show / nmcli connection show for info about devices & connections
