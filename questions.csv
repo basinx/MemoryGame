@@ -244,3 +244,4 @@ Threat actor covertly intercepting traffic between two hosts or networks, on-pat
 Threat: refers to cutting the power to a computer or cutting a network cable, Physical DoS, You gotta get you hands dirty sometime
 Multiple compromised systems launching a DDoS attack is called?, botnet, One or two C&C hosts used to compromise many devices with bots then max attack target!
 Threat: matches the hash to those produced by ordinary words, dictionary,  This dictionary could include information such as user and company names; pet names; significant dates; or any other data
+Threat: inject script via a text field on a web app, input validation, One of the most widespread vulnerabilities in web apps is failure to validate this input properly
