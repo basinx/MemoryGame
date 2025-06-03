@@ -240,4 +240,5 @@ Put on a fake wifi to trick people and harvest credentials; what is called?, Evi
 Threat: attacker try to learn about the configuration of the network and security systems, Footprinting, gathering publicly available information; scanning network ports and websites; and using social engineering techniques
 Threat actor masquerading as a trusted user or computer, Spoofing, cloning a valid MAC or IP address; using a false digital cert; imitating a legitimate email; or social engineering
 Threat: steal token and use again to impersonate the original user, replay attack, This is a type of spoofing attack
+Threat actor covertly intercepting traffic between two hosts or networks, on-path, An evil twin is one example of an on-path attack; previously called Man-in-the-Middle attack
 
