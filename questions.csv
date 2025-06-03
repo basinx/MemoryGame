@@ -242,4 +242,4 @@ Threat actor masquerading as a trusted user or computer, Spoofing, cloning a val
 Threat: steal token and use again to impersonate the original user, replay attack, This is a type of spoofing attack
 Threat actor covertly intercepting traffic between two hosts or networks, on-path, An evil twin is one example of an on-path attack; previously called Man-in-the-Middle attack
 Threat: refers to cutting the power to a computer or cutting a network cable, Physical DoS, You gotta get you hands dirty sometime
-
+Multiple compromised systems launching a DDoS attack is called?, botnet,
