@@ -247,4 +247,6 @@ Linux: Where is the first fixed disk listed?, /dev/sda, the second would be list
 Pass Attack: matches the hash to those produced by ordinary words, Dictionary, his dictionary could include information such as user and company names; pet names; significant dates; or any other data
 Pass Attack: against one of every possible combination it could be, Brute Force, Longer and more complex passwords increase the amount of time the attack takes to run
 XSS Meaning?, Cross Site Scripting, Exploits the fact that the browser is likely to trust scripts that appear to come from a trusted site.
+Security: MD5 meaning (Just MD)?, Message Digest, An older HASH algorithm that is slowly being phased out.
+Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentioned in the course
 
