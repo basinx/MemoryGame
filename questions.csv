@@ -242,5 +242,6 @@ Threat actor masquerading as a trusted user or computer, Spoofing, cloning a val
 Threat: steal token and use again to impersonate the original user, replay attack, This is a type of spoofing attack
 Threat actor covertly intercepting traffic between two hosts or networks, on-path, An evil twin is one example of an on-path attack; previously called Man-in-the-Middle attack
 Threat: refers to cutting the power to a computer or cutting a network cable, Physical DoS, You gotta get you hands dirty sometime
-Multiple compromised systems launching a DDoS attack is called?, botnet, One or two C&C hosts used to compromise many devices with bots then max attack target!
-Threat: matches the hash to those produced by ordinary words, dictionary,  This dictionary could include information such as user and company names; pet names; significant dates; or any other data
+Multiple compromised systems launching a DDoS attack is called?, botnet, First 1 or 2 dev compromized (Command & Control / C&C) used to compromise 100's or 1000's
+Linux: Where is the first fixed disk listed?, /dev/sda, the second would be listed /dev/sdb
+
