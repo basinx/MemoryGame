@@ -250,3 +250,4 @@ XSS Meaning?, Cross Site Scripting, Exploits the fact that the browser is likely
 Security: MD5 meaning (Just MD)?, Message Digest, An older HASH algorithm that is slowly being phased out.
 Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentioned in the course
 
+
