@@ -249,5 +249,5 @@ Pass Attack: against one of every possible combination it could be, Brute Force,
 XSS Meaning?, Cross Site Scripting, Exploits the fact that the browser is likely to trust scripts that appear to come from a trusted site.
 Security: MD5 meaning (Just MD)?, Message Digest, An older HASH algorithm that is slowly being phased out.
 Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentioned in the course
-
+In Key Exchange the symmetric cipher secret key is also referred to as the, Session Key, If it is changed often; it is also referred to as an ephemeral key.
 
