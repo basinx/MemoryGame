@@ -250,4 +250,5 @@ XSS Meaning?, Cross Site Scripting, Exploits the fact that the browser is likely
 Security: MD5 meaning (Just MD)?, Message Digest, An older HASH algorithm that is slowly being phased out.
 Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentioned in the course
 In Key Exchange the symmetric cipher secret key is also referred to as the, Session Key, If it is changed often; it is also referred to as an ephemeral key.
-TKIP Meaning? (related to Wi-Fi security), Temporal Key Integrity Protocol, TKIP encrypts each data packet with a unique encryption key. Also; TKIP's keys are much stronger than those of its predecessor.
+TKIP Meaning? (related to Wi-Fi security), Temporal Key Integrity Protocol, TKIP encrypts each data packet with a (much stronger) unique encryption key. Key component of WPA
+
