@@ -219,7 +219,7 @@ MacOS: What does an installed application appear as?, .APP, In the Applications 
 MacOS: Some antiviruses you could use ?/?/?, Avira/Avast/Sophos, will detect malware directed at macOS—and Windows viruses too
 How to have a bootable Windows partition on macOS?, Boot Camp, allow you to install Microsoft Windows 10 on your Intel-based Mac
 what 'portal' is used to push apps to a supervised macOS?, Business Manager, Platform Deployment guide covering device management at support.apple.com/guide/deployment/welcome/1/web
-What prefpane do you set up 'Remote Disk' in?, Sharing, sys pref->sharing; Then check box next to DVD or CD sharing.
+What prefpane do you set up 'Remote Disk' in?, Sharing, System Preferences->sharing; Then check box next to DVD or CD sharing.
 Mac OS - indicator you need to attach external drive for Time Machine restore, dim tick, the backup drive needs to be attached to restore that item.
 Mac OS - how to close unresponsive Apps?, Force Quit, 'Force Quit' from the Apple menu or press COMMAND+OPTION+ESC
 How get to recovery menu in macOS?, COMMAND-R, hold until you see the Apple logo. After selecting your language; it will boot into macOS Recovery
@@ -235,13 +235,30 @@ A vulnerability that is exploited before the developer knows about it or can rel
 Technique where the threat actor learns a password or PIN by watching the user type it, Shoulder Surfing, Despite the name; the attacker may not have to be in proximity to the target; could watch from far
 Technique of closely following authorized person as they pass a security checkpoint?, Tailgating, Sneaky mans
 Technique where attacker enters a secure area with an employee's permission?, Piggybacking, Maybe impersonate cleaning crew or say they lost their badge
-an attack directed specifically against upper levels of management in the organization , Whaling, Upper management may also be more vulnerable to ordinary phishing attacks because of their reluctance to learn basic security procedures.
+an attack directed specifically against upper levels of management in the organization, Whaling, Upper management may also be more vulnerable to ordinary phishing attacks because of their reluctance to learn basic security procedures.
 Put on a fake wifi to trick people and harvest credentials; what is called?, Evil Twin, Attacker might even use DoS the legitimate AP or put a fake captive portal to steal creds.
 Threat: attacker try to learn about the configuration of the network and security systems, Footprinting, gathering publicly available information; scanning network ports and websites; and using social engineering techniques
 Threat actor masquerading as a trusted user or computer, Spoofing, cloning a valid MAC or IP address; using a false digital cert; imitating a legitimate email; or social engineering
 Threat: steal token and use again to impersonate the original user, replay attack, This is a type of spoofing attack
 Threat actor covertly intercepting traffic between two hosts or networks, on-path, An evil twin is one example of an on-path attack; previously called Man-in-the-Middle attack
 Threat: refers to cutting the power to a computer or cutting a network cable, Physical DoS, You gotta get you hands dirty sometime
-Multiple compromised systems launching a DDoS attack is called?, botnet, One or two C&C hosts used to compromise many devices with bots then max attack target!
-Threat: matches the hash to those produced by ordinary words, dictionary,  This dictionary could include information such as user and company names; pet names; significant dates; or any other data
-Threat: inject script via a text field on a web app, input validation, One of the most widespread vulnerabilities in web apps is failure to validate this input properly
+Multiple compromised systems launching a DDoS attack is called?, botnet, First 1 or 2 dev compromized (Command & Control / C&C) used to compromise 100's or 1000's
+Linux: Where is the first fixed disk listed?, /dev/sda, the second would be listed /dev/sdb
+Pass Attack: matches the hash to those produced by ordinary words, Dictionary, his dictionary could include information such as user and company names; pet names; significant dates; or any other data
+Pass Attack: against one of every possible combination it could be, Brute Force, Longer and more complex passwords increase the amount of time the attack takes to run
+XSS Meaning?, Cross Site Scripting, Exploits the fact that the browser is likely to trust scripts that appear to come from a trusted site.
+Security: MD5 meaning (Just MD)?, Message Digest, An older HASH algorithm that is slowly being phased out.
+Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentioned in the course
+In Key Exchange the symmetric cipher secret key is also referred to as the, Session Key, If it is changed often; it is also referred to as an ephemeral key.
+TKIP Meaning? (related to Wi-Fi security), Temporal Key Integrity Protocol, TKIP encrypts each data packet with a (much stronger) unique encryption key. Key component of WPA
+WPA2 uses the AES; what that means?, Advanced Encryption Standard, a cipher deployed within the 'Counter Mode with Cipher Block Chaining Message Authentication Code Protocol' (CCMP).
+WPA2: AES replaces ? and CCMP replaces ?; ?/?, RC4/TKIP, CCMP provides authenticated encryption; which is designed to make replay attacks harder.
+WPA3: AES CCMP replaced with AES ?, GCMP, AES Galois Counter Mode Protocol (GCMP) mode of operation.
+In addition to other enhancements; WPA3 now protects..?, Management Frames, Management frames are used for association and authentication and disassociation and deauthentication messages between stations and access points as devices join and leave the network.
+WPA3 even networks with no passphrase get protected now. Wi-Fi ? ?, Enhanced Open, any station can still join the network; but traffic is protected against sniffing.
+Passphrase length for WPA2 PSK? #-#, 8-63, This is converted to a type of hash value; referred to as the Pairwise Master key (PMK); part of the 4-way handshake
+Security: SAE Meaning?, Simultaneous Auth of Equals, Used in WPA3 Personal Authentication
+Security: EAP Meaning?, Extensible Authentication Protocol, enables systems to use hardware-based identifiers; eg. fingerprint scanners or smart card readers for authentication; and establish secure tunnels through which to submit credentials.
+Standard for EAP communications over a LAN or WLAN for port-based authentication, 802.1X, LAN (EAPoL) or WLAN (EAPoW)
+
+
