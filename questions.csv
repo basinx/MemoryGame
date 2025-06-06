@@ -254,4 +254,5 @@ TKIP Meaning? (related to Wi-Fi security), Temporal Key Integrity Protocol, TKIP
 WPA2 uses the AES; what that means?, Advanced Encryption Standard, a cipher deployed within the 'Counter Mode with Cipher Block Chaining Message Authentication Code Protocol' (CCMP).
 WPA2: AES replaces ? and CCMP replaces ?; ?/?, RC4/TKIP, CCMP provides authenticated encryption; which is designed to make replay attacks harder.
 WPA3: AES CCMP replaced with AES ?, GCMP, AES Galois Counter Mode Protocol (GCMP) mode of operation.
+In addition to other enhancements; WPA3 now protects..?, Management Frames, Management frames are used for association and authentication and disassociation and deauthentication messages between stations and access points as devices join and leave the network.
 
