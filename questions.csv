@@ -244,6 +244,7 @@ Threat actor covertly intercepting traffic between two hosts or networks, on-pat
 Threat: refers to cutting the power to a computer or cutting a network cable, Physical DoS, You gotta get you hands dirty sometime
 Multiple compromised systems launching a DDoS attack is called?, botnet, First 1 or 2 dev compromized (Command & Control / C&C) used to compromise 100's or 1000's
 Linux: Where is the first fixed disk listed?, /dev/sda, the second would be listed /dev/sdb
+Threat: inject script via a text field on a web app, input validation, One of the most widespread vulnerabilities in web apps is failure to validate this input properly
 Pass Attack: matches the hash to those produced by ordinary words, Dictionary, his dictionary could include information such as user and company names; pet names; significant dates; or any other data
 Pass Attack: against one of every possible combination it could be, Brute Force, Longer and more complex passwords increase the amount of time the attack takes to run
 XSS Meaning?, Cross Site Scripting, Exploits the fact that the browser is likely to trust scripts that appear to come from a trusted site.
