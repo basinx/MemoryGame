@@ -255,4 +255,5 @@ WPA2 uses the AES; what that means?, Advanced Encryption Standard, a cipher depl
 WPA2: AES replaces ? and CCMP replaces ?; ?/?, RC4/TKIP, CCMP provides authenticated encryption; which is designed to make replay attacks harder.
 WPA3: AES CCMP replaced with AES ?, GCMP, AES Galois Counter Mode Protocol (GCMP) mode of operation.
 In addition to other enhancements; WPA3 now protects..?, Management Frames, Management frames are used for association and authentication and disassociation and deauthentication messages between stations and access points as devices join and leave the network.
+WPA3 even networks with no passphrase get protected now. Wi-Fi ? ?, Enhanced Open, any station can still join the network; but traffic is protected against sniffing.
 
