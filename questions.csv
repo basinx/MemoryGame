@@ -252,8 +252,8 @@ Security: MD5 meaning (Just MD)?, Message Digest, An older HASH algorithm that i
 Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentioned in the course
 In Key Exchange the symmetric cipher secret key is also referred to as the, Session Key, If it is changed often; it is also referred to as an ephemeral key.
 TKIP Meaning? (related to Wi-Fi security), Temporal Key Integrity Protocol, TKIP encrypts each data packet with a (stronger) unique encryption key. Key component of WPA1 (now depreciated)
-WPA2 uses the AES; what that means?, Advanced Encryption Standard, a cipher deployed within the 'Counter Mode with Cipher Block Chaining Message Authentication Code Protocol' (CCMP). WPA2
-WPA2: AES replaces ? and CCMP replaces ?; ?/?, RC4/TKIP, CCMP provides authenticated encryption; which is designed to make replay attacks harder.
+WPA2 uses the AES; what that means?, Advanced Encryption Standard, A cipher deployed within the CCMP (Counter Mode with Cipher Block Chaining Message Authentication Code Protocol)
+WPA2: AES replaces ? and CCMP replaces ?; ?/?, RC4/TKIP, CCMP provides authenticated encryption; which is designed to make replay attacks harder. AES provides stronger encryption than RC4. CCMP provides better integrity than TKIP.
 WPA3: AES CCMP replaced with AES ?, GCMP, WPA3 replaced AES-CCMP with AES-GCMP (Galois Counter Mode Protocol). GCMP provides better performance and stronger authentication than CCMP. GCMP adds built-in message authentication and is more efficient for high-speed networks.
 In addition to other enhancements; WPA3 now protects..?, Management Frames, Management frames are used for association and authentication and disassociation and deauthentication messages between stations and access points as devices join and leave the network.
 WPA3 even networks with no passphrase get protected now. Wi-Fi ? ?, Enhanced Open, any station can still join the network; but traffic is protected against sniffing.
