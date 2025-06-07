@@ -274,3 +274,4 @@ Type of port forwarding where the external port is forwarded to a different inte
 When firewall detects outbound on a certain port (to an IP) it allow inbound on dif port (from that IP), Port Triggering, Used to set up applications that require more than one port.
 Do this after changing password and verifying WAN access on new SOHO router, firmware update, This is important to mitigate risks from software vulnerabilities
 physically restricts access to one person at a time at entrace, vestibule, where one gateway leads to an enclosed space protected by another barrier
+often deployed at airports and in public buildings to identify concealed weapons or other items, Magnetometer, can be hand-held or walk-through
