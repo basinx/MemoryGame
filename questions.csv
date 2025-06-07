@@ -272,4 +272,5 @@ SOHO Router Setup: Minimum characters considered a strong password?, 12, Changin
 firewall downloads curated rep. DB's that associate IP addy ranges; FQDNs & URLs with content and bad shit, Content Filtering, Most home routers do this instead of 'packet filtering' which can block based on source and destination IP filtering.
 Type of port forwarding where the external port is forwarded to a different internal port, Port Mapping, Like if you had two PC's running servers on port 8181 you'd want two external ports to distinguish them
 When firewall detects outbound on a certain port (to an IP) it allow inbound on dif port (from that IP), Port Triggering, Used to set up applications that require more than one port.
+Do this after changing password and verifying WAN access on new SOHO router, firmware update, This is important to mitigate risks from software vulnerabilities
 
