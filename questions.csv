@@ -289,4 +289,6 @@ Alarm that would block a door or window opening or by a fence being cut, Circuit
 The final and probably easy to overlook aspect of physical security?, Lighting, Make building seem more secure and let security and cameras (even facial rec) work better
 Typically a second layer of security designed to improve the resilience of perimeter gateways, Video, older-style CCTV (closed-circuit television) or with IP cameras; may work with facial or motion as well
 Reinforced cement/metal pillars around a building, Bollards, Prevent criminal or terrorist attack from running vehicle into building; that kind of thing
+where a threat actor is able to access a computer that has been left unlocked, Lunchtime Attack, Policies can configure screensavers that lock the desktop after a period of inactivity. Users should not depend on these; however.
+Fast lock the desktop in Windows!, Win-L, Users must develop the habit of doing this each time they leave a computer unattended.
 
