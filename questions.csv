@@ -253,13 +253,13 @@ Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentione
 In Key Exchange the symmetric cipher secret key is also referred to as the, Session Key, If it is changed often; it is also referred to as an ephemeral key.
 TKIP Meaning? (related to Wi-Fi security), Temporal Key Integrity Protocol, TKIP encrypts each data packet with a (stronger) unique encryption key. Key component of WPA1 (now depreciated)
 WPA2 uses the AES; what that means?, Advanced Encryption Standard, A cipher deployed within the CCMP (Counter Mode with Cipher Block Chaining Message Authentication Code Protocol)
-WPA2: AES replaces ? and CCMP replaces ?; ?/?, RC4/TKIP, CCMP provides authenticated encryption; which is designed to make replay attacks harder. AES provides stronger encryption than RC4. CCMP provides better integrity than TKIP.
+WPA2: AES/CCMP replaces ?/?, RC4/TKIP, CCMP provides authenticated encryption; which is designed to make replay attacks harder. AES provides stronger encryption than RC4. CCMP provides better integrity than TKIP.
 WPA3: AES CCMP replaced with AES ?, GCMP, WPA3 replaced AES-CCMP with AES-GCMP (Galois Counter Mode Protocol). GCMP provides better performance and stronger authentication than CCMP. GCMP adds built-in message authentication and is more efficient for high-speed networks.
 In addition to other enhancements; WPA3 now protects..?, Management Frames, Management frames are used for association and authentication and disassociation and deauthentication messages between stations and access points as devices join and leave the network.
 WPA3 even networks with no passphrase get protected now. Wi-Fi ? ?, Enhanced Open, any station can still join the network; but traffic is protected against sniffing.
 Passphrase length for WPA2 PSK? #-#, 8-63, This is converted to a type of hash value; referred to as the Pairwise Master key (PMK); part of the 4-way handshake
 Security: SAE Meaning?, Simultaneous Auth of Equals, Used in WPA3 Personal Authentication to generate encryption keys in a way improved over WPA2
-Security: EAP Meaning (authenticates against a network directory)?, Extensible Authentication Protocol, enables systems to use hardware-based identifiers; eg. fingerprint scanners or smart card readers for authentication; and establish secure tunnels through which to submit credentials.
+Security: EAP Meaning (Enterprise/authenticates against a network directory)?, Extensible Authentication Protocol, enables systems to use hardware-based identifiers; eg. fingerprint/smart card readers for authentication; and establish secure tunnels through which to submit credentials.
 Standard for EAP communications over a LAN or WLAN for port-based authentication, 802.1X, LAN (EAPoL) or WLAN (EAPoW) / WPA2-Enterprise or WPA3-Enterprise
 RADIUS (R and A Mean?), Remote Authentication,RADIUS: Used for verifying the identity of clients before granting access to a network
 RADIUS (DIUS Means?), Dial In User Service,RADIUS: Originally designed for dial-up but now used for centralized AAA over IP networks
@@ -292,4 +292,28 @@ Reinforced cement/metal pillars around a building, Bollards, Prevent criminal or
 where a threat actor is able to access a computer that has been left unlocked, Lunchtime Attack, Policies can configure screensavers that lock the desktop after a period of inactivity. Users should not depend on these; however.
 Fast lock the desktop in Windows!, Win-L, Users must develop the habit of doing this each time they leave a computer unattended.
 A clean desk policy ensures that *what?* (and Passwords) are not left in plain sight, PII, personally identifiable information: Paper copies of personal and confidential data must not be left where they could be read or stolen
-
+control what system configuration changes a user can make to a PC, rights or privs, Configuring rights or privileges is the responsibility of the network owner.
+Any use of the default administrator account must be logged and accounted for and generate?, Alert, If the default administrator account cannot be disabled; it must never be left configured with a default password.
+Why would the normally disabled guest account in Windows be enabled?,  passwordless file sharing,  in a Windows workgroup
+Where to unlock a user account in their active directory properties? (tab?), Account, in the Active Directory Users and Computers (dsa.msc)
+How to reset user password in the Directory System Agent?, Right Click, Right click the user and choose Reset Password
+Four important security account policies? (One word representing each), times attempts timeout logins, Restrict Login Times / Failed Attempts Lockout / Use Timeout & Screen Lockout / Concurrent Logins Rules
+Logical security technologies designed to prevent malicious software from running on a host, Execution Control, (regardless of what account privileges allow); a security system that does not entirely depend on the good behavior of individual users.
+Windows 10 where to find Autoplay in Settings?, Devices, Autoplay settings can also be configured via a drives properties dialog box.
+Kind of virus identification that looks at actions of what programs are doing?, heuristic, uses knowledge of the sort of things that viruses do to try to spot (and block) virus-like behavior
+Defender Antivirus can be disabled temporarily by toggling what button?, real-time protection, It will re-activate itself after a short period.
+Quickly launch Windows Defender Firewall settings?, firewall.cpl, Then 'Advanced Settings' to modify Inbound and Outbound rules (wf.msc)
+Quickly launch Advanced Firewall settings in Windows?, wf.msc, From top of tree 'Status Page' -> 'Windows Defender Firewall Properties' for specific options for each Network Profile
+Windows: how do you encrypt contents of a File or Folder; from the Properties dialog?, Advanced, There is 'Encrypt Contents to Secure Data' option.
+During BitLocker setup what is also generated?, Recovery Key, This should be stored on removable media or written down and stored securely.
+What is the default minimum password length enforced by Windows?, 0, use secpol.msc or gpmc.msc for domain (can also get to it in gpedit.msc but secpol.msc is more focused)
+Account management policy that can protect against password guessing attacks?, lockout, disables the account after a number of incorrect sign-in attempts
+Software not necessarily malicious but with increased privacy risks is often categorized as?, PUA, Potentially Unwanted Application; such as Adware Browsers bundled with other software or rarely on OEM PC's
+Thing that add or change a browser feature via its application programming interface (API), Extension, The extension must be granted specific permissions to make configuration changes. Could run scripts to interact with the pages you are looking at.
+Browser add-on that play or show some sort of content embedded in a web page, Plug-In, plug-ins have been associated with numerous vulnerabilities over the years and are now rarely used or supported
+how to get to settings through URL in Firefox?, about:preferences, #general / #home / #search / #privacy / #sync / #experimental / #moreFromMozilla ; add to go
+Quick run 'Internet Properties' Applet, inetcpl.cpl, They says 'Internet Options' in in the course sometimes. It the old style one.
+Advanced settings for Google Chrome?  chrome://?, flags, Gets to a LONG list of 'Experimental' features you can enable. chrome://flags
+Advanced settings for Firefox? about:?, config, Click 'Show All' for list of all kinds of settings you can change. about:config
+Besides clearing cache and browsing data how else can you manage history?, incognito, no cookies; browsing history; form fields; passwords; or temp files will be stored when the session is closed
+Minimum length of passphrase for PSK authentication to mitigate risk of cracking?, 14, This is converted to a type of hash value; referred to as the pairwise master key (PMK)
