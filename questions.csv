@@ -94,7 +94,7 @@ What is the macOS file system called?, APFS, Apple File System; The file system 
 a Windows command-line tool used to manage file and folder permissions, icacls, icacls img0.jpg /grant administrators:F
 Where are 32-bit shared system files stored in 64-bit versions of windows?, syswow64, %systemroot%\syswow64 - meaning Windows on Windows 64 bit emulation for 32 bit programs.
 Installation package extensions for macOS ?/?, DMG/PKG, Disk Image (simple copy) vs Package file (complex install service / multiple folders)
-Installation packages for Linux APT/YUM, DEB/RPM, APT (Debian/Ubuntu) uses .deb packages; YUM/DNF (Red Hat/Fedora) uses .rpm.
+Installation packages for Linux APT/YUM, DEB/RPM, APT (Debian/Ubuntu) uses .deb packages; YUM/DNF (Red Hat/Fedora) uses .rpm (redhat package manager).
 How to verify authenticity of package in linux?, Hash Value, After download; you should generate your own hash of the package and compare it to the value published by the package maintainer.
 What must be assessed and mitigated when depolying new apps?, potential impacts, It is important that the IT department maintains control and oversight of all third-party software installed to network hosts.
 Cool term for unsanctioned software and devices, Shadow IT, But they raise substantial operational and business risks.
@@ -106,7 +106,7 @@ Linux bootloader, grub, Grand Unified Bootloader / grubx64.efi
 Where does legacy BIOS firmware look for the MBR on the boot device?, first sector, The MBR then identifies the boot sector for the partition marked as active.
 Boot manager file used by BIOS firmware (Windows), BOOTMGR.exe, Reads information from the BCD file; ID's operating systems installed on the computer; Loads WINLOAD.EXE boot loader.
 Boot manager file used by UEFI firmware (Windows), bootmgfw.efi, Choose OS (if multiple) & then passes control to the boot loader (C:\Windows\system32\WINLOAD.EFI)
-Name of the Boot Loader found stored in the system root folder on the boot partition?, WINLOAD, WINLOAD.EXE for BIOS/MBR and WINLOAD.EFI for UEFI/GPT
+Name of the Boot Loader found stored in the system root folder on the boot partition?, WINLOAD, WINLOAD.EXE for BIOS/MBR and WINLOAD.EFI for UEFI/GPT (C:\Windows\System32)
 With BIOS boot; what to press to access Advanced Boot Options?, F8, Startup options are displayed automatically if the system cannot start the OS.
 Where to find 'Startup Options' on the Advanced Boot Options screen?, Advanced Options, Then press F4 to select Safe Mode; or choose another option as necessary.
 MBR: WINLOAD then continues the Windows boot process by loading, NTOSKRNL.EXE, (Windows NT Operating System Kernel Executable); also HAL.DLL (hardware abstraction layer) and boot device drivers.
@@ -317,3 +317,9 @@ Advanced settings for Google Chrome?  chrome://?, flags, Gets to a LONG list of 
 Advanced settings for Firefox? about:?, config, Click 'Show All' for list of all kinds of settings you can change. about:config
 Besides clearing cache and browsing data how else can you manage history?, incognito, no cookies; browsing history; form fields; passwords; or temp files will be stored when the session is closed
 Minimum length of passphrase for PSK authentication to mitigate risk of cracking?, 14, This is converted to a type of hash value; referred to as the pairwise master key (PMK)
+Trait of Trojans that add themselves to startup, persistence, So it runs when the computer starts or the user signs in
+malware concealed within an installer package for software that appears to be legitimate, Trojan, The malware will be installed alongside the program and execute with the same privileges.
+Malware that replicates between processes in system memory rather than files on disk, Worm, Worms can also exploit vulnerable client/server software to spread between hosts in a network.
+malicious code that uses the host’s scripting environment, Fileless Malware, As it may be disguised as script instructions or a document file rather than an executable image file; this type of malware can be harder to detect.
+Another name for a Backdoor, Remote Access Trojan, RAT: threat actor must establish a connection from the compromised host to a command and control (C2 or C&C) host or network
+Malware that mess with browser; let on cookies; change search; bad pages?, Spyware, Also may monitor local app activity; take screens; use recording devices or redirect to spoofy sites.
