@@ -340,5 +340,5 @@ COPE Meaning?, Corp owned Pers Enabled, Corporate Owned; Personally Enabled: Cho
 AUP Meaning?, Acceptable Use Policy, is a set of rules that outline how a service or technology can be used.
 CYOD Meaning?, Choose Your Own Device, Supplied/Owned by company but employee get to pick from list; Usually personally enabled.
 How does a company pick/choose/enforce security requirements for Mobile Devices?, Profile, A profile of security requirements and policies through Azure EMM for example
-
+in iOS what options will give data in apps a second round of encryption?, Data Protection, Uses a key derived from and protected by the user's credential. Not all user data is encrypted using the "Data Protection" (eg. SMS/Contacts/Pictures)
 
