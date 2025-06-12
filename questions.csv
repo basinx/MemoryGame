@@ -343,4 +343,5 @@ How does a company pick/choose/enforce security requirements for Mobile Devices?
 in iOS what options will give data in apps a second round of encryption?, Data Protection, Uses a key derived from and protected by the user's credential. Not all user data is encrypted using the "Data Protection" (eg. SMS/Contacts/Pictures)
 Z-Wave or Zigbee what even are they, wireless mesh, These wireless standards use less power and make it easier for smart devices to forward data between nodes
 Main risk from smart device placement in workplace?, Shadow IT, A vulnerability in the device would let it maybe be used to access the network!
+Something that home-intended IoT devices can suffer from?, Weak Defaults, There may be recommended steps to secure the device and procedures to apply security patches that the customer never takes.
 
