@@ -345,5 +345,6 @@ Z-Wave or Zigbee what even are they, wireless mesh, These wireless standards use
 Main risk from smart device placement in workplace?, Shadow IT, A vulnerability in the device would let it maybe be used to access the network!
 Something that home-intended IoT devices can suffer from?, Weak Defaults, There may be recommended steps to secure the device and procedures to apply security patches that the customer never takes.
 iOS where swipe to get Control Center?, Top-Right, can be accessed by swiping from the top-right corner (newer models) or bottom of the screen.
-iOS where is factory reset?, General, General page in settings
+iOS- where is factory reset?, General, General page in settings
+Android- Where is factory reset on 'Stock Android'?, System-Advanced, do not attempt a factory reset within 72 hours of changing your account password
 
