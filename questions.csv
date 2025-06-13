@@ -347,4 +347,5 @@ Something that home-intended IoT devices can suffer from?, Weak Defaults, There 
 iOS where swipe to get Control Center?, Top-Right, can be accessed by swiping from the top-right corner (newer models) or bottom of the screen.
 iOS- where is factory reset?, General, General page in settings
 Android- Where is factory reset on 'Stock Android'?, System-Advanced, do not attempt a factory reset within 72 hours of changing your account password
+In iOS; a manual ROTATE control can be added via the AssistiveTouch option which is enabled via, Accessibility, When you turn on AssistiveTouch; you see a button appear onscreen; By default; tapping the button once opens the AssistiveTouch menu.
 
