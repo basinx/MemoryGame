@@ -353,3 +353,5 @@ In iOS; clearing an app from the multitasking list also does what?, Force Stop, 
 in iOS how to bring up Multitask List? (physical home button), Double Tap, or swipe up if there is not a physical button.
 If a Mobile App is acting up and Force Quitting doesn't help?, App Cache, Clear from within the app or (in Android) using the Clear Cache option under App info.
 Where do you find Factory Reset on an Android?, Backup & Reset, From inside the Settings menu
+What feature allows Private App Distribution on Apple?, Business Manager, Allows an MDM suite to push apps from the private channel to the device.
+What feature allows Private App Distribution on Android?, Managed Google Play, Allows an MDM suite to push apps from the private channel to the device.
