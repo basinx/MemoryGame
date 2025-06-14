@@ -356,3 +356,4 @@ Where do you find Factory Reset on an Android?, Backup & Reset, From inside the 
 What feature allows Private App Distribution on Apple?, Business Manager, Allows an MDM suite to push apps from the private channel to the device.
 What feature allows Private App Distribution on Android?, Managed Google Play, Allows an MDM suite to push apps from the private channel to the device.
 Installing untrusted .APK files with 'Unknown Sources' disabled is known as, Sideloading, Android allows for selection of different stores and installation of untrusted apps from any third party if this option is enabled by the user
+Email & any other apps using this setting get an extra round of encryption on mobile, Data Protection, using a key derived from and protected by the user's credential.
