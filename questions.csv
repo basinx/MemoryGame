@@ -358,3 +358,5 @@ What feature allows Private App Distribution on Android?, Managed Google Play, A
 Installing untrusted .APK files with 'Unknown Sources' disabled is known as, Sideloading, Android allows for selection of different stores and installation of untrusted apps from any third party if this option is enabled by the user
 Email & any other apps using this setting get an extra round of encryption on mobile, Data Protection, Using a key derived from and protected by the user's credential. Does not encrypt SMS; Contacts or Pictures
 iOS: a means of installing apps from outside the App Store without having to jailbreak, Developer Tools, XCode is the main one used for iOS development
+What TCP port does VNC use?, 5900, macOS 'Screen Sharing' feature is based on VNC and IS encrypted (not all VNC's are)
+What option protects the RDP server against denial of service attacks?, NLA, Network Level Authentication - newer RDP clients should have - makes them auth before commiting resources.
