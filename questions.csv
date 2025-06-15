@@ -361,3 +361,5 @@ Email & any other apps using this setting get an extra round of encryption on mo
 iOS: a means of installing apps from outside the App Store without having to jailbreak, Developer Tools, XCode is the main one used for iOS development
 What TCP port does VNC use?, 5900, macOS 'Screen Sharing' feature is based on VNC and IS encrypted (not all VNC's are)
 What option protects the RDP server against denial of service attacks?, NLA, Network Level Authentication - newer RDP clients should have - makes them auth before commiting resources.
+MSRA Meaning?, MS Remote Assistance, Microsoft Remote Assistance: +Chat Feature & Request Remote Control
+
