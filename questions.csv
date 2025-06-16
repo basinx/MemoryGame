@@ -367,3 +367,5 @@ Tool that can distinguish between client accts for providing/recording/reporting
 Suite designed for control & authorization of devices within a single organization, UEM, Unified Endpoint Management; Any of: Agents for Security/Information/OS Version checking/Push Updates/Live Chat/Remote Shell
 EDR Meaning (in security), Endpoint Detection and Response, Software agent that collects system data and logs for analysis by a monitoring system to provide early detection of threats.
 Challenge of knowing each host on network authorized and secure?, Network Visibility, Generally best to utilize Desktop Management & Remote Monitoring Tools
+What does Ubuntu RDP connection?, Remmina, It allows connection only from a user on Linux to control a RDP server on another PC
+How to restore a single file with File History, Previous Versions, Previous Versions tab in file properties or the File History applet.
