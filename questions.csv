@@ -370,3 +370,4 @@ Challenge of knowing each host on network authorized and secure?, Network Visibi
 What does Ubuntu RDP connection?, Remmina, It allows connection only from a user on Linux to control a RDP server on another PC
 How to restore a single file with File History, Previous Versions, Previous Versions tab in file properties or the File History applet.
 Win10: Where find Backup option in Settings?, Update & Security, It is actually the 'File History' option in the Control Panel of Win 11.
+synthesizes a new full backup from the previous full and incremental backups, Synthetic,  not generated directly from the original data but instead assembled from other backup jobs
