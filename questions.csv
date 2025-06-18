@@ -374,4 +374,5 @@ synthesizes a new full backup from the previous full and incremental backups, Sy
 Fancy term for a Malicious Data Breach?, exfiltration, Data Exfiltration; breach of regulated data must normally be reported to the regulator and to individual persons impacted
 contains codes that allow the subject information to be reconstructed by the data provider, de-identified, An anonymized data set is one where the identifying data is removed completely
 IRP Meaning, Incident Response Plan, Larger organizations will provide a dedicated Computer Security Incident Response Team (CSIRT)
+uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. an SED encrypts all its contents by using a media encryption key (MEK).
 
