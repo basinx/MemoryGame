@@ -382,6 +382,9 @@ In what way is JavaScript supported on macOS? (Acronym), JXA, Javascript For Aut
 How to run the Python IDLE Shell, pythonw.exe, Windows python scripts associated with .pyw; IDLE = Integrated Development and Learning Environment
 How to do a for sure restart in PowerShell? (ignore any warning), Restart-Computer -Force, in bash use 'shutdown -r'
 How to map a drive in PowerShell?, New-PSDrive, New-PSDrive -Name "L" -Persist -PSProvider FileSystem -Root "\\MS10\LABFILES" (error check to see if it exists first)
+How to run a 'Windows Installer' in a script?, msiexec, msiexec /i 7z2409-x64.msi /qn    (/a for admin install; /qn = no UI during the installation process)
+Powershell cmdlet that gives you more control over install process?, Start-Process, $process = Start-Process -FilePath "msiexec" -ArgumentList "/i C:\temp\software.msi /qn" -Wait -PassThru (then u can look at $process for info)
+Windows: can be called from a batch file to perform typical update tasks, wusa.exe, Powershell: PSWindowsUpdate module; contains numerous cmdlets for managing the update process.
 
 
 
