@@ -377,7 +377,8 @@ IRP Meaning, Incident Response Plan, Larger organizations will provide a dedicat
 uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. an SED encrypts all its contents by using a media encryption key (MEK).
 how to shebang bash for a script?, #!/bin/bash, Linux shell scripts uses .sh extension by convention.
 What are the prebuilt modules in Powershell called?, cmdlets, and Powershell files are identified by the .PS1 extension
-What interpreter executes VBScript?, wscript.exe, VBScript files are identified by the .VBS extension.
+What interpreter executes VBScript?, wscript.exe, VBScript files are identified by the .VBS extension. (cscript.exe shows output in command prompt)
+
 
 
 
