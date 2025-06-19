@@ -380,6 +380,7 @@ What are the prebuilt modules in Powershell called?, cmdlets, and Powershell fil
 What interpreter executes VBScript?, wscript.exe, VBScript files are identified by the .VBS extension. (cscript.exe shows output in command prompt)
 In what way is JavaScript supported on macOS? (Acronym), JXA, Javascript For Automation (There is also AppleScript)
 How to run the Python IDLE Shell, pythonw.exe, Windows python scripts associated with .pyw; IDLE = Integrated Development and Learning Environment
+How to do a for sure restart in PowerShell? (ignore any warning), Restart-Computer -Force, in bash use 'shutdown -r'
 
 
 
