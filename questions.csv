@@ -118,7 +118,7 @@ Test if system is responsive with WINDOWS+CTRL+, SHIFT+B, WINDOWS+CTRL+SHIFT+B; 
 Files not to copy when rebuilding a user profile NTUSER. ?/?/?, DAT/LOG/INI, NTUSER.DAT; NTUSER.DAT.LOG & NTUSER.INI
 Hotkey during Windows Memory Diagnostics to configure test options, F1, From Administrative Tools or boot to the recovery environment. The computer will restart and run the test.
 SFC switch to only check the Windows files; not repair, verifyonly, you can do /scanfile or verifyfile to target specific file; /offbootdir and /offwindir for offline folders for repair
-Built in tool in Windows that will periodically backup files, File History, Just type filehistory in run and click "Configure File History Settings"
+Built in tool in Windows that will periodically backup files, File History, Just type filehistory in run and click "Configure File History Settings" (Settings->Update & Security->Backup)
 What should you look for to verify software is from a trusted source?, digital signature, Digital Signature tab on properties; but still run a scan & test in a lab env if possible.
 Where can you look for a catalog of tested devices and drivers for Windows?, HCL, Microsofts Hardware Compatibility List; also known as the Windows Logo'd Product List (LPL) catalog.
 LLDP meaning (network - ???Protocol), Link Layer Discovery, Provides network mapping and discovery functions for networks without dedicated name servers. (LLTD: Link Layer Topology Discovery is MS version)
