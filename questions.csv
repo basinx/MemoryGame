@@ -387,6 +387,7 @@ Powershell cmdlet that gives you more control over install process?, Start-Proce
 Windows: can be called from a batch file to perform typical update tasks, wusa.exe, Powershell: PSWindowsUpdate module; contains numerous cmdlets for managing the update process.
 when introducing a script; the script and output should be subject to:, access controls, Also any system reconfiguration should be properly change managed.
 What to do before deploying a script?, test in sandbox, and remember that security software may affect operation of some scripts
+RDP to infected machine can put credentials at risk!, RDPRA, RDP restricted admin (RDPRA) mode is one means of mitigating this risk.
 
 
 
