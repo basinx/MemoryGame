@@ -187,7 +187,7 @@ A Linux Intrusion Prevention System (IPS) they mention, Snort, Detects and block
 A Linux Antivirus they mentions, Clam, ClamAV scans for viruses and malware; often used on mail servers or to check files manually
 Linux command that displays dynamic process status; reflecting real-time changes, top, M = Sort by Memory / P = Sort by CPU / u = Sort by User / N = Sort by PID desc / Enter = Refresh / q = quit
 Functions used for making a cryptographic hash of the compiled package ?/?/?, MD5/SHA-256/GPG, GPG=GNU Privacy Guard; The hash value and function are published on the package vendor's site.
-Linux command to display all Network Adapter/IP info cleanly in terminal, nmlci, nmcli device show / nmcli connection show for info about devices & connections
+Linux command to display all Network Adapter/IP info cleanly in terminal, nmcli, nmcli device show / nmcli connection show for info about devices & connections
 Linux: what legacy tool did the 'ip' command replace?, ifconfig, ifconfig is part of the net-tools package; now replaced by the iproute2 package
 Linux: Modern network management package that can be operated using a GUI or the nmcli tools, NetworkManager, Alternatively; a network configuration might be managed using the systemd-networkd configuration manager.
 Show a single device with 'ip' command, addr show dev, 'ip addr show dev eth0' for example. The command 'ip addr' replicates the basic reporting functionality of ifconfig
