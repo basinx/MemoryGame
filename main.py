@@ -204,6 +204,20 @@ class TypingGame:
             pygame.draw.rect(screen, (100, 100, 100), (50, 170, 700, 10))
             pygame.draw.rect(screen, (0, 200, 0), (50, 170, bar_width, 10))
 
+    def draw_all_information(self):
+        if self.feedback and time.time() < self.feedback_timer:
+            feedback_surface = font.render(self.feedback, True, self.feedback_color)
+            feedback_rect = feedback_surface.get_rect(center=(400, 350))
+            screen.blit(feedback_surface, feedback_rect)
+            if self.learning_mode:
+                answer_text = f"Answer: {self.last_question_answer}"
+                answer_surface = font.render(answer_text, True, (255, 255, 0))
+                answer_rect = answer_surface.get_rect(center=(400, 390))
+                screen.blit(answer_surface, answer_rect)
+                if self.last_question_info.strip():
+                    info_text = f"Info: {self.last_question_info}"
+                    draw_wrapped_text(screen, info_text, (50, 430), font, color=(200, 200, 0), max_width=700)
+
     def update(self):
         if self.state != PLAYING:
             return  # skip countdowns while paused or on menus
@@ -275,28 +289,19 @@ class TypingGame:
             self.draw_question_timer_bar()
             draw_wrapped_text(screen, f"{self.current_question[0]}", (40, 200), font)
             draw_text(screen, f"> {self.user_input}", (40, 300), font)
-            if self.feedback and time.time() < self.feedback_timer:
-                feedback_surface = font.render(self.feedback, True, self.feedback_color)
-                feedback_rect = feedback_surface.get_rect(center=(400, 350))
-                screen.blit(feedback_surface, feedback_rect)
-                if self.learning_mode:
-                    answer_text = f"Answer: {self.last_question_answer}"
-                    answer_surface = font.render(answer_text, True, (255, 255, 0))
-                    answer_rect = answer_surface.get_rect(center=(400, 390))
-                    screen.blit(answer_surface, answer_rect)
-                    if self.last_question_info.strip():
-                        info_text = f"Info: {self.last_question_info}"
-                        draw_wrapped_text(screen, info_text, (50, 430), font, color=(200, 200, 0), max_width=700)
+            #where the info text was
+            self.draw_all_information()
+
         elif self.state == PAUSED:
             # First draw the normal PLAYING screen so the question stays visible
             draw_text(screen, f"Time Left: {self.time_left}s", (10, 10), font)
             draw_text(screen, f"Score: {self.score}", (10, 550), font)
             self.draw_question_timer_bar()
-            draw_wrapped_text(screen, f"{self.current_question[0]}", (40, 200), font)
+            # draw_wrapped_text(screen, f"{self.current_question[0]}", (40, 200), font)
             draw_text(screen, f"> {self.user_input}", (40, 300), font)
 
             # … plus any feedback/learning‑mode lines you normally show …
-
+            self.draw_all_information()
             # Overlay (semi‑transparent dark layer)
             overlay = pygame.Surface((800, 600), pygame.SRCALPHA)
             overlay.fill((0, 0, 0, 150))  # RGBA – last value is alpha
