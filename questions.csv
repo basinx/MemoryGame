@@ -389,7 +389,7 @@ when introducing a script; the script and output should be subject to:, access c
 What to do before deploying a script?, test in sandbox, and remember that security software may affect operation of some scripts
 RDP to infected machine can put credentials at risk!, RDPRA, RDP restricted admin (RDPRA) mode is one means of mitigating this risk.
 How to toss output into the void in Bash?, &>/dev/null, redirects output to the null device
-
+What standard governs the processing of credit card transactions? (acronym), PCI DSS, Payment Card Industry Data Security Standard
 
 
 
