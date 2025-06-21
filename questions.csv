@@ -56,7 +56,7 @@ Registry hive: contains information about the current hardware profile being use
 a set of formal descriptions that provide a standard for the design of operating systems compatible with Unix., Posix, NTFS is Posix compliant supporting case-sensitive naming.
 Maximum possible NTFS Volume size in recent Windows feature updates, 8 Petabytes, Between 137 GB and 256 Terabytes listed previously.
 FAT32 maximum Volume size/File Size, 2TB/4GB, FAT32 is a variant of FAT that uses a 32-bit allocation table; max file size is 4GB minus 1 byte.
-ExFAT recommended maximum Volume size, 512TB, There is also support for access permissions but not encryption.
+ExFAT recommended maximum Volume size, 512TB, There is also support for access permissions but not encryption. Excels in portability and compatibility across various operating systems
 The Linux file system that added support for journaling., Ext3, Max File Size: 2TB ; Max Volume Size: 32TB
 Linux implementation of FAT with long filename support., VFAT, Virtual FAT; It's not a distinct file system; just a driver label.
 Linux protocol that can be used to share or remotely mount files/folders (Acronym), NFS, Network File System
@@ -190,7 +190,7 @@ Functions used for making a cryptographic hash of the compiled package ?/?/?, MD
 Linux command to display all Network Adapter/IP info cleanly in terminal, nmlci, nmcli device show / nmcli connection show for info about devices & connections
 Linux: what legacy tool did the 'ip' command replace?, ifconfig, ifconfig is part of the net-tools package; now replaced by the iproute2 package
 Linux: Modern network management package that can be operated using a GUI or the nmcli tools, NetworkManager, Alternatively; a network configuration might be managed using the systemd-networkd configuration manager.
-Show a single device with 'ip addr' command, show dev, 'ip addr show dev eth0' for example
+Show a single device with 'ip' command, addr show dev, 'ip addr show dev eth0' for example. The command 'ip addr' replicates the basic reporting functionality of ifconfig
 Linux: Show status of interfaces WITH STATISTICS; ip ?, -s link, 'ip -s link' same as 'ip link' but adds Tx and Rx statistics (Send/Receive)
 Linux: Enable or disable an interface; ip ?, link set, 'ip link set eth0 up|down' for example
 command from iproute2 package that replicates the basic reporting functionality of ifconfig, ip addr, show the current address configuration; though ifconfig is nicer (net-tools package)
