@@ -353,7 +353,6 @@ Where is Force Stop on Android?, Settings-Apps, click any App and option is bott
 In iOS; clearing an app from the multitasking list also does what?, Force Stop, Either swipe up or double tap the physical Home button; then swipe the app up off the screen.
 in iOS how to bring up Multitask List? (physical home button), Double Tap, or swipe up if there is not a physical button.
 If a Mobile App is acting up and Force Quitting doesn't help?, App Cache, Clear from within the app or (in Android) using the Clear Cache option under App info.
-Where do you find Factory Reset on an Android?, Backup & Reset, From inside the Settings menu
 What feature allows Private App Distribution on Apple?, Business Manager, Allows an MDM suite to push apps from the private channel to the device.
 What feature allows Private App Distribution on Android?, Managed Google Play, Allows an MDM suite to push apps from the private channel to the device.
 Installing untrusted .APK files with 'Unknown Sources' disabled is known as, Sideloading, Android allows for selection of different stores and installation of untrusted apps from any third party if this option is enabled by the user
@@ -390,6 +389,9 @@ What to do before deploying a script?, test in sandbox, and remember that securi
 RDP to infected machine can put credentials at risk!, RDPRA, RDP restricted admin (RDPRA) mode is one means of mitigating this risk.
 How to toss output into the void in Bash?, &>/dev/null, redirects output to the null device
 What standard governs the processing of credit card transactions? (acronym), PCI DSS, Payment Card Industry Data Security Standard
+uses GPS and/or high accuracy to calculate a device's position on a map, Location Service, can be used with a locator application to find the device if it is lost or stolen
+mobile symptom of overheating; low battery charge; or faulty battery or other hardware, random reboots, You can use the Settings menu to check battery health; and there are third-party diagnostic apps that can report hardware faults
+Where to configure iOS feature that allows file transfer between iOS and macOS devices? Settings-, General-Airdrop, The sender must be listed in the recipient’s contacts list; or AirDrop must be configured to receive files from everyone.
 
 
 
