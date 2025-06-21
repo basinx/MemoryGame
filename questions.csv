@@ -33,7 +33,7 @@ Low disk warning *MB* remaining, 200, And under 20% capacity may affect performa
 Automates disk cleanup activities, Storage Sense, System->Storage->Storage Sense: Time to run and clear recycle/downloads folders
 Run command for Local Security Policy editor, secpol.msc, Can be used to modify security settings specifically.
 Run command for Group Policy Editor, gpedit.msc, Provides a more robust means of configuring many of these Windows settings than editing the registry directly.
-Command to make a custom management console, mmc, Most MMC snap-ins can be used to manage either the local computer or a remote computer.
+Command to make a custom management console, mmc, (mmc.exe) Most MMC snap-ins can be used to manage either the local computer or a remote computer.
 Run command to get to System Information, msinfo32.exe, system resources; firmware and OS versions; driver file locations; env. variables; network and so on.
 Fast Task Manager hotkeys Ctrl+(?/?), Shift/Esc, also it is 'taskmgr.exe' or right click task bar or start button. or ctrl+alt+delete. literally it's everywhere.
 If *this* increasing and disk time is high then you have a disk problem, Average Disk Queue Length, The number of requests outstanding on the disk at the time the performance data is collected.
