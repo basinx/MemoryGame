@@ -396,6 +396,18 @@ Step-by-step list of the actions that must be completed for any given task to co
 Areas of policy where there are no procedures, Guidelines, for situations not fully assessed; too complex; or areas where deviation from procedure may be warranted
 CMR database meaning?, Customer relationship management, It may be possible to link a ticket to an employee database or CMR.
 First two basic details to capture after receiving a ticket? ?/?, customer/device, might be possible to link ticket employee/customer DB & device to a service tag or AssetID.
+Ticket Management: What do after users description of issue and your clarifying questions?, categorize, 3. The agent categorizes the support case; assesses how urgent it is; and determines how long it will take to fix.
+Type of ticket likely to be generated internally?, Problem, Problems are causes of incidents and will probably require analysis and service reconfiguration to solve.
+Type of ticket for errors and situations faced by users or customers?, Incident, Incidents may be further categorized by severity (impact and urgency); such as minor; major; and critical.
+Type of ticket for provisioning things IT has an SOP for, Request,  New user accounts; purchasing new hardware or software; deploying a web server; and so on
+A good alternate or way to supplement ticket categorization, keyword tags, A keyword system is more flexible but does depend on each technician tagging the ticket appropriately.
+What might be a good idea to include with Severity classification?, notification,  a notification system to make senior technicians and managers immediately aware of major and critical incidents as they arise.
+Two key aspects to keep in mind when writing notes on Tickets ?/?, Clear/Concise, State the minimum of fact and action required to describe the issue or process.
+What is another term for an Incident Report?, After-Action Report, (AAR) or "lessons learned"; often involves customer/tech/manager/stakeholder; to analyze and prevent repeat
+Word to describe deployed/spare physical systems & components on hand, Tangible, and Intangible refers to things like software licenses or data assets like IP (Intellectual Property)
+Software that scan network/query hardware and software config & monitoring data, Inventory Management Suite, Bit different than an Asset-Management Database System that can be configured to store various info on assets.
+Docs showing how net nodes are connected or logically identified and connected, Topology Diagram, A [Network Topology Diagram] can be used to model physical and logical relationships at different levels of scale and detail
+shows the cabling layout between hosts; wall ports; patch panels; and switch/router ports, Schematic Diagram, Schematics can also be used to represent the logical structure of the network in terms of security zones; virtual LANs (VLANs) and IP subnets.
 
 
 
