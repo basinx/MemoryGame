@@ -411,6 +411,7 @@ shows the cabling layout between hosts; wall ports; patch panels; and switch/rou
 The Asset Procurement Life Cycle (Pnemonic), ChaProDeMaDi, Change Procedures; Producrement; Deployment; Maintenance; Disposal
 What does ITIL Stand for (The IL), Infrastructure Library, A popular documentation of good and best practice activities and processes for delivering IT services
 What is a Configuration Item (CI) in ITIL?, Managed IT Asset, Any component (hardware; software; documentation) that requires formal change control and tracking procedures to deliver IT services. Eg: servers; applications; network devices; and even important documents.
+Settings that should be applied to the CI to ensure secure and reliable operation, Configuration Baseline, Approved template of security and operational settings that should be applied to a Configuration Item to ensure it operates securely and reliably.
 
 
 
