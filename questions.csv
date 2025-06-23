@@ -410,6 +410,7 @@ Docs showing how net nodes are connected or logically identified and connected, 
 shows the cabling layout between hosts; wall ports; patch panels; and switch/router ports, Schematic Diagram, Schematics can also be used to represent the logical structure of the network in terms of security zones; virtual LANs (VLANs) and IP subnets.
 The Asset Procurement Life Cycle (Pnemonic), ChaProDeMaDi, Change Procedures; Producrement; Deployment; Maintenance; Disposal
 What does ITIL Stand for (The IL), Infrastructure Library, A popular documentation of good and best practice activities and processes for delivering IT services
+Any asset that requires specific management procedures to be used to deliver a service, Configuration Item, CI: Anything that needs to be formally tracked and managed as part of IT services; hardware/software/docs; even sometimes people
 
 
 
