@@ -425,6 +425,15 @@ Important thing in demonstrating attention and empathy to customers?, Active Lis
 What should you avoid being when dealing with an angry customer ?/?, Dismissive/Judgemental, Try to calm the customer and move support to positive troubleshooting diagnosis and activity.
 Two types of fire extinguishers to use for electrical fire ?/?, CO2/Powder, CO2 usually has Black label (or Red/White); Dry Powder can be used but can damage electronic equipment.
 Why not use a Domestic Vacuum to clean PC components?, static, Use a PC vacuum cleaner or natural bristle brush for internal components like Motherboard/Adapter Cards or Fan Assembys
+Light Pink or Blue packaging that reduces static in general area, Dissipative, This is used to package non-static-sensitive components packed in proximity to static-sensitive components.
+Less bad than a surge/spike but can still cause a PC to power off?, under-voltage, Devices with large motors require high-starting; or inrush; current. This might cause the building supply voltage to dip briefly.
+Max amount of the rated Amperage you should use on on a surge protector? ?%, 80, For example; the devices connected to a 15 A protector should be drawing no more than 12 A; minding total building power also.
+Conversion factor from Watts to VA?, 1.67, if you have a 10 W home router and two 250 W computers; the VA is (10 + 250 + 250) * 1.67 = 852 VA >> a 1K UPS should suffice.
+The strength of the UPS batteries is measured in?, Amp Hours, Amp hours is like how many gallons your gas tank holds (raw capacity) vs Runtime which is how far you can actually go (minutes)
+The amount of energy the surge protector can absorb?, Joules Rating, 600 joules or more offering better protection. Each surge event will degrade the capability of the suppressor.
+The level at which the protection circuitry in a surge protector will activate, Clamping voltage, with lower voltages (400 V or 300 V) offering better protection.
+Two situations besides just working with; where you would consult MSDS ?/?, Accident/Disposal, ingredients; health hazards; precautions; first aid; spill/leaks procedure; disposal process
+
 
 
 
