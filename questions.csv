@@ -259,7 +259,7 @@ WPA3: AES CCMP replaced with AES ?, GCMP, WPA3 replaced AES-CCMP with AES-GCMP (
 In addition to other enhancements; WPA3 now protects..?, Management Frames, Management frames are used for association and authentication and disassociation and deauthentication messages between stations and access points as devices join and leave the network.
 WPA3 even networks with no passphrase get protected now. Wi-Fi ? ?, Enhanced Open, any station can still join the network; but traffic is protected against sniffing.
 Passphrase length for WPA2 PSK? #-#, 8-63, This is converted to a type of hash value; referred to as the Pairwise Master key (PMK); part of the 4-way handshake
-Security: SAE Meaning?, Simultaneous Auth of Equals, Used in WPA3 Personal Authentication; generates Pairwise Master Key (PMK)
+Security: SAE Meaning?, Simultaneous Auth of Equals, Used in WPA3 Personal Authentication; generates Pairwise Master Key (PMK); replaces Pre-Shared Key (PSK)
 Security: EAP Meaning (Enterprise/authenticates against a network directory)?, Extensible Authentication Protocol, enables systems to use hardware-based identifiers; eg. fingerprint/smart card readers for authentication; and establish secure tunnels through which to submit credentials.
 Standard for EAP communications over a LAN or WLAN for port-based authentication, 802.1X, LAN (EAPoL) or WLAN (EAPoW) / WPA2-Enterprise or WPA3-Enterprise
 RADIUS (R and A Mean?), Remote Authentication,RADIUS: Used for verifying the identity of clients before granting access to a network
