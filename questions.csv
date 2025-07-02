@@ -92,7 +92,7 @@ For internet boot; what must be supplied by the DHCP server, DNS Name, Of the in
 Another name for the boot sector at start of each primary partition on MBR, partition boot record, PBR: When a partition is marked as active; its boot sector is populated with a record that points to the OS boot loader.
 Convert a disk from MBR to GPT name/win 10 feature update, mbr2gpt/1703, Backup first and remember to change to UEFI boot mode after.
 What is the macOS file system called?, APFS, Apple File System; The file system used by macOS 10.13 or later.
-a Windows command-line tool used to manage file and folder permissions, icacls, icacls img0.jpg /grant administrators:F
+a Windows command-line tool used to manage file and folder permissions, icacls, icacls img0.jpg /grant administrators:F (ntegrity Control Access Control List)
 Where are 32-bit shared system files stored in 64-bit versions of windows?, syswow64, %systemroot%\syswow64 - meaning Windows on Windows 64 bit emulation for 32 bit programs.
 Installation package extensions for macOS ?/?, DMG/PKG, Disk Image (simple copy) vs Package file (complex install service / multiple folders)
 Installation packages for Linux APT/YUM, DEB/RPM, APT (Debian/Ubuntu) uses .deb packages; YUM/DNF (Red Hat/Fedora) uses .rpm (redhat package manager).
@@ -126,7 +126,7 @@ The Windows service that prompts to set a new networks 'Profile Type', Network L
 UNC Meaning (Windows), Universal Naming Convention, \\ Host\Path ; where Host is the host name; FQDN; or IP address and Path is a shared folder or file path.
 Setting on Windows to make sure a WWAN connection doesn't go over data limit, metered, Network & Internet -> Connection -> metered
 In Settings what to click to find 'Advanced Sharing Settings'?, Advanced Network Settings, Or network & sharing option in control panel then it's on the side.
-'No Internet Access': windows test to this address was unsuccessful, msftncsi.com, Checks that DNS resolves the IP address correctly. Could be a problem with the router; with DNS; or with both. (www.msftncsi.com)
+'No Internet Access': windows test to this address was unsuccessful, msftncsi.com, Checks that DNS resolves the IP address correctly. Could be a problem with the router; with DNS; or with both. (Microsoft Network Connectivity Status Indicator)
 In addition to Netbios what else does /all add to ipconfig output ? ? ?, DHCP DNS MAC, MAC Address shows as 'Physical Address' and DHCP shows seperate than 'Default Gateway'
 How to use IPConfig to show the DNS resolver cache? /?, displaydns, This contains host and domain names that have been queried recently.
 Command to clear any custom net/vpn adapter settings in Windows, Network Reset, The Network reset command is on the Settings > Network & Internet > Status page.
@@ -386,7 +386,7 @@ Powershell cmdlet that gives you more control over install process?, Start-Proce
 Windows: can be called from a batch file to perform typical update tasks, wusa.exe, Powershell: PSWindowsUpdate module; contains numerous cmdlets for managing the update process.
 when introducing a script; the script and output should be subject to:, access controls, Also any system reconfiguration should be properly change managed.
 What to do before deploying a script?, test in sandbox, and remember that security software may affect operation of some scripts
-RDP to infected machine can put credentials at risk!, RDPRA, RDP restricted admin (RDPRA) mode is one means of mitigating this risk.
+RDP to infected machine can put credentials at risk! What can help prevent?, RDPRA, RDP restricted admin (RDPRA) mode is one means of mitigating this risk.
 How to toss output into the void in Bash?, &>/dev/null, redirects output to the null device
 What standard governs the processing of credit card transactions? (acronym), PCI DSS, Payment Card Industry Data Security Standard
 uses GPS and/or high accuracy to calculate a device's position on a map, Location Service, can be used with a locator application to find the device if it is lost or stolen

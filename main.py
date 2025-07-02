@@ -3,6 +3,7 @@ import random
 import csv
 import time
 
+
 # Initialize Pygame and the mixer for sound.
 pygame.init()
 pygame.mixer.init()
