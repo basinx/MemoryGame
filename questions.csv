@@ -405,7 +405,7 @@ What might be a good idea to include with Severity classification?, notification
 Two key aspects to keep in mind when writing notes on Tickets ?/?, Clear/Concise, State the minimum of fact and action required to describe the issue or process.
 What is another term for an Incident Report?, After-Action Report, (AAR) or "lessons learned"; often involves customer/tech/manager/stakeholder; to analyze and prevent repeat
 Word to describe deployed/spare physical systems & components on hand, Tangible, and Intangible refers to things like software licenses or data assets like IP (Intellectual Property)
-Software that scan network/query hardware and software config & monitoring data, Inventory Management Suite, Bit different than an Asset-Management Database System that can be configured to store various info on assets.
+Asset DB Software that scan network/query hardware and software config & monitoring data, Inventory Management Suite, Bit different than an Asset-Management Database System that can be configured to store various info on assets.
 Docs showing how net nodes are connected or logically identified and connected, Topology Diagram, A [Network Topology Diagram] can be used to model physical and logical relationships at different levels of scale and detail
 shows the cabling layout between hosts; wall ports; patch panels; and switch/router ports, Schematic Diagram, Schematics can also be used to represent the logical structure of the network in terms of security zones; virtual LANs (VLANs) and IP subnets.
 The Asset Procurement Life Cycle (Pnemonic), ChaProDeMaDi, Change Procedures; Producrement; Deployment; Maintenance; Disposal
