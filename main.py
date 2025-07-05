@@ -2,6 +2,7 @@ import pygame
 import random
 import csv
 import time
+import difflib
 
 
 # Initialize Pygame and the mixer for sound.
@@ -21,6 +22,11 @@ wrong_sound = pygame.mixer.Sound("sounds/failure.mp3")
 default_game_length = 180  # seconds
 default_question_time = 15  # seconds
 
+
+# Calculate string similarity percentage
+def calculate_similarity(answer1, answer2):
+    """Calculate similarity between two strings using difflib.SequenceMatcher"""
+    return difflib.SequenceMatcher(None, answer1.lower().strip(), answer2.lower().strip()).ratio()
 
 # Load questions from CSV
 def load_questions(filename="questions.csv"):
@@ -253,7 +259,10 @@ class TypingGame:
         if self.state == PLAYING and event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER:
                 self.questions_answered += 1
-                if self.user_input.strip().lower() == self.current_question[1].strip().lower():
+                user_answer = self.user_input.strip().lower()
+                correct_answer = self.current_question[1].strip().lower()
+                
+                if user_answer == correct_answer:
                     # Correct answer.
                     self.questions_correct += 1
                     self.correct_streak += 1
@@ -266,11 +275,27 @@ class TypingGame:
                     if self.sound_enabled:
                         correct_sound.play()
                 else:
-                    self.feedback = "Incorrect"
-                    self.feedback_color = (255, 0, 0)
-                    self.correct_streak = 0
-                    if self.sound_enabled:
-                        wrong_sound.play()
+                    # Check similarity for partial credit
+                    similarity = calculate_similarity(user_answer, correct_answer)
+                    if similarity >= 0.7:
+                        # Close enough - award half points
+                        self.questions_correct += 0.5  # Half credit for statistics
+                        self.correct_streak += 1
+                        multiplier = 1
+                        if self.correct_streak >= 3:
+                            multiplier = self.correct_streak - 1
+                        half_points = int((10 * multiplier) / 2)
+                        self.score += half_points
+                        self.feedback = f"Close enough - half points! x{multiplier}"
+                        self.feedback_color = (255, 225, 0)  # Yellow for partial credit
+                        if self.sound_enabled:
+                            correct_sound.play()
+                    else:
+                        self.feedback = "Incorrect"
+                        self.feedback_color = (255, 0, 0)
+                        self.correct_streak = 0
+                        if self.sound_enabled:
+                            wrong_sound.play()
                 self.next_question()
             elif event.key == pygame.K_BACKSPACE:
                 self.user_input = self.user_input[:-1]

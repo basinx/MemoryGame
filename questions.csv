@@ -85,7 +85,7 @@ Windows Server 2019 and 2022 are optimized for use as a, Network Operating Syste
 Devices running different operating systems need what in common to talk to each-other?, Network Protocols, This will allow data to be exchanged in a standard format.
 RoboCopy: Include Non-Empty directories, /s, Copies Subdirectories; but not empty ones. /E to include empty ones.
 DiskPart: Shrink a Volume, Shrink desired=, = the amount to shrink the volume by in MB > run this after 'select volume #'
-Script or config file to input the choices and settings that need to be made during setup> Windows name, Answer File,
+Script or config file to input the choices and settings that need to be made during Windows Installation, Answer File, Created with Windows System Image Manager (WSIM); uses XML format with .xml extension (unattend.xml)
 What does DISM manage and service in Windows?, Windows images, Can add features to running system or customize install.wim offline
 Option to make sure the PC uses external/hot-swappable HD or a flash drive as boot media, priority, Determines the order in which your computer's hardware checks for a bootable device.
 For internet boot; what must be supplied by the DHCP server, DNS Name, Of the installation server; To tell the PXE boot where to install from.
@@ -171,7 +171,7 @@ Linux command to print your current working directory, PWD, Print Working Direct
 How to display directory contents long form in Linux, ls -l, -l is long form and -a is hidden stuffs
 how to add line numbers with cat command in Linux?, -n, Often; cat output is piped to a pager ( cat | more or cat | less ) to control scrolling.
 how to ignore case in a grep search?, -i, 'grep -i "uid=1003" /var/log/messages' for example
-how to make cp display copied files in Linux?, -v, c'p -v /var/log/message* /home/david' copy all files beginning with message to /home/david
+how to make cp display copied files in Linux?, -v, cp -v /var/log/message* /home/david' copy all files beginning with message to /home/david
 Linux: where is the list of accounts allowed to run sudo stored?, /etc/sudoers, The user might be asked to confirm his or her password if it has not been cached recently.
 Linux: where are user settings stored?, /etc/passwd, And group settings are stored in the /etc/group; use 'getent passwd dave' to check if dave is there.
 Linux: where are encrypted password hashes generally stored?, /etc/shadow, it's a secret to everyone
@@ -250,7 +250,7 @@ Pass Attack: matches the hash to those produced by ordinary words, Dictionary, h
 Pass Attack: against one of every possible combination it could be, Brute Force, Longer and more complex passwords increase the amount of time the attack takes to run
 XSS Meaning?, Cross Site Scripting, Exploits the fact that the browser is likely to trust scripts that appear to come from a trusted site.
 Security: MD5 meaning (Just MD)?, Message Digest, An older HASH algorithm that is slowly being phased out.
-Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentioned in the course
+Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentioned in the course; SHA-256 is common (linux: sha256sum/sha512sum > create a hash of whatever)
 In Key Exchange the symmetric cipher secret key is also referred to as the, Session Key, If it is changed often; it is also referred to as an ephemeral key.
 TKIP Meaning? (related to Wi-Fi security), Temporal Key Integrity Protocol, TKIP encrypts each data packet with a (stronger) unique encryption key. Key component of WPA1 (now depreciated)
 WPA2 uses the AES; what that means?, Advanced Encryption Standard, A cipher deployed within the CCMP (Counter Mode with Cipher Block Chaining Message Authentication Code Protocol)
@@ -309,7 +309,7 @@ Windows: how do you encrypt contents of a File or Folder; from the Properties di
 During BitLocker setup what is also generated?, Recovery Key, This should be stored on removable media or written down and stored securely.
 What is the default minimum password length enforced by Windows?, 0, use secpol.msc or gpmc.msc for domain (can also get to it in gpedit.msc but secpol.msc is more focused)
 Account management policy that can protect against password guessing attacks?, lockout, disables the account after a number of incorrect sign-in attempts
-Software not necessarily malicious but with increased privacy risks is often categorized as?, PUA, Potentially Unwanted Application; such as Adware Browsers bundled with other software or rarely on OEM PC's
+Software not necessarily malicious but with increased privacy risks is often categorized (by anti-malware) as?, PUA, Potentially Unwanted Application; such as Adware Browsers bundled with other software or rarely on OEM PC's
 Thing that add or change a browser feature via its application programming interface (API), Extension, The extension must be granted specific permissions to make configuration changes. Could run scripts to interact with the pages you are looking at.
 Browser add-on that play or show some sort of content embedded in a web page, Plug-In, plug-ins have been associated with numerous vulnerabilities over the years and are now rarely used or supported
 how to get to settings through URL in Firefox?, about:preferences, #general / #home / #search / #privacy / #sync / #experimental / #moreFromMozilla ; add to go
