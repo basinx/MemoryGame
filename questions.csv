@@ -439,6 +439,7 @@ evidence cannot be seen with the naked eye, Latent, rather; it must be interpret
 PHI Meaning?, Protected Health Information, Industry standard concerning complicance data for healthcare-related information.
 Frameworks for security controls are established by organizations such as the (Acronym), NIST, National Institute of Standards and Technology (NIST)
 Can be affixed to a device as a barcode label or radio frequency ID (RFID) sticker, Asset Tag, An RFID tag is a chip programmed with asset data. When in range of a scanner; the chip powers up and signals the scanner.
+An asset record for software should include (in addition to what a regular asset would), Licensing Details, with device/user allocations and limits. Regular stuff is invoice and warranty/support contract.
 
 
 
