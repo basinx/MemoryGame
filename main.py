@@ -255,6 +255,20 @@ class TypingGame:
                 self.correct_streak = 0  # Reset streak on pass.
                 self.next_question()
 
+    def handle_mouse_click(self, event):
+        if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:  # Left mouse button
+            if self.state == MENU:
+                start_btn = pygame.Rect(300, 450, 200, 50)
+                if start_btn.collidepoint(event.pos):
+                    self.reset_game()
+            elif self.state == GAME_OVER:
+                restart_btn = pygame.Rect(300, 350, 200, 50)
+                menu_btn = pygame.Rect(300, 420, 200, 50)
+                if restart_btn.collidepoint(event.pos):
+                    self.reset_game()
+                elif menu_btn.collidepoint(event.pos):
+                    self.state = MENU
+
     def handle_input(self, event):
         if self.state == PLAYING and event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER:
@@ -324,10 +338,7 @@ class TypingGame:
             self.input_box_game_length.draw(screen)
             draw_text(screen, "Question Time (s):", (300, 340), font)
             self.input_box_question_time.draw(screen)
-            start_btn = button((300, 450, 200, 50), "Start Game")
-            if pygame.mouse.get_pressed()[0]:
-                if pygame.Rect(start_btn).collidepoint(pygame.mouse.get_pos()):
-                    self.reset_game()
+            button((300, 450, 200, 50), "Start Game")
         elif self.state == PLAYING:
 
 
@@ -355,13 +366,8 @@ class TypingGame:
         elif self.state == GAME_OVER:
             draw_text(screen, "Game Over", (335, 200), font)
             draw_text(screen, f"Final Score: {self.score}", (315, 250), font)
-            restart_btn = button((300, 350, 200, 50), "Restart")
-            menu_btn = button((300, 420, 200, 50), "Main Menu")
-            if pygame.mouse.get_pressed()[0]:
-                if pygame.Rect(restart_btn).collidepoint(pygame.mouse.get_pos()):
-                    self.reset_game()
-                elif pygame.Rect(menu_btn).collidepoint(pygame.mouse.get_pos()):
-                    self.state = MENU
+            button((300, 350, 200, 50), "Restart")
+            button((300, 420, 200, 50), "Main Menu")
 
 
 # Main loop
@@ -387,6 +393,9 @@ while running:
         if event.type == pygame.KEYDOWN and event.key == pygame.K_F12:
             game.learning_mode = not game.learning_mode
 
+        # Handle mouse clicks for buttons
+        game.handle_mouse_click(event)
+        
         # Handle input box events in the MENU state.
         if game.state == MENU:
             # Handle tabbing between input boxes.
