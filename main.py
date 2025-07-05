@@ -138,6 +138,8 @@ class TypingGame:
         self.learning_mode = False  # Learning mode off by default
         self.sound_enabled = True  # Sound on by default
         self.correct_streak = 0  # For consecutive correct answers
+        self.questions_answered = 0  # Total questions answered
+        self.questions_correct = 0  # Total questions answered correctly
 
         # Create text input boxes for settings.
         self.input_box_game_length = TextInputBox(300, 300, 200, 40, str(default_game_length))
@@ -176,6 +178,8 @@ class TypingGame:
         self.last_question_answer = ""
         self.last_question_info = ""
         self.correct_streak = 0  # Reset streak at game start.
+        self.questions_answered = 0  # Reset question counters
+        self.questions_correct = 0
         self.next_question()
         self.state = PLAYING
 
@@ -201,9 +205,9 @@ class TypingGame:
             total = self.question_time
             remaining = max(0, self.question_timer - time.time())
             fraction = remaining / total
-            bar_width = int(700 * fraction)
-            pygame.draw.rect(screen, (100, 100, 100), (50, 170, 700, 10))
-            pygame.draw.rect(screen, (0, 200, 0), (50, 170, bar_width, 10))
+            bar_width = int(710 * fraction)
+            pygame.draw.rect(screen, (100, 100, 100), (40, 170, 710, 10))
+            pygame.draw.rect(screen, (0, 200, 0), (40, 170, bar_width, 10))
 
     def draw_all_information(self):
         if self.feedback and time.time() < self.feedback_timer:
@@ -218,6 +222,18 @@ class TypingGame:
                 if self.last_question_info.strip():
                     info_text = f"Info: {self.last_question_info}"
                     draw_wrapped_text(screen, info_text, (50, 430), font, color=(200, 200, 0), max_width=700)
+        self.draw_question_timer_bar()
+        draw_text(screen, f"Time Left: {self.time_left}s", (10, 10), font)
+        draw_text(screen, f"Score: {self.score}", (10, 550), font)
+        # Display correct percentage
+        if self.questions_answered > 0:
+            percentage = int((self.questions_correct / self.questions_answered) * 100)
+            correct_text = f"Correct: {percentage}%"
+        else:
+            correct_text = "Correct: 0%"
+        correct_surface = font.render(correct_text, True, (255, 255, 255))
+        correct_rect = correct_surface.get_rect(center=(400, 560))
+        screen.blit(correct_surface, correct_rect)
 
     def update(self):
         if self.state != PLAYING:
@@ -227,6 +243,7 @@ class TypingGame:
             if self.time_left <= 0:
                 self.state = GAME_OVER
             elif time.time() > self.question_timer:
+                self.questions_answered += 1
                 self.feedback = "Pass"
                 self.feedback_color = (255, 255, 255)
                 self.correct_streak = 0  # Reset streak on pass.
@@ -235,8 +252,10 @@ class TypingGame:
     def handle_input(self, event):
         if self.state == PLAYING and event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER:
+                self.questions_answered += 1
                 if self.user_input.strip().lower() == self.current_question[1].strip().lower():
                     # Correct answer.
+                    self.questions_correct += 1
                     self.correct_streak += 1
                     multiplier = 1
                     if self.correct_streak >= 3:
@@ -285,19 +304,16 @@ class TypingGame:
                 if pygame.Rect(start_btn).collidepoint(pygame.mouse.get_pos()):
                     self.reset_game()
         elif self.state == PLAYING:
-            draw_text(screen, f"Time Left: {self.time_left}s", (10, 10), font)
-            draw_text(screen, f"Score: {self.score}", (10, 550), font)
-            self.draw_question_timer_bar()
+
+
             draw_wrapped_text(screen, f"{self.current_question[0]}", (40, 200), font)
             draw_text(screen, f"> {self.user_input}", (40, 300), font)
             #where the info text was
             self.draw_all_information()
 
         elif self.state == PAUSED:
-            # First draw the normal PLAYING screen so the question stays visible
-            draw_text(screen, f"Time Left: {self.time_left}s", (10, 10), font)
-            draw_text(screen, f"Score: {self.score}", (10, 550), font)
-            self.draw_question_timer_bar()
+
+            # we do not want to draw the question while paused - no cheating!
             # draw_wrapped_text(screen, f"{self.current_question[0]}", (40, 200), font)
             draw_text(screen, f"> {self.user_input}", (40, 300), font)
 
@@ -312,8 +328,8 @@ class TypingGame:
             rect = pause_msg.get_rect(center=(400, 300))
             screen.blit(pause_msg, rect)
         elif self.state == GAME_OVER:
-            draw_text(screen, "Game Over", (350, 200), font)
-            draw_text(screen, f"Final Score: {self.score}", (330, 250), font)
+            draw_text(screen, "Game Over", (335, 200), font)
+            draw_text(screen, f"Final Score: {self.score}", (315, 250), font)
             restart_btn = button((300, 350, 200, 50), "Restart")
             menu_btn = button((300, 420, 200, 50), "Main Menu")
             if pygame.mouse.get_pressed()[0]:
