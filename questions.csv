@@ -447,3 +447,4 @@ In Windows 10 where is Sync Settings/Windows Backup option?, Accounts, Accounts-
 In Windows 10 Where is File History in Settings?, Update & Security, Update & Security->Files Backup; Add a drive option or link to Windows 7 Backup & Restore
 In Windows 10 how to quickly switch languages?, Win-Space, Install new ones from 'Time & Language'->'Language' (course says START-SPACE)
 Term for OS Install media with all the various patches and drivers already applied, Slipstreamed, The media could be CD-ROM; DVD; or USB-attached flash drive or external drive connected by USB.
+In the Windows System Properties screen what tab lets you configure System Restore options?, System Protection, which disk(s) how much disk capacity is used. Must be formatted with NTFS; minimum of 300 MB free; and over 1 GB in size.
