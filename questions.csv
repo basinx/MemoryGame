@@ -45,8 +45,8 @@ BCD Meaning, Boot Configuration Data, \boot\bcd on the system (EFI) partition.  
 Where are list of configurable properties in the properties screen of a Device Manger item?, Advanced, Many things here such as Speed & Duplex for a NIC.
 What tab is 'Scan for Hardware Changes' under in Device Manager?, Action, Use this if you uninstalled a device and want to reinstall it.
 What year did apple switch to a seperate iPadOS for tablets?, 2019, Better support for multitasking (using more than one app at once) and the Apple Pencil stylus device.
-Make System File Checker scan on the next startup, sfc /scanonce, Schedules a scan when the computer is next restarted.
-Make System File Checker scan every time the computer boots, sfc /scanboot, Schedules a scan that runs each time the PC boots.
+Make System File Checker scan on the next startup, /scanonce, Schedules a scan when the computer is next restarted.
+Make System File Checker scan every time the computer boots, /scanboot, Schedules a scan that runs each time the PC boots.
 Where is the version controlled backup of system files for sfc? (folder name), WINSxS, System files (and shared program files) are maintained; and version-controlled in the WINSxS system folder.
 Only check for logical errors on hard disk file system, chkdsk /f, CHKDSK /R begins by performing the same function as CHKDSK /F. (This implies that “CHKDSK /F /R” is redundant; as /R includes /F.)
 Skip doing scan for bad sectors when running format, /q, Quick Format will skip the scan; both standard and quick do leave sectors un-scrubbed however.
@@ -117,7 +117,7 @@ Bootrec command to fix the BCD, /rebuildbcd, add missing Windows installations t
 Test if system is responsive with WINDOWS+CTRL+, SHIFT+B, WINDOWS+CTRL+SHIFT+B; Should hear a beep and display may reinitialize
 Files not to copy when rebuilding a user profile NTUSER. ?/?/?, DAT/LOG/INI, NTUSER.DAT; NTUSER.DAT.LOG & NTUSER.INI
 Hotkey during Windows Memory Diagnostics to configure test options, F1, From Administrative Tools or boot to the recovery environment. The computer will restart and run the test.
-SFC switch to only check the Windows files; not repair, verifyonly, you can do /scanfile or verifyfile to target specific file; /offbootdir and /offwindir for offline folders for repair
+SFC switch to only check the Windows files; not repair, /verifyonly, you can do /scanfile or verifyfile to target specific file; /offbootdir and /offwindir for offline folders for repair
 Built in tool in Windows that will periodically backup files, File History, Just type filehistory in run and click "Configure File History Settings" (Settings->Update & Security->Backup)
 What should you look for to verify software is from a trusted source?, digital signature, Digital Signature tab on properties; but still run a scan & test in a lab env if possible.
 Where can you look for a catalog of tested devices and drivers for Windows?, HCL, Microsofts Hardware Compatibility List; also known as the Windows Logo'd Product List (LPL) catalog.
@@ -441,5 +441,9 @@ Frameworks for security controls are established by organizations such as the (A
 Can be affixed to a device as a barcode label or radio frequency ID (RFID) sticker, Asset Tag, An RFID tag is a chip programmed with asset data. When in range of a scanner; the chip powers up and signals the scanner.
 An asset record for software should include (in addition to what a regular asset would), Licensing Details, with device/user allocations and limits. Regular stuff is invoice and warranty/support contract.
 Besides virus defs and scan engine updates what should regularly be checked for AV?, authorized exclusions, and that it is enabled; obviously
-
+Where to find 'Sign-In Options' in Windows 10?, Accounts, Use a fingerprint reader or PIN to access the computer rather than a password. Dynamic lock set here also (see phone far = lock)
+In Windows 10 where would you go to join PC to an Azure AD Domain?, Access Work or School, From Accounts->Access Work or School: Join the computer to a centrally managed domain network (asks for e-mail account)
+In Windows 10 where is Sync Settings/Windows Backup option?, Accounts, Accounts->Windows Backup (or Sync Settings according to course); Options greyed if local account.
+In Windows 10 Where is File History in Settings?, Update & Security, Update & Security->Files Backup; Add a drive option or link to Windows 7 Backup & Restore
+In Windows 10 how to quickly switch languages?, Win-Space, Install new ones from 'Time & Language'->'Language' (course says START-SPACE)
 
