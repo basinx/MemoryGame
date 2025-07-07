@@ -454,3 +454,5 @@ In Windows 10 what Settings screen do you configure Mouse or Typing devices?, De
 What ACPI state means full Mechanical Shut Down!?, G3, S0 = Working; S1->S3 = Progressively Deeper Sleeps; S4 = Hibernate; S5 = Shutdown (but not unplugged or switch off)
 Where will you enable/disable 'fast startup' (Win 10)?, power buttons, powercfg.cpl->Choose what the power buttons do; Change settings currently unavailable; check/uncheck it.
 Sort 'top' command in decreasing order of PID?, SHIFT+N, Enter will refresh; 'u' will Display processes belonging to the user specified at the prompt.
+How to quick format the E drive as NTFS? (Windows Dos), Format E: /fs:NTFS /q, You can also do /v:label to set a volume label
+
