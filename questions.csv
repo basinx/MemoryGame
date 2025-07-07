@@ -457,4 +457,5 @@ Sort 'top' command in decreasing order of PID?, SHIFT+N, Enter will refresh; 'u'
 How to quick format the E drive as NTFS? (Windows Dos), Format E: /fs:NTFS /q, You can also do /v:label to set a volume label
 How is a disabled device shown in Device Manager?, down arrow, And a device with issue is shown with a yellow !
 How to bring up windows admin tools (right click on start) list like a cool person? (hotkeys), Win-X, Inc: Power Options; Event Viewer; System; Device Manager; Net Conns; Disk/Comp Mgmt; Powershell AND MORE
+Taskmgr Memory counter: frequently used files in memory to speed up access, Cached, Committed is total requestioned/total system+paged; Paged/Non-Paged is kernel & driver usage ONLY (can/can't be paged)
 
