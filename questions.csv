@@ -53,7 +53,7 @@ Skip doing scan for bad sectors when running format, /q, Quick Format will skip 
 Where does an elevated command prompt begin? %SYSTEMDRIVE%:/?, Windows/System32, Non-elevated will begin in %USERPROFILE% (eg C:\Users\Jim)
 Registry hive: Contains file name extension associations and registration info for shared software components, HKEY_CLASSES_ROOT,	Primarily intended for compatibility with the registry in 16-bit Windows.
 Registry hive: contains information about the current hardware profile being used by the system., HKEY_CURRENT_CONFIG, This profile includes settings related to display resolutions; color profiles; printer configurations; and other hardware-related options.
-a set of formal descriptions that provide a standard for the design of operating systems compatible with Unix., Posix, NTFS is Posix compliant supporting case-sensitive naming.
+a set of formal descriptions that provide a standard for the design of operating systems compatible with Unix, Posix, NTFS is Posix compliant supporting case-sensitive naming. (Portable Operating System Interface)
 Maximum possible NTFS Volume size in recent Windows feature updates, 8 Petabytes, Between 137 GB and 256 Terabytes listed previously.
 FAT32 maximum Volume size/File Size, 2TB/4GB, FAT32 is a variant of FAT that uses a 32-bit allocation table; max file size is 4GB minus 1 byte.
 ExFAT recommended maximum Volume size, 512TB, There is also support for access permissions but not encryption. Excels in portability and compatibility across various operating systems
