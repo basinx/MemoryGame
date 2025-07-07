@@ -5,7 +5,7 @@ major releases that introduce new features and improvements of Windows, Feature 
 ACPI meaning?, Advanced Configuration and Power Interface, Designed to ensure software and hardware compatibility for different power saving modes
 ACPI S4 relevant filename, hiberfil.sys, Hibernate mode/Suspend to disk; hiberfil.sys is created in the root of the boot volume. ACPI defines different S# sleep/power states
 Apps that install to AppData folder and do not need credentials to install, user-context, They do not install in either the System folders or Program Files folders.
-Where to change date/time formats?, region, It is buried under time & language settings
+Where to change date/time formats?, region, Time & Language->Region
 Run command for Defrag & Optimize Drives, dfrgui.exe, Found in Administrative (Windows) Tools in Control Panel
 Run command for Computer Management, compmgmt.msc, Tasks; Shared Folders; Performance; Dev Manager; Users/Groups; Disks; Services; etc..
 Run command for Disk Cleanup, cleanmgr.exe, Regain disk capacity by deleting unwanted files.
@@ -177,7 +177,7 @@ Linux: where are user settings stored?, /etc/passwd, And group settings are stor
 Linux: where are encrypted password hashes generally stored?, /etc/shadow, it's a secret to everyone
 What numeric format are Linux can Linux permissions be expressed in?, Octal, The leading zero identifies the value as an octal but can often be omitted. (eg. 0754)
 What are the numeric values for Read; Write and Execute in Linux (nospaces), 421, Read = 4; Write = 2; Execute = 1 and Deny = 0 (add em up for the permission)
-What Linux packages does APT work with?, deb, Advanced Packaging Tool (APT) is used by Debian distros / .deb format packages.
+What Linux packages does APT work with?, deb, Advanced Packaging Tool (apt/apt-get) is used by Debian distros / .deb format packages.
 What Linux packages does YUM work with?, rpm, Yellowdog Updater/Modifier (YUM) is used by Red Hat distros / .rpm format packages.
 Refresh the local database with info about packages available (apt-get), update, Gets latest package lists from repositories
 Refresh the local database with info about packages available (yum), check-update, Gets latest package lists from repositories
