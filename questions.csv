@@ -14,7 +14,7 @@ Run command for Local Security Policy, secpol.msc, View and edit the security se
 Run command for Resource Monitor, resmon.exe, Old school resource monitor
 Run command for Performance Monitor, perfmon.msc, Performance statistics and logging (also perfmon.exe)
 Run command for Task Scheduler, taskschd.msc, Run software and scripts according to calendar or event triggers.
-RUn command for Network Adapters, ncpa.cpl, Skips the 'Network and Sharing Center' straight to adapters.
+Run command for Network Adapters, ncpa.cpl, Skips the 'Network and Sharing Center' straight to adapters.
 Run command for Device Manager, devmgmt.msc, Driver Details / Update/ Roll Back / Disable / Uninstall
 Run command for Disk Management, diskmgmt.msc, Initialize; (Re)Partition; Format; Configure Dynamic Disks/RAID replaced by Storage Spaces now.
 Run command for Local Users and Groups, lusrmgr.msc, Not available on Home Editions
@@ -430,7 +430,7 @@ Less bad than a surge/spike but can still cause a PC to power off?, under-voltag
 Max amount of the rated Amperage you should use on on a surge protector? ?%, 80, For example; the devices connected to a 15 A protector should be drawing no more than 12 A; minding total building power also.
 Conversion factor from Watts to VA?, 1.67, if you have a 10 W home router and two 250 W computers; the VA is (10 + 250 + 250) * 1.67 = 852 VA >> a 1K UPS should suffice.
 The strength of the UPS batteries is measured in?, Amp Hours, Amp hours is like how many gallons your gas tank holds (raw capacity) vs Runtime which is how far you can actually go (minutes)
-The amount of energy the surge protector can absorb?, Joules Rating, 600 joules or more offering better protection. Each surge event will degrade the capability of the suppressor.
+The total amount of energy the surge protector can absorb (basically its HP)?, Joules Rating, 600 joules or more offering better protection. Each surge event will degrade the capability of the suppressor.
 The level at which the protection circuitry in a surge protector will activate, Clamping voltage, with lower voltages (400 V or 300 V) offering better protection.
 Two situations besides just working with; where you would consult MSDS ?/?, Accident/Disposal, ingredients; health hazards; precautions; first aid; spill/leaks procedure; disposal process
 RMA Meaning?, return merchandise authorization, need clear instructions how to pack and return the item to a repair center along with a ticket-tracking number and return merchandise authorization
@@ -448,3 +448,9 @@ In Windows 10 Where is File History in Settings?, Update & Security, Update & Se
 In Windows 10 how to quickly switch languages?, Win-Space, Install new ones from 'Time & Language'->'Language' (course says START-SPACE)
 Term for OS Install media with all the various patches and drivers already applied, Slipstreamed, The media could be CD-ROM; DVD; or USB-attached flash drive or external drive connected by USB.
 In the Windows System Properties screen what tab lets you configure System Restore options?, System Protection, which disk(s) how much disk capacity is used. Must be formatted with NTFS; minimum of 300 MB free; and over 1 GB in size.
+In Windows 10 Settings where do you rename the PC?, System-About, Also has links to related settings (Bitlocker/Devmgmt/Remote Desktop/Advanced Sysdm Tab)
+In Windows 10 what Settings screen do you configure Display or Sound devices?, System, Also: Notifications; Power/Sleep; Storage[Sense]; Tablet; Multitasking; Projecting; Shared Experiences; Sys Components; Clipboard; Remote Deskto; About
+In Windows 10 what Settings screen do you configure Mouse or Typing devices?, Devices, Also: Bluetooth & Other; Printers & Scanners; Touchpad; Pen & Windows Ink; Autoplay; USB
+What ACPI state means full Mechanical Shut Down!?, G3, S0 = Working; S1->S3 = Progressively Deeper Sleeps; S4 = Hibernate; S5 = Shutdown (but not unplugged or switch off)
+Where will you enable/disable 'fast startup' (Win 10)?, power buttons, powercfg.cpl->Choose what the power buttons do; Change settings currently unavailable; check/uncheck it.
+Sort 'top' command in decreasing order of PID?, SHIFT+N, Enter will refresh; 'u' will Display processes belonging to the user specified at the prompt.
