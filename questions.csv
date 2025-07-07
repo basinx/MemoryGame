@@ -455,4 +455,5 @@ What ACPI state means full Mechanical Shut Down!?, G3, S0 = Working; S1->S3 = Pr
 Where will you enable/disable 'fast startup' (Win 10)?, power buttons, powercfg.cpl->Choose what the power buttons do; Change settings currently unavailable; check/uncheck it.
 Sort 'top' command in decreasing order of PID?, SHIFT+N, Enter will refresh; 'u' will Display processes belonging to the user specified at the prompt.
 How to quick format the E drive as NTFS? (Windows Dos), Format E: /fs:NTFS /q, You can also do /v:label to set a volume label
+How is a disabled device shown in Device Manager?, down arrow, And a device with issue is shown with a yellow !
 
