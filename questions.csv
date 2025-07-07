@@ -61,7 +61,7 @@ The Linux file system that added support for journaling., Ext3, Max File Size: 2
 Linux implementation of FAT with long filename support., VFAT, Virtual FAT; It's not a distinct file system; just a driver label.
 Linux protocol that can be used to share or remotely mount files/folders (Acronym), NFS, Network File System
 The main compatibility issues for a web application ?/?, touch/size, supporting a touch interface and a very wide range of display resolutions on the different devices that might connect to it.
-This disk management feature allows space on multiple physical disks to be combined into volumes., Dynamic Disks, Windows Home editions do not support dynamic disks or encryption.
+This disk management feature allows space on multiple physical disks to be combined into volumes., Dynamic Disks, Windows Home editions do not support dynamic disks or encryption; it is depreciated in favor of 'Storage Spaces' anyways (which does work on Home).
 Feature update where 32-bit stopped shipping with new OEM installs?, 2004, April 2020: from then on new versions only ship for 64 bit hardware (but old PC's still got updates)
 Feature update that introduced Dark Mode (Windows 10), 1607, Released August 2; 2016
 FPP Meaning, Fully Packaged Product, Each box contains a copy of the software that you manually install on your computer and one license.
