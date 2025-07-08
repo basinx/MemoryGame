@@ -462,3 +462,4 @@ On Resmon.exe; Continually rising numbers of either of these can indicate a prob
 CMD: List directory ordered by Date [Last Modified], dir /o:d /t:w, /o:[n : name | s : size | e : extension | d : date] & /t:[c : created on | a : last access | w : last modified]
 Robocopy: robocopy [source] [destination] append to log.txt + move files & directories, /log+log.txt /move, robocopy c:\source c:\destination /log+log.txt /move    (/mov will do just the files; /mir mirrors everything & deletes what not same in dest)
 Xcopy: assume destination is directory; copy hidden & sys files; copy files w/archive & turn it off (switches only), /i /h /m, /t = copy the directory structure only; /y suppress confirmation prompts; /s & /e copy everything - + empty
+How to show extended information of a disk/volume/partition in diskpart?, detail, For Format: select partition 1; format fs=NTFS label=somedrive quick; assign letter=Q:
