@@ -38,7 +38,7 @@ Run command to get to System Information, msinfo32.exe, system resources; firmwa
 Fast Task Manager hotkeys Ctrl+(?/?), Shift/Esc, also it is 'taskmgr.exe' or right click task bar or start button. or ctrl+alt+delete. literally it's everywhere.
 If *this* increasing and disk time is high then you have a disk problem, Average Disk Queue Length, The number of requests outstanding on the disk at the time the performance data is collected.
 Overall good indicator counter for how busy a disk is, % Disk Time, if the average exceeds 85% for a sustained period you may have a disk problem.
-Counter that might indicate a hard fault in memory, pages/sec, The number of pages read from or written to disk to resolve hard page faults. This means your system is using the paging file.
+Counter that indicates hard faults in memory, pages/sec, The number of pages read from or written to disk to resolve hard page faults. This means your system is using the paging file.
 ETW Meaning, Event Tracing for Windows, ETW is a mechanism that allows applications and services to record detailed information about their activities
 Where is the boot log saved (msconfig setting), %systemroot%\ntbtlog.txt, NT Boot Log: not shown in event viewer!
 BCD Meaning, Boot Configuration Data, \boot\bcd on the system (EFI) partition.  bcdedit or msconfig boot tab to edit.
