@@ -340,7 +340,7 @@ COBO Meaning?, Corp owned Biz Only, Corporate Owned; Business Only: The device i
 COPE Meaning?, Corp owned Pers Enabled, Corporate Owned; Personally Enabled: Chosen/Supplied/Owned by company; Employee may use for personal things (within AUP)
 AUP Meaning?, Acceptable Use Policy, is a set of rules that outline how a service or technology can be used.
 CYOD Meaning?, Choose Your Own Device, Supplied/Owned by company but employee get to pick from list; Usually personally enabled.
-How does a company pick/choose/enforce security requirements for Mobile Devices?, Profile, A profile of security requirements and policies through Azure EMM for example
+Configure in EMM to pick/choose/enforce security requirements for Mobile Devices:, Profile, A profile of security requirements and policies through Azure EMM for example
 in iOS what options will give data in apps a second round of encryption?, Data Protection, Uses a key derived from and protected by the user's credential. Not all user data is encrypted using the "Data Protection" (eg. SMS/Contacts/Pictures)
 Z-Wave or Zigbee what even are they, wireless mesh, These wireless standards use less power and make it easier for smart devices to forward data between nodes
 Main risk from smart device placement in workplace?, Shadow IT, A vulnerability in the device would let it maybe be used to access the network!
