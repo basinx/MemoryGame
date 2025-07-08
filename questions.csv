@@ -46,7 +46,7 @@ Where are list of configurable properties in the properties screen of a Device M
 What tab is 'Scan for Hardware Changes' under in Device Manager?, Action, Use this if you uninstalled a device and want to reinstall it.
 What year did apple switch to a seperate iPadOS for tablets?, 2019, Better support for multitasking (using more than one app at once) and the Apple Pencil stylus device.
 Make System File Checker scan on the next startup, /scanonce, Schedules a scan when the computer is next restarted.
-Make System File Checker scan every time the computer boots, /scanboot, Schedules a scan that runs each time the PC boots.
+Make System File Checker scan every time the computer boots, /scanboot, Schedules a scan that runs each time the PC boots. (sfc /revert will stop this)
 Where is the version controlled backup of system files for sfc? (folder name), WINSxS, System files (and shared program files) are maintained; and version-controlled in the WINSxS system folder.
 Only check for logical errors on hard disk file system, chkdsk /f, CHKDSK /R begins by performing the same function as CHKDSK /F. (This implies that “CHKDSK /F /R” is redundant; as /R includes /F.)
 Skip doing scan for bad sectors when running format, /q, Quick Format will skip the scan; both standard and quick do leave sectors un-scrubbed however.
