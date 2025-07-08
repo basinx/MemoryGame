@@ -437,7 +437,7 @@ class TypingGame:
             # Show wrong answers file message if file was created
             if hasattr(self, 'wrong_answers_file') and self.wrong_answers_file:
                 msg = f"Questions missed written to: {os.path.basename(self.wrong_answers_file)}"
-                draw_wrapped_text(screen, msg, (140, 130), font, color=(255, 255, 0), max_width=700)
+                draw_wrapped_text(screen, msg, (200, 130), font, color=(255, 255, 0), max_width=700)
             
             button((300, 350, 200, 50), "Restart")
             button((300, 420, 200, 50), "Main Menu")
