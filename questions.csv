@@ -96,7 +96,7 @@ a Windows command-line tool used to manage file and folder permissions, icacls, 
 Where are 32-bit shared system files stored in 64-bit versions of windows?, syswow64, %systemroot%\syswow64 - meaning Windows on Windows 64 bit emulation for 32 bit programs.
 Installation package extensions for macOS ?/?, DMG/PKG, Disk Image (simple copy) vs Package file (complex install service / multiple folders)
 Installation packages for Linux APT/YUM, DEB/RPM, APT (Debian/Ubuntu) uses .deb packages; YUM/DNF (Red Hat/Fedora) uses .rpm (redhat package manager).
-How to verify authenticity of package in linux?, Hash Value, After download; you should generate your own hash of the package and compare it to the value published by the package maintainer.
+How to verify authenticity of package in linux?, Hash, After download; you should generate your own hash of the package and compare it to the value published by the package maintainer.
 What must be assessed and mitigated when depolying new apps?, potential impacts, It is important that the IT department maintains control and oversight of all third-party software installed to network hosts.
 Cool term for unsanctioned software and devices, Shadow IT, But they raise substantial operational and business risks.
 Three main App considerings regarding Impact to *Business* ?/?/?, Licensing/Support/Training, Who/how many can use with license? by machine or by user? Who supports/trains/maintains?

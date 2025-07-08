@@ -3,7 +3,9 @@ import random
 import csv
 import time
 import difflib
-
+import os
+from datetime import datetime
+from pathlib import Path
 
 # Initialize Pygame and the mixer for sound.
 pygame.init()
@@ -121,7 +123,6 @@ PLAYING = "playing"
 PAUSED = "paused"
 GAME_OVER = "game_over"
 
-
 # Main Game Class
 class TypingGame:
     def __init__(self):
@@ -146,6 +147,8 @@ class TypingGame:
         self.correct_streak = 0  # For consecutive correct answers
         self.questions_answered = 0  # Total questions answered
         self.questions_correct = 0  # Total questions answered correctly
+        self.wrong_answers = []  # Track wrong answers for file output
+        self.wrong_answers_file = None  # Path to saved wrong answers file
 
         # Create text input boxes for settings.
         self.input_box_game_length = TextInputBox(300, 300, 200, 40, str(default_game_length))
@@ -186,8 +189,56 @@ class TypingGame:
         self.correct_streak = 0  # Reset streak at game start.
         self.questions_answered = 0  # Reset question counters
         self.questions_correct = 0
+        self.wrong_answers = []  # Reset wrong answers list
         self.next_question()
         self.state = PLAYING
+
+    def get_documents_folder(self):
+        """Get the OS-independent Documents folder path"""
+        if os.name == 'nt':  # Windows
+            return Path.home() / 'Documents'
+        else:  # Unix-like (Linux, macOS)
+            return Path.home() / 'Documents'
+
+    def save_wrong_answers(self):
+        """Save wrong answers to a text file in Documents folder"""
+        if not self.wrong_answers:
+            return None
+        
+        # Generate filename with date and time
+        now = datetime.now()
+        date_str = now.strftime('%Y%m%d')
+        time_str = now.strftime('%H%M%S')
+        filename = f'WrongAnswers{date_str}{time_str}.txt'
+        
+        # Get Documents folder path
+        docs_folder = self.get_documents_folder()
+        
+        # Create Documents folder if it doesn't exist
+        docs_folder.mkdir(exist_ok=True)
+        
+        filepath = docs_folder / filename
+        
+        try:
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write('Wrong Answers Report\n')
+                f.write('=' * 50 + '\n\n')
+                
+                for i, entry in enumerate(self.wrong_answers, 1):
+                    f.write(f'Question {i}:\n')
+                    f.write(f'Q: {entry["question"]}\n')
+                    f.write(f'Correct Answer: {entry["correct_answer"]}\n')
+                    f.write(f'Your Answer: {entry["user_answer"]}\n')
+                    if entry['extra_info']:
+                        f.write(f'Extra Info: {entry["extra_info"]}\n')
+                    f.write('\n' + '-' * 30 + '\n\n')
+                
+                f.write(f'Total Wrong Answers: {len(self.wrong_answers)}\n')
+            
+            return str(filepath)
+        except Exception as e:
+            print(f'Error saving wrong answers: {e}')
+            return None
 
     def next_question(self):
         # Store the previous question's info.
@@ -247,12 +298,21 @@ class TypingGame:
         if self.state == PLAYING:
             self.time_left = self.game_length - int(time.time() - self.start_time)
             if self.time_left <= 0:
+                self.wrong_answers_file = self.save_wrong_answers()
                 self.state = GAME_OVER
             elif time.time() > self.question_timer:
                 self.questions_answered += 1
                 self.feedback = "Pass"
                 self.feedback_color = (255, 255, 255)
                 self.correct_streak = 0  # Reset streak on pass.
+                # Track passed question as wrong since user didn't answer it
+                wrong_entry = {
+                    'question': self.current_question[0],
+                    'correct_answer': self.current_question[1],
+                    'user_answer': '(No answer - time expired)',
+                    'extra_info': self.current_question[2] if len(self.current_question) > 2 else ''
+                }
+                self.wrong_answers.append(wrong_entry)
                 self.next_question()
 
     def handle_mouse_click(self, event):
@@ -275,7 +335,7 @@ class TypingGame:
                 self.questions_answered += 1
                 user_answer = self.user_input.strip().lower()
                 correct_answer = self.current_question[1].strip().lower()
-                
+
                 if user_answer == correct_answer:
                     # Correct answer.
                     self.questions_correct += 1
@@ -308,6 +368,14 @@ class TypingGame:
                         self.feedback = "Incorrect"
                         self.feedback_color = (255, 0, 0)
                         self.correct_streak = 0
+                        # Track wrong answer
+                        wrong_entry = {
+                            'question': self.current_question[0],
+                            'correct_answer': self.current_question[1],
+                            'user_answer': self.user_input.strip(),
+                            'extra_info': self.current_question[2] if len(self.current_question) > 2 else ''
+                        }
+                        self.wrong_answers.append(wrong_entry)
                         if self.sound_enabled:
                             wrong_sound.play()
                 self.next_question()
@@ -341,10 +409,9 @@ class TypingGame:
             button((300, 450, 200, 50), "Start Game")
         elif self.state == PLAYING:
 
-
             draw_wrapped_text(screen, f"{self.current_question[0]}", (40, 200), font)
             draw_text(screen, f"> {self.user_input}", (40, 300), font)
-            #where the info text was
+            # where the info text was
             self.draw_all_information()
 
         elif self.state == PAUSED:
@@ -366,6 +433,12 @@ class TypingGame:
         elif self.state == GAME_OVER:
             draw_text(screen, "Game Over", (335, 200), font)
             draw_text(screen, f"Final Score: {self.score}", (315, 250), font)
+            
+            # Show wrong answers file message if file was created
+            if hasattr(self, 'wrong_answers_file') and self.wrong_answers_file:
+                msg = f"Questions missed written to: {os.path.basename(self.wrong_answers_file)}"
+                draw_wrapped_text(screen, msg, (140, 130), font, color=(255, 255, 0), max_width=700)
+            
             button((300, 350, 200, 50), "Restart")
             button((300, 420, 200, 50), "Main Menu")
 
