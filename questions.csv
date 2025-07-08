@@ -465,3 +465,6 @@ Xcopy: assume destination is directory; copy hidden & sys files; copy files w/ar
 How to show extended information of a disk/volume/partition in diskpart?, detail, For Format: select partition 1; format fs=NTFS label=somedrive quick; assign letter=Q:
 How to check for file system errors in read only mode (Windows), chkdsk, just chkdsk with no switches will do this.
 Linux: what is a file that links to the same data as another file using the ln command called?, hard link, A file isn't deleted until all the hard links pointing to it are deleted.
+Mac OS 10.15 is called?, Catalina, macOS is based on Unix. Check support.apple.com for the technical specification for any particular macOS release.
+Max OS 11 is called?, Big Sur, macOS is only supplied with Apple-built workstations (Apple Mac desktops and Apple iMac all-in-ones) and laptops (Apple MacBooks).
+Mac OS 12 is called?, Monterey, macOS supports the Magic Trackpad touch input device; but there is no support for touch screens.
