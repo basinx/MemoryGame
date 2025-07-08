@@ -459,3 +459,5 @@ How is a disabled device shown in Device Manager?, down arrow, And a device with
 How to bring up windows admin tools (right click on start) list like a cool person? (hotkeys), Win-X, Inc: Power Options; Event Viewer; System; Device Manager; Net Conns; Disk/Comp Mgmt; Powershell AND MORE
 Taskmgr Memory counter: frequently used files in memory to speed up access, Cached, Committed is total requestioned/total system+paged; Paged/Non-Paged is kernel & driver usage ONLY (can/can't be paged)
 On Resmon.exe; Continually rising numbers of either of these can indicate a problem ?/?, Threads/Hard Faults, Threads started by a process (CPU) or hard page faults/second (Memory)
+CMD: List directory ordered by Date [Last Modified], dir /o:d /t:w, /o:[n : name | s : size | e : extension | d : date] & /t:[c : created on | a : last access | w : last modified]
+Robocopy:
