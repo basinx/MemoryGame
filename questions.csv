@@ -464,3 +464,4 @@ Robocopy: robocopy [source] [destination] append to log.txt + move files & direc
 Xcopy: assume destination is directory; copy hidden & sys files; copy files w/archive & turn it off (switches only), /i /h /m, /t = copy the directory structure only; /y suppress confirmation prompts; /s & /e copy everything - + empty
 How to show extended information of a disk/volume/partition in diskpart?, detail, For Format: select partition 1; format fs=NTFS label=somedrive quick; assign letter=Q:
 How to check for file system errors in read only mode (Windows), chkdsk, just chkdsk with no switches will do this.
+Linux: what is a file that links to the same data as another file using the ln command called?, hard link, A file isn't deleted until all the hard links pointing to it are deleted.
