@@ -124,7 +124,7 @@ Where can you look for a catalog of tested devices and drivers for Windows?, HCL
 LLDP meaning (network - ???Protocol), Link Layer Discovery, Provides network mapping and discovery functions for networks without dedicated name servers. (LLTD: Link Layer Topology Discovery is MS version)
 The Windows service that prompts to set a new networks 'Profile Type', Network Location Awareness, NLA: public is higher security / private means PC is discoverable and folder/printer sharing active (by default)
 UNC Meaning (Windows), Universal Naming Convention, \\ Host\Path ; where Host is the host name; FQDN; or IP address and Path is a shared folder or file path.
-Setting on Windows to make sure a WWAN connection doesn't go over data limit, metered, Network & Internet -> Connection -> metered
+Setting on Windows to make sure a WWAN connection doesn't go over data limit, Metered, Network & Internet -> Type of Connection -> Connection -> Metered
 In Settings what to click to find 'Advanced Sharing Settings'?, Advanced Network Settings, Or network & sharing option in control panel then it's on the side.
 'No Internet Access': windows test to this address was unsuccessful, msftncsi.com, Checks that DNS resolves the IP address correctly. Could be a problem with the router; with DNS; or with both. (Microsoft Network Connectivity Status Indicator)
 In addition to Netbios what else does /all add to ipconfig output ? ? ?, DHCP DNS MAC, MAC Address shows as 'Physical Address' and DHCP shows seperate than 'Default Gateway'
