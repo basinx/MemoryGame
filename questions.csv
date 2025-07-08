@@ -48,7 +48,7 @@ What year did apple switch to a seperate iPadOS for tablets?, 2019, Better suppo
 Make System File Checker scan on the next startup, /scanonce, Schedules a scan when the computer is next restarted.
 Make System File Checker scan every time the computer boots, /scanboot, Schedules a scan that runs each time the PC boots. (sfc /revert will stop this)
 Where is the version controlled backup of system files for sfc? (folder name), WINSxS, System files (and shared program files) are maintained; and version-controlled in the WINSxS system folder.
-Only check for logical errors on hard disk file system, chkdsk /f, CHKDSK /R begins by performing the same function as CHKDSK /F. (This implies that “CHKDSK /F /R” is redundant; as /R includes /F.)
+Only check for logical errors on hard disk file system, chkdsk /f, CHKDSK /R begins by performing the same function as CHKDSK /F and attempts recovery of bad sectors. (“CHKDSK /F /R” is redundant)
 Skip doing scan for bad sectors when running format, /q, Quick Format will skip the scan; both standard and quick do leave sectors un-scrubbed however.
 Where does an elevated command prompt begin? %SYSTEMDRIVE%:/?, Windows/System32, Non-elevated will begin in %USERPROFILE% (eg C:\Users\Jim)
 Registry hive: Contains file name extension associations and registration info for shared software components, HKEY_CLASSES_ROOT,	Primarily intended for compatibility with the registry in 16-bit Windows.
@@ -463,3 +463,4 @@ CMD: List directory ordered by Date [Last Modified], dir /o:d /t:w, /o:[n : name
 Robocopy: robocopy [source] [destination] append to log.txt + move files & directories, /log+log.txt /move, robocopy c:\source c:\destination /log+log.txt /move    (/mov will do just the files; /mir mirrors everything & deletes what not same in dest)
 Xcopy: assume destination is directory; copy hidden & sys files; copy files w/archive & turn it off (switches only), /i /h /m, /t = copy the directory structure only; /y suppress confirmation prompts; /s & /e copy everything - + empty
 How to show extended information of a disk/volume/partition in diskpart?, detail, For Format: select partition 1; format fs=NTFS label=somedrive quick; assign letter=Q:
+How to check for file system errors in read only mode (Windows), chkdsk, just chkdsk with no switches will do this.
