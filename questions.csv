@@ -376,7 +376,7 @@ IRP Meaning, Incident Response Plan, Larger organizations will provide a dedicat
 uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. a SED encrypts all its contents by using a media encryption key (MEK).
 how to shebang bash for a script?, #!/bin/bash, Linux shell scripts uses .sh extension by convention.
 What are the prebuilt modules in Powershell called?, cmdlets, and Powershell files are identified by the .PS1 extension
-What interpreter executes VBScript?, wscript.exe, VBScript files are identified by the .VBS extension. (cscript.exe shows output in command prompt) (also runs Javascript)
+What interpreter executes VBScript?, wscript.exe, Handles: VBScript (.VBS) and Javascript (.JS); .wsf files support both; cscript.exe shows output in command prompt
 In what way is JavaScript supported on macOS? (Acronym), JXA, Javascript For Automation (There is also AppleScript)
 How to run the Python IDLE Shell, pythonw.exe, Windows python scripts associated with .pyw; IDLE = Integrated Development and Learning Environment
 How to do a for sure restart in PowerShell? (ignore any warning), Restart-Computer -Force, in bash use 'shutdown -r'
