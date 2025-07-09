@@ -56,9 +56,9 @@ Registry hive: contains information about the current hardware profile being use
 a set of formal descriptions that provide a standard for the design of operating systems compatible with Unix, Posix, NTFS is Posix compliant supporting case-sensitive naming. (Portable Operating System Interface)
 Maximum possible NTFS Volume size in recent Windows feature updates, 8 Petabytes, Between 137 GB and 256 Terabytes listed previously.
 FAT32 maximum Volume size/File Size, 2TB/4GB, FAT32 is a variant of FAT that uses a 32-bit allocation table; max file size is 4GB minus 1 byte.
-ExFAT recommended maximum Volume size, 512TB, There is also support for access permissions but not encryption. Excels in portability and compatibility across various operating systems
+ExFAT (64-bit version of FAT) recommended maximum Volume size?, 512TB, There is also support for access permissions but not encryption. Excels in portability and compatibility across various operating systems
 The Linux file system that added support for journaling., Ext3, Max File Size: 2TB ; Max Volume Size: 32TB
-Linux implementation of FAT with long filename support., VFAT, Virtual FAT; It's not a distinct file system; just a driver label.
+Linux implementation of FAT with long filename support, VFAT, Virtual FAT; It's not a distinct file system; just a driver label.
 Linux protocol that can be used to share or remotely mount files/folders (Acronym), NFS, Network File System
 The main compatibility issues for a web application ?/?, touch/size, supporting a touch interface and a very wide range of display resolutions on the different devices that might connect to it.
 This disk management feature allows space on multiple physical disks to be combined into volumes., Dynamic Disks, Windows Home editions do not support dynamic disks or encryption; it is depreciated in favor of 'Storage Spaces' anyways (which does work on Home).
@@ -91,7 +91,7 @@ Option to make sure the PC uses external/hot-swappable HD or a flash drive as bo
 For internet boot; what must be supplied by the DHCP server, DNS Name, Of the installation server; To tell the PXE boot where to install from.
 Another name for the boot sector at start of each primary partition on MBR, partition boot record, PBR: When a partition is marked as active; its boot sector is populated with a record that points to the OS boot loader.
 Convert a disk from MBR to GPT name/win 10 feature update, mbr2gpt/1703, Backup first and remember to change to UEFI boot mode after.
-What is the macOS file system called?, APFS, Apple File System; The file system used by macOS 10.13 or later.
+What is the macOS file system called?, APFS, Apple File System; The file system used by macOS 10.13 or later. Journaling/Snapshots/Permission/Ownership/Encryption
 a Windows command-line tool used to manage file and folder permissions, icacls, icacls img0.jpg /grant administrators:F (ntegrity Control Access Control List)
 Where are 32-bit shared system files stored in 64-bit versions of windows?, syswow64, %systemroot%\syswow64 - meaning Windows on Windows 64 bit emulation for 32 bit programs.
 Installation package extensions for macOS ?/?, DMG/PKG, Disk Image (simple copy) vs Package file (complex install service / multiple folders)
@@ -373,7 +373,7 @@ creates a new full backup from the previous full and incremental backups, Synthe
 Fancy term for a Malicious Data Breach?, exfiltration, Data Exfiltration; breach of regulated data must normally be reported to the regulator and to individual persons impacted
 contains codes that allow the subject information to be reconstructed by the data provider, de-identified, An anonymized data set is one where the identifying data is removed completely
 IRP Meaning, Incident Response Plan, Larger organizations will provide a dedicated Computer Security Incident Response Team (CSIRT)
-uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. an SED encrypts all its contents by using a media encryption key (MEK).
+uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. a SED encrypts all its contents by using a media encryption key (MEK).
 how to shebang bash for a script?, #!/bin/bash, Linux shell scripts uses .sh extension by convention.
 What are the prebuilt modules in Powershell called?, cmdlets, and Powershell files are identified by the .PS1 extension
 What interpreter executes VBScript?, wscript.exe, VBScript files are identified by the .VBS extension. (cscript.exe shows output in command prompt) (also runs Javascript)
@@ -471,4 +471,7 @@ Mac OS 12 is called?, Monterey, macOS supports the Magic Trackpad touch input de
 As a desktop OS; Linux tends to be used mostly in:, schools and universities, (more than in businesses or in homes); As a server OS it dominates the market for web servers; It is also used widely used in 'smart' and IoT devices.
 Chrome OS can run apps developed for which other OS?, Android, Linux->Chromium->Chrome OS; Chromebooks and Chromeboxes (full size PC's); Budget and education markets.
 Main advantage of iPadOS over iOS: ?/?, multitasking/stylus, better support for multitasking and the Apple Pencil stylus device.
-
+If a third-party company disposes of your hard drives; they should prove a:, cert of destruction, showing the make; model; and serial number of each drive + date of destruction and how it was destroyed.
+Extra stipulation for 64-bit drivers in Windows 64-bit?, Signed, If the vendor has not produced a 64-bit driver; the hardware device will not be usable.
+What is a digital signature?, Encrypted Hash, Cert/Driver is hashed with a specific algorithm & Encrypted using the signer's Private Key
+CO2 Fire Extinguishers typically have what color label?, BLACK, May also be RED or WHITE. Dry powder extinguishers can also be used; but can damage electronic equipment.
