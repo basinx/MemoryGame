@@ -92,7 +92,7 @@ For internet boot; what must be supplied by the DHCP server, DNS Name, Of the in
 Another name for the boot sector at start of each primary partition on MBR, partition boot record, PBR: When a partition is marked as active; its boot sector is populated with a record that points to the OS boot loader.
 Convert a disk from MBR to GPT name/win 10 feature update, mbr2gpt/1703, Backup first and remember to change to UEFI boot mode after.
 What is the macOS file system called?, APFS, Apple File System; The file system used by macOS 10.13 or later. Journaling/Snapshots/Permission/Ownership/Encryption
-a Windows command-line tool used to manage file and folder permissions, icacls, icacls img0.jpg /grant administrators:F (ntegrity Control Access Control List)
+a Windows command-line tool used to manage file and folder permissions, icacls, icacls img0.jpg /grant administrators:F (Integrity Control Access Control List)
 Where are 32-bit shared system files stored in 64-bit versions of windows?, syswow64, %systemroot%\syswow64 - meaning Windows on Windows 64 bit emulation for 32 bit programs.
 Installation package extensions for macOS ?/?, DMG/PKG, Disk Image (simple copy) vs Package file (complex install service / multiple folders)
 Installation packages for Linux APT/YUM, DEB/RPM, APT (Debian/Ubuntu) uses .deb packages; YUM/DNF (Red Hat/Fedora) uses .rpm (redhat package manager).
@@ -268,7 +268,7 @@ TACACS+: first 3 letters?, Terminal Access Controller, Access Control System Plu
 Single sign-on authentication and authorization service based on a time-sensitive; ticket-granting system, Kerberos, Kerberos allows a user account to authenticate to a domain controller (DC) over a trusted local cabled segment (port 88)
 Coax port for cable on SOHO router use what connector?, F, It is the usual screw on connector you know for cable modem.
 LAN ports on a home router are usually color-coded what color?, Yellow, Usually but not always
-First thing a SOHO router will ask you to do after you connect from a PC?, change the password, Change the Default Password to secure the administrator account
+First thing a SOHO router will ask you to do after you connect from a PC?, change password, Change the Default Password to secure the administrator account
 SOHO Router Setup: Minimum characters considered a strong password?, 12, Changing the default username is also a good idea if possible.
 firewall downloads curated rep. DB's that associate IP addy ranges; FQDNs & URLs with content and bad shit, Content Filtering, Most home routers do this instead of 'packet filtering' which can block based on source and destination IP filtering.
 Type of port forwarding where the external port is forwarded to a different internal port, Port Mapping, Like if you had two PC's running servers on port 8181 you'd want two external ports to distinguish them
@@ -289,7 +289,7 @@ Alarm based on either microwave radio reflection (eg. radar) or passive infrared
 Alarm that would block a door or window opening or by a fence being cut, Circuit, when the circuit is opened or closed; depending on the type of alarm.
 The final and probably easy to overlook aspect of physical security?, Lighting, Make building seem more secure and let security and cameras (even facial rec) work better
 Typically a second layer of security designed to improve the resilience of perimeter gateways, Video, older-style CCTV (closed-circuit television) or with IP cameras; may work with facial or motion as well
-Reinforced cement/metal pillars around a building, Bollards, Prevent criminal or terrorist attack from running vehicle into building; that kind of thing
+Reinforced cement/metal pillars around a building, Bollard, Prevent criminal or terrorist attack from running vehicle into building; that kind of thing
 where a threat actor is able to access a computer that has been left unlocked, Lunchtime Attack, Policies can configure screensavers that lock the desktop after a period of inactivity. Users should not depend on these; however.
 Fast lock the desktop in Windows!, Win-L, Users must develop the habit of doing this each time they leave a computer unattended.
 A clean desk policy ensures that *what?* (and Passwords) are not left in plain sight, PII, personally identifiable information: Paper copies of personal and confidential data must not be left where they could be read or stolen
@@ -453,7 +453,7 @@ In Windows 10 what Settings screen do you configure Display or Sound devices?, S
 In Windows 10 what Settings screen do you configure Mouse or Typing devices?, Devices, Also: Bluetooth & Other; Printers & Scanners; Touchpad; Pen & Windows Ink; Autoplay; USB
 What ACPI state means full Mechanical Shut Down!?, G3, S0 = Working; S1->S3 = Progressively Deeper Sleeps; S4 = Hibernate; S5 = Shutdown (but not unplugged or switch off)
 Where will you enable/disable 'fast startup' (Win 10)?, power buttons, powercfg.cpl->Choose what the power buttons do; Change settings currently unavailable; check/uncheck it.
-Sort 'top' command in decreasing order of PID?, SHIFT+N, Enter will refresh; 'u' will Display processes belonging to the user specified at the prompt.
+Sort 'top' command in decreasing order of PID?, N, Enter will refresh; 'u' will Display processes belonging to the user specified at the prompt.
 How to quick format the E drive as NTFS? (Windows Dos), Format E: /fs:NTFS /q, You can also do /v:label to set a volume label
 How is a disabled device shown in Device Manager?, down arrow, And a device with issue is shown with a yellow !
 How to bring up windows admin tools (right click on start) list like a cool person? (hotkeys), Win-X, Inc: Power Options; Event Viewer; System; Device Manager; Net Conns; Disk/Comp Mgmt; Powershell AND MORE
@@ -475,3 +475,4 @@ If a third-party company disposes of your hard drives; they should prove a:, cer
 Extra stipulation for 64-bit drivers in Windows 64-bit?, Signed, If the vendor has not produced a 64-bit driver; the hardware device will not be usable.
 What is a digital signature?, Encrypted Hash, Cert/Driver is hashed with a specific algorithm & Encrypted using the signer's Private Key
 CO2 Fire Extinguishers typically have what color label?, BLACK, May also be RED or WHITE. Dry powder extinguishers can also be used; but can damage electronic equipment.
+How can a remote access server prove it's identity/authenticity to users that connect?, digital certificate, To mitigate the risk of evil twin–type attacks. The connection must use encryption to be made secure against snooping.
