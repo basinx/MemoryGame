@@ -481,4 +481,5 @@ Something to investigate/consider when using different VNC versions?, Security, 
 Where to find/configure Remote Desktop on Windows 10 Settings?, System, Not avail in Home Edition; Advanced Settings: choose between allow older RDP clients and require NLA
 One way to run an RDP server on a Linux host?, XRDP, One open source implementation of RDP. It translates RDP protocol requests into commands that Linux can understand.
 What is the simplest Python interpreter/environment to set up in Windows?, CPython, With CPython in Windows: console interpreter= python.exe; windowed interpreter= pythonw.exe. Extension .PYW is associated with pythonw.exe.
+In Linux what keyword executes a script using Python 2 interpreter?, python, while python3 executes a script with version 3. As of 2020; Python 2 is EOL; so scripts should be updated to version 3 syntax.
 
