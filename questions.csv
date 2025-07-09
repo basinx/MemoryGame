@@ -107,7 +107,7 @@ Linux bootloader, grub, Grand Unified Bootloader / grubx64.efi
 Where does legacy BIOS firmware look for the MBR on the boot device?, first sector, The MBR then identifies the boot sector for the partition marked as active.
 Boot manager file used by BIOS firmware (Windows), BOOTMGR.exe, Reads information from the BCD file; ID's operating systems installed on the computer; Loads WINLOAD.EXE boot loader.
 Boot manager file used by UEFI firmware (Windows), bootmgfw.efi, Choose OS (if multiple) & then passes control to the boot loader (C:\Windows\system32\WINLOAD.EFI)
-Name of the Boot Loader found stored in the system root folder on the boot partition?, WINLOAD, WINLOAD.EXE for BIOS/MBR and WINLOAD.EFI for UEFI/GPT (C:\Windows\System32)
+Name of the Boot Loader found stored in the system root folder on the boot partition?, WINLOAD, WINLOAD.EXE for BIOS/MBR and WINLOAD.EFI for UEFI/GPT (C:\Windows\System32) Boot Manager->Boot Loader
 With BIOS boot; what to press to access Advanced Boot Options?, F8, Startup options are displayed automatically if the system cannot start the OS. Shift-Restart in UEFI systems.
 Where to find 'Startup Options' on the Advanced Boot Options screen?, Advanced Options, Then press F4 to select Safe Mode; or choose another option as necessary.
 MBR: WINLOAD then continues the Windows boot process by loading, NTOSKRNL.EXE, (Windows NT Operating System Kernel Executable); also HAL.DLL (hardware abstraction layer) and boot device drivers.
