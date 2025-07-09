@@ -478,4 +478,6 @@ CO2 Fire Extinguishers typically have what color label?, BLACK, May also be RED 
 How can a remote access server prove it's identity/authenticity to users that connect?, digital certificate, To mitigate the risk of evil twin–type attacks. The connection must use encryption to be made secure against snooping.
 RDP session and authentication data is always, Encrypted, This means that a malicious user with access to the same network cannot intercept credentials or interfere or capture anything transmitted during the session.
 Something to investigate/consider when using different VNC versions?, Security, Not all versions of VNC support connection security. macOS Screen Sharing is encrypted.
+Where to find/configure Remote Desktop on Windows 10 Settings?, System, Not avail in Home Edition; Advanced Settings: choose between allow older RDP clients and require NLA
+One way to run an RDP server on a Linux host?, XRDP, One open source implementation of RDP. It translates RDP protocol requests into commands that Linux can understand.
 
