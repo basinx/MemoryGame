@@ -477,4 +477,5 @@ What is a digital signature?, Encrypted Hash, Cert/Driver is hashed with a speci
 CO2 Fire Extinguishers typically have what color label?, BLACK, May also be RED or WHITE. Dry powder extinguishers can also be used; but can damage electronic equipment.
 How can a remote access server prove it's identity/authenticity to users that connect?, digital certificate, To mitigate the risk of evil twin–type attacks. The connection must use encryption to be made secure against snooping.
 RDP session and authentication data is always, Encrypted, This means that a malicious user with access to the same network cannot intercept credentials or interfere or capture anything transmitted during the session.
+Something to investigate/consider when using different VNC versions?, Security, Not all versions of VNC support connection security. macOS Screen Sharing is encrypted.
 
