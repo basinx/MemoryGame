@@ -489,3 +489,4 @@ a smart card or USB form factor device that stores some cryptographic user ident
 A SED encrypts its contents by using a, Media Encryption Key, MEK; Instant Secure Erase (ISE)/Crypto Erase uses the capabilities of self-encrypting drives (SEDs)
 RMM Meaning?, Remote monitoring and management, Principally designed for use by managed service providers (MSPs). An MSP is an outsourcing company that specializes in handling all IT support for its clients.
 Two things to consider before installing a Windows Feature Update ?/?, Compatibility/Backup, It is best to treat a Feature Update in the same way as you would an in-place upgrade.
+WSIM Meaning?, Windows System Image Manager, Used to choose options and generate an answer file for unattended installation (such as unattend.xml)
