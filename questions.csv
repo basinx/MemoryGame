@@ -277,7 +277,7 @@ When firewall detects outbound on a certain port (to an IP) it allow inbound on 
 Do this after changing password and verifying WAN access on new SOHO router, firmware update, This is important to mitigate risks from software vulnerabilities
 physically restricts access to one person at a time at entrace, vestibule, where one gateway leads to an enclosed space protected by another barrier
 often deployed at airports and in public buildings to identify concealed weapons or other items, Magnetometer, can be hand-held or walk-through
-much more difficult to clone than ordinary swipe cards ?/?, smart card/key fob, all of these are considered a 'hardware token'
+Much more difficult to clone than ordinary swipe cards ?/?, smart card/key fob, all of these are considered a 'hardware token'
 Biometric door lock that (usually) uses a small capacitive cell?, Fingerprint, moisture or dirt can prevent readings; and there are hygiene issues at shared-use gateways
 Biometric door lock: camera-based scanner that uses visible and/or infrared light, Palmprint, Unlike facial recognition; the user must make an intentional gesture to authenticate.
 One of the most accurate forms of biometrics, Retinal, Expensive and the process is relatively intrusive and complex. False negatives can be produced by diseases such as cataracts.
@@ -360,7 +360,7 @@ Installing untrusted .APK files with 'Unknown Sources' disabled is known as, Sid
 Email & any other apps using this setting get an extra round of encryption on mobile, Data Protection, Using a key derived from and protected by the user's credential. Does not encrypt SMS; Contacts or Pictures
 iOS: a means of installing apps from outside the App Store without having to jailbreak, Developer Tools, XCode is the main one used for iOS development
 What TCP port does VNC use?, 5900, macOS 'Screen Sharing' feature is based on VNC and IS encrypted (not all VNC's are)
-What option protects the RDP server against denial of service attacks?, NLA, Network Level Authentication - newer RDP clients should have - makes them auth before commiting resources.
+What option protects the RDP server against denial of service attacks? (Acronym), NLA, Network Level Authentication - newer RDP clients should have - makes them auth before commiting resources.
 MSRA Meaning?, MS Remote Assistance, Microsoft Remote Assistance: +Chat Feature & Request Remote Control; mrsa.exe use ephemeral ports 49152-65535
 How to launch Quick Assist in Windows 10? Ctrl-?, Win-Q, an alternative to msra.exe; Quick Assist works over the encrypted HTTPS port TCP/443
 Tool that can distinguish between client accts for providing/recording/reporting billable support, RMM, Remote Monitoring & Management; principally designed for use by managed service providers (MSPs)
@@ -374,7 +374,7 @@ creates a new full backup from the previous full and incremental backups, Synthe
 Fancy term for a Malicious Data Breach?, exfiltration, Data Exfiltration; breach of regulated data must normally be reported to the regulator and to individual persons impacted
 contains codes that allow the subject information to be reconstructed by the data provider, de-identified, An anonymized data set is one where the identifying data is removed completely
 IRP Meaning, Incident Response Plan, Larger organizations will provide a dedicated Computer Security Incident Response Team (CSIRT)
-uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. a SED encrypts all its contents by using a media encryption key (MEK).
+Uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. a SED encrypts all its contents by using a media encryption key (MEK).
 how to shebang bash for a script?, #!/bin/bash, Linux shell scripts uses .sh extension by convention.
 What are the prebuilt modules in Powershell called?, cmdlets, and Powershell files are identified by the .PS1 extension
 What interpreter executes VBScript?, wscript.exe, Handles: VBScript (.VBS) and Javascript (.JS); .wsf files support both; cscript.exe shows output in command prompt
@@ -483,4 +483,8 @@ Where to find/configure Remote Desktop on Windows 10 Settings?, System, Not avai
 One way to run an RDP server on a Linux host?, XRDP, One open source implementation of RDP. It translates RDP protocol requests into commands that Linux can understand.
 What is the simplest Python interpreter/environment to set up in Windows?, CPython, With CPython in Windows: console interpreter= python.exe; windowed interpreter= pythonw.exe. Extension .PYW is associated with pythonw.exe.
 In Linux what keyword executes a script using Python 2 interpreter?, python, while python3 executes a script with version 3. As of 2020; Python 2 is EOL; so scripts should be updated to version 3 syntax.
-
+Another Linux shell they mention besides Bash and Zsh? (full name), Korn Shell, Developed by David Korn at AT&T; known for advanced scripting features and Bash compatibility
+LPL Meaning?, Logo'd Product List, previously called the Hardware Compatibility List (HCL). This is a catalog of tested devices and drivers.
+a smart card or USB form factor device that stores some cryptographic user identification data, Hardware Token, First registered with the service or network. Connects/authorizes it via a password; PIN; fingerprint reader; or voice recognition.
+A SED encrypts its contents by using a, Media Encryption Key, MEK; Instant Secure Erase (ISE)/Crypto Erase uses the capabilities of self-encrypting drives (SEDs)
+RMM Meaning?, Remote monitoring and management, Principally designed for use by managed service providers (MSPs). An MSP is an outsourcing company that specializes in handling all IT support for its clients.
