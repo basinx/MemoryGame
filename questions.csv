@@ -491,3 +491,4 @@ RMM Meaning?, Remote monitoring and management, Principally designed for use by 
 Two things to consider before installing a Windows Feature Update ?/?, Compatibility/Backup, It is best to treat a Feature Update in the same way as you would an in-place upgrade.
 WSIM Meaning?, Windows System Image Manager, Used to choose options and generate an answer file for unattended installation (such as unattend.xml)
 Number of Primary Partitions allowed MBR/GPT?, 4/128, If need more than 4 with MBR; 1 partition can be configured as 'extended' and divided into as many logical; non-bootable drives as needed.
+A big difference between MBR and UEFI boot is that with UEFI the 'System' partition is:, always separate, MBR the the 'System' partition hosting BOOTMGR.EXE may be the same as where Windows is hosted. (Though it may also be seperate)
