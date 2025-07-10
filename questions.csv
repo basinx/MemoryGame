@@ -88,7 +88,7 @@ DiskPart: Shrink a Volume, Shrink desired=, = the amount to shrink the volume by
 Script or config file to input the choices and settings that need to be made during Windows Installation, Answer File, Created with Windows System Image Manager (WSIM); uses XML format with .xml extension (unattend.xml)
 What does DISM manage and service in Windows?, Windows images, Can add features to running system or customize install.wim offline
 Option to make sure the PC uses external/hot-swappable HD or a flash drive as boot media, priority, Determines the order in which your computer's hardware checks for a bootable device.
-For internet boot; what must be supplied by the DHCP server, DNS Name, Of the installation server; To tell the PXE boot where to install from.
+For INTERNET boot; what must be supplied by the DHCP server, DNS Name, Of the installation server; To tell the PXE boot where to install from.
 Another name for the boot sector at start of each primary partition on MBR, partition boot record, PBR: When a partition is marked as active; its boot sector is populated with a record that points to the OS boot loader.
 Convert a disk from MBR to GPT name/win 10 feature update, mbr2gpt/1703, Backup first and remember to change to UEFI boot mode after.
 What is the macOS file system called?, APFS, Apple File System; The file system used by macOS 10.13 or later. Journaling/Snapshots/Permission/Ownership/Encryption
