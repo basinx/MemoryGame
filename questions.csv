@@ -200,11 +200,12 @@ Linux (SMB)–compatible file sharing protocol, Samba, Samba enables the integra
 To review a users crontab jobs use what switch?, -l, to remove jobs from the scheduled list use -r; to launch the editor use -e
 What is the Linux task scheduling service called?, cron, Every user of the system is allowed to schedule programs or tasks in their own personal crontab (cron table).
 Linux: display all processes/show user/include procs not tied to terminal/extend output & wrap, ps auxww, or just use a single w if you do not want it to wrap.
-MaxOS: quickly bring up 'Spotlight Search', command-space, Find almost anything on macOS with Spotlight Search.
+MaxOS: quickly bring up 'Spotlight Search', command-space, Find almost anything on macOS with Spotlight Search. (or click the MAGNIFYING GLASS in the menu bar)
 What shell does macOS use? newer/older, zsh/bash, Z shell (Catalina and up)/ Bourne Again Shell (older).
 MacOS: window management and multiple desktops, Mission Control, Activated with the F3 key
 MacOS: hotkey to switch desktops, ctrl-dir, ctrl-left or ctrl-right / 3-4 finger swipe OR hit F3 and choose a desktop
 MacOS: key closest in function to the windows CTRL key?, COMMAND, and OPTION is usually mapped to ALT
+MacOS: key that is usually mapped to ALT?, OPTION, and COMMAND is closes in function to the CTRL key
 MacOS: What preference panel to change 'Magic Mouse' setting?, TrackPad, also you can change 'Magic Trackpad' options here; obviously
 MacOS: Options to make the display adapt to ambient light conditions, Night Shift, In the "Displays" prefpane.
 MacOS: What is the Narration option called?, VoiceOver, In 'Accessibility': VoiceOver; Cursor Size & Motion; Zoom tools; Display Contrast; Font Size; Captioning
