@@ -506,6 +506,7 @@ Windows 10 where do you find the Refresh/Reset options in Settings? (Full path),
 Two main factors that govern backup operations: ?/?, Frequency/Retention, Frequency is the period between backup jobs. Retention is the period that any given backup job is kept for; may be Legal/Policy considerations.
 What is the most widely used backup rotation scheme?, GFS, Grandfather(Longest)-Father(Mid)-Son(Shortest); Grandfather may be Montly/Full; Son may be Daily/Incremental
 What is simple best practice backup maxim to help ensure u ready for shit to go down?, 321,  three copies of your data (including production copy); across two media types; with one copy held offline and off site.
+Two options for verifying integrity of backups besides a test restore: ?/?, hash/chkdsk, Most software can hash to verify valid copy of source data; chkdsk on hard drives used for backup verifies media integrity.
 
 
 
