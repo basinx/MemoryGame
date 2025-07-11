@@ -102,7 +102,7 @@ Cool term for unsanctioned software and devices, Shadow IT, But they raise subst
 Three main App considerings regarding Impact to *Business* ?/?/?, Licensing/Support/Training, Who/how many can use with license? by machine or by user? Who supports/trains/maintains?
 What can you use in Windows Domain to get a PC to remotely install an app? (Acronym), GPO, You can use Group Policy Objects to remotely install from a network folder automatically.
 Method of automated deployment products like centrally managed antivirus use?, Push, Server or system pushes updates; configurations; or software to multiple client devices
-Besides malware threats what could new software affect on a PC or Network?, Stability and Performance, Could also contain unpatched vulnerabilities; best to test in labe environment first.
+Besides malware threats what could new software affect on a PC or Network?, Stability and Performance, Could also contain unpatched vulnerabilities; best to test in labe environment first; also compatibility issues
 Linux bootloader, grub, Grand Unified Bootloader / grubx64.efi
 Where does legacy BIOS firmware look for the MBR on the boot device?, first sector, The MBR then identifies the boot sector for the partition marked as active.
 Boot manager file used by BIOS firmware (Windows), BOOTMGR.exe, Reads information from the BCD file; ID's operating systems installed on the computer; Loads WINLOAD.EXE boot loader.
@@ -119,7 +119,7 @@ Files not to copy when rebuilding a user profile NTUSER. ?/?/?, DAT/LOG/INI, NTU
 Hotkey during Windows Memory Diagnostics to configure test options, F1, From Administrative Tools or boot to the recovery environment. The computer will restart and run the test.
 SFC switch to only check the Windows files; not repair, /verifyonly, you can do /scanfile or verifyfile to target specific file; /offbootdir and /offwindir for offline folders for repair
 Built in tool in Windows that will periodically backup files, File History, Just type filehistory in run and click "Configure File History Settings" (Settings->Update & Security->Backup)
-What should you look for to verify software is from a trusted source?, digital signature, Digital Signature tab on properties; but still run a scan & test in a lab env if possible.
+What verifies software is authentic and hasn't been tampered with?, digital signature, Digital Signature tab on properties; but still scan & test in a lab env if possible. And get from trusted source.
 Where can you look for a catalog of tested devices and drivers for Windows?, HCL, Microsofts Hardware Compatibility List; also known as the Windows Logo'd Product List (LPL) catalog.
 LLDP meaning (network - ???Protocol), Link Layer Discovery, Provides network mapping and discovery functions for networks without dedicated name servers. (LLTD: Link Layer Topology Discovery is MS version)
 The Windows service that prompts to set a new networks 'Profile Type', Network Location Awareness, NLA: public is higher security / private means PC is discoverable and folder/printer sharing active (by default)
@@ -214,6 +214,7 @@ MacOS: Where to find permissions for apps to use features (like camera etc..), S
 MacOS: How to make 'Admin Approval' settings available, lock icon, click it and type password then you can do admin stuffs.
 MacOS: Where to find 'Keychain Access' app to look at problems with Keychain?, Utilities, search box for web site->select password to change. check box "show password" & enter admin pass to see what is.
 MacOS: Does the disk encryption (if wanted), FileVault, When disk encryption enabled; each user account must be configured with a password. Also store recovery key iCloud or seperate disk.
+MacOS: Where do you find FileVault?, Security & Privacy, On the 'FileVault' tab.
 MacOS: Default amount of storage for a user on iCloud?, 5GB, This space is shared across all iCloud components and devices.
 MacOS: How to install a downloaded app?, drag, After the app is downloaded; it will need to be dragged to the Applications folder to install.
 MacOS: Where in System Preferences to set allow install downloaded Apps?, Security & Privacy, Select the padlock to make changes to the settings
@@ -485,10 +486,18 @@ What is the simplest Python interpreter/environment to set up in Windows?, CPyth
 In Linux what keyword executes a script using Python 2 interpreter?, python, while python3 executes a script with version 3. As of 2020; Python 2 is EOL; so scripts should be updated to version 3 syntax.
 Another Linux shell they mention besides Bash and Zsh? (full name), Korn Shell, Developed by David Korn at AT&T; known for advanced scripting features and Bash compatibility
 LPL Meaning?, Logo'd Product List, previously called the Hardware Compatibility List (HCL). This is a catalog of tested devices and drivers.
-a smart card or USB form factor device that stores some cryptographic user identification data, Hardware Token, First registered with the service or network. Connects/authorizes it via a password; PIN; fingerprint reader; or voice recognition.
+a smart card or USB form factor device that stores some cryptographic user identification data, Hardware Token, First registered with app/service/network. Connects/authorizes it via a password; PIN; fingerprint reader; or voice recognition.
 A SED encrypts its contents by using a, Media Encryption Key, MEK; Instant Secure Erase (ISE)/Crypto Erase uses the capabilities of self-encrypting drives (SEDs)
 RMM Meaning?, Remote monitoring and management, Principally designed for use by managed service providers (MSPs). An MSP is an outsourcing company that specializes in handling all IT support for its clients.
 Two things to consider before installing a Windows Feature Update ?/?, Compatibility/Backup, It is best to treat a Feature Update in the same way as you would an in-place upgrade.
 WSIM Meaning?, Windows System Image Manager, Used to choose options and generate an answer file for unattended installation (such as unattend.xml)
 Number of Primary Partitions allowed MBR/GPT?, 4/128, If need more than 4 with MBR; 1 partition can be configured as 'extended' and divided into as many logical; non-bootable drives as needed.
 A big difference between MBR and UEFI boot is that with UEFI the 'System' partition is:, always separate, MBR the the 'System' partition hosting BOOTMGR.EXE may be the same as where Windows is hosted. (Though it may also be seperate)
+What does GPT disk include to prevent old tools from accidentally wiping it?, Protective MBR, Sector 0 (first 512 bytes [even on a 4096 sector drive]) and then the GPT begins at Sector 1.
+Common key combination to boot to the Recovery Partition?, CTRL-F11, or just F11; but the exact key will be shown at boot (depends on the OEM provider)
+What is one thing that IS removed during a Windows refresh?, Desktop Applications, User personalization settings; data files; and apps installed via Windows Store are retained!
+Where should files created by an application or custom settings/preferences be saved?, home folder/profile, Rather than the application directory; End users should not be able to modify application folders.
+Ways to purchase Windows Pro?, OEM/FPP/Volume, Enterprise and Education editions are Volume Licensing only.
+What slashes does Linux use for file paths?, Forward, Linux uses the / slash: /etc/passwd/; Windows uses back slash C:\fuckbag\fuck
+
+
