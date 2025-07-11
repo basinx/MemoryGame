@@ -510,7 +510,8 @@ What is simple best practice backup maxim to help ensure u ready for shit to go 
 Two options for verifying integrity of backups besides a test restore: ?/?, hash/chkdsk, Most software can hash to verify valid copy of source data; chkdsk on hard drives used for backup verifies media integrity.
 Protocols that Mac Airdrop can use? (most common) ?/?, Bluetooth and Wi-Fi, Bluetooth for device discovery; Wi-Fi for file transfer; NFC added as well in iOS 17 allows tap-discover.
 An electrical device must be fitted with a fuse appropriate to its maximum:, current, such as 3A; 5A; or 13A. Too low: it will blow too easily; Too high: it may not blow when it should.
-
+Electrics: The potential difference between 2 points (pressure), Voltage, Volts = Current(Amps) * Resistance(Ohms)
+Electrics: Best equation for understanding the flow?, A=V/R, Volts coming in ÷ Resistance = Amount of Current Flowing (Amps) (120V ÷ 240Ω = 0.5A = 60W bulb)
 
 
 
