@@ -504,6 +504,7 @@ What protocol/port do TeamViewer & LogMeIn use? (common), TCP/443, But the real 
 What are App Permissions regarding the microphone called?, Voice Activation, Other:[Cam/Mic/Loc/Notifications/AcctInfo/Contacts/Calendar/Tasks/etc..] Windows Telemetry calls it 'Use of Speech'
 Windows 10 where do you find the Refresh/Reset options in Settings? (Full path), Update & Security-Recovery, 'Get Started' under 'Reset This PC' will present options for [Keep my Files] or [Remove Everything]
 Two main factors that govern backup operations: ?/?, Frequency/Retention, Frequency is the period between backup jobs. Retention is the period that any given backup job is kept for; may be Legal/Policy considerations.
+What is the most widely used backup rotation scheme?, GFS, Grandfather(Longest)-Father(Mid)-Son(Shortest); Grandfather may be Montly/Full; Son may be Daily/Incremental
 
 
 
