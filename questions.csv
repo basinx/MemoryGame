@@ -190,13 +190,14 @@ A Linux Antivirus they mentions, Clam, ClamAV scans for viruses and malware; oft
 Linux command that displays dynamic process status; reflecting real-time changes, top, M = Sort by Memory / P = Sort by CPU / u = Sort by User / N = Sort by PID desc / Enter = Refresh / q = quit
 Functions used for making a cryptographic hash of the compiled package ?/?/?, MD5/SHA-256/GPG, GPG=GNU Privacy Guard; The hash value and function are published on the package vendor's site.
 Linux command to display all Network Adapter/IP info cleanly in terminal, nmcli, nmcli device show / nmcli connection show for info about devices & connections
+Linux: take connection eth0 down [via Network Manager command], nmcli connection down eth0, Network Manager settings in '/etc/NetworkManager' instead of '/etc/network/interfaces' historic setting.
 Linux: what legacy tool did the 'ip' command replace?, ifconfig, ifconfig is part of the net-tools package; now replaced by the iproute2 package
 Linux: Modern network management package that can be operated using a GUI or the nmcli tools, NetworkManager, Alternatively; a network configuration might be managed using the systemd-networkd configuration manager.
 Show a single device with 'ip' command, addr show dev, 'ip addr show dev eth0' for example. The command 'ip addr' replicates the basic reporting functionality of ifconfig
 Linux: Show status of interfaces WITH STATISTICS; ip ?, -s link, 'ip -s link' same as 'ip link' but adds Tx and Rx statistics (Send/Receive)
 Linux: Enable or disable an interface; ip ?, link set, 'ip link set eth0 up|down' for example
 command from iproute2 package that replicates the basic reporting functionality of ifconfig, ip addr, show the current address configuration; though ifconfig is nicer (net-tools package)
-Historically edit this Linux file to modify persistent network config, /etc/network/interfaces, you would bring interfaces up or down with the ifup and ifdown scripts
+Historically edit this Linux file to modify Persistent network config, /etc/network/interfaces, you would bring interfaces up or down with the ifup and ifdown scripts
 Linux: good tool for gathering information and testing name resolution, dig, (dig domainname); 'dig @server domain' will resolve the domain name against the DNS server specified by @server.
 Linux (SMB)–compatible file sharing protocol, Samba, Samba enables the integration of Linux and Windows systems. Linux WS -> Windows Server / or vice-versa.
 To review a users crontab jobs use what switch?, -l, to remove jobs from the scheduled list use -r; to launch the editor use -e
@@ -332,7 +333,7 @@ Malware that mess with browser; let on cookies; change search; bad pages?, Spywa
 If you suspect a malware infection; Next step? - do this:, quarantine, Slow performance; App crashes; AV-Updates-Firewall stop working; File Sys Anomolies/Access Denied errors
 Steps 3/6 of Best Practices for malware removal relate to?, System Restore, Disable in Step 3; (4 - Remediate) / (5 - Schedule Scans & run Updates) ; Enable System Restore in Step 6 (other backups too like File History)
 If a user experiences redirection; check what?, hosts file, HOSTS is a legacy means of mapping domain names to IP's; Popular target for Malware; Also verify DNS servers configured.
-Malware on the host or some type of evil-twin AP intercepts request and presents its own spoofed certificate, On-Path, On Path attack my a Malicious Proxy; may or may not get warning; malware in the middle intercept and modify traffic that would normally be encrypted.
+Malware on the host or some type of evil-twin AP intercepts request and presents its own spoofed certificate, On-Path, On Path attack by a Malicious Proxy; may or may not get warning; malware in the middle intercept and modify traffic that would normally be encrypted.
 Open command prompt during Windows Preinstall Environment - hotkeys?, Shift-F10, Many antivirus companies make bootable rescue disks that are basically Windows PE with their scanning software pre-loaded.
 a particularly popular way to disguise a Trojan, Rogue Antivirus, a website would display a pop-up disguised as a normal Windows dialog box with a fake security alert
 means that the A-V software intercepts an OS call to open a file and scans the file, on-access, This reduces performance somewhat but is essential to maintaining effective protection against malware.
@@ -515,7 +516,7 @@ Electrics: The potential difference between 2 points (pressure), Voltage, Volts 
 Electrics: Best equation for understanding the flow?, A=V/R, Volts coming in ÷ Resistance = Amount of Current Flowing (Amps) (120V ÷ 240Ω = 0.5A = 60W bulb)
 Windows: Remove the 'data' directory in the durrent folder recursively quietly(short form), rd data /s /q, long form: rmdir data /s /q
 Linux: Remove the 'temp' directory and all its contents without prompting for confirmation, rm -rf temp, Extra: -r for recursive deletion -f for force (no prompts); be very careful with rm -rf!
-
+IPS Meaning, Intrusion Prevention System, Actively monitors network traffic in real-time and can automatically block or stop malicious activity when detected; unlike IDS which only alerts
 
 
 
