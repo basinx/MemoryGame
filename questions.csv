@@ -245,7 +245,7 @@ Technique where attacker enters a secure area with an employee's permission?, Pi
 an attack directed specifically against upper levels of management in the organization, Whaling, Upper management may also be more vulnerable to ordinary phishing attacks because of their reluctance to learn basic security procedures.
 Put on a fake wifi to trick people and harvest credentials; what is called?, Evil Twin, Attacker might even use DoS the legitimate AP or put a fake captive portal to steal creds.
 Threat: Attacker try learn about the configuration of network a& security systems via reconnaissance and research, Footprinting, gathering publicly available information; scanning network ports and websites; and using social engineering techniques
-Threat actor (digitally) masquerading as a trusted user or computer, Spoofing, cloning a valid MAC or IP address; using a false digital cert; imitating a legitimate email; or social engineering
+Threat actor (digitally) masquerading as a trusted user or computer, Spoofing, cloning a valid MAC/IP address/software or logical token; using a false digital cert; imitating a legitimate email; or social engineering
 Threat: steal token and use again to impersonate the original user, replay attack, This is a type of spoofing attack
 Threat actor covertly intercepting traffic between two hosts or networks, on-path, An evil twin is one example of an on-path attack; previously called Man-in-the-Middle attack
 Threat: refers to cutting the power to a computer or cutting a network cable, Physical DoS, You gotta get you hands dirty sometime
