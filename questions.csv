@@ -520,6 +520,7 @@ Windows: Remove the 'data' directory in the durrent folder recursively quietly(s
 Linux: Remove the 'temp' directory and all its contents without prompting for confirmation, rm -rf temp, Extra: -r for recursive deletion -f for force (no prompts); be very careful with rm -rf!
 IPS Meaning, Intrusion Prevention System, Actively monitors network traffic in real-time and can automatically block or stop malicious activity when detected; unlike IDS which only alerts
 What 'Ease of Access' setting group is Speech listed under?, Interaction, Under Interaction Category: [Speech; Keyboard; Mouse; Eye Control]
+Another part of POSIX compliance in NTFS?, hard links, case-sensitive naming; hard links; and other key features required by UNIX/Linux applications
 
 
 
