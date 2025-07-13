@@ -518,6 +518,7 @@ Electrics: Best equation for understanding the flow?, A=V/R, Volts coming in ÷ 
 Windows: Remove the 'data' directory in the durrent folder recursively quietly(short form), rd data /s /q, long form: rmdir data /s /q
 Linux: Remove the 'temp' directory and all its contents without prompting for confirmation, rm -rf temp, Extra: -r for recursive deletion -f for force (no prompts); be very careful with rm -rf!
 IPS Meaning, Intrusion Prevention System, Actively monitors network traffic in real-time and can automatically block or stop malicious activity when detected; unlike IDS which only alerts
+What 'Ease of Access' setting group is Speech listed under?, Interaction, Under Interaction Category: [Speech; Keyboard; Mouse; Eye Control]
 
 
 
