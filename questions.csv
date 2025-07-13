@@ -272,6 +272,7 @@ RADIUS (R and A Mean?), Remote Authentication,RADIUS: Used for verifying the ide
 RADIUS (DIUS Means?), Dial In User Service,RADIUS: Originally designed for dial-up but now used for centralized AAA over IP networks
 TACACS+: first 3 letters?, Terminal Access Controller, Access Control System Plus. Often used in authenticating administrative access to routers; switches; and access points.
 Single sign-on authentication and authorization service based on a time-sensitive; ticket-granting system, Kerberos, Kerberos allows a user account to authenticate to a domain controller (DC) over a trusted local cabled segment (port 88)
+What is your main Kerberos authentication item called?, Ticket Granting Ticket, with this you can get specific 'Service Ticket's but they are time stamped for security! Time drift will make not work!
 Coax port for cable on SOHO router use what connector?, F, It is the usual screw on connector you know for cable modem.
 LAN ports on a home router are usually color-coded what color?, Yellow, Usually but not always
 First thing a SOHO router will ask you to do after you connect from a PC?, change password, Change the Default Password to secure the administrator account
