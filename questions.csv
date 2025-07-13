@@ -194,6 +194,7 @@ Linux: take connection eth0 down [via Network Manager command], nmcli connection
 Linux: what legacy tool did the 'ip' command replace?, ifconfig, ifconfig is part of the net-tools package; now replaced by the iproute2 package
 Linux: Modern network management package that can be operated using a GUI or the nmcli tools, NetworkManager, Alternatively; a network configuration might be managed using the systemd-networkd configuration manager.
 Linux: Show only eth0 with 'ip' command, ip addr show dev eth0, The command 'ip addr' replicates the basic reporting functionality of ifconfig
+Linux: Add an IP address 10.0.0.3 to eth0, ip addr add 10.0.0.3 dev eth0, and 'ip addr delete 10.0.0.3 dev eth0'
 Linux: Show status of interfaces WITH STATISTICS?, ip -s link, 'ip -s link' same as 'ip link' but adds Tx and Rx statistics (Send/Receive)
 Linux: Use the 'ip' command to enable interface eth0?, ip link set eth0 up, 'ip link set {eth0} up|down' for example
 command from iproute2 package that replicates the basic reporting functionality of ifconfig, ip addr, show the current address configuration; though ifconfig is nicer (net-tools package)
