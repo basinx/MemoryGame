@@ -116,7 +116,7 @@ Name of the Boot Loader found stored in the system root folder on the boot parti
 With BIOS boot; what to press to access Advanced Boot Options?, F8, Startup options are displayed automatically if the system cannot start the OS. Shift-Restart in UEFI systems.
 Where to find 'Startup Settings' from WindowsRE main screen?, Troubleshoot-Advanced Options, Then click 'Restart' and it reboots to 'Startup Settings' Then press F4 to select Safe Mode; or choose another option.
 MBR: WINLOAD then continues the Windows boot process by loading, NTOSKRNL.EXE, (Windows NT Operating System Kernel Executable); also HAL.DLL (hardware abstraction layer) and boot device drivers.
-If the boot files are damaged what option on 'Startup Options' to try repair?, Startup Repair, You can also launch System Restore or restore from an image backup or perform a refresh or reset of Windows
+If the boot files are damaged what option on WinRE 'Advanced Options' to try repair?, Startup Repair, You can also launch System Restore or restore from an image backup or perform a refresh or reset of Windows
 Run command for System Restore tool, rstrui.exe, Opens directly to the pick a restore point dialog.
 Bootrec command to fix the BCD, /rebuildbcd, add missing Windows installations to the boot configuration database (BCD).
 Test if system is responsive with WINDOWS+CTRL+, SHIFT+B, WINDOWS+CTRL+SHIFT+B; Should hear a beep and display may reinitialize
