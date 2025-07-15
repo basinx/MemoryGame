@@ -123,7 +123,7 @@ Bootrec command to fix the BCD, /rebuildbcd, add missing Windows installations t
 Attempt to repair the MBR from WindowsRE Command Line:, bootrec /fixmbr, Does not work with GPT partition - that requires the backup GPT or special tools
 Attempt to repair the Boot Sector from WindowsRE Command Line:, bootrec /fixboot, Repair boot sector and boot files/BCD
 Test if system is responsive with WINDOWS+CTRL+, SHIFT+B, WINDOWS+CTRL+SHIFT+B; Should hear a beep and display may reinitialize
-Files not to copy when rebuilding a user profile NTUSER. ?/?/?, DAT/LOG/INI, NTUSER.DAT; NTUSER.DAT.LOG & NTUSER.INI
+Files not to copy when rebuilding a user profile NTUSER. ?/?/?, DAT/LOG/INI, NTUSER.DAT; NTUSER.DAT.LOG & NTUSER.INI <sometimes desktop can load slow due to a corrupt profile>
 Hotkey during Windows Memory Diagnostics to configure test options, F1, From Administrative Tools or boot to the recovery environment. The computer will restart and run the test.
 SFC switch to only check the Windows files; not repair, /verifyonly, you can do /scanfile or verifyfile to target specific file; /offbootdir and /offwindir for offline folders for repair
 Built in tool in Windows that will periodically backup files, File History, Just type filehistory in run and click "Configure File History Settings" (Settings->Update & Security->Backup)
