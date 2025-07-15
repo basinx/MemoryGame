@@ -114,7 +114,7 @@ Boot manager file used by BIOS firmware (Windows), BOOTMGR.exe, Reads informatio
 Boot manager file used by UEFI firmware (Windows), bootmgfw.efi, Choose OS (if multiple) & then passes control to the boot loader (C:\Windows\system32\WINLOAD.EFI)
 Name of the Boot Loader found stored in the system root folder on the boot partition?, WINLOAD, WINLOAD.EXE for BIOS/MBR and WINLOAD.EFI for UEFI/GPT (C:\Windows\System32) Boot Manager->Boot Loader
 With BIOS boot; what to press to access Advanced Boot Options?, F8, Startup options are displayed automatically if the system cannot start the OS. Shift-Restart in UEFI systems.
-Where to find 'Startup Options' on the Advanced Boot Options screen?, Advanced Options, Then press F4 to select Safe Mode; or choose another option as necessary.
+Where to find 'Startup Settings' from WindowsRE main screen?, Troubleshoot-Advanced Options, Then click 'Restart' and it reboots to 'Startup Settings' Then press F4 to select Safe Mode; or choose another option.
 MBR: WINLOAD then continues the Windows boot process by loading, NTOSKRNL.EXE, (Windows NT Operating System Kernel Executable); also HAL.DLL (hardware abstraction layer) and boot device drivers.
 If the boot files are damaged what option on 'Startup Options' to try repair?, Startup Repair, You can also launch System Restore or restore from an image backup or perform a refresh or reset of Windows
 Run command for System Restore tool, rstrui.exe, Opens directly to the pick a restore point dialog.
