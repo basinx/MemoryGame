@@ -8,8 +8,9 @@ Apps that install to AppData folder and do not need credentials to install, user
 Where to change date/time formats?, region, Time & Language->Region
 Run command for Defrag & Optimize Drives, dfrgui.exe, Found in Administrative (Windows) Tools in Control Panel
 Run command for Computer Management, compmgmt.msc, Tasks; Shared Folders; Performance; Dev Manager; Users/Groups; Disks; Services; etc..
-Run command for Disk Cleanup, cleanmgr.exe, Regain disk capacity by deleting unwanted files.
+Run command for Disk Cleanup, cleanmgr.exe, Regain disk capacity by deleting unwanted files; tracks files that can be safely erased to reclaim disk space.
 Run command for Event Viewer, eventvwr.msc, Review system; security; and application logs.
+Run command for Group Policy Management, gpmc.msc, Create and manage Group Policy Objects
 Run command for Local Security Policy, secpol.msc, View and edit the security settings. Not available on Home edition.
 Run command for Resource Monitor, resmon.exe, Old school resource monitor
 Run command for Performance Monitor, perfmon.msc, Performance statistics and logging (also perfmon.exe)
@@ -67,9 +68,9 @@ Feature update where 32-bit stopped shipping with new OEM installs?, 2004, April
 Feature update that introduced Dark Mode (Windows 10), 1607, Released August 2; 2016
 FPP Meaning, Fully Packaged Product, Each box contains a copy of the software that you manually install on your computer and one license.
 Version of Windows that supports more RAM and advanced hardware such as persistant NVDIMMs RAM, Pro for Workstations, NVDIMMs integrate non-volatile NAND flash memory with dynamic random access memory (DRAM) and dedicated backup power on a single memory subsystem.
-App Control Windows Enterprise feature is called, AppLocker, AppLocker helps you control which apps and files users can run.
-Fancy persistent VPN on Windows Enterprise only, DirectAccess, although it is now depreciated and MS recommends AlwaysOn VPN.
-MDOP Meaning? (Microsoft) ???, Desktop Optimization Pack, App-V; User Experience Virtualization (UE-V); Bitlocker Admin & Monitoring; Adv. Group Policy Managmt; Diag. & Recovery Toolkit (DaRT)
+App Control Windows Enterprise feature is called, AppLocker, (ENTERPRISE FEATURE) AppLocker helps you control which apps and files users can run.
+Fancy persistent VPN on Windows Enterprise only, DirectAccess, (ENTERPRISE FEATURE) although it is now depreciated and MS recommends AlwaysOn VPN.
+MDOP Meaning? (Microsoft) ???, Desktop Optimization Pack, (ENTERPRISE FEATURE) App-V; User Experience Virtualization (UE-V); Bitlocker Admin & Monitoring; Adv. Group Policy Managmt; Diag. & Recovery Toolkit (DaRT)
 Processor limit of Pro & Education Windows editions: Procs/Cores, 2/128, Enough for most desktops and workstations
 Processor limit for Pro for WS and Enterprise Windows Editions: Procs/Cores, 4/256, Designed for high-end servers or workstations
 RAM Limit for Pro and Education Windows editions (TB), 2, More than enough for most business-grade PCs
@@ -84,7 +85,9 @@ What is a rolling release Linux distro? One that:, updates continuously, Always 
 What is a fixed release Linux distro? One that updates in:, versioned jumps, Receives updates within a version; major upgrades require reinstall or full upgrade; examples: Ubuntu; Debian
 Windows Server 2019 and 2022 are optimized for use as a, Network Operating Systems, Typically; a NOS provides file-to-print services; directory services and security.
 Devices running different operating systems need what in common to talk to each-other?, Network Protocols, This will allow data to be exchanged in a standard format.
-RoboCopy: Include Non-Empty directories, /s, Copies Subdirectories; but not empty ones. /E to include empty ones.
+RoboCopy: switch to Include Non-Empty directories, /s, Copies Subdirectories; but not empty ones. /E to include empty ones.
+Robocopy: copy the 'fun' folder from current directory and ALL contents back one folder?, robocopy /e fun ..\fun, it will not create the folder for you - you must specify the folder name!
+CMD: display directory contents ordered by last modified date?, dir /o:d /t:w, /t = time field [c : created on] [a : last access] [w : last modified] (use - prefix to reverse order)
 DiskPart: Shrink a Volume, Shrink desired=, = the amount to shrink the volume by in MB > run this after 'select volume #'
 DiskPart: Set a volume to letter L?, Assign Letter=L, you must 'select volume #' first; use 'Remove Letter=L' to remove a drive letter.
 Script or config file to input the choices and settings that need to be made during Windows Installation, Answer File, Created with Windows System Image Manager (WSIM); uses XML format with .xml extension (unattend.xml)
@@ -524,6 +527,8 @@ Another part of POSIX compliance in NTFS?, hard links, case-sensitive naming; ha
 Three less common extensions considered 'executable', dll/scr/jar, EXE MSI COM DLL SCR JAR are all listed as executable files that could be infected with a 'Virus'
 Technique that usually required to install a Patched Kernel on an iOS device?, tethered jailbreak, The computer provides the timing and code injection needed to make it work.
 If a contractor with system access does an attack what it called?, insider threat, Can be employee/contractor/business partner; anyone given access (also malicious/non-malicious)
+WIndows Pro & Up: a lightweight; isolated desktop environment for safely running applications, Windows Sandbox, You would enable it through 'Turn windows features on and off'; NOT available on Home Edition.
+
 
 
 
