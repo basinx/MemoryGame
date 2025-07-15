@@ -537,6 +537,7 @@ What is something System Restore will reset ONLY if run from a Product Disk?, pa
 Where to see 'View Installed Updates' in Windows 10?, Programs and Features, Then you can click on an update and you will see 'Uninstall Updates' button appear at top!
 Windows appears to boot but no sign in screen or no desktop after login; check?, Drivers, Drivers or other system files. If the system will boot to a GUI in Safe Mode; then replace the graphics adapter driver.
 If the system will not boot to a GUI at all; even using Safe Mode?, Repair, The Windows installation will probably have to be repaired or recovered from backup; possibly sfc/chkdsk?
+Something to enable to help diagnose issues/slowdowns in startup process?, Verbose, HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\VerboseStatus=1 || CompConf->Administrative Templates->System\Display Highly Detailed Status Messages
 
 
 
