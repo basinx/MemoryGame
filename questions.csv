@@ -532,6 +532,7 @@ Windows Pro & Up: a lightweight; isolated desktop environment for safely running
 Two 'Hardware Controllers 'that RMM or UEM tools can use to implement OOB management: ?/?, vPRO/AMD Pro, OOB = Out of Band Management; Accessing remote devices utilizing a seperate connection/channel (management plane) from the main PC
 What does BIOS boot use that UEFI boot does not?, Boot Sector, BIOS finds boot sector of 'active' partition which passes off to BOOTMGR.EXE on that partition; UEFI
 What is something System Restore will reset ONLY if run from a Product Disk?, passwords, Otherwise; System Restore does not usually reset passwords.
+Where to see 'View Installed Updates' in Windows 10?, Programs and Features, Then you can click on an update and you will see 'Uninstall Updates' button appear at top!
 
 
 
