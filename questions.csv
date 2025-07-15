@@ -528,7 +528,7 @@ IPS Meaning, Intrusion Prevention System, Actively monitors network traffic in r
 What 'Ease of Access' setting group is Speech listed under?, Interaction, Under Interaction Category: [Speech; Keyboard; Mouse; Eye Control]
 Another part of POSIX compliance in NTFS?, hard links, case-sensitive naming; hard links; and other key features required by UNIX/Linux applications
 Three less common extensions considered 'executable', dll/scr/jar, EXE MSI COM DLL SCR JAR are all listed as executable files that could be infected with a 'Virus'
-Technique that usually required to install a Patched Kernel on an iOS device?, tethered jailbreak, The computer provides the timing and code injection needed to make it work.
+Technique that usually required to boot an iOS device with a 'Patched Kernel'?, tethered jailbreak, The computer provides the timing and code injection needed to make it work; [root privileges; sideload apps; change or add carriers; and customize the interface]
 If a contractor with system access does an attack what it called?, insider threat, Can be employee/contractor/business partner; anyone given access (also malicious/non-malicious)
 Windows Pro & Up: a lightweight; isolated desktop environment for safely running applications, Windows Sandbox, You would enable it through 'Turn windows features on and off'; NOT available on Home Edition.
 Two 'Hardware Controllers 'that RMM or UEM tools can use to implement OOB management: ?/?, vPRO/AMD Pro, OOB = Out of Band Management; Accessing remote devices utilizing a seperate connection/channel (management plane) from the main PC
