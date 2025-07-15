@@ -23,6 +23,7 @@ Run command for Certificate Manager for Local User, certmgr.msc, A digital certi
 Run command for Certificate Manager for Computer, certlm.msc, Trusting an unsafe CA raises critical security vulnerabilities
 Run command for Registry Editor, regedit.exe, It's the registry editor. HKEY_CLASSES_ROOT YALLLLLLL
 Run command for RDP Client, mstsc.exe, Microsoft Terminal Services Client (mstsc.exe)
+Run command for Creating recovery media?, recoverydrive, It is in Control Panel->Recovery
 Run command for Backup & Restore (Windows 7), sdclt.exe, Allows you to create system backups; restore from previous backups; and create system repair discs or complete system images
 Screws with USB Power and can interrupt use, Selective Suspend, Power Options -> Change Plan Settings -> Change Advanced Power Settings
 Run command for Power Settings Control Applet, powercfg.cpl, or ms-settings:powersleep for the new settings version
@@ -530,7 +531,7 @@ If a contractor with system access does an attack what it called?, insider threa
 Windows Pro & Up: a lightweight; isolated desktop environment for safely running applications, Windows Sandbox, You would enable it through 'Turn windows features on and off'; NOT available on Home Edition.
 Two 'Hardware Controllers 'that RMM or UEM tools can use to implement OOB management: ?/?, vPRO/AMD Pro, OOB = Out of Band Management; Accessing remote devices utilizing a seperate connection/channel (management plane) from the main PC
 What does BIOS boot use that UEFI boot does not?, Boot Sector, BIOS finds boot sector of 'active' partition which passes off to BOOTMGR.EXE on that partition; UEFI
-
+What is something System Restore will reset ONLY if run from a Product Disk?, passwords, Otherwise; System Restore does not usually reset passwords.
 
 
 
