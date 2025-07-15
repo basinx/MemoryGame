@@ -120,6 +120,8 @@ MBR: WINLOAD then continues the Windows boot process by loading, NTOSKRNL.EXE, (
 If the boot files are damaged what option on WinRE 'Troubleshoot->Advanced Options' to try repair?, Startup Repair, You can also launch 'System Restore' or 'System Image Recovery' or 'Troubleshoot->Reset This PC' to Refresh or Reset of Windows
 Run command for System Restore tool, rstrui.exe, Opens directly to the pick a restore point dialog.
 Bootrec command to fix the BCD, /rebuildbcd, add missing Windows installations to the boot configuration database (BCD).
+Attempt to repair the MBR from WindowsRE Command Line:, bootrec /fixmbr,
+Attempt to repair the Boot Sector from WindowsRE Command Line:, bootrec /fixboot, 
 Test if system is responsive with WINDOWS+CTRL+, SHIFT+B, WINDOWS+CTRL+SHIFT+B; Should hear a beep and display may reinitialize
 Files not to copy when rebuilding a user profile NTUSER. ?/?/?, DAT/LOG/INI, NTUSER.DAT; NTUSER.DAT.LOG & NTUSER.INI
 Hotkey during Windows Memory Diagnostics to configure test options, F1, From Administrative Tools or boot to the recovery environment. The computer will restart and run the test.
