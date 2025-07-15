@@ -221,7 +221,7 @@ MacOS: Where to find permissions for apps to use features (like camera etc..), S
 MacOS: How to make 'Admin Approval' settings available, lock icon, click it and type password then you can do admin stuffs.
 MacOS: Where to find 'Keychain Access' app to look at problems with Keychain?, Utilities, search box for web site->select password to change. check box "show password" & enter admin pass to see what is.
 MacOS: Does the disk encryption (if wanted), FileVault, When disk encryption enabled; each user account must be configured with a password. Also store recovery key iCloud or seperate disk.
-MacOS: Where do you find FileVault?, Security & Privacy, On the 'FileVault' tab.
+MacOS: Where do you find FileVault?, Security & Privacy, System Preferences->Security & Privacy; On the 'FileVault' tab.
 MacOS: Default amount of storage for a user on iCloud?, 5GB, This space is shared across all iCloud components and devices.
 MacOS: How to install a downloaded app?, drag, After the app is downloaded; it will need to be dragged to the Applications folder to install.
 MacOS: Where in System Preferences to set allow install downloaded Apps?, Security & Privacy, Select the padlock to make changes to the settings
