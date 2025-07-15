@@ -529,7 +529,7 @@ Technique that usually required to install a Patched Kernel on an iOS device?, t
 If a contractor with system access does an attack what it called?, insider threat, Can be employee/contractor/business partner; anyone given access (also malicious/non-malicious)
 Windows Pro & Up: a lightweight; isolated desktop environment for safely running applications, Windows Sandbox, You would enable it through 'Turn windows features on and off'; NOT available on Home Edition.
 Two 'Hardware Controllers 'that RMM or UEM tools can use to implement OOB management: ?/?, vPRO/AMD Pro, OOB = Out of Band Management; Accessing remote devices utilizing a seperate connection/channel (management plane) from the main PC
-
+What does BIOS boot use that UEFI boot does not?, Boot Sector, BIOS finds boot sector of 'active' partition which passes off to BOOTMGR.EXE on that partition; UEFI
 
 
 
