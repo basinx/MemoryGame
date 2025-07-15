@@ -536,6 +536,7 @@ What does BIOS boot use that UEFI boot does not?, Boot Sector, BIOS finds boot s
 What is something System Restore will reset ONLY if run from a Product Disk?, passwords, Otherwise; System Restore does not usually reset passwords.
 Where to see 'View Installed Updates' in Windows 10?, Programs and Features, Then you can click on an update and you will see 'Uninstall Updates' button appear at top!
 Windows appears to boot but no sign in screen or no desktop after login; check?, Drivers, Drivers or other system files. If the system will boot to a GUI in Safe Mode; then replace the graphics adapter driver.
-If the system will not boot to a GUI at all; even using Safe Mode?, Repair, The Windows installation will probably have to be repaired or recovered from backup
+If the system will not boot to a GUI at all; even using Safe Mode?, Repair, The Windows installation will probably have to be repaired or recovered from backup; possibly sfc/chkdsk?
+
 
 
