@@ -538,6 +538,7 @@ Where to see 'View Installed Updates' in Windows 10?, Programs and Features, The
 Windows appears to boot but no sign in screen or no desktop after login; check?, Drivers, Drivers or other system files. If the system will boot to a GUI in Safe Mode; then replace the graphics adapter driver.
 If the system will not boot to a GUI at all; even using Safe Mode?, Repair, The Windows installation will probably have to be repaired or recovered from backup; possibly sfc/chkdsk?
 Something to enable to help diagnose issues/slowdowns in startup process?, Verbose, HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\VerboseStatus=1 || CompConf->Administrative Templates->System\Display Highly Detailed Status Messages
+An overheating device may present performance issues due to, Throttling, System may be operating in a operating in a power-saving mode/CPU throttling mode - check airflow/temperature sensors
 
 
 
