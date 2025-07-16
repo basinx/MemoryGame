@@ -541,9 +541,9 @@ Something to enable to help diagnose issues/slowdowns in startup process?, Verbo
 An overheating device may present performance issues due to, Throttling, System may be operating in a operating in a power-saving mode/CPU throttling mode - check airflow/temperature sensors
 First priority if an application crashes?, preserve data, Users should save regularly; or Autosave/File History/Onedrive? Give process time to resume - if no and u did all u can to recover; use Task Manager to kill it.
 What Windows command re-registers DLL files in the Registry?, regsvr32, Service won't start → Error mentions missing component → You find the DLL file exists but service can't use it → regsvr32 thatdll.dll → Service works again
-'One or more services failed to start'> 2 tools to help identify which one ?/?, eventvwr/services,
+'One or more services failed to start'> 2 tools to help identify which one ?/?, eventvwr/services, Event Viewer shows actual failure details and error codes; Services will show current status.
 LSA Meaning?, Local Security Authority, Compares submitted credentials to the one stored in the Security Accounts Manager (SAM) database
 Other default hidden share besides C$?, ADMIN$, Goes to the Windows folder; Administrative shares can only be accessed by members of the local Administrators group.
 a type of DNS record that maps an alias domain name to a or true domain name, CNAME, Canonical Name; [nslookup -type:CNAME www.github.com] shows that www.github.com is an alias for github.com.
-
+What type of permissions protect locally and over network?, NTFS,  (NTFS) permissions are applied for both network and local access and can be applied to folders and to individual files.
 
