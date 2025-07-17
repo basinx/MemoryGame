@@ -136,7 +136,7 @@ Setting on Windows to use on a WWAN connection with a data limit, Metered, (Netw
 Win10: In 'Network & Internet' what click to find 'Advanced Sharing Settings'?, Network & Sharing Center, Or Network & Sharing Center option in Control Panel; Then it's on the left side.
 'No Internet Access': windows test to this address was unsuccessful, msftncsi.com, Checks that DNS resolves the IP address correctly. Could be a problem with the router; with DNS; or with both. (Microsoft Network Connectivity Status Indicator)
 In addition to Netbios what else does /all add to ipconfig output ? ? ?, DHCP DNS MAC, MAC Address shows as 'Physical Address' and DHCP shows seperate than 'Default Gateway'
-How to use IPConfig to show the DNS resolver cache? /?, displaydns, This contains host and domain names that have been queried recently.
+How to use IPConfig to show the DNS resolver cache?, /displaydns, This contains host and domain names that have been queried recently.
 Command to clear any custom net/vpn adapter settings in Windows, Network Reset, The Network reset command is on the Settings > Network & Internet > Status page.
 Where is the Network Reset command found in Windows 10? (Network & Internet)->, Status, this will clear any custom adapter configurations and network connections; including VPN connections.
 Ping this address to verify TCP/IP is installed and loaded correctly, loopback, 127.0.0.1 > The loopback address is a reserved IP address used for testing purposes.
