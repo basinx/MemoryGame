@@ -508,7 +508,7 @@ A big difference between MBR and UEFI boot is that with UEFI the 'System' partit
 What does GPT disk include to prevent old tools from accidentally wiping it?, Protective MBR, Sector 0 (first 512 bytes [even on a 4096 sector drive]) and then the GPT begins at Sector 1.
 Common key combination to boot to the Recovery Partition?, CTRL-F11, or just F11; but the exact key will be shown at boot (depends on the OEM provider)
 What is one thing that IS removed during a Windows refresh?, Desktop Applications, User personalization settings; data files; and apps installed via Windows Store are retained!
-Where should files created by an application or custom settings/preferences be saved?, %userprofile%, Rather than the application directory; End users should not be able to modify application folders.
+Where should files created by an application or custom settings/preferences be saved?, %userprofile%, C:\Users\username\ Rather than the application directory; End users should not be able to modify application folders.
 Ways to purchase Windows Pro?, OEM/FPP/Volume, Enterprise and Education editions are Volume Licensing only.
 What slashes does Linux use for file paths?, Forward, Linux uses the / slash: /etc/passwd/; Windows uses back slash C:\fuckbag\fuck
 What protocol/port do TeamViewer & LogMeIn use? (common), TCP/443, But the real order of priority is: Teamviewer:[5938->443->80]; LogMeIn:[443->80] (still encrypted if 80 is used)
