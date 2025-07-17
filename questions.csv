@@ -218,7 +218,7 @@ MacOS: key closest in function to the windows CTRL key?, COMMAND, and OPTION is 
 MacOS: key that is usually mapped to ALT?, OPTION, and COMMAND is closes in function to the CTRL key
 MacOS: What preference panel to change 'Magic Mouse' setting?, TrackPad, also you can change 'Magic Trackpad' options here; obviously
 MacOS: Options to make the display adapt to ambient light conditions, Night Shift, In the "Displays" prefpane.
-MacOS: What is the Narration option called?, VoiceOver, In 'Accessibility': VoiceOver; Cursor Size & Motion; Zoom tools; Display Contrast; Font Size; Captioning
+MacOS: What is the Narration option called?, VoiceOver, In 'System Preferences->Accessibility': VoiceOver; Cursor Size & Motion; Zoom tools; Display Contrast; Font Size; Captioning
 MacOS: Where to find 'Users & Groups'?, System Preferences, Also; sign in and out of your Apple ID using the button on the System Preferences home page.
 MacOS: Where to find permissions for apps to use features (like camera etc..), Security & Privacy, also options for what what analytics/telemetry data and personalized information can be collected
 MacOS: How to make 'Admin Approval' settings available, lock icon, click it and type password then you can do admin stuffs.
