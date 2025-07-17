@@ -173,7 +173,7 @@ Linux command to get comprehensive help pages for a command, man, or use --help 
 How to launch Nano so it shows file numbers (switch?), -l, nano -l filepath
 How to append text after the current position in Vi?, a, i will insert
 How to append text at the end of the current line in Vi?, A, :q! to quit without saving
-How to save and quit from Vi?, :wq, dd to delete an entire line
+How to save and quit from Vi?, :wq, Add to delete an entire line
 Specifies how the dirs under root should be named and where files should be placed (Acronym), FHS, Linuxes File System Heiarchy Standard
 Linux command to print your current working directory, PWD, Print Working Directory - on some distros will show tilde ~ for home directory.
 How to display directory contents long form in Linux, ls -l, -l is long form and -a is hidden stuffs
@@ -213,7 +213,7 @@ Linux: display all processes/show user/include procs not tied to terminal/extend
 MaxOS: quickly bring up 'Spotlight Search', command-space, Find almost anything on macOS with Spotlight Search. (or click the MAGNIFYING GLASS in the menu bar)
 What shell does macOS use? newer/older, zsh/bash, Z shell (Catalina and up)/ Bourne Again Shell (older).
 MacOS: Window management and multiple desktops, Mission Control, Activated with the F3 key
-MacOS: hotkey to switch desktops, ctrl-dir, ctrl-left or ctrl-right / 3-4 finger swipe OR hit F3 and choose a desktop
+MacOS: hotkey to switch desktops, control-dir, ctrl-left or ctrl-right / 3-4 finger swipe OR hit F3 and choose a desktop
 MacOS: key closest in function to the windows CTRL key?, COMMAND, and OPTION is usually mapped to ALT
 MacOS: key that is usually mapped to ALT?, OPTION, and COMMAND is closes in function to the CTRL key
 MacOS: What preference panel to change 'Magic Mouse' setting?, TrackPad, also you can change 'Magic Trackpad' options here; obviously
@@ -234,8 +234,7 @@ How to have a bootable Windows partition on macOS?, Boot Camp, allow you to inst
 what 'portal' is used to push apps to a supervised macOS?, Business Manager, Platform Deployment guide covering device management at support.apple.com/guide/deployment/welcome/1/web
 What prefpane do you set up 'Remote Disk' in?, Sharing, System Preferences->sharing; Then check box next to DVD or CD sharing.
 Mac OS - indicator you need to attach external drive for Time Machine restore, dim tick, the backup drive needs to be attached to restore that item.
-Mac OS - how to close unresponsive Apps?, Force Quit, 'Force Quit' from the Apple menu or press COMMAND+OPTION+ESC
-Mac OS - hotkeys for Force Quit?, COMMAND+OPTION+ESC, A way to close unresponsive apps.
+Mac OS - how to close unresponsive Apps?, COMMAND+OPTION+ESC, 'Force Quit' from the Apple menu or press COMMAND+OPTION+ESC
 How get to Recovery Menu in macOS?, COMMAND-R, hold until Apple logo; select language; [Restore from Time Machine backup; Reinstall macOS; Get Help; Disk Utility]
 Three properties of secure information? (first 5 letters of each) ?/?/?, confi/integ/avail, Confidentiality/Integrity/Availability >> Often refered to as the CIA triad.
 Three parts of a network security assessment ?/?/?, vuln/threat/risk, Vulnerability/Threat/Risk
@@ -360,7 +359,7 @@ in iOS what options will give data in apps a second round of encryption?, Data P
 Z-Wave or Zigbee what even are they, wireless mesh, These wireless standards use less power and make it easier for smart devices to forward data between nodes
 Main risk from smart device placement in workplace?, Shadow IT, A vulnerability in the device would let it maybe be used to access the network!
 Something that home-intended IoT devices can suffer from?, Weak Defaults, There may be recommended steps to secure the device and procedures to apply security patches that the customer never takes.
-iOS where swipe to get Control Center?, Top-Right, can be accessed by swiping from the top-right corner (newer models) or bottom of the screen.
+iOS where swipe to get Control Center?, Top Right, can be accessed by swiping from the top-right corner (newer models) or bottom of the screen.
 iOS- where is factory reset?, General, General page in settings
 Android- Where is factory reset on 'Stock Android'?, System-Advanced, do not attempt a factory reset within 72 hours of changing your account password
 In iOS; a manual ROTATE control can be added via the AssistiveTouch option which is enabled via, Accessibility, When you turn on AssistiveTouch; you see a button appear onscreen; By default; tapping the button once opens the AssistiveTouch menu.
