@@ -194,6 +194,11 @@ Update all packages with the newest versions (yum), update, Downloads and instal
 A Linux Intrusion Prevention System (IPS) they mention, Snort, Detects and blocks suspicious traffic by analyzing packets using custom rulesets
 A Linux Antivirus they mentions, Clam, ClamAV scans for viruses and malware; often used on mail servers or to check files manually
 Linux command that displays dynamic process status; reflecting real-time changes, top, M = Sort by Memory / P = Sort by CPU / u = Sort by User / N = Sort by PID desc / Enter = Refresh / q = quit
+Linux: Sort 'top' processes in decreasing order of PID?, N, PID 1 is allocated to the initial daemon; which is the first process to start and is the parent of all other processes on the system.
+Linux: Sort 'top' processes by memory usage?, M, Enter will refresh; 'u' will Display processes belonging to the user specified at the prompt.
+Linux: sort 'top' processes by CPU usage?, P, Enter will refresh status of all processes.  Or try htop for a fancier color version.
+Linux: exit the 'top' process list interface?, q, E changes units to use in upper Memory values; e changes units to use in lower process list view.
+Linux: Display processes belonging to the user specified at the prompt?, u, top -u username when you run it; or it will prompt you when you hit u
 Functions used for making a cryptographic hash of the compiled package ?/?/?, MD5/SHA-256/GPG, GPG=GNU Privacy Guard; The hash value and function are published on the package vendor's site.
 Linux command to display all Network Adapter/IP info cleanly in terminal, nmcli, nmcli device show / nmcli connection show for info about devices & connections
 Linux: take connection eth0 down [via Network Manager command], nmcli connection down eth0, Network Manager settings in '/etc/NetworkManager' instead of '/etc/network/interfaces' historic setting.
@@ -467,7 +472,6 @@ In Windows 10 what Settings screen do you configure Display or Sound devices?, S
 In Windows 10 what Settings screen do you configure Mouse or Typing devices?, Devices, Also: Bluetooth & Other; Printers & Scanners; Touchpad; Pen & Windows Ink; Autoplay; USB
 What ACPI state means full Mechanical Shut Down!?, G3, S0 = Working; S1->S3 = Progressively Deeper Sleeps; S4 = Hibernate; S5 = Shutdown (but not unplugged or switch off)
 Where will you enable/disable 'fast startup' (Win 10)?, power buttons, powercfg.cpl->Choose what the power buttons do; Change settings currently unavailable; check/uncheck it.
-Sort 'top' command in decreasing order of PID?, N, Enter will refresh; 'u' will Display processes belonging to the user specified at the prompt.
 How to quick format the E drive as NTFS? (Windows Dos), Format E: /fs:NTFS /q, You can also do /v:label to set a volume label
 How is a disabled device shown in Device Manager?, down arrow, And a device with issue is shown with a yellow !
 How to bring up windows admin tools (right click on start) list like a cool person? (hotkeys), Win-X, Inc: Power Options; Event Viewer; System; Device Manager; Net Conns; Disk/Comp Mgmt; Powershell AND MORE
