@@ -53,7 +53,7 @@ Make System File Checker scan every time the computer boots, /scanboot, Schedule
 Where is the version controlled backup of system files for sfc? (folder name), WINSxS, System files (and shared program files) are maintained; and version-controlled in the WINSxS system folder.
 Only check for logical errors on hard disk file system, chkdsk /f, CHKDSK /R begins by performing the same function as CHKDSK /F and attempts recovery of bad sectors. (“CHKDSK /F /R” is redundant)
 Skip doing scan for bad sectors when running format, /q, Quick Format will skip the scan; both standard and quick do leave sectors un-scrubbed however.
-Where does an elevated command prompt begin? %SYSTEMDRIVE%:\?, Windows/System32, Non-elevated will begin in %USERPROFILE% (eg C:\Users\Jim)
+Where does an elevated command prompt begin? %SYSTEMDRIVE%:\?, Windows\System32, Non-elevated will begin in %USERPROFILE% (eg C:\Users\Jim)
 Registry hive: Contains file name extension associations and registration info for shared software components, HKEY_CLASSES_ROOT,	Primarily intended for compatibility with the registry in 16-bit Windows.
 Registry hive: contains information about the current hardware profile being used by the system., HKEY_CURRENT_CONFIG, This profile includes settings related to display resolutions; color profiles; printer configurations; and other hardware-related options.
 a set of formal descriptions that provide a standard for the design of operating systems compatible with Unix, Posix, NTFS is Posix compliant supporting case-sensitive naming. (Portable Operating System Interface)
