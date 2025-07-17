@@ -363,7 +363,7 @@ iOS where swipe to get Control Center?, Top Right, can be accessed by swiping fr
 iOS- where is factory reset?, General, General page in settings
 Android- Where is factory reset on 'Stock Android'?, System-Advanced, do not attempt a factory reset within 72 hours of changing your account password
 In iOS; a manual ROTATE control can be added via the AssistiveTouch option which is enabled via, Accessibility, When you turn on AssistiveTouch; you see a button appear onscreen; By default; tapping the button once opens the AssistiveTouch menu.
-Where is Force Stop on Android?, Settings-Apps, click any App and option is bottom right.
+Where is Force Stop on Android?, Settings-Apps, To Force Stop an App on Android: Settings->Apps and then Click any App and option is bottom right.
 In iOS; clearing an app from the multitasking list also does what?, Force Stop, Either swipe up or double tap the physical Home button; then swipe the app up off the screen.
 in iOS how to bring up Multitask List? (physical home button), Double Tap, or swipe up if there is not a physical button.
 If a Mobile App is acting up and Force Quitting doesn't help?, App Cache, Clear from within the app or (in Android) using the Clear Cache option under App info.
