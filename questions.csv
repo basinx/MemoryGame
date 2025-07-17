@@ -132,7 +132,7 @@ Where can you look for a catalog of tested devices and drivers for Windows?, HCL
 LLDP meaning (network - ???Protocol), Link Layer Discovery, Provides network mapping and discovery functions for networks without dedicated name servers. (LLTD: Link Layer Topology Discovery is MS version)
 The Windows service that prompts to set a new networks 'Profile Type', Network Location Awareness, NLA: public is higher security / private means PC is discoverable and folder/printer sharing active (by default)
 UNC Meaning (Windows), Universal Naming Convention, \\Host\Path ; where Host is the host name; FQDN; or IP address and Path is a shared folder or file path.
-Setting on Windows to make sure a WWAN connection doesn't go over data limit, Metered, Network & Internet -> Type of Connection -> Connection -> Metered
+Setting on Windows to use on a WWAN connection with a data limit data limit, Metered, (Network & Internet->{Type of Connection}->{Connection}->Metered) && (Network & Internet->Data Usage->Enter Limit)
 Win10: In 'Network & Internet' what click to find 'Advanced Sharing Settings'?, Network & Sharing Center, Or Network & Sharing Center option in Control Panel; Then it's on the left side.
 'No Internet Access': windows test to this address was unsuccessful, msftncsi.com, Checks that DNS resolves the IP address correctly. Could be a problem with the router; with DNS; or with both. (Microsoft Network Connectivity Status Indicator)
 In addition to Netbios what else does /all add to ipconfig output ? ? ?, DHCP DNS MAC, MAC Address shows as 'Physical Address' and DHCP shows seperate than 'Default Gateway'
@@ -317,7 +317,7 @@ Logical security technologies designed to prevent malicious software from runnin
 Windows 10 where to find Autoplay in Settings?, Devices, Autoplay settings can also be configured via a drives properties dialog box.
 Kind of virus identification that looks at actions of what programs are doing?, heuristic, uses knowledge of the sort of things that viruses do to try to spot (and block) virus-like behavior
 Defender Antivirus can be disabled temporarily by toggling what button?, real-time protection, It will re-activate itself after a short period.
-Quickly launch Windows Defender Firewall settings?, firewall.cpl, Then 'Advanced Settings' to modify Inbound and Outbound rules (wf.msc)
+Quickly launch Windows Defender Firewall settings?, firewall.cpl, Then 'Advanced Settings' to modify Inbound and Outbound rules (wf.msc) (Update & Security->Windows Security->Firewall & Network Protection)
 Quickly launch Advanced Firewall settings in Windows?, wf.msc, From top of tree 'Status Page' -> 'Windows Defender Firewall Properties' for specific options for each Network Profile
 Windows: how do you encrypt contents of a File or Folder; from the Properties dialog?, Advanced, There is 'Encrypt Contents to Secure Data' option.
 During BitLocker setup what is also generated?, Recovery Key, This should be stored on removable media or written down and stored securely.
