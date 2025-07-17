@@ -320,7 +320,7 @@ Kind of virus identification that looks at actions of what programs are doing?, 
 Defender Antivirus can be disabled temporarily by toggling what button?, real-time protection, It will re-activate itself after a short period.
 Quickly launch Windows Defender Firewall settings?, firewall.cpl, Then 'Advanced Settings' to modify Inbound and Outbound rules (wf.msc) (Update & Security->Windows Security->Firewall & Network Protection)
 Quickly launch Advanced Firewall settings in Windows?, wf.msc, From top of tree 'Status Page' -> 'Windows Defender Firewall Properties' for specific options for each Network Profile
-Windows: how do you encrypt contents of a File or Folder; from the Properties dialog?, Advanced, There is 'Encrypt Contents to Secure Data' option.
+Windows: What Tab to encrypt contents of a File or Folder; from the Properties dialog?, Advanced, There is 'Encrypt Contents to Secure Data' option.
 During BitLocker setup what is also generated?, Recovery Key, This should be stored on removable media or written down and stored securely.
 What is the default minimum password length enforced by Windows?, 0, use secpol.msc or gpmc.msc for domain (can also get to it in gpedit.msc but secpol.msc is more focused)
 Account management policy that can protect against password guessing attacks?, lockout, disables the account after a number of incorrect sign-in attempts
