@@ -307,7 +307,7 @@ Reinforced cement/metal pillars around a building, Bollard, Prevent criminal or 
 where a threat actor is able to access a computer that has been left unlocked, Lunchtime Attack, Policies can configure screensavers that lock the desktop after a period of inactivity. Users should not depend on these; however.
 Fast lock the desktop in Windows!, Win-L, Users must develop the habit of doing this each time they leave a computer unattended.
 A clean desk policy ensures that *what?* (and Passwords) are not left in plain sight, PII, personally identifiable information: Paper copies of personal and confidential data must not be left where they could be read or stolen
-control what system configuration changes a user can make to a PC, rights or privs, Configuring rights or privileges is the responsibility of the network owner.
+control what system configuration changes a user can make to a PC, rights and privs, Configuring rights or privileges is the responsibility of the network owner.
 Any use of the default administrator account must be logged and accounted for and generate?, Alert, If the default administrator account cannot be disabled; it must never be left configured with a default password.
 Why would the normally disabled guest account in Windows be enabled?,  passwordless file sharing,  in a Windows workgroup
 Where to unlock a user account in their active directory properties? (tab?), Account, in the Active Directory Users and Computers (dsa.msc)
