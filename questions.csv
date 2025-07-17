@@ -547,3 +547,4 @@ Other default hidden share besides C$?, ADMIN$, Goes to the Windows folder; Admi
 a type of DNS record that maps an alias domain name to a or true domain name, CNAME, Canonical Name; [nslookup -type:CNAME www.github.com] shows that www.github.com is an alias for github.com.
 What type of permissions protect locally and over network?, NTFS, (NTFS) permissions are applied for both network and local access and can be applied to folders and to individual files.
 MD5 what does the MD stand for?, Message Digest, 'Message Digest 5' Hash Algorithm <Generates a unique; 128-bit hash value>
+Provides net mapping and discovery for networks without dedicated name servers, LLTD, Link Layer Topology Discovery; Inside an Adapter from 'Change Adapter Options'/'ncpa.cpl'
