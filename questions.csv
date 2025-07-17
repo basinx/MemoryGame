@@ -23,7 +23,7 @@ Run command for Certificate Manager for Local User, certmgr.msc, A digital certi
 Run command for Certificate Manager for Computer, certlm.msc, Trusting an unsafe CA raises critical security vulnerabilities
 Run command for Registry Editor, regedit.exe, It's the registry editor. HKEY_CLASSES_ROOT YALLLLLLL
 Run command for RDP Client, mstsc.exe, Microsoft Terminal Services Client (mstsc.exe)
-Run command for Creating recovery media?, recoverydrive, It is in Control Panel->Recovery
+Run command for creating a bootable USB recovery drive?, recoverydrive, Creates a bootable USB drive that can be used to troubleshoot and recover Windows when it won't start
 Run command for Backup & Restore (Windows 7), sdclt.exe, Allows you to create system backups; restore from previous backups; and create system repair discs or complete system images
 Screws with USB Power and can interrupt use, Selective Suspend, Power Options -> Change Plan Settings -> Change Advanced Power Settings
 Run command for Power Settings Control Applet, powercfg.cpl, or ms-settings:powersleep for the new settings version
@@ -380,7 +380,7 @@ Tool that can distinguish between client accts for providing/recording/reporting
 Suite designed for control & authorization of devices within a single organization, UEM, Unified Endpoint Management; Any of: Agents for Security/Information/OS Version checking/Push Updates/Live Chat/Remote Shell
 EDR Meaning (in security), Endpoint Detection and Response, Software agent that collects system data and logs for analysis by a monitoring system to provide early detection of threats.
 Challenge of knowing each host on network authorized and secure?, Network Visibility, Generally best to utilize Desktop Management & Remote Monitoring Tools
-What does Ubuntu RDP connection?, Remmina, It allows connection only from a user on Linux to control a RDP server on another PC
+What RDP client does Ubuntu use for connecting to remote machines?, Remmina, It allows connection only from a user on Linux to control a RDP server on another PC
 How to restore a single file with File History, Previous Versions, Previous Versions tab in file properties or the File History applet.
 Win10: Where find "Files Backup" option in Settings?, Update & Security, 'File History' option or link to 'Backup & Restore (Windows 7)'. (course says: Settings>Update & Security>Backup)
 creates a new full backup from the previous full and incremental backups, Synthetic,  not generated directly from the original data but instead assembled from other backup jobs
