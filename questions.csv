@@ -560,3 +560,4 @@ Where is the boot loader and BCD on EFI System Partition?, \EFI\Microsoft\, Cour
 Security controls applied or enforced by people:, Procedural, Procedural controls: xamples include incident response processes; management oversight; and security awareness training programs.
 Security controls applied and enforced by digital or cyber systems and software:, Logical, Examples include user authentication; antivirus software; and firewalls.
 What does each ACE in an ACL identify the permissions for?, subject, A subject could be a human user; a computer; or a software service. A subject could be identified in several ways (MAC/IP/PORT/SID)
+In Windows folder where is the HKEY_LOCAL_MACHINE files?, system32\config, SAM/SECURITY/SOFTWARE/SYSTEM & more! [CLASSES_ROOT = SOFTWARE\Classes from LOCAL_MACHINE and CURRENT_USER hives] [CURRENT_CONFIG = LOCAL_MACHINE\SYSTEM\CurrentControlSet\Hardware Profiles\Current]
