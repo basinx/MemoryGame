@@ -137,10 +137,10 @@ Win10: In 'Network & Internet' what click to find 'Advanced Sharing Settings'?, 
 'No Internet Access': windows test to this address was unsuccessful, msftncsi.com, Checks that DNS resolves the IP address correctly. Could be a problem with the router; with DNS; or with both. (Microsoft Network Connectivity Status Indicator)
 In addition to Netbios what else does /all add to ipconfig output ? ? ?, DHCP DNS MAC, MAC Address shows as 'Physical Address' and DHCP shows seperate than 'Default Gateway'
 How to use IPConfig to show the DNS resolver cache?, /displaydns, This contains host and domain names that have been queried recently.
-Command to clear any custom net/vpn adapter settings in Windows, Network Reset, The Network reset command is on the Settings > Network & Internet > Status page.
+Command to clear any custom net/vpn adapter settings in Windows, Network Reset, The Network reset command is on the Settings > Network & Internet > Status page (tiny text down at very bottom).
 Where is the Network Reset command found in Windows 10? (Network & Internet)->, Status, this will clear any custom adapter configurations and network connections; including VPN connections.
 Ping this address to verify TCP/IP is installed and loaded correctly, loopback, 127.0.0.1 > The loopback address is a reserved IP address used for testing purposes.
-Indicates no response to Address Resolution Protocol (ARP) probes locally. (Reply from ? Dst Host Unreachable), Sender IP, The most likely cause is that the destination host is disconnected or configured as non-discoverable.
+Indicates no response to Address Resolution Protocol (ARP) probes locally. (Reply from ? Dst Host Unreachable), Sender IP, The most likely cause is that the destination host is disconnected or configured as non-discoverable. local network link issue!
 Fancy alternative to tracert, pathping, It will trace the route and also do ping tests to determine the RTT and measure link latency.
 If you identify or suspect a problem with name resolution; you can troubleshoot DNS with, nslookup, ex: nslookup -type=mx comptia.org 8.8.8.8; you can compare the results to those returned by your own name server.
 netstat switch > includes UDP ports in the listening state?, -a, UDP 0.0.0.0:3702 *:* is a UDP listener (connectionless — no "established" state) (WS-Discovery in example)
@@ -552,3 +552,6 @@ a type of DNS record that maps an alias domain name to a or true domain name, CN
 What type of permissions protect locally and over network?, NTFS, (NTFS) permissions are applied for both network and local access and can be applied to folders and to individual files.
 MD5 what does the MD stand for?, Message Digest, 'Message Digest 5' Hash Algorithm <Generates a unique; 128-bit hash value>
 Provides net mapping and discovery for networks without dedicated name servers, LLTD, Link Layer Topology Discovery; Inside an Adapter from 'Change Adapter Options'/'ncpa.cpl'
+Windows: command to display the name of the local machine?, hostname, If the machine is configured as a server; client machines will need to use the hostname to access shared folders and printers.
+CAB Meaning?, Change Advisory Board, assess both the business case and the technical merits and risks of the change plan; should include users/stakeholders/techs/managers/phil from accounting
+ITIL: Things; Processes or People who contribute to the delivery of an IT service, Service Asset, A configuration item (CI) is an asset that requires specific management procedures for it to be used to deliver the service.
