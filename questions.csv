@@ -559,3 +559,4 @@ If you are implementing a change you should have a, Rollback Plan, So that the c
 Where is the boot loader and BCD on EFI System Partition?, \EFI\Microsoft\, Course says "Each Windows installation has a subfolder under \EFI\Microsoft\ that contains a BCD and BOOTMGFW.EFI."
 Security controls applied or enforced by people:, Procedural, Procedural controls: xamples include incident response processes; management oversight; and security awareness training programs.
 Security controls applied and enforced by digital or cyber systems and software:, Logical, Examples include user authentication; antivirus software; and firewalls.
+What does each ACE in an ACL identify the permissions for?, subject, A subject could be a human user; a computer; or a software service. A subject could be identified in several ways (MAC/IP/PORT/SID)
