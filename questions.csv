@@ -556,3 +556,4 @@ Windows: command to display the name of the local machine?, hostname, If the mac
 CAB Meaning?, Change Advisory Board, assess both the business case and the technical merits and risks of the change plan; should include users/stakeholders/techs/managers/phil from accounting
 ITIL: Things; Processes or People who contribute to the delivery of an IT service, Service Asset, A configuration item (CI) is an asset that requires specific management procedures for it to be used to deliver the service.
 If you are implementing a change you should have a, Rollback Plan, So that the change can be reversed if it has harmful or unforeseen consequences.
+Where is the boot loader and BCD on EFI System Partition?, \EFI\Microsoft\, Course says "Each Windows installation has a subfolder under \EFI\Microsoft\ that contains a BCD and BOOTMGFW.EFI."
