@@ -567,5 +567,5 @@ USB key or smart card w/ cryptographic module that hold auth encryption keys sec
 Authentication method that seeks to mitigate these by transitioning to passwordless SSO, Hello for Business, Private key is stored within the TPM of the user device; Encrypts Secret; Server Public Key decrypts and knows it u!
 Active Directory is based on what standard?, X.500, is the international standard for directory services (like a blueprint); Active Directory implements many X.500 concepts but adds Microsoft-specific features
 Update all group policies; reapply new & old; reboot if necessary, gpupdate /force /boot, /logoff with also allow logoff if necessary.
-
+Where in the DC Windows folder is the AD Credential store?, NTDS\NTDS.DIT, %SystemRoot%\NTDS\NTDS.DIT; Contains the ENTIRE Active Directory database; (User accounts; passwords; group memberships; computer accounts)
 
