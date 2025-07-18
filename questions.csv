@@ -562,5 +562,5 @@ Security controls applied and enforced by digital or cyber systems and software:
 What does each ACE in an ACL identify the permissions for?, subject, A subject could be a human user; a computer; or a software service. A subject could be identified in several ways (MAC/IP/PORT/SID)
 In Windows folder where is the HKEY_LOCAL_MACHINE files?, system32\config, SAM/SECURITY/SOFTWARE/SYSTEM & more! [CLASSES_ROOT = SOFTWARE\Classes from LOCAL_MACHINE and CURRENT_USER hives] [CURRENT_CONFIG = LOCAL_MACHINE\SYSTEM\CurrentControlSet\Hardware Profiles\Current]
 What portal to manage your Microsoft Account?, account.microsoft.com, Configuring access to a device by a Microsoft account creates a profile associated with a local account. Profile settings can be synchronized between devices via the online portal.
-Group besides 'Guests' that has same permissions as the standard Users group?, Power Users, It was a security concern; could escalate privileges to Admin; Only around for legacy support.
+Group besides 'Guests' that has same permissions as the standard Users group?, Power Users, It was a security concern; could escalate privileges to Admin; Only around for legacy support. (Guest is disabled by default)
 
