@@ -10,7 +10,7 @@ Run command for Defrag & Optimize Drives, dfrgui.exe, Found in Administrative (W
 Run command for Computer Management, compmgmt.msc, Tasks; Shared Folders; Performance; Dev Manager; Users/Groups; Disks; Services; etc..
 Run command for Disk Cleanup, cleanmgr.exe, Regain disk capacity by deleting unwanted files; tracks files that can be safely erased to reclaim disk space.
 Run command for Event Viewer, eventvwr.msc, Review system; security; and application logs.
-Run command for Group Policy Management, gpmc.msc, Create and manage Group Policy Objects
+Run command for AD Group Policy Management, gpmc.msc, Create and manage Group Policy Objects from Domain Controller
 Run command for Local Security Policy, secpol.msc, View and edit the security settings. Not available on Home edition.
 Run command for Resource Monitor, resmon.exe, Old school resource monitor
 Run command for Performance Monitor, perfmon.msc, Performance statistics and logging (also perfmon.exe)
