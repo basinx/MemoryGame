@@ -386,7 +386,7 @@ Suite designed for control & authorization of devices within a single organizati
 EDR Meaning (in security), Endpoint Detection and Response, Software agent that collects system data and logs for analysis by a monitoring system to provide early detection of threats.
 Challenge of knowing each host on network authorized and secure?, Network Visibility, Generally best to utilize Desktop Management & Remote Monitoring Tools
 What RDP client does Ubuntu use for connecting to remote machines?, Remmina, It allows connection only from a user on Linux to control a RDP server on another PC
-How to restore a single file with File History, Previous Versions, Previous Versions tab in file properties or the File History applet.
+How to restore a single file with File History (what tab?), Previous Versions, Previous Versions tab in file properties or the File History applet.
 Win10: Where find "Files Backup" option in Settings?, Update & Security, 'File History' option or link to 'Backup & Restore (Windows 7)'. (course says: Settings>Update & Security>Backup)
 creates a new full backup from the previous full and incremental backups, Synthetic,  not generated directly from the original data but instead assembled from other backup jobs
 Fancy term for a Malicious Data Breach?, exfiltration, Data Exfiltration; breach of regulated data must normally be reported to the regulator and to individual persons impacted
