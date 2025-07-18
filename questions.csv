@@ -566,4 +566,6 @@ Group besides 'Guests' that has same permissions as the standard Users group?, P
 USB key or smart card w/ cryptographic module that hold auth encryption keys securely, Hard Token, 1: Registered w/svc or network; 2: User connects & auth with PIN/Passwd/finger/voice; 3: Token transmit creds & svc grants user access.  FIDO!
 Authentication method that seeks to mitigate these by transitioning to passwordless SSO, Hello for Business, Private key is stored within the TPM of the user device; Encrypts Secret; Server Public Key decrypts and knows it u!
 Active Directory is based on what standard?, X.500, is the international standard for directory services (like a blueprint); Active Directory implements many X.500 concepts but adds Microsoft-specific features
+Update all group policies; reapply new & old; reboot if necessary, gpupdate /force /boot, /logoff with also allow logoff if necessary.
+
 
