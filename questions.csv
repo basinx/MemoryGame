@@ -568,3 +568,14 @@ Authentication method that seeks to mitigate these by transitioning to passwordl
 Active Directory is based on what standard?, X.500, is the international standard for directory services (like a blueprint); Active Directory implements many X.500 concepts but adds Microsoft-specific features
 Update all group policies; reapply new & old; reboot if necessary, gpupdate /force /boot, /logoff with also allow logoff if necessary.
 Where in the DC Windows folder is the AD Credential store?, NTDS\NTDS.DIT, %SystemRoot%\NTDS\NTDS.DIT; Contains the ENTIRE Active Directory database; (User accounts; passwords; group memberships; computer accounts)
+Where is 'Turn on/off password protected file sharing'?, All Networks, In advanced Sharing Settings; This (Off) works by enabling the Guest user account for network access only.(Public Folder sharing also here)
+In Windows Desktop what is max simultaneous share connections?, 20, Shared item Properties->'Sharing' tab->Advanced Sharing
+How do display a list of File Servers on the local network from CMD?, net view, or 'net view \\MYSERVER' to display shares on specific server; 'net use M: \\MYSERVER\DATA /persistent:yes' to map a shared folder persistently
+NTFS Permission to overrule them all?, Explicit Deny, However; Directly assigned permissions (explicit permissions) always override inherited permissions; including "deny" inherited permissions. 
+If both share and NTFS permissions are applied to the same resource; which applies?, Most Restrictive, If group "Everyone" has <Read> for Share Perms and "Users" group has <Modify> for NTFS perms; the effective perms for a member of "Users" will be <Read>
+Besides Explicit Deny; what NTFS permission will windows grant between multiple sources?, Highest, Most effective allow permissions obtained from any source.
+How to quickly jump to start menu Startup folder?, shell:startup, But use Task Manager Startup tab to maintain the ones that were added to registry.
+
+
+
+
