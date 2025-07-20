@@ -580,6 +580,7 @@ How to quickly jump to start menu Startup folder?, shell:startup, But use Task M
 Linux: How to execute multiple commands on one line?, semicolon, When you press ENTER; the commands execute sequentially.
 Browsers: support document editing in the context of the browser, apps, They are essentially a means of opening a document within a cloud app version of a word processor or spreadsheet.
 Linux: The graphical environment is driven by an open-source system called, xorg, (or just X); a version of the X Window Display System; Various desktop programs can be launched within X (Gnome; KDE; Cinnamon; Xfce)
+Linux: how to show line numbers in vi?, :set number, ':set nonumber' to remove them.  o = Open line below; O = Open line above
 
 
 
