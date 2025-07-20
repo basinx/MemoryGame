@@ -332,6 +332,8 @@ Software not necessarily malicious but with increased privacy risks is often cat
 Thing that add or change a browser feature via its application programming interface (API), Extension, The extension must be granted specific permissions to make configuration changes. Could run scripts to interact with the pages you are looking at.
 Browser add-on that play or show some sort of content embedded in a web page, Plug-In, plug-ins have been associated with numerous vulnerabilities over the years and are now rarely used or supported
 how to get to settings through URL in Firefox?, about:preferences, #general / #home / #search / #privacy / #sync / #experimental / #moreFromMozilla ; add to go
+how to get to settings through URL in Chrome?, chrome:settings, Privacy & Security -> Site Settings -> Notifications {where you can pick which sites can send notifications}
+how to get to settings through URL in Edge?, edge:settings, Profiles/Privacy;search; and services/Appearance/Default Browser/Start; home; and new tab page; and more!
 Quick run 'Internet Properties' Applet, inetcpl.cpl, They says 'Internet Options' in in the course sometimes. It the old style one.
 Advanced settings for Google Chrome?  chrome://?, flags, Gets to a LONG list of 'Experimental' features you can enable. chrome://flags
 Advanced settings for Firefox? about:?, config, Click 'Show All' for list of all kinds of settings you can change. about:config
@@ -576,6 +578,8 @@ If both share and NTFS permissions are applied to the same resource; which appli
 Besides Explicit Deny; what NTFS permission will windows grant between multiple sources?, Highest, Most effective allow permissions obtained from any source.
 How to quickly jump to start menu Startup folder?, shell:startup, But use Task Manager Startup tab to maintain the ones that were added to registry.
 Linux: How to execute multiple commands on one line?, semicolon, When you press ENTER; the commands execute sequentially.
+Browsers: support document editing in the context of the browser, apps, They are essentially a means of opening a document within a cloud app version of a word processor or spreadsheet.
+Linux: The graphical environment is driven by an open-source system called, xorg, (or just X); a version of the X Window Display System; Various desktop programs can be launched within X (Gnome; KDE; Cinnamon; Xfce)
 
 
 
