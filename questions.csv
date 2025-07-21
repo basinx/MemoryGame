@@ -593,7 +593,7 @@ Browsers: support document editing in the context of the browser, apps, They are
 Linux: The graphical environment is driven by an open-source system called, xorg, (or just X); a version of the X Window Display System; Various desktop programs can be launched within X (Gnome; KDE; Cinnamon; Xfce)
 Linux: how to show line numbers in vi?, :set number, ':set nonumber' to remove them.  o = Open line below; O = Open line above
 Linux: find every text file starting from your home directory; strong escaping, find ~ -name '*.txt', also: -size (+100M;-1k;50c[bytes];+1G) | -type (f[files];d[directories];l[symb links]) | -user basinx | -perm (-644[at least];
-
+Social eng. tactic: communicating a lie or half-truth to get someone to believe a falsehood, pretexting, Pretext: a reason given in justification of a course of action that is not the real reason. Used in 'Impersonation'
 
 
 
