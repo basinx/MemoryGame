@@ -180,6 +180,7 @@ Linux command to print your current working directory, PWD, Print Working Direct
 How to display directory contents long form in Linux, ls -l, -l is long form and -a is hidden stuffs
 how to add line numbers with cat command in Linux?, -n, Often; cat output is piped to a pager ( cat | more or cat | less ) to control scrolling.
 how to ignore case in a grep search?, -i, 'grep -i "uid=1003" /var/log/messages' for example
+how to show JUST the match in grep search?, -o, -o "grep -rio perform.*WiNdoWs testing" (-r is recursive; . matches any character; .* matches any number of characters)
 Linux find every item with full access from current folder:, find ./ -perm 777, Owner-Group-Others; also there is -name; -size; -user; -type (files; directories; block devices (disks); network sockets; symbolic links; named pipes)
 how to make cp display copied files in Linux?, -v, cp -v /var/log/message* /home/david' copy all files beginning with message to /home/david
 Linux: where is the list of accounts allowed to run sudo stored?, /etc/sudoers, The user might be asked to confirm his or her password if it has not been cached recently.
