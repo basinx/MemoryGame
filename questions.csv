@@ -197,6 +197,7 @@ Refresh the local database with info about packages available (yum), check-updat
 Update all packages with the newest versions (apt-get), upgrade, Downloads and installs newer versions of currently installed packages
 Update all packages with the newest versions (yum), update, Downloads and installs newer versions of currently installed packages
 A Linux Intrusion Prevention System (IPS) they mention, Snort, Detects and blocks suspicious traffic by analyzing packets using custom rulesets
+Use apt to install samba and skip confirmation prompts, sudo apt install samba -y, or sudo apt install -y samba
 A Linux Antivirus they mentions, Clam, ClamAV scans for viruses and malware; often used on mail servers or to check files manually
 Linux command that displays dynamic process status; reflecting real-time changes, top, M = Sort by Memory / P = Sort by CPU / u = Sort by User / N = Sort by PID desc / Enter = Refresh / q = quit
 Linux: Sort 'top' processes in decreasing order of PID?, N, PID 1 is allocated to the initial daemon; which is the first process to start and is the parent of all other processes on the system.
