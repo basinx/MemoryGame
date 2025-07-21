@@ -256,8 +256,8 @@ Three parts of a network security assessment ?/?/?, vuln/threat/risk, Vulnerabil
 Security: The person or thing that poses a threat is called a threat ..?, Actor, Or a 'Threat Agent'
 Security: The path or tool used by an attacker can be referred to as the, Vector, Attack Vector or Threat Vector.
 A set of recommendations for deploying a computer in a hardened configuration, config baseline, To minimize risk of Vulnerabilities; There are baselines for different operating systems and for different server and client roles.
-all points a threat actor could try to use to infiltrate or disrupt the system, attack surface,  The basic principle of a configuration baseline is to reduce the system’s attack surface.
-a class of software designed to detect non-compliant systems:, vulnerability scanner, A non-compliant system is one that has drifted from its hardened configuration.
+All points a threat actor could try to use to infiltrate or disrupt the system, attack surface,  The basic principle of a configuration baseline is to reduce the system’s attack surface.
+a class of software designed to detect non-compliant systems:, vulnerability scanner, A non-compliant system is one that has drifted from its hardened configuration/configuration baseline.
 Malicious code that can use a vulnerability to compromise a host is, exploit, Most software vulnerabilities are discovered by software and security researchers
 A vulnerability that is exploited before the developer knows about it or can release a patch, zero day, These can be extremely destructive; as it can take the vendor a lot of time to develop a patch
 Technique where the threat actor learns a password or PIN by watching the user type it, Shoulder Surfing, Despite the name; the attacker may not have to be in proximity to the target; could watch from far
