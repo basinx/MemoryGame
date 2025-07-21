@@ -540,7 +540,7 @@ Protocols that Mac Airdrop can use? (most common) ?/?, Bluetooth and Wi-Fi, Blue
 An electrical device must be fitted with a fuse appropriate to its maximum:, current, such as 3A; 5A; or 13A. Too low: it will blow too easily; Too high: it may not blow when it should.
 Electrics: The potential difference between 2 points (pressure), Voltage, Volts = Current(Amps) * Resistance(Ohms)
 Electrics: Best equation for understanding the flow?, A=V/R, Volts coming in ÷ Resistance = Amount of Current Flowing (Amps) (120V ÷ 240Ω = 0.5A = 60W bulb)
-Windows: Remove the 'data' directory in the durrent folder recursively quietly(short form), rd data /s /q, long form: rmdir data /s /q
+Windows: Remove the 'data' directory in the current folder recursively quietly(short form), rd data /s /q, long form: rmdir data /s /q
 Linux: Remove the 'temp' directory and all its contents without prompting for confirmation, rm -rf temp, Extra: -r for recursive deletion -f for force (no prompts); be very careful with rm -rf!
 IPS Meaning, Intrusion Prevention System, Actively monitors network traffic in real-time and can automatically block or stop malicious activity when detected; unlike IDS which only alerts
 What 'Ease of Access' setting group is Speech listed under?, Interaction, Under Interaction Category: [Speech; Keyboard; Mouse; Eye Control]  (Narrator is under Vision)
