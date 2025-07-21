@@ -594,6 +594,7 @@ Linux: The graphical environment is driven by an open-source system called, xorg
 Linux: how to show line numbers in vi?, :set number, ':set nonumber' to remove them.  o = Open line below; O = Open line above
 Linux: find every text file starting from your home directory; strong escaping, find ~ -name '*.txt', also: -size (+100M;-1k;50c[bytes];+1G) | -type (f[files];d[directories];l[symb links]) | -user basinx | -perm (-644[at least];
 Social eng. tactic: communicating a lie or half-truth to get someone to believe a falsehood, pretexting, Pretext: a reason given in justification of a course of action that is not the real reason. Used in 'Impersonation'
+A likely first step to make a social engineering pretext seem credible, dumpster diving, However this may not even be necessary as many organizations are Customer Service focused and make this info easy to come by.
 
 
 
