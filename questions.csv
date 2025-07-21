@@ -260,6 +260,7 @@ All points a threat actor could try to use to infiltrate or disrupt the system, 
 a class of software designed to detect non-compliant systems:, vulnerability scanner, A non-compliant system is one that has drifted from its hardened configuration/configuration baseline.
 Specific method by which malware code infects a target host; often via some vulnerability in a software process, exploit, Most software vulnerabilities are discovered by software and security researchers; Most serious allow arbitrary code execution on system.
 A vulnerability that is exploited before the developer knows about it or can release a patch, zero day, These can be extremely destructive; as it can take the vendor a lot of time to develop a patch
+A growing 'attack surface' area where it is difficult for IT to identify Secure Config Baselines, BYOD, And even more challenging to ensure compliance with those baselines. Also Embedded Systems & IoT devices.
 Technique where the threat actor learns a password or PIN by watching the user type it, Shoulder Surfing, Despite the name; the attacker may not have to be in proximity to the target; could watch from far
 Technique of closely following authorized person as they pass a security checkpoint?, Tailgating, Sneaky mans
 Technique where attacker enters a secure area with an employee's permission?, Piggybacking, Maybe impersonate cleaning crew or say they lost their badge
