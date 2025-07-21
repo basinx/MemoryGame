@@ -255,7 +255,7 @@ Three properties of secure information? (first 5 letters of each) ?/?/?, confi/i
 Three parts of a network security assessment ?/?/?, vuln/threat/risk, Vulnerability/Threat/Risk
 Security: The person or thing that poses a threat is called a threat ..?, Actor, Or a 'Threat Agent'
 Security: The path or tool used by an attacker can be referred to as the, Vector, Attack Vector or Threat Vector.
-A set of recommendations for deploying a computer in a hardened configuration, config baseline, Configuration Baseline: There are baselines for different operating systems and for different server and client roles.
+A set of recommendations for deploying a computer in a hardened configuration, config baseline, To minimize risk of Vulnerabilities; There are baselines for different operating systems and for different server and client roles.
 all points a threat actor could try to use to infiltrate or disrupt the system, attack surface,  The basic principle of a configuration baseline is to reduce the system’s attack surface.
 a class of software designed to detect non-compliant systems:, vulnerability scanner, A non-compliant system is one that has drifted from its hardened configuration.
 Malicious code that can use a vulnerability to compromise a host is, exploit, Most software vulnerabilities are discovered by software and security researchers
