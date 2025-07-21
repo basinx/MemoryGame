@@ -219,7 +219,8 @@ command from iproute2 package that replicates the basic reporting functionality 
 Historically edit this Linux file to modify Persistent network config, /etc/network/interfaces, you would bring interfaces up or down with the ifup and ifdown scripts
 Linux: good tool for gathering information and testing name resolution, dig, (dig domainname); 'dig @server domain' will resolve the domain name against the DNS server specified by @server.
 Linux (SMB)–compatible file sharing protocol, Samba, Samba enables the integration of Linux and Windows systems. Linux WS -> Windows Server / or vice-versa.
-To review a users crontab jobs use what switch?, -l, to remove jobs from the scheduled list use -r; to launch the editor use -e
+How to review a users cron jobs?,crontab -l, to remove jobs from the scheduled list use -r; to launch the editor use -e
+How to remove a users cron jobs?,crontab -r, this will nuke all the jobs; [*/20 * * * * /home/basinx/Documents/testing/copy_hidden.sh] example
 What is the Linux task scheduling service called?, cron, Every user of the system is allowed to schedule programs or tasks in their own personal crontab (cron table).
 Linux: display all processes/show user/include procs not tied to terminal/extend output & wrap, ps auxww, or just use a single w if you do not want it to wrap.
 MaxOS: quickly bring up 'Spotlight Search', command-space, Find almost anything on macOS with Spotlight Search. (or click the MAGNIFYING GLASS in the menu bar)
