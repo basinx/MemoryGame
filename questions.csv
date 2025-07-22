@@ -272,6 +272,7 @@ Put on a fake wifi to trick people and harvest credentials; what is called?, Evi
 Threat: Attacker try learn about the configuration of network & security systems via reconnaissance and research, Footprinting, gathering publicly available information; scanning network ports and websites; and using social engineering techniques
 Threat actor (digitally) masquerading as a trusted user or computer, Spoofing, cloning a valid MAC/IP address/software or logical token; using a false digital cert; imitating a legitimate email; or social engineering
 Threat: steal authentication token and use again to impersonate the original user, replay attack, This is a type of spoofing attack
+A way a Threat Agent might mask their REAL attack vector, DoS, might be used to occupy the security team when the threat actor’s real goal is stealing information from a database server.
 Threat actor covertly intercepting traffic between two hosts or networks, on-path, An evil twin is one example of an on-path attack; previously called Man-in-the-Middle attack
 Threat: refers to cutting the power to a computer or cutting a network cable, Physical DoS, You gotta get you hands dirty sometime
 Multiple compromised systems launching a DDoS attack is called?, botnet, First 1 or 2 devices compromized (Command & Control / C&C) used to compromise 100's or 1000's
