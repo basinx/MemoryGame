@@ -618,7 +618,7 @@ To apply encryption with EFS on a File or Folder's property screen go:, general-
 Files/Folders encrypted with EFS show up as what color?, Green, Any user other than the one who encrypted the file will receive an "Access Denied" error when trying to browse; copy; or print the file.
 One contingency along with EFS you might use *on a Domain*, recovery agents, It is possible to back up the key or (on a Windows domain) to set up recovery agents with the ability to decrypt data.
 Full disk encryption tool for removable drives?, BitLocker To Go, Does not rely on a TPM but still prompts for a Recovery Key
-Alternate ways Bitlocker can store the encryption key, smart card or USB, The computer's firmware must support booting from USB for the this option to work.
+Alternate ways Bitlocker can store the encryption key, smart card or USB, This USB needs to be inserted during boot so BitLocker can read the key
 A TPM Must be configured with an, owner password, often the system password set in firmware; Manage TPM settings from TPM Management snap-in (select TPM Administration from the BitLocker applet).
 
 
