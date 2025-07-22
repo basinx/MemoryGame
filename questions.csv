@@ -612,4 +612,5 @@ Any use of the default administrator account must be:, logged and accounted, Usi
 IPC Meaning?, Interprocess Communication, Named pipes are a form of IP; meaning they facilitate communication between separate programs running on a computer or even across a network.
 If an account is locked out; what tab in the dsa user properties to unlock it?, Account, If a user account violates a security policy; such as an incorrect password being entered repeatedly; it may be locked against further use.
 For Linux who provides private/public key pairs for package signing?, Repo Owner, GPG (GNU Privacy Guard) manages the keyring of trusted public keys on your system
+One thing you might want to exclude from AV scanning?, Disk Images, Scanning the disk images of virtual machines can cause performance problems; Also some software can cause false positives.
 
