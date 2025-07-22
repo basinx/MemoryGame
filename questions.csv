@@ -620,5 +620,6 @@ One contingency along with EFS you might use *on a Domain*, recovery agents, It 
 Full disk encryption tool for removable drives?, BitLocker To Go, Does not rely on a TPM but still prompts for a Recovery Key
 Alternate ways Bitlocker can store the encryption key, smart card or USB, This USB needs to be inserted during boot so BitLocker can read the key
 A TPM Must be configured with an, owner password, often the system password set in firmware; Manage TPM settings from TPM Management snap-in (select TPM Administration from the BitLocker applet).
+Quickly get to saved passwords in firefox?, about:logins, For sync it's right on the main preferences screen or click your icon and go 'sync settings'
 
 
