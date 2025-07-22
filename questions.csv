@@ -602,7 +602,7 @@ Linux: find every text file starting from your home directory; strong escaping, 
 Social eng. tactic: communicating a lie or half-truth to get someone to believe a falsehood, pretexting, Pretext: a reason given in justification of a course of action that is not the real reason. Used in 'Impersonation'
 A likely first step to make a social engineering pretext seem credible, dumpster diving, However this may not even be necessary as many organizations are Customer Service focused and make this info easy to come by.
 What do an AP and RADIUS server need to trust each other?, shared secret, The shared secret allows the RADIUS server and access point to trust one another.
-
+The other two perimeter defense mechanisms a serious place might have ?/?, guards/fences, fences should be transparent/robust/secure vs climbing; Guards can monitor checkpoints and verify ID; allow or disallow access; and log physical entry occurrences.
 
 
 
