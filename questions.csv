@@ -370,7 +370,7 @@ Open command prompt during Windows Preinstall Environment - hotkeys?, Shift-F10,
 a particularly popular way to disguise a Trojan, Rogue Antivirus, a website would display a pop-up disguised as a normal Windows dialog box with a fake security alert
 means that the A-V software intercepts an OS call to open a file and scans the file, on-access, This reduces performance somewhat but is essential to maintaining effective protection against malware.
 If real time protection for Windows Defender won't turn on - check what?, Services, Windows Defender Antivirus Service; but think Services for many Windows components not running; like spooler!
-Best for a password is to be, Memorable Phrase, a long and memorable passphrase is even more recommended than a short jumbled mess! Users might write those down cuz they are a pain.
+The best kinds of passwords will use a, Memorable Phrase, a long and memorable passphrase is even more recommended than a short jumbled mess! Users might write those down cuz they are a pain.
 How are app updates notified to user on iOS?, app store icon, and delivered via the Updates page in the app store; Updates for iOS are delivered via Settings > General > Software Update
 How are updates delivered on Android phones?, Notification Bar, You can also go to Settings > System > Advanced > System updates.
 On mobile devices how does a "No-Root" firewall work, local vpn, Most firewall monitor app activity and prevent connections to ports or IP addresses; Most need root but installing an app with root access is challenging.
