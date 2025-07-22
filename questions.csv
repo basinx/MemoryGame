@@ -285,7 +285,7 @@ XSS Meaning?, Cross Site Scripting, Exploits the fact that the browser is likely
 Security: MD5 meaning (Just MD)?, Message Digest, An older HASH algorithm that is slowly being phased out.
 The main biggest algorithm that does Asymetric encryption, RSA, The Rivest-Shamir-Adleman (RSA) encryption algorithm is an asymmetric encryption algorithm that is widely used in many products and services.
 Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentioned in the course; SHA-256 is common (linux: sha256sum/sha512sum > create a hash of whatever)
-In Key Exchange the phemeral symmetric cipher secret keys are also referred to as the, Session Keys, Temporary keys derived from the PMK; PTK (Pairwise Transient Key) - for unicast traffic between client and AP; GTK (Group Temporal Key) - for multicast/broadcast traffic
+In Key Exchange the ephemeral symmetric cipher secret keys are also referred to as the, Session Keys, Temporary keys derived from the PMK; PTK (Pairwise Transient Key) - for unicast traffic between client and AP; GTK (Group Temporal Key) - for multicast/broadcast traffic
 TKIP Meaning? (related to Wi-Fi security), Temporal Key Integrity Protocol, TKIP encrypts each data packet with a (stronger) unique encryption key. Key component of WPA(1) (now depreciated)
 WPA2 uses the AES; what that means?, Advanced Encryption Standard, A cipher deployed within the CCMP (Counter Mode with Cipher Block Chaining Message Authentication Code Protocol) Symmetric 128-; 192-; or 256-bit block cipher
 WPA2: AES/CCMP replaces ?/?, RC4/TKIP, CCMP provides authenticated encryption; which is designed to make replay attacks harder. AES provides stronger encryption than RC4. CCMP provides better integrity than TKIP.
