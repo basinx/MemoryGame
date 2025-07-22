@@ -601,6 +601,8 @@ Linux: how to show line numbers in vi?, :set number, ':set nonumber' to remove t
 Linux: find every text file starting from your home directory; strong escaping, find ~ -name '*.txt', also: -size (+100M;-1k;50c[bytes];+1G) | -type (f[files];d[directories];l[symb links]) | -user basinx | -perm (-644[at least];
 Social eng. tactic: communicating a lie or half-truth to get someone to believe a falsehood, pretexting, Pretext: a reason given in justification of a course of action that is not the real reason. Used in 'Impersonation'
 A likely first step to make a social engineering pretext seem credible, dumpster diving, However this may not even be necessary as many organizations are Customer Service focused and make this info easy to come by.
+What do an AP and RADIUS server need to trust each other?, shared secret, The shared secret allows the RADIUS server and access point to trust one another.
+
 
 
 
