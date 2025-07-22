@@ -610,5 +610,6 @@ An extra form of authentication UEFI firmware may use if network enabled?, pre-b
 Who is repsonsible for configuring Rights and Privileges?, network owner, whereas Configuring file permissions is the responsibility of the Data Owner or File Server administrator.
 Any use of the default administrator account must be:, logged and accounted, Using this account for sign-in should be an unusual event that generates an alert.
 IPC Meaning?, Interprocess Communication, Named pipes are a form of IP; meaning they facilitate communication between separate programs running on a computer or even across a network.
+If an account is locked out; what tab in the dsa user properties to unlock it?, Account, If a user account violates a security policy; such as an incorrect password being entered repeatedly; it may be locked against further use.
 
 
