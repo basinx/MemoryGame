@@ -249,7 +249,7 @@ How to have a bootable Windows partition on macOS?, Boot Camp, allow you to inst
 what 'portal' is used to push apps to a supervised macOS?, Business Manager, Platform Deployment guide covering device management at support.apple.com/guide/deployment/welcome/1/web
 What prefpane do you set up 'Remote Disk' in?, Sharing, System Preferences->sharing; Then check box next to DVD or CD sharing.
 Mac OS - indicator you need to attach external drive for Time Machine restore, dim tick, the backup drive needs to be attached to restore that item. (System Preferences->Time Machine)
-Mac OS: By default length backups stored (days est.) Hourly/Daily/Weekly?, 1/30/356, When chosen drive is full; removes older backups to free up space.
+Mac OS: By default length backups stored (days est.) Hourly/Daily/Weekly?, 1/30/365, When chosen drive is full; removes older backups to free up space.
 Mac OS - how to close unresponsive Apps?, COMMAND+OPTION+ESC, 'Force Quit' from the Apple menu or press COMMAND+OPTION+ESC
 How get to Recovery Menu in macOS?, COMMAND-R, hold until Apple logo; select language; [Restore from Time Machine backup; Reinstall macOS; Get Help; Disk Utility]
 Three properties of secure information? (first 5 letters of each) ?/?/?, confi/integ/avail, Confidentiality/Integrity/Availability >> Often refered to as the CIA triad.
