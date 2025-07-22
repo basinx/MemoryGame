@@ -616,3 +616,4 @@ What button in Windows Security to turn firewall on/off?, firewall & network Pro
 ata on persistent storage—HDDs; SSDs; and thumb drives—is referred to as, data-at-rest, To protect data-at-rest against gotten; the information stored on a disk can be encrypted. EFS!
 To apply encryption with EFS on a File or Folder's property screen go:, general-advanced, Advanced button on the General tab then check off "Encrypt Contents to Secure Data"
 Files/Folders encrypted with EFS show up as what color?, Green, Any user other than the one who encrypted the file will receive an "Access Denied" error when trying to browse; copy; or print the file.
+One contingency along with EFS you might use *on a Domain*, recovery agents, It is possible to back up the key or (on a Windows domain) to set up recovery agents with the ability to decrypt data.
