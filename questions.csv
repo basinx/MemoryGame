@@ -609,6 +609,6 @@ Someplace you might find BIOS/UEFI passwords used?, Embedded Systems, Like extra
 An extra form of authentication UEFI firmware may use if network enabled?, pre-boot, The system loads an auth application to contact an auth server on the network and allows the user to submit the creds for a particular account.
 Who is repsonsible for configuring Rights and Privileges?, network owner, whereas Configuring file permissions is the responsibility of the Data Owner or File Server administrator.
 Any use of the default administrator account must be:, logged and accounted, Using this account for sign-in should be an unusual event that generates an alert.
-
+IPC Meaning?, Interprocess Communication, Named pipes are a form of IP; meaning they facilitate communication between separate programs running on a computer or even across a network.
 
 
