@@ -349,11 +349,11 @@ Software not necessarily malicious but with increased privacy risks is often cat
 Thing that add or change a browser feature via its application programming interface (API), Extension, The extension must be granted specific permissions to make configuration changes. Could run scripts to interact with the pages you are looking at.
 Browser add-on that play or show some sort of content embedded in a web page, Plug-In, plug-ins have been associated with numerous vulnerabilities over the years and are now rarely used or supported
 how to get to settings through URL in Firefox?, about:preferences, #general / #home / #search / #privacy / #sync / #experimental / #moreFromMozilla ; add to go
-how to get to settings through URL in Chrome?, chrome:settings, Privacy & Security -> Site Settings -> Notifications {where you can pick which sites can send notifications}
-how to get to settings through URL in Edge?, edge:settings, Profiles/Privacy;search; and services/Appearance/Default Browser/Start; home; and new tab page; and more!
+how to get to settings through URL in Chrome?, chrome://settings, Privacy & Security -> Site Settings -> Notifications {where you can pick which sites can send notifications}
+how to get to settings through URL in Edge?, edge://settings, Profiles/Privacy;search; and services/Appearance/Default Browser/Start; home; and new tab page; and more!
 Quick run 'Internet Properties' Applet, inetcpl.cpl, They says 'Internet Options' in in the course sometimes. It the old style one.
-Advanced settings for Google Chrome?  chrome://?, flags, Gets to a LONG list of 'Experimental' features you can enable. chrome://flags
-Advanced settings for Firefox? about:?, config, Click 'Show All' for list of all kinds of settings you can change. about:config
+Advanced settings for Google Chrome?, chrome://flags, Gets to a LONG list of 'Experimental' features you can enable. chrome://flags
+Advanced settings for Firefox??, about:config, Click 'Show All' for list of all kinds of settings you can change. about:config
 Besides clearing cache and browsing data how else can you manage history?, incognito, no cookies; browsing history; form fields; passwords; or temp files will be stored when the session is closed
 Minimum length of passphrase for PSK authentication to mitigate risk of cracking?, 14, This is converted to a type of hash value; referred to as the pairwise master key (PMK)
 Trait of Trojans that add themselves to startup, persistence, So it runs when the computer starts or the user signs in
