@@ -611,5 +611,5 @@ Who is repsonsible for configuring Rights and Privileges?, network owner, wherea
 Any use of the default administrator account must be:, logged and accounted, Using this account for sign-in should be an unusual event that generates an alert.
 IPC Meaning?, Interprocess Communication, Named pipes are a form of IP; meaning they facilitate communication between separate programs running on a computer or even across a network.
 If an account is locked out; what tab in the dsa user properties to unlock it?, Account, If a user account violates a security policy; such as an incorrect password being entered repeatedly; it may be locked against further use.
-
+For Linux who provides private/public key pairs for package signing?, Repo Owner, GPG (GNU Privacy Guard) manages the keyring of trusted public keys on your system
 
