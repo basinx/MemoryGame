@@ -607,7 +607,7 @@ Three ways basic door locks can be set up ?/?/?, Key/Pin/Badge, 'Hardware Token'
 Some electronic entry locks can also be programmed with?, Duress Code, This will open the gateway but also alert security personnel that the lock has been operated under threat.
 Someplace you might find BIOS/UEFI passwords used?, Embedded Systems, Like extra security on a standalone computer that does not often require interactive logon.
 An extra form of authentication UEFI firmware may use if network enabled?, pre-boot, The system loads an auth application to contact an auth server on the network and allows the user to submit the creds for a particular account.
-
+Who is repsonsible for configuring Rights and Privileges?, network owner, whereas Configuring file permissions is the responsibility of the Data Owner or File Server administrator.
 
 
 
