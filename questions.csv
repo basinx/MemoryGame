@@ -283,6 +283,7 @@ Pass Attack: matches the hash to those produced by ordinary words, Dictionary, h
 Pass Attack: against one of every possible combination it could be, Brute Force, Longer and more complex passwords increase the amount of time the attack takes to run
 XSS Meaning?, Cross Site Scripting, Exploits the fact that the browser is likely to trust scripts that appear to come from a trusted site. Often it is; but with malicious code injected.
 Security: MD5 meaning (Just MD)?, Message Digest, An older HASH algorithm that is slowly being phased out.
+The main biggest algorithm that does Asymetric encryption, RSA, The Rivest-Shamir-Adleman (RSA) encryption algorithm is an asymmetric encryption algorithm that is widely used in many products and services.
 Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentioned in the course; SHA-256 is common (linux: sha256sum/sha512sum > create a hash of whatever)
 In Key Exchange the phemeral symmetric cipher secret keys are also referred to as the, Session Keys, Temporary keys derived from the PMK; PTK (Pairwise Transient Key) - for unicast traffic between client and AP; GTK (Group Temporal Key) - for multicast/broadcast traffic
 TKIP Meaning? (related to Wi-Fi security), Temporal Key Integrity Protocol, TKIP encrypts each data packet with a (stronger) unique encryption key. Key component of WPA(1) (now depreciated)
