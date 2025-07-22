@@ -605,6 +605,7 @@ What do an AP and RADIUS server need to trust each other?, shared secret, The sh
 The other two perimeter defense mechanisms a serious place might have ?/?, guards/fences, fences should be transparent/robust/secure vs climbing; Guards can monitor checkpoints and verify ID; allow or disallow access; and log physical entry occurrences.
 Three ways basic door locks can be set up ?/?/?, Key/Pin/Badge, 'Hardware Token' may be: Swipe Card; Smart Card or Key Fob. The latter 2 are much more difficult to clone than ordinary swipe cards.
 Some electronic entry locks can also be programmed with?, Duress Code, This will open the gateway but also alert security personnel that the lock has been operated under threat.
+Someplace you might find BIOS/UEFI passwords used?, Embedded Systems, Like extra security on a standalone computer that does not often require interactive logon.
 
 
 
