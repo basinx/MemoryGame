@@ -264,6 +264,8 @@ A vulnerability that is exploited before the developer knows about it or can rel
 A growing 'attack surface' area where it is difficult for IT to identify Secure Config Baselines, BYOD, And even more challenging to ensure compliance with those baselines. Also Embedded Systems & IoT devices.
 Technique where the threat actor learns a password or PIN by watching the user type it, Shoulder Surfing, Despite the name; the attacker may not have to be in proximity to the target; could watch from far
 Technique of closely following authorized person as they pass a security checkpoint?, Tailgating, Sneaky mans
+When the attacker has some information that makes the target more likely to be fooled, Spear Phishing, Name of a document that the target is editing; might show that the attacker knows the recipient's name; job title; phone number or other details
+Social engineering attack conducted through a voice channel, Vishing, It can be much more difficult for someone to refuse a request made in a phone call.
 Technique where attacker enters a secure area with an employee's permission?, Piggybacking, Maybe impersonate cleaning crew or say they lost their badge
 an attack directed specifically against upper levels of management in the organization, Whaling, Upper management may also be more vulnerable to ordinary phishing attacks because of their reluctance to learn basic security procedures.
 Put on a fake wifi to trick people and harvest credentials; what is called?, Evil Twin, Attacker might even use DoS the legitimate AP or put a fake captive portal to steal creds.
