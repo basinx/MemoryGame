@@ -88,7 +88,7 @@ Windows Server 2019 and 2022 are optimized for use as a, Network Operating Syste
 Devices running different operating systems need what in common to talk to each-other?, Network Protocols, This will allow data to be exchanged in a standard format.
 RoboCopy: switch to Include Non-Empty directories, /s, Copies Subdirectories; but not empty ones. /E to include empty ones.
 Robocopy: copy the 'fun' folder from current directory and ALL contents back one folder?, robocopy fun ..\fun /e, it will not create the folder for you - you must specify the folder name!
-DOS/BATCH: remove the 'fun' folder and all contents/subdirectories with no confirmation prompts, rd fun /s /q, [rd or rmdir]; remember it is [rm] *only* in linux!
+DOS/BATCH: remove the 'fun' folder and all contents/subdirectories with no confirmation prompts, rd /s /q fun, [rd or rmdir]; remember in Linux it is: [rm] -r = recursive & -f = force (rm -rf fun)
 CMD: display directory contents ordered by last modified date?, dir /o:d /t:w, /t = time field [c : created on] [a : last access] [w : last modified] (use - prefix to reverse order)
 DiskPart: Shrink a Volume, Shrink desired=, = the amount to shrink the volume by in MB > run this after 'select volume #'
 DiskPart: Set a volume to letter L?, Assign Letter=L, you must 'select volume #' first; use 'Remove Letter=L' to remove a drive letter.
