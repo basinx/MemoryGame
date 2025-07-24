@@ -428,7 +428,7 @@ What to do before deploying a script?, test in sandbox, and remember that securi
 RDP to infected machine can put credentials at risk! What can help prevent?, RDPRA, RDP restricted admin (RDPRA) mode is one means of mitigating this risk. Also (Remote Credential Guard)
 How to toss output into the void in Bash?, &>/dev/null, redirects output to the null device
 What standard governs the processing of credit card transactions? (acronym), PCI DSS, Payment Card Industry Data Security Standard
-uses GPS and/or high accuracy to calculate a device's position on a map, Location Service, can be used with a locator application to find the device if it is lost or stolen
+uses GPS and/or High Accuracy to calculate a device's position on a map, Location Service, can be used with a locator application to find the device if it is lost or stolen
 mobile symptom of overheating; low battery charge; or faulty battery or other hardware, random reboots, You can use the Settings menu to check battery health; and there are third-party diagnostic apps that can report hardware faults
 Where to configure iOS feature that allows file transfer between iOS and macOS devices? Settings-, General-Airdrop, The sender must be listed in the recipient’s contacts list; or AirDrop must be configured to receive files from everyone. (Uses Bluetooth)
 Step-by-step list of the actions that must be completed for any given task to comply with policy, standard operating procedure, SOP: Most IT procedures should be governed by SOPs. A policy is an overall statement of intent.
