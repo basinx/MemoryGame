@@ -633,5 +633,5 @@ An IoT smart device network will generally require one of these, Hub/Control, A 
 What do most 'smart devices' run on ?/?, Linux/Android, Linux or Android kernel; smart devices are vulnerable to some of the standard attacks associated with web applications and network functions.
 Where is Storage Usage information on iOS Settings?, General-Storage, If OS fails to update #1-Check Compatible; #2-Wifi/building power; #3-Do restart & try again; #4-Check Storage!!
 Where is Storage Usage information on Android Settings?, Storage, If OS fails to update #1-Check Compatible; #2-Wifi/building power; #3-Do restart & try again; #4-Check Storage!!
-
+Mobile device randomly reboots? 4 key, battery hardware storage apps, Settings Battery Health/3rd Party diagnostics/Check Space/Update Apps or seek for faulty app
 
