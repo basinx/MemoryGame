@@ -629,6 +629,7 @@ besides storing and autofilling what can a password manager do?, suggest, it can
 Besides enabling/disabling cookies what other privacy feature do most browsers have?, tracking protection, Most browsers also have a tracking protection feature that can be set to strict or standard/balanced modes
 Modern viruses are more likely to use ? to take control of system, covert methods, to take control of the host; versus older viruses which just tried to spread to other files as fast as possible.
 An IoT smart device network will generally require one of these, Hub/Control, A Hub to facilitate wireless networking; There must also be a control system; as most IoT devices are headless; meaning they have no user control interface.
+What do most 'smart devices' run on ?/?, Linux/Android, Linux or Android kernel; smart devices are vulnerable to some of the standard attacks associated with web applications and network functions.
 
 
 
