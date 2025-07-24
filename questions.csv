@@ -613,7 +613,7 @@ IPC Meaning?, Interprocess Communication, Named pipes are a form of IP; meaning 
 If an account is locked out; what tab in the dsa user properties to unlock it?, Account, If a user account violates a security policy; such as an incorrect password being entered repeatedly; it may be locked against further use.
 For Linux who provides private/public key pairs for package signing?, Repo Owner, GPG (GNU Privacy Guard) manages the keyring of trusted public keys on your system
 One thing you might want to exclude from AV scanning?, Disk Images, Scanning the disk images of virtual machines can cause performance problems; Also some software can cause false positives.
-What button in Windows Security to turn firewall on/off?, firewall & network Protection, activate or deactivate the firewall for a given network profile and to add exceptions that allow a process to accept inbound connections.
+What button in Windows Security goes to firewall on/off/profile settings?, firewall & network Protection, activate or deactivate the firewall for a given network profile and to add exceptions that allow a process to accept inbound connections.
 ata on persistent storage—HDDs; SSDs; and thumb drives—is referred to as, data-at-rest, To protect data-at-rest against gotten; the information stored on a disk can be encrypted. EFS!
 To apply encryption with EFS on a File or Folder's property screen go:, general-advanced, Advanced button on the General tab then check off "Encrypt Contents to Secure Data"
 Files/Folders encrypted with EFS show up as what color?, Green, Any user other than the one who encrypted the file will receive an "Access Denied" error when trying to browse; copy; or print the file.
