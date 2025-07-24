@@ -373,7 +373,7 @@ means that the A-V software intercepts an OS call to open a file and scans the f
 If real time protection for Windows Defender won't turn on - check what?, Services, Windows Defender Antivirus Service; but think Services for many Windows components not running; like spooler!
 The best kinds of passwords will use a, Memorable Phrase, a long and memorable passphrase is even more recommended than a short jumbled mess! Users might write those down cuz they are a pain.
 How are app updates notified to user on iOS?, app store icon, and delivered via the Updates page in the app store; Updates for iOS are delivered via Settings > General > Software Update
-How are updates delivered on Android phones?, Notification Bar, You can also go to Settings > System > Advanced > System updates.
+How are updates delivered on Android phones?, Notification Bar, (swipe down from top) You can also go to Settings > System > Advanced > System updates.
 On mobile devices how does a "No-Root" firewall work, local vpn, Most firewall monitor app activity and prevent connections to ports or IP addresses; Most need root but installing an app with root access is challenging.
 COBO Meaning?, Corp owned Biz Only, Corporate Owned; Business Only: The device is the property of the company and may only be used for company business.
 COPE Meaning?, Corp owned Pers Enabled, Corporate Owned; Personally Enabled: Chosen/Supplied/Owned by company; Employee may use for personal things (within AUP)
@@ -386,7 +386,7 @@ Main risk from smart device placement in workplace?, Shadow IT, A vulnerability 
 Something that home-intended IoT devices can suffer from?, Weak Defaults, There may be recommended steps to secure the device and procedures to apply security patches that the customer never takes.
 Other potential issues with IoT devices ?/?, Documentation/Patches, can be poorly documented; and patch management/security response processes of vendors can be inadequate.
 iOS where swipe to get Control Center?, Top Right, can be accessed by swiping from the top-right corner (newer models) or bottom of the screen.
-iOS- where is factory reset?, General, General page in settings
+iOS- Where in the Settings App is factory reset?, General, General page in Settings
 Android- Where is factory reset on 'Stock Android'?, System-Advanced, do not attempt a factory reset within 72 hours of changing your account password
 In iOS; a manual ROTATE control can be added via the AssistiveTouch option which is enabled via, Accessibility, When you turn on AssistiveTouch; you see a button appear onscreen; By default; tapping the button once opens the AssistiveTouch menu.
 Where is Force Stop on Android?, Settings-Apps, To Force Stop an App on Android: Settings->Apps and then Click any App and option is bottom right.
@@ -631,6 +631,7 @@ Besides enabling/disabling cookies what other privacy feature do most browsers h
 Modern viruses are more likely to use ? to take control of system, covert methods, to take control of the host; versus older viruses which just tried to spread to other files as fast as possible.
 An IoT smart device network will generally require one of these, Hub/Control, A Hub to facilitate wireless networking; There must also be a control system; as most IoT devices are headless; meaning they have no user control interface.
 What do most 'smart devices' run on ?/?, Linux/Android, Linux or Android kernel; smart devices are vulnerable to some of the standard attacks associated with web applications and network functions.
-
+Where is Storage Usage information on iOS Settings?, General-Storage, If OS fails to update #1-Check Compatible; #2-Wifi/building power; #3-Do restart & try again; #4-Check Storage!!
+Where is Storage Usage information on Android Settings?, Storage, If OS fails to update #1-Check Compatible; #2-Wifi/building power; #3-Do restart & try again; #4-Check Storage!!
 
 
