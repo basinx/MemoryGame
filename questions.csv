@@ -489,6 +489,7 @@ In the Windows System Properties screen what tab lets you configure System Resto
 In Windows 10 Settings where do you rename the PC?, System-About, Also has links to related settings (Bitlocker/Devmgmt/Remote Desktop/Advanced Sysdm Tab)
 In Windows 10 what Settings screen do you configure Display or Sound devices?, System, Also: Notifications; Power/Sleep; Storage[Sense]; Tablet; Multitasking; Projecting; Shared Experiences; Sys Components; Clipboard; Remote Deskto; About
 In Windows 10 what Settings screen do you configure Mouse or Typing devices?, Devices, Also: Bluetooth & Other; Printers & Scanners; Touchpad; Pen & Windows Ink; Autoplay; USB
+In Windows 10 where do you find 'Storage' settings?, System, Storage Sense; Storage Spaces; Storage Usage Rundown with link to Apps (uninstall) page; other stuff
 What ACPI state means full Mechanical Shut Down!?, G3, S0 = Working; S1->S3 = Progressively Deeper Sleeps; S4 = Hibernate; S5 = Shutdown (but not unplugged or switch off)
 Where will you enable/disable 'fast startup' (Win 10)?, power buttons, powercfg.cpl->Choose what the power buttons do; Change settings currently unavailable; check/uncheck it.
 How to quick format the E drive as NTFS? (Windows Dos), Format E: /fs:NTFS /q, You can also do /v:label to set a volume label
