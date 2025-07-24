@@ -304,6 +304,7 @@ Single sign-on authentication and authorization service based on a time-sensitiv
 What is your main Kerberos authentication item called?, Ticket Granting Ticket, with this you can get specific 'Service Ticket's but they are time stamped for security! Time drift will make not work!
 Coax port for cable on SOHO router use what connector?, F, It is the usual screw on connector you know for cable modem.
 LAN ports on a home router are usually color-coded what color?, Yellow, Usually but not always
+If an employee leaves the company and their personal device is in MDM?, Enterprise Wipe, This removes any corporate accounts and files but leaves personal apps; accounts; settings; and files untouched.
 First thing a SOHO router will ask you to do after you connect from a PC?, change password, Change the Default Password to secure the administrator account
 SOHO Router Setup: Minimum characters considered a strong password?, 12, Changing the default username is also a good idea if possible.
 firewall downloads curated rep. DB's that associate IP addy ranges; FQDNs & URLs with content and bad shit, Content Filtering, Most home routers do this instead of 'packet filtering' which can block based on source and destination IP filtering.
