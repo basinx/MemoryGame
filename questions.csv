@@ -384,6 +384,7 @@ in iOS what options will give data in apps a second round of encryption?, Data P
 Z-Wave or Zigbee what even are they, wireless mesh, These wireless standards use less power and make it easier for smart devices to forward data between nodes
 Main risk from smart device placement in workplace?, Shadow IT, A vulnerability in the device would let it maybe be used to access the network!
 Something that home-intended IoT devices can suffer from?, Weak Defaults, There may be recommended steps to secure the device and procedures to apply security patches that the customer never takes.
+Other potential issues with IoT devices ?/?, Documentation/Patches, can be poorly documented; and patch management/security response processes of vendors can be inadequate.
 iOS where swipe to get Control Center?, Top Right, can be accessed by swiping from the top-right corner (newer models) or bottom of the screen.
 iOS- where is factory reset?, General, General page in settings
 Android- Where is factory reset on 'Stock Android'?, System-Advanced, do not attempt a factory reset within 72 hours of changing your account password
