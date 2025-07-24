@@ -392,6 +392,7 @@ in iOS how to bring up Multitask List? (physical home button), Double Tap, or sw
 If a Mobile App is acting up and Force Quitting doesn't help?, App Cache, Clear from within the app or (in Android) using the Clear Cache option under App info.
 What feature allows Private App Distribution on Apple?, Business Manager, Allows an MDM suite to push apps from the private channel to the device.
 What feature allows Private App Distribution on Android?, Managed Google Play, Allows an MDM suite to push apps from the private channel to the device.
+MDM uses what to determine what restrictions and requirements a device must meet?, Policies, Update/Patch Status; AV Status; Firewall configured; restriction of Apps/Corp Data/Mic/Camera/etc..
 Installing untrusted .APK files with 'Unknown Sources' enabled is known as, Sideloading, Android allows for selection of different stores and installation of untrusted apps from any third party if this option is enabled by the user
 Email & any other apps using this setting get an extra round of encryption on mobile, Data Protection, Using a key derived from and protected by the user's credential. Does not encrypt SMS; Contacts or Pictures
 iOS: a means of installing apps from outside the App Store without having to jailbreak, Developer Tools, XCode is the main one used for iOS development
