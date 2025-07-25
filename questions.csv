@@ -434,6 +434,7 @@ RDP to infected machine can put credentials at risk! What can help prevent?, RDP
 How to toss output into the void in Bash?, &>/dev/null, redirects output to the null device
 What standard governs the processing of credit card transactions? (acronym), PCI DSS, Payment Card Industry Data Security Standard
 What the heck is the DSS in PCI DSS?, Data Security Standard, REMEMBER!!!!!!!!!!!!!
+In Bash the values $1; $2; and so on are used to refer to, arguments by position, (the order in which they are entered when executing the script).
 uses GPS and/or High Accuracy to calculate a device's position on a map, Location Service, can be used with a locator application to find the device if it is lost or stolen
 mobile symptom of overheating; low battery charge; or faulty battery or other hardware, random reboots, You can use the Settings menu to check battery health; and there are third-party diagnostic apps that can report hardware faults
 Where to configure iOS feature that allows file transfer between iOS and macOS devices? Settings-, General-Airdrop, The sender must be listed in the recipient’s contacts list; or AirDrop must be configured to receive files from everyone. (Uses Bluetooth)
