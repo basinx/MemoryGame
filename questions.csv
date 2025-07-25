@@ -565,6 +565,7 @@ If a contractor with system access does an attack what it called?, insider threa
 Windows Pro & Up: a lightweight; isolated desktop environment for safely running applications, Windows Sandbox, You would enable it through 'Turn windows features on and off'; NOT available on Home Edition.
 Two 'Hardware Controllers 'that RMM or UEM tools can use to implement OOB management: ?/?, vPRO/AMD Pro, OOB = Out of Band Management; Accessing remote devices utilizing a seperate connection/channel (management plane) from the main PC
 What does BIOS boot use that UEFI boot does not?, Boot Sector, BIOS finds boot sector of 'active' partition which passes off to BOOTMGR.EXE on that partition; UEFI
+Two ways RMM/UEM/MDM software can protect the network ?/?, EDR/Access Control, Endpoint Detection & Response / Access control to prevent hosts that do not meet OS version/update or other health policies from connecting to the network.
 What is something System Restore will reset ONLY if run from a Product Disk?, passwords, Otherwise; System Restore does not usually reset passwords.
 Where to see 'View Installed Updates' in Windows 10?, Programs and Features, Then you can click on an update and you will see 'Uninstall Updates' button appear at top!
 Windows appears to boot but no sign in screen or no desktop after login; check?, Drivers, Drivers or other system files. If the system will boot to a GUI in Safe Mode; then replace the graphics adapter driver.
