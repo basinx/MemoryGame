@@ -404,6 +404,7 @@ iOS: a means of installing apps from outside the App Store without having to jai
 What TCP port does VNC use?, 5900, macOS 'Screen Sharing' feature is based on VNC and IS encrypted (not all VNC's are)
 What option protects the RDP server against denial of service attacks? (Acronym), NLA, Network Level Authentication - newer RDP clients should have - makes them auth before commiting resources.
 MSRA Meaning?, Microsoft Remote Assistance, +Chat Feature & Request Remote Control; mrsa.exe use ephemeral ports 49152-65535; *Password protected invitation file*
+Which Microsoft remote assistance tool uses ephermeral ports?, msra, Microsoft Remote Assistance (msra.exe) uses RDP protocol and ephemeral ports 49152-65535; Quick assist uses TCP/443
 How to launch Quick Assist in Windows 10? (hotkeys), Ctrl-Win-Q, an alternative to msra.exe; Quick Assist works over the encrypted HTTPS port TCP/443 (they say CTRL-START-Q)
 Tool that can distinguish between client accts for providing/recording/reporting billable support, RMM, Remote Monitoring & Management; principally designed for use by managed service providers (MSPs)
 Suite designed for control & authorization of devices within a single organization, UEM, Unified Endpoint Management; Any of: Agents for Security/Information/OS Version checking/Push Updates/Live Chat/Remote Shell
