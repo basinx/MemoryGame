@@ -641,5 +641,6 @@ Android: how to get task list?, square button, from the navigation bar at the bo
 One (internal) thing that can weaken signal strength on a mobile device?, Low Battery, It can be Throttling or actual reduced power/stability Also watch out for Interference/Distance to AP's & Thick Walls
 Another term for new Android OS image applied to the device. (besides Firmware?), Custom Rom, For some devices it is necessary to exploit a vulnerability or use custom firmware to gain Root Access
 Mobile setting that makes advanced configuration settings and diagnostic/log data available, Developer Mode, It can purposefully be misused to install bootleg apps. MDM can typically be configured to block devices that have developer mode enabled.
+Something to be aware of even when using an approved App Store?, App Spoofing, A malicious app will typically spoof a legitimate app by using a very similar name and use fake reviews and automated downloads to boost its apparent popularity.
 
 
