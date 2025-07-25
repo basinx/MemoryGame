@@ -351,7 +351,7 @@ class TypingGame:
                 else:
                     # Check similarity for partial credit
                     similarity = calculate_similarity(user_answer, correct_answer)
-                    if similarity >= 0.7:
+                    if similarity >= 0.8:   #Modify this to increase or decrease similary check
                         # Close enough - award half points
                         self.questions_correct += 0.5  # Half credit for statistics
                         self.correct_streak += 1
@@ -360,7 +360,7 @@ class TypingGame:
                             multiplier = self.correct_streak - 1
                         half_points = int((10 * multiplier) / 2)
                         self.score += half_points
-                        self.feedback = f"Close enough - half points! x{multiplier}"
+                        self.feedback = f"Close! - half points! x{multiplier}"
                         self.feedback_color = (255, 225, 0)  # Yellow for partial credit
                         if self.sound_enabled:
                             correct_sound.play()

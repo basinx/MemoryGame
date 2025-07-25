@@ -254,7 +254,7 @@ Mac OS: By default length backups stored (days est.) Hourly/Daily/Weekly?, 1/30/
 Mac OS - how to close unresponsive Apps?, COMMAND+OPTION+ESC, 'Force Quit' from the Apple menu or press COMMAND+OPTION+ESC
 How get to Recovery Menu in macOS?, COMMAND-R, hold until Apple logo; select language; [Restore from Time Machine backup; Reinstall macOS; Get Help; Disk Utility]
 Three properties of secure information? (first 5 letters of each) ?/?/?, confi/integ/avail, Confidentiality/Integrity/Availability >> Often refered to as the CIA triad.
-Three parts of a network security assessment ?/?/?, vuln/threat/risk, Vulnerability/Threat/Risk
+Three parts of a network security assessment ?/?/?, vuln/threat/risk, Vulnerability/Threat/Risk; Risk = is the likelihood and impact (or consequence) of a threat actor exercising a vulnerability. (Impact * Likelyhood)
 Security: The person or thing that poses a threat is called a threat ..?, Actor, Or a 'Threat Agent'
 Security: The path or tool used by an attacker can be referred to as the, Vector, Attack Vector or Threat Vector.
 A set of recommendations for deploying a computer in a hardened configuration, config baseline, To minimize risk of Vulnerabilities; There are baselines for different operating systems and for different server and client roles.
@@ -544,7 +544,7 @@ What protocol/port do TeamViewer & LogMeIn use? (common), TCP/443, But the real 
 What are App Permissions regarding the microphone called?, Voice Activation, Other:[Cam/Mic/Loc/Notifications/AcctInfo/Contacts /Calendar/Tasks/etc..] Windows Telemetry calls it 'Use of Speech'
 Windows 10 where do you find the Refresh/Reset options in Settings? (Full path), Update & Security-Recovery, 'Get Started' under 'Reset This PC' will present options for [Keep my Files] or [Remove Everything]
 Two main factors that govern backup operations: ?/?, Frequency/Retention, Frequency is the period between backup jobs. Retention is the period that any given backup job is kept for; may be Legal/Policy considerations.
-What is the most widely used backup rotation scheme?, GFS, Grandfather(Longest)-Father(Mid)-Son(Shortest); Grandfather may be Montly/Full; Son may be Daily/Incremental
+What is the most widely used backup rotation scheme?, GFS, Grandfather(Longest)-Father(Mid)-Son(Shortest); Grandfather may be Monthly/Full; Son may be Daily/Incremental
 What is simple best practice backup maxim to help ensure u ready for shit to go down?, 321,  three copies of your data (including production copy); across two media types; with one copy held offline and off site.
 Two options for verifying integrity of backups besides a test restore: ?/?, hash/chkdsk, Most software can hash to verify valid copy of source data; chkdsk on hard drives used for backup verifies media integrity.
 Protocols that Mac Airdrop can use? (most common) ?/?, WiFi/Bluetooth, Bluetooth for device discovery; Wi-Fi for file transfer; NFC added as well in iOS 17 allows tap-discover.
