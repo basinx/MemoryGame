@@ -123,12 +123,18 @@ PLAYING = "playing"
 PAUSED = "paused"
 GAME_OVER = "game_over"
 
+# Game Modes
+NORMAL_MODE = "normal"
+CLEAR_MODE = "clear"
+
 # Main Game Class
 class TypingGame:
     def __init__(self):
         self.state = MENU
         self.pause_start = None  # Timestamp captured on pause
         self.questions = load_questions()
+        self.available_questions = []  # For Clear Mode - questions not yet answered correctly
+        self.game_mode = NORMAL_MODE  # Default to normal mode
         self.score = 0
         self.start_time = None
         self.question_timer = 0
@@ -147,6 +153,7 @@ class TypingGame:
         self.correct_streak = 0  # For consecutive correct answers
         self.questions_answered = 0  # Total questions answered
         self.questions_correct = 0  # Total questions answered correctly
+        self.clear_mode_correct = 0  # Track correct answers in Clear Mode
         self.wrong_answers = []  # Track wrong answers for file output
         self.wrong_answers_file = None  # Path to saved wrong answers file
 
@@ -178,6 +185,10 @@ class TypingGame:
         except ValueError:
             self.question_time = default_question_time
 
+        # Initialize available questions for Clear Mode
+        if self.game_mode == CLEAR_MODE:
+            self.available_questions = self.questions.copy()
+        
         self.score = 0
         self.start_time = time.time()
         self.time_left = self.game_length
@@ -189,6 +200,7 @@ class TypingGame:
         self.correct_streak = 0  # Reset streak at game start.
         self.questions_answered = 0  # Reset question counters
         self.questions_correct = 0
+        self.clear_mode_correct = 0  # Reset Clear Mode counter
         self.wrong_answers = []  # Reset wrong answers list
         self.next_question()
         self.state = PLAYING
@@ -245,14 +257,32 @@ class TypingGame:
         if self.current_question is not None:
             self.last_question_answer = self.current_question[1]
             self.last_question_info = self.current_question[2]
-        # Prevent the same question twice in a row.
-        if len(self.questions) > 1:
-            new_question = random.choice(self.questions)
-            while self.current_question is not None and new_question == self.current_question:
-                new_question = random.choice(self.questions)
-            self.current_question = new_question
+        
+        # Choose question based on game mode
+        if self.game_mode == CLEAR_MODE:
+            if not self.available_questions:
+                # All questions completed in Clear Mode
+                self.wrong_answers_file = self.save_wrong_answers()
+                self.state = GAME_OVER
+                return
+            # Choose from available questions
+            if len(self.available_questions) > 1:
+                new_question = random.choice(self.available_questions)
+                while self.current_question is not None and new_question == self.current_question:
+                    new_question = random.choice(self.available_questions)
+                self.current_question = new_question
+            else:
+                self.current_question = self.available_questions[0]
         else:
-            self.current_question = random.choice(self.questions)
+            # Normal mode - prevent the same question twice in a row.
+            if len(self.questions) > 1:
+                new_question = random.choice(self.questions)
+                while self.current_question is not None and new_question == self.current_question:
+                    new_question = random.choice(self.questions)
+                self.current_question = new_question
+            else:
+                self.current_question = random.choice(self.questions)
+        
         self.question_timer = time.time() + self.question_time
         self.user_input = ""
         self.feedback_timer = time.time() + self.question_time
@@ -281,6 +311,14 @@ class TypingGame:
                     draw_wrapped_text(screen, info_text, (50, 430), font, color=(200, 200, 0), max_width=700)
         self.draw_question_timer_bar()
         draw_text(screen, f"Time Left: {self.time_left}s", (10, 10), font)
+        
+        # Show questions remaining in Clear Mode
+        if self.game_mode == CLEAR_MODE:
+            remaining_text = f"Questions Remaining: {len(self.available_questions)}"
+            draw_text(screen, remaining_text, (10, 40), font)
+            correct_count_text = f"Correct Questions: {self.clear_mode_correct}"
+            draw_text(screen, correct_count_text, (10, 70), font)
+        
         draw_text(screen, f"Score: {self.score}", (10, 550), font)
         # Display correct percentage
         if self.questions_answered > 0:
@@ -318,8 +356,13 @@ class TypingGame:
     def handle_mouse_click(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:  # Left mouse button
             if self.state == MENU:
-                start_btn = pygame.Rect(300, 450, 200, 50)
+                start_btn = pygame.Rect(300, 430, 200, 50)
+                clear_btn = pygame.Rect(300, 490, 200, 50)
                 if start_btn.collidepoint(event.pos):
+                    self.game_mode = NORMAL_MODE
+                    self.reset_game()
+                elif clear_btn.collidepoint(event.pos):
+                    self.game_mode = CLEAR_MODE
                     self.reset_game()
             elif self.state == GAME_OVER:
                 restart_btn = pygame.Rect(300, 350, 200, 50)
@@ -339,6 +382,11 @@ class TypingGame:
                 if user_answer == correct_answer:
                     # Correct answer.
                     self.questions_correct += 1
+                    if self.game_mode == CLEAR_MODE:
+                        self.clear_mode_correct += 1
+                        # Remove question from available questions
+                        if self.current_question in self.available_questions:
+                            self.available_questions.remove(self.current_question)
                     self.correct_streak += 1
                     multiplier = 1
                     if self.correct_streak >= 3:
@@ -354,6 +402,11 @@ class TypingGame:
                     if similarity >= 0.8:   #Modify this to increase or decrease similary check
                         # Close enough - award half points
                         self.questions_correct += 0.5  # Half credit for statistics
+                        if self.game_mode == CLEAR_MODE:
+                            self.clear_mode_correct += 1
+                            # Remove question from available questions for partial credit too
+                            if self.current_question in self.available_questions:
+                                self.available_questions.remove(self.current_question)
                         self.correct_streak += 1
                         multiplier = 1
                         if self.correct_streak >= 3:
@@ -406,7 +459,8 @@ class TypingGame:
             self.input_box_game_length.draw(screen)
             draw_text(screen, "Question Time (s):", (300, 340), font)
             self.input_box_question_time.draw(screen)
-            button((300, 450, 200, 50), "Start Game")
+            button((300, 430, 200, 50), "Start Game")
+            button((300, 490, 200, 50), "Clear Mode")
         elif self.state == PLAYING:
 
             draw_wrapped_text(screen, f"{self.current_question[0]}", (40, 200), font)
@@ -433,6 +487,11 @@ class TypingGame:
         elif self.state == GAME_OVER:
             draw_text(screen, "Game Over", (335, 200), font)
             draw_text(screen, f"Final Score: {self.score}", (315, 250), font)
+            
+            # Show Clear Mode specific stats
+            if self.game_mode == CLEAR_MODE:
+                clear_stats_text = f"Questions Completed: {self.clear_mode_correct}"
+                draw_text(screen, clear_stats_text, (280, 280), font)
             
             # Show wrong answers file message if file was created
             if hasattr(self, 'wrong_answers_file') and self.wrong_answers_file:
