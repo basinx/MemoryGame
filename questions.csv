@@ -392,7 +392,7 @@ In iOS; a manual ROTATE control can be added via the AssistiveTouch option which
 Where is Force Stop on Android?, Settings-Apps, To Force Stop an App on Android: Settings->Apps and then Click any App and option is bottom right.
 In iOS; clearing an app from the multitasking list also does what?, Force Stop, Either swipe up or double tap the physical Home button; then swipe the app up off the screen.
 in iOS how to bring up Multitask List? (physical home button), Double Tap, or swipe up if there is not a physical button.
-If a Mobile App is acting up and Force Quitting doesn't help?, App Cache, Clear from within the app or (in Android) using the Clear Cache option under App info.
+If a Mobile App is acting up and Force Quitting doesn't help?, Cear App Cache, Clear from within the app or (in Android) using the Clear Cache option under App info. (restart device if still no go)
 What feature allows Private App Distribution on Apple?, Business Manager, Allows an MDM suite to push apps from the private channel to the device.
 What feature allows Private App Distribution on Android?, Managed Google Play, Allows an MDM suite to push apps from the private channel to the device.
 MDM uses what to determine what restrictions and requirements a device must meet?, Policies, Update/Patch Status; AV Status; Firewall configured; restriction of Apps/Corp Data/Mic/Camera/etc..
