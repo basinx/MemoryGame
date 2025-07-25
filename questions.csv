@@ -637,7 +637,7 @@ Where is Storage Usage information on iOS Settings?, General-Storage, If OS fail
 Where is Storage Usage information on Android Settings?, Storage, If OS fails to update #1-Check Compatible; #2-Wifi/building power; #3-Do restart & try again; #4-Check Storage!!
 Mobile device randomly reboots? 4 key, battery hardware storage apps, Settings Battery Health/3rd Party diagnostics/Check Space/Update OS/Apps or seek for Faulty App
 iOS: how to get task list on model without physical Home button?, Swipe up, Swipe up from bottom to middle; if you have physical Home button Double-Tap it.
-Android: how to get task list?, square button, from the navigation bar at the bottom of the screen.
+Android: how to get task list?, square button, from the navigation bar at the bottom of the screen. (though on my Android it's the 3 lines)
 One (internal) thing that can weaken signal strength on a mobile device?, Low Battery, It can be Throttling or actual reduced power/stability Also watch out for Interference/Distance to AP's & Thick Walls
 Another term for new Android OS image applied to the device. (besides Firmware?), Custom Rom, For some devices it is necessary to exploit a vulnerability or use custom firmware to gain Root Access
 Mobile setting that makes advanced configuration settings and diagnostic/log data available, Developer Mode, It can purposefully be misused to install bootleg apps. MDM can typically be configured to block devices that have developer mode enabled.
