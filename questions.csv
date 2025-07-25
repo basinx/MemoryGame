@@ -642,5 +642,6 @@ One (internal) thing that can weaken signal strength on a mobile device?, Low Ba
 Another term for new Android OS image applied to the device. (besides Firmware?), Custom Rom, For some devices it is necessary to exploit a vulnerability or use custom firmware to gain Root Access
 Mobile setting that makes advanced configuration settings and diagnostic/log data available, Developer Mode, It can purposefully be misused to install bootleg apps. MDM can typically be configured to block devices that have developer mode enabled.
 Something to be aware of even when using an approved App Store?, App Spoofing, A malicious app will typically spoof a legitimate app by using a very similar name and use fake reviews and automated downloads to boost its apparent popularity.
+Places people might get illegitimate ripoffs of paid apps for free?, Bootleg App Store, Infringes copyrights & risks Malware; iOS Developer Tools is a way people can install apps from outside the App Store.
 
 
