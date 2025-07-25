@@ -392,6 +392,7 @@ In iOS; a manual ROTATE control can be added via the AssistiveTouch option which
 Where is Force Stop on Android?, Settings-Apps, To Force Stop an App on Android: Settings->Apps and then Click any App and option is bottom right.
 In iOS; clearing an app from the multitasking list also does what?, Force Stop, Either swipe up or double tap the physical Home button; then swipe the app up off the screen.
 in iOS how to bring up Multitask List? (physical home button), Double Tap, or swipe up if there is not a physical button.
+iOS how to restart the phone?, hold volume side, The left and right side buttons (volume up or down is fine); then slide power off. Yes there is not a 'restart' button!
 If a Mobile App is acting up and Force Quitting doesn't help?, Cear App Cache, Clear from within the app or (in Android) using the Clear Cache option under App info. (restart device if still no go)
 What feature allows Private App Distribution on Apple?, Business Manager, Allows an MDM suite to push apps from the private channel to the device.
 What feature allows Private App Distribution on Android?, Managed Google Play, Allows an MDM suite to push apps from the private channel to the device.
@@ -636,5 +637,5 @@ Where is Storage Usage information on Android Settings?, Storage, If OS fails to
 Mobile device randomly reboots? 4 key, battery hardware storage apps, Settings Battery Health/3rd Party diagnostics/Check Space/Update OS/Apps or seek for Faulty App
 iOS: how to get task list on model without physical Home button?, Swipe up, Swipe up from bottom to middle; if you have physical Home button Double-Tap it.
 Android: how to get task list?, square button, from the navigation bar at the bottom of the screen.
-
+One thing that can weaken signal strength on a mobile device?, Low Battery, Also watch out for Interference/Distance to AP's & Thick Walls
 
