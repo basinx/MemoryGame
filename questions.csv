@@ -640,6 +640,6 @@ iOS: how to get task list on model without physical Home button?, Swipe up, Swip
 Android: how to get task list?, square button, from the navigation bar at the bottom of the screen.
 One (internal) thing that can weaken signal strength on a mobile device?, Low Battery, It can be Throttling or actual reduced power/stability Also watch out for Interference/Distance to AP's & Thick Walls
 Another term for new Android OS image applied to the device. (besides Firmware?), Custom Rom, For some devices it is necessary to exploit a vulnerability or use custom firmware to gain Root Access
-Mobile setting that makes advanced configuration settings and diagnostic/log data available, Developer Mode, Developer mode should not necessarily weaken the security configuration; but it should be used only for actual app development work and not enabled routinely.
+Mobile setting that makes advanced configuration settings and diagnostic/log data available, Developer Mode, It can purposefully be misused to install bootleg apps. MDM can typically be configured to block devices that have developer mode enabled.
 
 
