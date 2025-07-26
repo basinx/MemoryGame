@@ -429,9 +429,11 @@ What are the prebuilt modules in Powershell called?, cmdlets, and Powershell fil
 What interpreter executes VBScript?, wscript.exe, Handles: VBScript (.VBS) and Javascript (.JS); cscript.exe shows output in command prompt; .wsf (windows script file) supports both (even in one script!)
 In what way is JavaScript supported on macOS? (Acronym), JXA, Javascript For Automation (There is also AppleScript)
 How to run the Python IDLE Shell, pythonw.exe, Windows python scripts associated with .pyw; IDLE = Integrated Development and Learning Environment
+Powershell: pick specific properties of something you just grabbed?, Select-Object, Get-WinEvent -LogName System -MaxEvents 10 | Select-Object TimeCreated; ID; LevelDisplayName; Message (obviously those should be commas)
 How to do a for sure restart in PowerShell? (ignore any warning), Restart-Computer -Force, in bash use 'shutdown -r'
 How to map a drive in PowerShell?, New-PSDrive, New-PSDrive -Name "L" -Persist -PSProvider FileSystem -Root "\\MS10\LABFILES" (error check to see if it exists first)
 How to run a 'Windows Installer' in a script?, msiexec, msiexec /i 7z2409-x64.msi /qn    (/a for admin install; /qn = no UI during the installation process)
+Powershell cmdlet to do some copying?, Copy-Item, Copy-Item -Path ''C:\Important'' -Destination ''D:\Backup'' -Recurse
 Powershell cmdlet that gives you more control over install process?, Start-Process, $process = Start-Process -FilePath "msiexec" -ArgumentList "/i C:\temp\software.msi /qn" -Wait -PassThru (then u can look at $process for info)
 Windows: can be called from a batch file to perform typical update tasks, wusa.exe, (Win Update Standalone) Powershell: PSWindowsUpdate module; contains numerous cmdlets for managing the update process.
 when introducing a script; the script and output should be subject to:, access controls, Also any system reconfiguration should be properly change managed.
