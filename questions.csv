@@ -426,7 +426,7 @@ A fairly good non-obliteration way to clean data from a drive?, erasing/wiping, 
 Built in Secure Erase or Instant Secure Erase (ISE/Crypo Erase) are examples of?, Low Level Format, Most disk vendors supply low level format tools to reset a disk to its factory condition. Verify the specific capability of each disk model
 how to shebang bash for a script?, #!/bin/bash, Linux shell scripts uses .sh extension by convention.
 What are the prebuilt modules in Powershell called?, cmdlets, and Powershell files are identified by the .PS1 extension
-What interpreter executes VBScript?, wscript.exe, Handles: VBScript (.VBS) and Javascript (.JS); .wsf files support both; cscript.exe shows output in command prompt
+What interpreter executes VBScript?, wscript.exe, Handles: VBScript (.VBS) and Javascript (.JS); cscript.exe shows output in command prompt; .wsf (windows script file) supports both (even in one script!)
 In what way is JavaScript supported on macOS? (Acronym), JXA, Javascript For Automation (There is also AppleScript)
 How to run the Python IDLE Shell, pythonw.exe, Windows python scripts associated with .pyw; IDLE = Integrated Development and Learning Environment
 How to do a for sure restart in PowerShell? (ignore any warning), Restart-Computer -Force, in bash use 'shutdown -r'
