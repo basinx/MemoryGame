@@ -415,6 +415,7 @@ How to restore a single file with File History (what tab?), Previous Versions, P
 Win10: Where find "Files Backup" option in Settings?, Update & Security, 'File History' option or link to 'Backup & Restore (Windows 7)'. (course says: Settings>Update & Security>Backup)
 creates a new full backup from the previous full and incremental backups, Synthetic,  not generated directly from the original data but instead assembled from other backup jobs
 Fancy term for a Malicious Data Breach?, exfiltration, Data Exfiltration; breach of regulated data must normally be reported to the regulator and to individual persons impacted
+information that must be collected; processed; and stored in compliance with federal and/or state legislation, regulated data, If a company processes regulated data collected from customers who reside in different countries; it must comply with the relevant legislation for each country.
 contains codes that allow the subject information to be reconstructed by the data provider, de-identified, An anonymized data set is one where the identifying data is removed completely
 IRP Meaning, Incident Response Plan, Larger organizations will provide a dedicated Computer Security Incident Response Team (CSIRT)
 Uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. a SED encrypts all its contents by using a media encryption key (MEK).
