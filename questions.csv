@@ -418,6 +418,7 @@ Fancy term for a Malicious Data Breach?, exfiltration, Data Exfiltration; breach
 A kind of personal PII you wouldn't fill out on a form?, biometric data, If someone steals your biometric data... you're kinda screwed forever.
 Something that might be PII depending on context, IP Address, A static IP address could be used to identify you; a dynamic IP is probably not PII
 information that must be collected; processed; and stored in compliance with federal and/or state legislation, regulated data, If a company processes regulated data collected from customers who reside in different countries; it must comply with the relevant legislation for each country.
+An extra consideration for Regulated Data besides general care in handling?, Retention, There may be a minimum or maximum amount of time a company is expected to keep data.
 contains codes that allow the subject information to be reconstructed by the data provider, de-identified, An anonymized data set is one where the identifying data is removed completely
 IRP Meaning, Incident Response Plan, Larger organizations will provide a dedicated Computer Security Incident Response Team (CSIRT)
 Uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. a SED encrypts all its contents by using a media encryption key (MEK).
