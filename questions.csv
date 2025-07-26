@@ -205,7 +205,7 @@ Linux: Sort 'top' processes in decreasing order of PID?, N, PID 1 is allocated t
 Linux: Sort 'top' processes by memory usage?, M, Enter will refresh; 'u' will Display processes belonging to the user specified at the prompt.
 Linux: sort 'top' processes by CPU usage?, P, Enter will refresh status of all processes.  Or try htop for a fancier color version.
 Linux: exit the 'top' process list interface?, q, E changes units to use in upper Memory values; e changes units to use in lower process list view.
-Linux: display a quick list of any 'terminal' processes in user-oriented, ps au, ps aux will show all processes even those without a tty or pts so it's bigger
+Linux: display a quick list of any 'terminal' user processes in user-oriented format, ps au, Shows ALL users' terminal-tied processes in detailed USER format - includes CPU%; memory%; usernames; etc (add x for non terminal procs)
 Linux: Display processes belonging to the user specified at the prompt?, u, top -u username when you run it; or it will prompt you when you hit u
 Functions used for making a cryptographic hash of the compiled package ?/?, MD5/SHA-256, The hash value and function are published on the package vendor's site. Linux use GPG: GNU Privacy Guard
 Linux command to display all Network Adapter/IP info cleanly in terminal, nmcli, nmcli device show / nmcli connection show for info about devices & connections
