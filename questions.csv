@@ -208,7 +208,7 @@ Linux: exit the 'top' process list interface?, q, E changes units to use in uppe
 Linux: display a quick list of any 'terminal' user processes in user-oriented format, ps au, Shows ALL users' terminal-tied processes in detailed USER format - includes CPU%; memory%; usernames; etc (add x for non terminal procs)
 Linux: Display processes belonging to the user specified at the prompt?, u, top -u username when you run it; or it will prompt you when you hit u
 Functions used for making a cryptographic hash of the compiled package ?/?, MD5/SHA-256, The hash value and function are published on the package vendor's site. Linux use GPG: GNU Privacy Guard
-Linux command to display all Network Adapter/IP info cleanly in terminal, nmcli, nmcli device show / nmcli connection show for info about devices & connections
+Linux command to display all Persistent Network Adapter/IP info cleanly in terminal, nmcli, nmcli device show / nmcli connection show for info about devices & connections
 Linux: take connection eth0 down [via Network Manager command], nmcli connection down eth0, Network Manager settings in '/etc/NetworkManager' instead of '/etc/network/interfaces' historic setting.
 Linux: what legacy tool did the 'ip' command replace?, ifconfig, ifconfig is part of the net-tools package; now replaced by the iproute2 package
 Linux: Modern network management package that can be operated using a GUI or the nmcli tools, NetworkManager, Alternatively; a network configuration might be managed using the systemd-networkd configuration manager.
