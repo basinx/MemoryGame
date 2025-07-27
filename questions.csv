@@ -664,5 +664,8 @@ Good way to ensure valid licenses & # of license purchased is not exceeded?, man
 Considerations for DRM regarding devices ?/?, Number/Authorization, the vendor may license the file for use on a restricted number of devices. You generally need to use your account with the vendor to authorize and deauthorize devices when they change.
 In step 7 of Incident Evidence Recovery list what put physical devices in?, tamper evident bags, and make sure fill out that CHAIN OF CUSTODY form and put in SECURE STORAGE!
 3 Major concerns when introducing scripts into the environment (Acronym), MCC, Malware (script could be compromised); Changes(non-malicious unforeseen or unexpected system change); Crashes(accidental DoS is through mishandling of resources.);
+Before deploying any script it must first be?, Tested, Test all code in a development environment & monitor for missed bugs thereafter.
+Any changes to hosts required to run scripts must be included/monitored in new:, Configuration Baselines, Scripts that can only work by disabling security mechanisms are not safe enough to consider running.
+
 
 
