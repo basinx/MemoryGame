@@ -189,7 +189,7 @@ how to make cp display copied files in Linux?, -v, cp -v /var/log/message* /home
 Linux: where is the list of accounts allowed to run sudo stored?, /etc/sudoers, The user might be asked to confirm his or her password if it has not been cached recently.
 Linux: where are user settings stored?, /etc/passwd, And group settings are stored in the /etc/group; use 'getent passwd dave' to check if dave is there.
 Linux: where are encrypted password hashes generally stored?, /etc/shadow, it's a secret to everybody.
-What numeric format are Linux can Linux permissions be expressed in?, Octal, The leading zero identifies the value as an octal but can often be omitted. (eg. 0754)
+What numeric format can Linux permissions be expressed in?, Octal, The leading zero identifies the value as an octal but can often be omitted. (eg. 0754)
 What are the numeric values for Read; Write and Execute in Linux (nospaces), 421, Read = 4; Write = 2; Execute = 1 and Deny = 0 (add em up for the permission)
 What Linux packages does APT work with?, deb, Advanced Packaging Tool (apt/apt-get) is used by Debian distros / .deb format packages.
 What Linux packages does YUM work with?, rpm, Yellowdog Updater/Modifier (YUM) is used by Red Hat distros / .rpm format packages.
