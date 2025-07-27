@@ -437,6 +437,7 @@ Powershell cmdlet to do some copying?, Copy-Item, Copy-Item -Path ''C:\Important
 Powershell cmdlet that gives you more control over install process?, Start-Process, $process = Start-Process -FilePath "msiexec" -ArgumentList "/i C:\temp\software.msi /qn" -Wait -PassThru (then u can look at $process for info)
 Windows: can be called from a batch file to perform typical update tasks, wusa.exe, (Win Update Standalone) Powershell: PSWindowsUpdate module; contains numerous cmdlets for managing the update process.
 when introducing a script; the script and output should be subject to:, access controls, Also any system reconfiguration should be properly change managed.
+All script source code should be subject to:, access and version controls, to prevent unauthorized changes. Code should be scanned and tested for vulnerabilities and errors before it can be deployed.
 What to do before deploying a script?, test in sandbox, and remember that security software may affect operation of some scripts
 RDP to infected machine can put credentials at risk! What can help prevent?, RDPRA, RDP restricted admin (RDPRA) mode is one means of mitigating this risk. Also (Remote Credential Guard)
 How to toss output into the void in Bash?, &>/dev/null, redirects output to the null device
