@@ -420,7 +420,7 @@ Something that might be PII depending on context, IP Address, A static IP addres
 information that must be collected; processed; and stored in compliance with federal and/or state legislation, regulated data, If a company processes regulated data collected from customers who reside in different countries; it must comply with the relevant legislation for each country.
 An extra consideration for Regulated Data besides general care in handling?, Retention, There may be a minimum or maximum amount of time a company is expected to keep data.
 contains codes that allow the subject information to be reconstructed by the data provider, de-identified, An anonymized data set is one where the identifying data is removed completely
-IRP Meaning, Incident Response Plan, Larger organizations will provide a dedicated Computer Security Incident Response Team (CSIRT)
+IRP Meaning, Incident Response Plan, Larger orgs will provide a dedicated Computer Security Incident Response Team (CSIRT); The course objectives says CERT/Comp Emergecy Resp. Team
 Uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. a SED encrypts all its contents by using a media encryption key (MEK).
 A fairly good non-obliteration way to clean data from a drive?, erasing/wiping, writing each location with 1's or 0's; suitable for all but the most confidential data; but it is time-consuming and requires special software.
 Built in Secure Erase or Instant Secure Erase (ISE/Crypo Erase) are examples of?, Low Level Format, Most disk vendors supply low level format tools to reset a disk to its factory condition. Verify the specific capability of each disk model
