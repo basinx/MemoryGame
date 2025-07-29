@@ -420,7 +420,7 @@ Something that might be PII depending on context, IP Address, A static IP addres
 information that must be collected; processed; and stored in compliance with federal and/or state legislation, regulated data, If a company processes regulated data collected from customers who reside in different countries; it must comply with the relevant legislation for each country.
 An extra consideration for Regulated Data besides general care in handling?, Retention, There may be a minimum or maximum amount of time a company is expected to keep data.
 contains codes that allow the subject information to be reconstructed by the data provider, de-identified, An anonymized data set is one where the identifying data is removed completely
-IRP Meaning, Incident Response Plan, Larger organizations will provide a dedicated Computer Security Incident Response Team (CSIRT)
+IRP Meaning, Incident Response Plan, Larger orgs will provide a dedicated Computer Security Incident Response Team (CSIRT); The course objectives says CERT/Comp Emergecy Resp. Team
 Uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. a SED encrypts all its contents by using a media encryption key (MEK).
 A fairly good non-obliteration way to clean data from a drive?, erasing/wiping, writing each location with 1's or 0's; suitable for all but the most confidential data; but it is time-consuming and requires special software.
 Built in Secure Erase or Instant Secure Erase (ISE/Crypo Erase) are examples of?, Low Level Format, Most disk vendors supply low level format tools to reset a disk to its factory condition. Verify the specific capability of each disk model
@@ -490,6 +490,7 @@ Two situations besides just working with; where you would consult MSDS ?/?, Acci
 RMA Meaning?, return merchandise authorization, need clear instructions how to pack and return the item to a repair center along with a ticket-tracking number and return merchandise authorization
 HBA Meaning?, Host Bus Adapter, A Fibre Channel HBA enables connectivity and data transfer between devices in an FC-based storage area network (SAN).
 evidence cannot be seen with the naked eye, Latent, rather; it must be interpreted using a machine or process.
+Environmentally speaking; Computer equipment is typically classed as? (acronym), WEEE, waste electrical and electronic equipment; Batteries; Toner; Other electrics like PCs; cell phones; tablets; and display screens
 PHI Meaning?, Protected Health Information, Industry standard concerning complicance data for healthcare-related information.
 Frameworks for security controls are established by organizations such as the (Acronym), NIST, National Institute of Standards and Technology (NIST)
 Can be affixed to a device as a barcode label or radio frequency ID (RFID) sticker, Asset Tag, An RFID tag is a chip programmed with asset data. When in range of a scanner; the chip powers up and signals the scanner.
@@ -597,7 +598,7 @@ Where is the manager and BCD on EFI System Partition (for windows)?, \EFI\Micros
 Security controls applied or enforced by people:, Procedural, Procedural controls: xamples include incident response processes; management oversight; and security awareness training programs. (vs Logical by systems)
 Security controls applied and enforced by digital or cyber systems and software:, Logical, Examples include user authentication; antivirus software; and firewalls. (Enforced by people = Procedural)
 What does each ACE in an ACL identify the permissions for?, subject, A subject could be a human user; a computer; or a software service. A subject could be identified in several ways (MAC/IP/PORT/SID)
-In Windows folder where is the HKEY_LOCAL_MACHINE files?, system32\config, SAM/SECURITY/SOFTWARE/SYSTEM & more! [CLASSES_ROOT = SOFTWARE\Classes from LOCAL_MACHINE and CURRENT_USER hives] [CURRENT_CONFIG = LOCAL_MACHINE\SYSTEM\CurrentControlSet\Hardware Profiles\Current]
+In Windows folder where is the HKEY_LOCAL_MACHINE files?, system32\config, SAM/SECURITY/SOFTWARE/SYSTEM [CLASSES_ROOT = SOFTWARE\Classes from HKLM & HKCU hives] [CURRENT_CONFIG = HKLM\SYSTEM\CurrentControlSet\Hardware Profiles\Current]
 What portal to manage your Microsoft Account?, account.microsoft.com, Configuring access to a device by a Microsoft account creates a profile associated with a local account. Profile settings can be synchronized between devices via the online portal.
 Group besides 'Guests' that has same permissions as the standard Users group?, Power Users, It was a security concern; could escalate privileges to Admin; Only around for legacy support. (Guest is disabled by default)
 USB key or smart card w/ cryptographic module that hold auth encryption keys securely, Hard Token, 1: Registered w/svc or network; 2: User connects & auth with PIN/Passwd/finger/voice; 3: Token transmit creds & svc grants user access.  FIDO!
@@ -675,4 +676,14 @@ Complex requests that aren’t covered by existing procedures are better treated
 A more sophisticated ticking incident system might measure both, impact and urgency, Severity levels can also drive a notification system to make senior technicians and managers immediately aware of major and critical incidents
 A fancier way to create a network schematic?, network mapping software, Or drawn manually by using a tool such as Microsoft Visio.
 What are MACs?, Moves Adds and Changes, The main difficulty in implementing a workable configuration management system is in determining the level of detail that must be preserved.
-How to quickly toggle the active language, start+space, Time & Language Settings: Date & Time; Region; Language; Speech
+Bring your request before the council!  Who is the council?, Change Advisory Board, must be confident that risk analysis has identified both bad shit and good shit that will happen from completing the change.
+May display terms of use or other restrictions before use of a computer or app is allowed, splash screen, might be configured to show at login to remind users of data handling requirements or other regulated use of a workstation or network app.
+What requirements may be displayed or issued to employess above and beyond AUP's?, regulatory compliance, Regarding perhaps of data handling requirements or other regulated use of a workstation or network app
+Business formal is only usually required for, initial client meetings, Business casual is typically sufficient for troubleshooting appointments.
+A main oragnization for safety regulations in the USA?, OSHA, Occupational Safety and Health Administration (OSHA); also there is state standards regarding employee safety.
+Employees responsible to use equipment iin accordance with the guidelines AND:, report any hazards, Employees should also not interfere with any safety systems; including signs or warnings or devices such as firefighting equipment.
+The large metal equipment racks often used to house servers and network equipment must be, grounded, Do not disconnect the ground wire. If it must be removed; make sure it is replaced by a professional electrician.
+PAT meaning?, Portable Appliance Testing, It is important to test electrical devices regularly. In some countries; portable appliance testing (PAT) carried out by a qualified electrician or technician ensures that a device is safe to use.
+Types of extinguishers you DO NOT want to use for electronics?, water or foam, Foam extinguishers use water mixed with foam concentrate - so they still contain water!
+People who suffer from asthma or bronchitis should avoid, Changing Toner, When you using compressed air; working around toner spill; or working in a dusty environment; use an air-filter mask that fits over your mouth and nose.
+Final steps to protect components in antistatic bags?, fold and seal, To protect the contents of the bag fully; you should seal it or at least fold the top over and seal that down.

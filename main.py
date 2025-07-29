@@ -399,7 +399,7 @@ class TypingGame:
                 else:
                     # Check similarity for partial credit
                     similarity = calculate_similarity(user_answer, correct_answer)
-                    if similarity >= 0.8:   #Modify this to increase or decrease similary check
+                    if similarity >= 0.9:   #Modify this to increase or decrease similarity check
                         # Close enough - award half points
                         self.questions_correct += 0.5  # Half credit for statistics
                         if self.game_mode == CLEAR_MODE:
