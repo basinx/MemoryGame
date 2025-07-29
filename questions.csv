@@ -691,3 +691,4 @@ How to quickly toggle the active language, start+space, Time & Language Settings
 Windows 10/11 where is notification settings?, system, global settings; app specific; do not disturb
 What is Modern Standby described as?, S0 Low Power Idle, utilizes a device's ability to function in an S0 low-power idle mode to maintain network connectivity without consuming too much energy.
 How do you check what power states are available on your system?, powercfg /a, you may not have some features like Modern Standby
+what was those hardware devices that display a mfa code right on em?, rfa token, Display a 6-8 digit number that changes every 30-60 seconds; rsa was company name
