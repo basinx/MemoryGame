@@ -687,4 +687,8 @@ PAT meaning?, Portable Appliance Testing, It is important to test electrical dev
 Types of extinguishers you DO NOT want to use for electronics?, water or foam, Foam extinguishers use water mixed with foam concentrate - so they still contain water!
 People who suffer from asthma or bronchitis should avoid, Changing Toner, When you using compressed air; working around toner spill; or working in a dusty environment; use an air-filter mask that fits over your mouth and nose.
 Final steps to protect components in antistatic bags?, fold and seal, To protect the contents of the bag fully; you should seal it or at least fold the top over and seal that down.
-something to consider enabling regarding WiFi AP's that may service many devices?, compatibility mode, an access point configured to use 802.11ac only will not be accessible to a smartphone with an 802.11n adapter.
+How to quickly toggle the active language, start+space, Time & Language Settings: Date & Time; Region; Language; Speech
+Windows 10/11 where is notification settings?, system, global settings; app specific; do not disturb
+What is Modern Standby described as?, S0 Low Power Idle, utilizes a device's ability to function in an S0 low-power idle mode to maintain network connectivity without consuming too much energy.
+How do you check what power states are available on your system?, powercfg /a, you may not have some features like Modern Standby
+what was those hardware devices that display a mfa code right on em?, rfa token, Display a 6-8 digit number that changes every 30-60 seconds; rsa was company name
