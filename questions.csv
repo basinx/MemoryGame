@@ -158,7 +158,7 @@ Prinicple that a user should be granted the minimum possible rights necessary to
 A local user account is stored in a database known as the:, Security Account Manager, SAM is part of the HKEY_LOCAL_MACHINE registry; Each machine maintains its own SAM and set of SIDs for accounts.
 page where account can be switched from MS to local or local to MS as preferred (in Settings), Your Info, Accounts->Your Info;
 command to show all Windows accounts, Net User, add; modify; or delete user accounts; and display detailed information about user accounts on a local computer or domain.
-What type of authentication is a fingerprint or biometrics, Inherence, Something you *are*
+What type of authentication is a fingerprint or biometrics, Inherence, Something you *are* (vs possession / knowledge)
 The format of a credential is called an authentication ?, factor, knowledge; possession; inherence
 what does 2-step verification generate when user try log in?, soft token, also referred to as a one-time password (OTP).
 QR Code stands for what?, Quick Response, A common tool for registering an Authenticator App with a service or network
@@ -483,7 +483,7 @@ Light Pink or Blue packaging that reduces static in general area, Dissipative, T
 Less bad than a surge/spike but can still cause a PC to power off?, under-voltage, Devices with large motors require high-starting; or inrush; current. This might cause the building supply voltage to dip briefly.
 Max amount of the rated Amperage you should use on on a surge protector? ?%, 80, For example; the devices connected to a 15 A protector should be drawing no more than 12 A; minding total building power also.
 Conversion factor from Watts to VA?, 1.67, VA rating is the maximum load the UPS can sustain. 10 W router & two 250 W computers; VA is (10 + 250 + 250) * 1.67 = 852 VA >> a 1K UPS should suffice.
-The strength of the UPS batteries is measured in?, Amp Hours, Amp hours is like how many gallons your gas tank holds (raw capacity) vs Runtime which is how far you can actually go (minutes)
+The total power capacity of UPS batteries is measured in?, Amp Hours, Amp hours is like how many gallons your gas tank holds (raw capacity) vs Runtime which is how far you can actually go (minutes)
 The total amount of energy the surge protector can absorb (basically its HP)?, Joules Rating, 600 joules or more offering better protection. Each surge event will degrade the capability of the suppressor.
 The level at which the protection circuitry in a surge protector will activate, Clamping voltage, with lower voltages (400 V or 300 V) offering better protection.
 Two situations besides just working with; where you would consult MSDS ?/?, Accident/Disposal, ingredients; health hazards; precautions; first aid; spill/leaks procedure; disposal process
@@ -575,7 +575,7 @@ Windows Pro & Up: a lightweight; isolated desktop environment for safely running
 Two 'Hardware Controllers 'that RMM or UEM tools can use to implement OOB management: ?/?, vPRO/AMD Pro, OOB = Out of Band Management; Accessing remote devices utilizing a seperate connection/channel (management plane) from the main PC
 What does BIOS boot use that UEFI boot does not?, Boot Sector, BIOS finds boot sector of 'active' partition which passes off to BOOTMGR.EXE on that partition; UEFI
 Two ways RMM/UEM/MDM software can protect the network ?/?, EDR/Access Control, Endpoint Detection & Response / Access control to prevent hosts that do not meet OS version/update or other health policies from connecting to the network.
-What is something System Restore will reset ONLY if run from a Product Disk?, passwords, Otherwise; System Restore does not usually reset passwords.
+What is something System Restore will restore ONLY if run from a Product Disk?, passwords, They will go back to when the restore point was made. Otherwise; System Restore does not usually reset passwords.
 Where to see 'View Installed Updates' in Windows 10?, Programs and Features, Then you can click on an update and you will see 'Uninstall Updates' button appear at top!
 Windows appears to boot but no sign in screen or no desktop after login; check?, Drivers, Drivers or other system files. If the system will boot to a GUI in Safe Mode; then replace the graphics adapter driver.
 If the system will not boot to a GUI at all; even using Safe Mode?, Repair, The Windows installation will probably have to be repaired or recovered from backup; possibly sfc/chkdsk?
@@ -673,7 +673,7 @@ Two types of Macs besides regular computer tower, iMac & Macbook, iMac is the wh
 an overall statement of intent, policy, Organizations needs to create written policies and procedures to help staff understand and fulfill their tasks and follow best practice
 after problem description & clarifying questions what 3 things must agent clarify?, category urgency timeline, The agent categorizes the support case; assesses how urgent it is; and determines how long it will take to fix.
 Complex requests that aren’t covered by existing procedures are better treated as, projects, Rather than handled via the ticketing system.
-A more sophisticated ticking incident system might measure both, impact and urgency, Severity levels can also drive a notification system to make senior technicians and managers immediately aware of major and critical incidents
+A more sophisticated ticket incident system might measure both, impact and urgency, Severity levels can also drive a notification system to make senior technicians and managers immediately aware of major and critical incidents
 A fancier way to create a network schematic?, network mapping software, Or drawn manually by using a tool such as Microsoft Visio.
 What are MACs?, Moves Adds and Changes, The main difficulty in implementing a workable configuration management system is in determining the level of detail that must be preserved.
 Bring your request before the council!  Who is the council?, Change Advisory Board, must be confident that risk analysis has identified both bad shit and good shit that will happen from completing the change.
@@ -681,13 +681,12 @@ May display terms of use or other restrictions before use of a computer or app i
 What requirements may be displayed or issued to employess above and beyond AUP's?, regulatory compliance, Regarding perhaps of data handling requirements or other regulated use of a workstation or network app
 Business formal is only usually required for, initial client meetings, Business casual is typically sufficient for troubleshooting appointments.
 A main oragnization for safety regulations in the USA?, OSHA, Occupational Safety and Health Administration (OSHA); also there is state standards regarding employee safety.
-Employees responsible to use equipment iin accordance with the guidelines AND:, report any hazards, Employees should also not interfere with any safety systems; including signs or warnings or devices such as firefighting equipment.
+Employees have a responsibility to use equipment according to guidelines AND report:, hazards, Employees should also not interfere with any safety systems; including signs or warnings or devices such as firefighting equipment.
 The large metal equipment racks often used to house servers and network equipment must be, grounded, Do not disconnect the ground wire. If it must be removed; make sure it is replaced by a professional electrician.
 PAT meaning?, Portable Appliance Testing, It is important to test electrical devices regularly. In some countries; portable appliance testing (PAT) carried out by a qualified electrician or technician ensures that a device is safe to use.
 Types of extinguishers you DO NOT want to use for electronics?, water or foam, Foam extinguishers use water mixed with foam concentrate - so they still contain water!
 People who suffer from asthma or bronchitis should avoid, Changing Toner, When you using compressed air; working around toner spill; or working in a dusty environment; use an air-filter mask that fits over your mouth and nose.
 Final steps to protect components in antistatic bags?, fold and seal, To protect the contents of the bag fully; you should seal it or at least fold the top over and seal that down.
-How to quickly toggle the active language, start+space, Time & Language Settings: Date & Time; Region; Language; Speech
 Windows 10/11 where is notification settings?, system, global settings; app specific; do not disturb
 What is Modern Standby described as?, S0 Low Power Idle, utilizes a device's ability to function in an S0 low-power idle mode to maintain network connectivity without consuming too much energy.
 How do you check what power states are available on your system?, powercfg /a, you may not have some features like Modern Standby
