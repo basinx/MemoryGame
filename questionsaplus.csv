@@ -1,0 +1,973 @@
+Location Settings inside which Settings screen, Privacy, Many web browsers allow location on a per-site basis also
+Run command: Quick Access to create a user account (Admin Tools screen), netplwiz, or 'control userpasswords2'/'control userpasswords' will get you to users basic control panel app.
+Extra key to reverse an alt-tab, shift, alt-shift-tab is correct
+major releases that introduce new features and improvements of Windows, Feature Update, Feature updates are essentially new versions of Windows; offering a comprehensive refresh of the operating system.
+ACPI meaning?, Advanced Configuration and Power Interface, Designed to ensure software and hardware compatibility for different power saving modes
+ACPI S4 relevant filename, hiberfil.sys, Hibernate mode/Suspend to disk; hiberfil.sys is created in the root of the boot volume. ACPI defines different S# sleep/power states
+Apps that install to AppData folder and do not need credentials to install, user-context, They do not install in either the System folders or Program Files folders.
+Where to change date/time formats?, region, Time & Language->Region
+Run command for Defrag & Optimize Drives, dfrgui.exe, Found in Administrative (Windows) Tools in Control Panel
+Run command for Computer Management, compmgmt.msc, Tasks; Shared Folders; Performance; Dev Manager; Users/Groups; Disks; Services; etc..
+Run command for Disk Cleanup, cleanmgr.exe, Regain disk capacity by deleting unwanted files; tracks files that can be safely erased to reclaim disk space.
+Run command for Event Viewer, eventvwr.msc, Review system; security; and application logs.
+Run command for AD Group Policy Management, gpmc.msc, Create and manage Group Policy Objects from Domain Controller
+Run command for Local Security Policy, secpol.msc, View and edit the security settings. Not available on Home edition.
+Run command for Resource Monitor, resmon.exe, Old school resource monitor
+Run command for Performance Monitor, perfmon.msc, Performance statistics and logging (also perfmon.exe)
+Run command for Task Scheduler, taskschd.msc, Run software and scripts according to calendar or event triggers.
+Run command for Network Adapters, ncpa.cpl, Skips the 'Network and Sharing Center' straight to adapters.
+Run command for Device Manager, devmgmt.msc, Driver Details / Update/ Roll Back / Disable / Uninstall
+Run command for Disk Management, diskmgmt.msc, Initialize; (Re)Partition; Format; Configure Dynamic Disks/RAID replaced by Storage Spaces now.
+Run command for Local Users and Groups, lusrmgr.msc, Not available on Home Editions
+Run command for Certificate Manager for Local User, certmgr.msc, A digital certificate is a means of proving identity; validity guaranteed by the issuing certification authority (CA).
+Run command for Certificate Manager for Computer, certlm.msc, Trusting an unsafe CA raises critical security vulnerabilities
+Run command for Registry Editor, regedit.exe, It's the registry editor. HKEY_CLASSES_ROOT YALLLLLLL
+Run command for RDP Client, mstsc.exe, Microsoft Terminal Services Client (mstsc.exe)
+Run command for creating a bootable USB recovery drive?, recoverydrive, Creates a bootable USB drive that can be used to troubleshoot and recover Windows when it won't start
+Run command for Backup & Restore (Windows 7), sdclt.exe, Allows you to create system backups; restore from previous backups; and create system repair discs or complete system images
+Screws with USB Power and can interrupt use, Selective Suspend, Power Options -> Change Plan Settings -> Change Advanced Power Settings
+Run command for Power Settings Control Applet, powercfg.cpl, or ms-settings:powersleep for the new settings version
+Windows 11 where to find Taskbar in Settings (menu), Personalization, Change alignment under Taskbar Behaviors
+Where to find Optional Updates in Windows 11 Update Settings, Advanced Options, In Windows 10 it says 'View Optional Updates' right under the 'Check for Updates' button
+In Windows 11 the Update and Security button became what?, Privacy and Security, Privacy merged with security and Windows Update became it's own option.
+What was 'Accessibility' called win Windows 10?, Ease of Access, Ease of Access options changed to Accessibility in Windows 11
+WSL Meaning, Windows Subsystem for Linux, Allows the installation of a Linux distribution and the use of Linux applications.
+Low disk warning *MB* remaining, 200, And under 20% capacity may affect performance.
+Automates disk cleanup activities, Storage Sense, System->Storage->Storage Sense: Time to run and clear recycle/downloads folders
+Run command for Local Security Policy editor, secpol.msc, Can be used to modify security settings specifically.
+Run command for Group Policy Editor, gpedit.msc, Provides a more robust means of configuring many of these Windows settings than editing the registry directly.
+Command to make a custom management console, mmc, (mmc.exe) Most MMC snap-ins can be used to manage either the local computer or a remote computer.
+Run command to get to System Information, msinfo32.exe, system resources; firmware and OS versions; driver file locations; env. variables; network and so on.
+Fast Task Manager hotkeys Ctrl+(?/?), Shift/Esc, also it is 'taskmgr.exe' or right click task bar or start button. or ctrl+alt+delete. literally it's everywhere.
+If *this* increasing and disk time is high then you have a disk problem, Average Disk Queue Length, The number of requests outstanding on the disk at the time the performance data is collected.
+Overall good indicator counter for how busy a disk is, % Disk Time, if the average exceeds 85% for a sustained period you may have a disk problem.
+Counter that indicates hard faults in memory, pages/sec, The number of pages read from or written to disk to resolve hard page faults. This means your system is using the paging file.
+ETW Meaning, Event Tracing for Windows, ETW is a mechanism that allows applications and services to record detailed information about their activities
+Where is the boot log saved (msconfig setting), %systemroot%\ntbtlog.txt, NT Boot Log: not shown in event viewer!
+BCD Meaning, Boot Configuration Data, \boot\bcd on the system (EFI) partition.  bcdedit or msconfig boot tab to edit.
+Where are list of configurable properties in the properties screen of a Device Manger item?, Advanced, Many things here such as Speed & Duplex for a NIC.
+What tab is 'Scan for Hardware Changes' under in Device Manager?, Action, Use this if you uninstalled a device and want to reinstall it.
+What year did apple switch to a seperate iPadOS for tablets?, 2019, Better support for multitasking (using more than one app at once) and the Apple Pencil stylus device.
+Make System File Checker scan on the next startup, /scanonce, Schedules a scan when the computer is next restarted.
+Make System File Checker scan every time the computer boots, /scanboot, Schedules a scan that runs each time the PC boots. (sfc /revert will stop this)
+Where is the version controlled backup of system files for sfc? (folder name), WINSxS, System files (and shared program files) are maintained; and version-controlled in the WINSxS system folder.
+Only check for logical errors on hard disk file system, chkdsk /f, CHKDSK /R begins by performing the same function as CHKDSK /F and attempts recovery of bad sectors. (“CHKDSK /F /R” is redundant)
+Skip doing scan for bad sectors when running format, /q, Quick Format will skip the scan; both standard and quick do leave sectors un-scrubbed however.
+Where does an elevated command prompt begin? %SYSTEMDRIVE%:\?, Windows\System32, Non-elevated will begin in %USERPROFILE% (eg C:\Users\Jim)
+Registry hive: Contains file name extension associations and registration info for shared software components, HKEY_CLASSES_ROOT,	Primarily intended for compatibility with the registry in 16-bit Windows.
+Registry hive: contains information about the current hardware profile being used by the system., HKEY_CURRENT_CONFIG, This profile includes settings related to display resolutions; color profiles; printer configurations; and other hardware-related options.
+a set of formal descriptions that provide a standard for the design of operating systems compatible with Unix, Posix, NTFS is Posix compliant supporting case-sensitive naming. (Portable Operating System Interface)
+Maximum possible NTFS Volume size in recent Windows feature updates, 8 Petabytes, Between 137 GB and 256 Terabytes listed previously.
+FAT32 maximum Volume size/File Size, 2TB/4GB, FAT32 is a variant of FAT that uses a 32-bit allocation table; max file size is 4GB minus 1 byte.
+ExFAT (64-bit version of FAT) recommended maximum Volume size?, 512TB, There is also support for access permissions but not encryption. Excels in portability and compatibility across various operating systems
+The Linux file system that added support for journaling., Ext3, Max File Size: 2TB ; Max Volume Size: 32TB
+Linux implementation of FAT with long filename support, VFAT, Virtual FAT; It's not a distinct file system; just a driver label.
+Linux protocol that can be used to share or remotely mount files/folders (Acronym), NFS, Network File System
+The main compatibility issues for a web application ?/?, touch/size, supporting a touch interface and a very wide range of display resolutions on the different devices that might connect to it.
+This disk management feature allows space on multiple physical disks to be combined into volumes., Dynamic Disks, Windows Home editions do not support dynamic disks or encryption; it is depreciated in favor of 'Storage Spaces' anyways (which does work on Home).
+Feature update where 32-bit stopped shipping with new OEM installs?, 2004, April 2020: from then on new versions only ship for 64 bit hardware (but old PC's still got updates)
+Feature update that introduced Dark Mode (Windows 10), 1607, Released August 2; 2016
+FPP Meaning, Fully Packaged Product, Each box contains a copy of the software that you manually install on your computer and one license.
+Version of Windows that supports more RAM and advanced hardware such as persistant NVDIMMs RAM, Pro for Workstations, NVDIMMs integrate non-volatile NAND flash memory with dynamic random access memory (DRAM) and dedicated backup power on a single memory subsystem.
+App Control Windows Enterprise feature is called, AppLocker, (ENTERPRISE FEATURE) AppLocker helps you control which apps and files users can run.
+Fancy persistent VPN on Windows Enterprise only, DirectAccess, (ENTERPRISE FEATURE) although it is now depreciated and MS recommends AlwaysOn VPN.
+MDOP Meaning? (Microsoft) ???, Desktop Optimization Pack, (ENTERPRISE FEATURE) App-V; User Experience Virtualization (UE-V); Bitlocker Admin & Monitoring; Adv. Group Policy Managmt; Diag. & Recovery Toolkit (DaRT)
+Processor limit of Pro & Education Windows editions: Procs/Cores, 2/128, Enough for most desktops and workstations
+Processor limit for Pro for WS and Enterprise Windows Editions: Procs/Cores, 4/256, Designed for high-end servers or workstations
+RAM Limit for Pro and Education Windows editions (TB), 2, More than enough for most business-grade PCs
+RAM Limit for Pro for WS and Enterprise Windows editions (TB), 6, Supports massive RAM for demanding workloads like VMs or scientific computing
+Max RAM for Windows Home Editions (GB): 32-bit/64-bit, 4/128, 4 GB is the limit of 32-bit architecture; 64-bit removes that barrier and Home allows up to 128 GB
+Maximum number of CPU cores allowed on Windows Home edition, 64, Limited to 1 physical CPU but supports lots of cores and HyperThreading
+What does EFS stand for?, Encrypting File System, NTFS feature for encrypting individual files/folders; tied to user account; not available on Home edition
+Protocol used by BranchCache to find peers with cached data, WS-Discovery, Also used in local discovery for devices like printers and smart TVs
+What Linux distributions are subscription based ?/?, SUSE/Red Hat, SUSE (german acronym) loosely translates to 'software and system development'; SUSE Linux Enterprise Server = SLES
+Linux distributions that are community supported?, Fedora Debian Mint Arch, Supported by volunteer communities; often cutting edge or customizable; no official enterprise support
+What is a rolling release Linux distro? One that:, updates continuously, Always has latest software; no need for full OS reinstall; examples: Arch; openSUSE; Tumbleweed
+What is a fixed release Linux distro? One that updates in:, versioned jumps, Receives updates within a version; major upgrades require reinstall or full upgrade; examples: Ubuntu; Debian
+Windows Server 2019 and 2022 are optimized for use as a, Network Operating Systems, Typically; a NOS provides file-to-print services; directory services and security.
+Devices running different operating systems need what in common to talk to each-other?, Network Protocols, This will allow data to be exchanged in a standard format.
+RoboCopy: switch to Include Non-Empty directories, /s, Copies Subdirectories; but not empty ones. /E to include empty ones.
+Robocopy: copy the 'fun' folder from current directory and ALL contents back one folder?, robocopy fun ..\fun /e, it will not create the folder for you - you must specify the folder name!
+DOS/BATCH: remove the 'fun' folder and all contents/subdirectories with no confirmation prompts, rd /s /q fun, [rd or rmdir]; remember in Linux it is: [rm] -r = recursive & -f = force (rm -rf fun)
+CMD: display directory contents ordered by last modified date?, dir /o:d /t:w, /t = time field [c : created on] [a : last access] [w : last modified] (use - prefix to reverse order)
+DiskPart: Shrink a Volume, Shrink desired=, = the amount to shrink the volume by in MB > run this after 'select volume #'
+DiskPart: Set a volume to letter L?, Assign Letter=L, you must 'select volume #' first; use 'Remove Letter=L' to remove a drive letter.
+Script or config file to input the choices and settings that need to be made during Windows Installation, Answer File, Created with Windows System Image Manager (WSIM); uses XML format with .xml extension (unattend.xml)
+What does DISM manage and service in Windows?, Windows images, Can add features to running system or customize install.wim offline
+Option to make sure the PC uses external/hot-swappable HD or a flash drive as boot media, priority, Determines the order in which your computer's hardware checks for a bootable device.
+For INTERNET boot; what must be supplied by the DHCP server, DNS Name, Of the installation server; To tell the PXE boot where to install from.
+Another name for the boot sector at start of each primary partition on MBR, partition boot record, PBR: When a partition is marked as active; its boot sector is populated with a record that points to the OS boot loader.
+Convert a disk from MBR to GPT name/win 10 feature update, mbr2gpt/1703, Backup first and remember to change to UEFI boot mode after.
+What is the macOS file system called?, APFS, Apple File System; The file system used by macOS 10.13 or later. Journaling/Snapshots/Permission/Ownership/Encryption
+a Windows command-line tool used to manage file and folder permissions, icacls, icacls img0.jpg /grant administrators:F (Integrity Control Access Control List)
+Where are 32-bit shared system files stored in 64-bit versions of windows?, syswow64, %systemroot%\syswow64 - meaning Windows on Windows 64 bit emulation for 32 bit programs.
+Installation package extensions for macOS ?/?, DMG/PKG, Disk Image (simple copy) vs Package file (complex install service / multiple folders)
+Installation packages for Linux APT/YUM, DEB/RPM, APT (Debian/Ubuntu) uses .deb packages; YUM/DNF (Red Hat/Fedora) uses .rpm (redhat package manager).
+How to verify authenticity of package in linux?, Hash, After download; you should generate your own hash of the package and compare it to the value published by the package maintainer.
+What must be assessed and mitigated when depolying new apps?, potential impacts, It is important that the IT department maintains control and oversight of all third-party software installed to network hosts.
+Cool term for unsanctioned software and devices, Shadow IT, But they raise substantial operational and business risks.
+Three main App considerings regarding Impact to *Business* ?/?/?, Licensing/Support/Training, Who/how many can use with license? by machine or by user? Who supports/trains/maintains?
+What can you use in Windows Domain to get a PC to remotely install an app? (Acronym), GPO, You can use Group Policy Objects to remotely install from a network folder automatically.
+Method of automated deployment products like centrally managed antivirus use?, Push, Server or system pushes updates; configurations; or software to multiple client devices
+Besides malware threats what could new software affect on a PC or Network?, Stability and Performance, Could also contain unpatched vulnerabilities; best to test in labe environment first; also compatibility issues
+Linux bootloader, grub, Grand Unified Bootloader / grubx64.efi
+Where does legacy BIOS firmware look for the MBR on the boot device?, first sector, The MBR then identifies the boot sector for the partition marked as active.
+Boot manager file used by BIOS firmware (Windows), BOOTMGR.exe, Reads information from the BCD file; ID's operating systems installed on the computer; Loads WINLOAD.EXE boot loader.
+Boot manager file used by UEFI firmware (Windows), bootmgfw.efi, Choose OS (if multiple) & then passes control to the boot loader (C:\Windows\system32\WINLOAD.EFI)
+Name of the Boot Loader found stored in the system root folder on the boot partition?, WINLOAD, WINLOAD.EXE for BIOS/MBR and WINLOAD.EFI for UEFI/GPT (C:\Windows\System32) Boot Manager->Boot Loader
+With BIOS boot; what to press to access Advanced Boot Options?, F8, Startup options are displayed automatically if the system cannot start the OS. Shift-Restart in UEFI systems.
+Where to find 'Startup Settings' from WindowsRE main screen?, Troubleshoot-Advanced Options, Then click 'Restart' and it reboots to 'Startup Settings' Then press F4 to select Safe Mode; or choose another option.
+MBR: WINLOAD then continues the Windows boot process by loading, NTOSKRNL.EXE, (Windows NT Operating System Kernel Executable); also HAL.DLL (hardware abstraction layer) and boot device drivers.
+If the boot files are damaged what option on WinRE 'Troubleshoot->Advanced Options' to try repair?, Startup Repair, You can also launch 'System Restore' or 'System Image Recovery' or 'Troubleshoot->Reset This PC' to Refresh or Reset of Windows
+Run command for System Restore tool, rstrui.exe, Opens directly to the pick a restore point dialog.
+Command to (attempt to) add missing Windows to BCD, /rebuildbcd,
+Attempt to repair the MBR from WindowsRE Command Line:, bootrec /fixmbr, Does not work with GPT partition - that requires the backup GPT or special tools
+Attempt to repair the Boot Sector from WindowsRE Command Line:, bootrec /fixboot, Repair boot sector and boot files/BCD
+Test if system is responsive with WINDOWS+CTRL+, SHIFT+B, WINDOWS+CTRL+SHIFT+B; Should hear a beep and display may reinitialize
+Files not to copy when rebuilding a user profile NTUSER. ?/?/?, DAT/LOG/INI, NTUSER.DAT; NTUSER.DAT.LOG & NTUSER.INI <sometimes desktop can load slow due to a corrupt profile>
+Hotkey during Windows Memory Diagnostics to configure test options, F1, From Administrative Tools or boot to the recovery environment. The computer will restart and run the test.
+SFC switch to only check the Windows files; not repair, /verifyonly, you can do /scanfile or verifyfile to target specific file; /offbootdir and /offwindir for offline folders for repair
+Built in tool in Windows that will periodically backup files, File History, Just type filehistory in run and click "Configure File History Settings" (Settings->Update & Security->Backup)
+What verifies software is authentic and hasn't been tampered with?, digital signature, Digital Signature tab on properties; but still scan & test in a lab env if possible. And get from trusted source.
+Where can you look for a catalog of tested devices and drivers for Windows?, HCL, Microsofts Hardware Compatibility List; also known as the Windows Logo'd Product List (LPL) catalog.
+LLDP meaning (network - ???Protocol), Link Layer Discovery, Provides network mapping and discovery functions for networks without dedicated name servers. (LLTD: Link Layer Topology Discovery is MS version)
+The Windows service that prompts to set a new networks 'Profile Type', Network Location Awareness, NLA: public is higher security / private means PC is discoverable and folder/printer sharing active (by default)
+UNC Meaning (Windows), Universal Naming Convention, \\Host\Path ; where Host is the host name; FQDN; or IP address and Path is a shared folder or file path.
+Setting on Windows to use on a WWAN connection with a data limit, Metered, (Network & Internet->{Type of Connection}->{Connection}->Metered) && (Network & Internet->Data Usage->Enter Limit)
+Win10: In 'Network & Internet' what click to find 'Advanced Sharing Settings'?, Network & Sharing Center, Or Network & Sharing Center option in Control Panel; Then it's on the left side.
+'No Internet Access': windows test to this address was unsuccessful, msftncsi.com, Checks that DNS resolves the IP address correctly. Could be a problem with the router; with DNS; or with both. (Microsoft Network Connectivity Status Indicator)
+In addition to Netbios what else does /all add to ipconfig output ? ? ?, DHCP DNS MAC, MAC Address shows as 'Physical Address' and DHCP shows seperate than 'Default Gateway'
+How to use IPConfig to show the DNS resolver cache?, /displaydns, This contains host and domain names that have been queried recently.
+Command to clear any custom net/vpn adapter settings in Windows, Network Reset, The Network reset command is on the Settings > Network & Internet > Status page (tiny text down at very bottom).
+Where is the Network Reset command found in Windows 10? (Network & Internet)->, Status, this will clear any custom adapter configurations and network connections; including VPN connections.
+Ping this address to verify TCP/IP is installed and loaded correctly, loopback, 127.0.0.1 > The loopback address is a reserved IP address used for testing purposes.
+Indicates no response to Address Resolution Protocol (ARP) probes locally. (Reply from ? Dst Host Unreachable), Sender IP, The most likely cause is that the destination host is disconnected or configured as non-discoverable. local network link issue!
+Fancy alternative to tracert, pathping, It will trace the route and also do ping tests to determine the RTT and measure link latency.
+If you identify or suspect a problem with name resolution; you can troubleshoot DNS with, nslookup, ex: nslookup -type=mx comptia.org 8.8.8.8; you can compare the results to those returned by your own name server.
+netstat switch > includes UDP ports in the listening state?, -a, UDP 0.0.0.0:3702 *:* is a UDP listener (connectionless — no "established" state) (WS-Discovery in example)
+netstat switch that shows the process that has opened the port?, -b, Alternatively; use the -o switch to list the (Owning) process ID (PID) rather than the process name.
+netstat switch> displays ports and addresses in numerical format?, -n, Skipping name resolution speeds up each query. (n = numeric)
+netstat switch> Ethernet statistics and Protocol statistic ?/?, -e/-s, Useful for tracking dropped packets or protocol-level errors; “e” for Ethernet; “s” for Stack (protocols)
+FPP meaning, Full Packaged Product, FPPs are sold in stores in shrink-wrapped boxes.
+AAA First A?,Authentication,Verifies identity—"Are you who you say you are?"; Account and Credentials /d
+AAA Second A?,Authorization,Grants access—"What are you allowed to do?"; Access to resource controlled by ACL's /d
+AAA Third A?,Accounting,Tracks activity—"What did you do and when?"; Logging /d
+directory permissions in Windows: each user and security group account has a unique (acronym), SID, Security ID: the only identifier used in the underlying permission entries. Even account re-created with same name will have dif SID.
+ACL: unless there is a rule specifying that access should be granted.., Implicit Deny, unless there is a rule specifying that access should be granted; any request for access is denied.
+Prinicple that a user should be granted the minimum possible rights necessary to perform the job, Least Privilege, A complementary principle to implicit deny; can be challenging to get right.
+A local user account is stored in a database known as the:, Security Account Manager, SAM is part of the HKEY_LOCAL_MACHINE registry; Each machine maintains its own SAM and set of SIDs for accounts.
+page where account can be switched from MS to local or local to MS as preferred (in Settings), Your Info, Accounts->Your Info;
+command to show all Windows accounts, Net User, add; modify; or delete user accounts; and display detailed information about user accounts on a local computer or domain.
+What type of authentication is a fingerprint or biometrics, Inherence, Something you *are* (vs possession / knowledge)
+The format of a credential is called an authentication ?, factor, knowledge; possession; inherence
+what does 2-step verification generate when user try log in?, soft token, also referred to as a one-time password (OTP).
+QR Code stands for what?, Quick Response, A common tool for registering an Authenticator App with a service or network
+FIDO stands for?, Fast Identity Online, A 'hard token' (smart card or USB thumb drive) proves it has the right private key without ever transmitting the secret itself. (encrypted challenge vs servers public key)
+What tab in AD User Properties do you configure a 'Home Folder' on?, Profile, Check 'Home Folder'; pick drive letter & enter the path.
+what is \\<device name>\<share name>\<optional path> refered to as? (Acronym), UNC, Universal Naming Convention; used in Windows for different shared resources on the local network.
+Quick run 'Active Directory Users and Computers', dsa.msc, (directory system agent) Or in Server Manager on the DC: Local Server->Tools menu
+DFS meaning (network)?, Distributed File System,  Files are accessible just as if they were stored locally; from any device and from anywhere on the network.
+Linux: writes keyboard input to tty device for processing by the shell’s command interpreter, stdin, Basic 'File Descriptor' 0
+Linux: reads data generated by shell (from tty device) and displays through terminal, stdout, Basic 'File Descriptor' 1
+Linux: carries error information to display through terminal (generally), stderr, Basic 'File Descriptor' 2
+Linux command to get comprehensive help pages for a command, man, or use --help after; '--help | more' will show one page at a time.
+How to launch Nano so it shows line numbers (switch?), -l, nano -l filepath
+How to save document in Nano?, ctrl-O
+How to append text after the current position in Vi?, a, i will insert
+How to append text at the end of the current line in Vi?, A, :q! to quit without saving
+How to save and quit from Vi?, :wq, Add to delete an entire line
+Specifies how the dirs under root should be named and where files should be placed (Acronym), FHS, Linuxes File System Heiarchy Standard
+Linux command to print your current working directory, PWD, Print Working Directory - on some distros will show tilde ~ for home directory.
+How to display directory contents long form in Linux, ls -l, -l is long form and -a is hidden stuffs
+how to add line numbers with cat command in Linux?, -n, Often; cat output is piped to a pager ( cat | more or cat | less ) to control scrolling.
+how to ignore case in a grep search?, -i, 'grep -i "uid=1003" /var/log/messages' for example
+how to show JUST the match in grep search?, -o, -o "grep -rio perform.*WiNdoWs testing" (-r is recursive; . matches any character; .* matches any number of characters)
+Linux: Change the Group on file 26 to MyGroup, sudo chgrp MyGroup 26, groupadd MyGroup to create MyGroup
+Linux: Remove all permissions for groups and others form me.txt, chmod go-rwx me.txt, chmod -w document.pdf > removes write for everyone; chmod 755 myfile.txt > Owner: rwx; Group: r-x; Others: r-x
+Linux find every item with full access from current folder:, find ./ -perm 777, Owner-Group-Others; also there is -name; -size; -user; -type (files; directories; block devices (disks); network sockets; symbolic links; named pipes)
+how to make cp display copied files in Linux?, -v, cp -v /var/log/message* /home/david' copy all files beginning with message to /home/david
+Linux: where is the list of accounts allowed to run sudo stored?, /etc/sudoers, The user might be asked to confirm his or her password if it has not been cached recently.
+Linux: where are user settings stored?, /etc/passwd, And group settings are stored in the /etc/group; use 'getent passwd dave' to check if dave is there.
+Linux: where are encrypted password hashes generally stored?, /etc/shadow, it's a secret to everybody.
+What numeric format can Linux permissions be expressed in?, Octal, The leading zero identifies the value as an octal but can often be omitted. (eg. 0754)
+What are the numeric values for Read; Write and Execute in Linux (nospaces), 421, Read = 4; Write = 2; Execute = 1 and Deny = 0 (add em up for the permission)
+What Linux packages does APT work with?, deb, Advanced Packaging Tool (apt/apt-get) is used by Debian distros / .deb format packages.
+What Linux packages does YUM work with?, rpm, Yellowdog Updater/Modifier (YUM) is used by Red Hat distros / .rpm format packages.
+Refresh the local database with info about packages available (apt-get), update, Gets latest package lists from repositories
+Refresh the local database with info about packages available (yum), check-update, Gets latest package lists from repositories
+Update all packages with the newest versions (apt-get), upgrade, Downloads and installs newer versions of currently installed packages
+Update all packages with the newest versions (yum), update, Downloads and installs newer versions of currently installed packages
+A Linux Intrusion Prevention System (IPS) they mention, Snort, Detects and blocks suspicious traffic by analyzing packets using custom rulesets
+Use apt to install samba and skip confirmation prompts, sudo apt install samba -y, or sudo apt install -y samba
+A Linux Antivirus they mentions, Clam, ClamAV scans for viruses and malware; often used on mail servers or to check files manually
+Linux command that displays dynamic process status; reflecting real-time changes, top, M = Sort by Memory / P = Sort by CPU / u = Sort by User / N = Sort by PID desc / Enter = Refresh / q = quit
+Linux: Sort 'top' processes in decreasing order of PID?, N, PID 1 is allocated to the initial daemon; which is the first process to start and is the parent of all other processes on the system.
+Linux: Sort 'top' processes by memory usage?, M, Enter will refresh; 'u' will Display processes belonging to the user specified at the prompt.
+Linux: sort 'top' processes by CPU usage?, P, Enter will refresh status of all processes.  Or try htop for a fancier color version.
+Linux: exit the 'top' process list interface?, q, E changes units to use in upper Memory values; e changes units to use in lower process list view.
+Linux: display a quick list of any 'terminal' user processes in user-oriented format, ps au, Shows ALL users' terminal-tied processes in detailed USER format - includes CPU%; memory%; usernames; etc (add x for non terminal procs)
+Linux: Display processes belonging to the user specified at the prompt?, u, top -u username when you run it; or it will prompt you when you hit u
+Functions used for making a cryptographic hash of the compiled package ?/?, MD5/SHA-256, The hash value and function are published on the package vendor's site. Linux use GPG: GNU Privacy Guard
+Linux command to display all Persistent Network Adapter/IP info cleanly in terminal, nmcli, nmcli device show / nmcli connection show for info about devices & connections
+Linux: take connection eth0 down [via Network Manager command], nmcli connection down eth0, Network Manager settings in '/etc/NetworkManager' instead of '/etc/network/interfaces' historic setting.
+Linux: what legacy tool did the 'ip' command replace?, ifconfig, ifconfig is part of the net-tools package; now replaced by the iproute2 package
+Linux: Modern network management package that can be operated using a GUI or the nmcli tools, NetworkManager, Alternatively; a network configuration might be managed using the systemd-networkd configuration manager.
+Linux: Show only eth0 with 'ip' command, ip addr show dev eth0, The command 'ip addr' replicates the basic reporting functionality of ifconfig
+Linux: Add an IP address 10.0.0.3 to eth0, sudo ip addr add 10.0.0.3 dev eth0, and 'ip addr delete 10.0.0.3 dev eth0'
+Linux: Show status of interfaces WITH STATISTICS?, ip -s link, 'ip -s link' same as 'ip link' but adds Tx and Rx statistics (Send/Receive)
+Linux: Use the 'ip' command to enable interface eth0?, sudo ip link set eth0 up, 'ip link set {eth0} up|down' for example
+Linux: compression utility besides 'tar', gzip, Beyond compression; Some examples of open-source backup products include Amanda; Bacula; Fwbackups; and Rsync.
+command from iproute2 package that replicates the basic reporting functionality of ifconfig, ip addr, show the current address configuration; though ifconfig is nicer (net-tools package)
+Historically edit this Linux file to modify Persistent network config, /etc/network/interfaces, you would bring interfaces up or down with the ifup and ifdown scripts
+Linux: good tool for gathering information and testing name resolution, dig, (dig domainname); 'dig @server domain' will resolve the domain name against the DNS server specified by @server.
+Linux (SMB)–compatible file sharing protocol, Samba, Samba enables the integration of Linux and Windows systems. Linux WS -> Windows Server / or vice-versa.
+How to review a users cron jobs?,crontab -l, to remove jobs from the scheduled list use -r; to launch the editor use -e
+How to remove a users cron jobs?,crontab -r, this will nuke all the jobs; [*/20 * * * * /home/basinx/Documents/testing/copy_hidden.sh] example
+What is the Linux task scheduling service called?, cron, Every user of the system is allowed to schedule programs or tasks in their own personal crontab (cron table).
+Linux: display all processes/show user/include procs not tied to terminal/extend output & wrap, ps auxww, or just use a single w if you do not want it to wrap.
+MaxOS: quickly bring up 'Spotlight Search', command-space, Find almost anything on macOS with Spotlight Search. (or click the MAGNIFYING GLASS in the menu bar)
+What shell does macOS use? newer/older, zsh/bash, Z shell (Catalina and up)/ Bourne Again Shell (older).
+MacOS: Window management and multiple desktops, Mission Control, Activated with the F3 key
+MacOS: hotkey to switch desktops, control-dir, ctrl-left or ctrl-right / 3-4 finger swipe OR hit F3 and choose a desktop
+MacOS: key closest in function to the windows CTRL key?, COMMAND, and OPTION is usually mapped to ALT
+MacOS: key that is usually mapped to ALT?, OPTION, and COMMAND is closes in function to the CTRL key
+MacOS: What preference panel to change 'Magic Mouse' setting?, TrackPad, also you can change 'Magic Trackpad' options here; obviously
+MacOS: Options to make the display adapt to ambient light conditions, Night Shift, In the "Displays" prefpane.
+MacOS: What is the Narration option called?, VoiceOver, In 'System Preferences->Accessibility': VoiceOver; Cursor Size & Motion; Zoom tools; Display Contrast; Font Size; Captioning
+MacOS: Where to find 'Users & Groups'?, System Preferences, Also; sign in and out of your Apple ID using the button on the System Preferences home page.
+MacOS: Where to find permissions for apps to use features (like camera etc..), Security & Privacy, also options for what what analytics/telemetry data and personalized information can be collected
+MacOS: How to make 'Admin Approval' settings available, lock icon, click it and type password then you can do admin stuffs.
+MacOS: Where to find 'Keychain Access' app to look at problems with Keychain?, Utilities, search box for web site->select password to change. check box "show password" & enter admin pass to see what is.
+MacOS: Does the disk encryption (if wanted), FileVault, When disk encryption enabled; each user account must be configured with a password. Also store recovery key iCloud or seperate disk.
+MacOS: Where do you find FileVault?, Security & Privacy, System Preferences->Security & Privacy; On the 'FileVault' tab.
+MacOS: Where do you set what analytics/telemetry data is collected?, Security & Privacy, also App permissions such as features (Location Service; Camera) & data stores (Contacts; Calendar)
+MacOS: Default amount of storage for a user on iCloud?, 5GB, This space is shared across all iCloud components and devices.
+MacOS: How to install a downloaded app?, drag, After the app is downloaded; it will need to be dragged to the Applications folder to install.
+MacOS: Where in System Preferences to set allow install downloaded Apps?, Security & Privacy, Select the padlock to make changes to the settings
+MacOS: What does an installed application appear as?, .APP, In the Applications folder.
+MacOS: Some antiviruses you could use ?/?/?, Avira/Avast/Sophos, will detect malware directed at macOS—and Windows viruses too
+How to have a bootable Windows partition on macOS?, Boot Camp, allow you to install Microsoft Windows 10 on your Intel-based Mac
+what 'portal' is used to push apps to a supervised macOS?, Business Manager, Platform Deployment guide covering device management at support.apple.com/guide/deployment/welcome/1/web
+What prefpane do you set up 'Remote Disk' in?, Sharing, System Preferences->sharing; Then check box next to DVD or CD sharing.
+Mac OS - indicator you need to attach external drive for Time Machine restore, dim tick, the backup drive needs to be attached to restore that item. (System Preferences->Time Machine)
+Mac OS: By default length backups stored (days est.) Hourly/Daily/Weekly?, 1/30/365, When chosen drive is full; removes older backups to free up space.
+Mac OS - how to close unresponsive Apps?, COMMAND+OPTION+ESC, 'Force Quit' from the Apple menu or press COMMAND+OPTION+ESC
+How get to Recovery Menu in macOS?, COMMAND-R, hold until Apple logo; select language; [Restore from Time Machine backup; Reinstall macOS; Get Help; Disk Utility]
+Three properties of secure information? (first 5 letters of each) ?/?/?, confi/integ/avail, Confidentiality/Integrity/Availability >> Often refered to as the CIA triad.
+Three parts of a network security assessment ?/?/?, vuln/threat/risk, Vulnerability/Threat/Risk; Risk = is the likelihood and impact (or consequence) of a threat actor exercising a vulnerability. (Impact * Likelyhood)
+Security: The person or thing that poses a threat is called a threat ..?, Actor, Or a 'Threat Agent'
+Security: The path or tool used by an attacker can be referred to as the, Vector, Attack Vector or Threat Vector.
+A set of recommendations for deploying a computer in a hardened configuration, config baseline, To minimize risk of Vulnerabilities; There are baselines for different operating systems and for different server and client roles.
+All points a threat actor could try to use to infiltrate or disrupt the system, attack surface,  The basic principle of a configuration baseline is to reduce the system’s attack surface.
+a class of software designed to detect non-compliant systems:, vulnerability scanner, A non-compliant system is one that has drifted from its hardened configuration/configuration baseline.
+Specific method by which malware code infects a target host; often via some vulnerability in a software process, exploit, Most software vulnerabilities are discovered by software and security researchers; Most serious allow arbitrary code execution on system.
+A vulnerability that is exploited before the developer knows about it or can release a patch, zero day, These can be extremely destructive; as it can take the vendor a lot of time to develop a patch
+A growing 'attack surface' area where it is difficult for IT to identify Secure Config Baselines, BYOD, And even more challenging to ensure compliance with those baselines. Also Embedded Systems & IoT devices.
+Technique where the threat actor learns a password or PIN by watching the user type it, Shoulder Surfing, Despite the name; the attacker may not have to be in proximity to the target; could watch from far
+Technique of closely following authorized person as they pass a security checkpoint?, Tailgating, Sneaky mans
+When the attacker has some information that makes the target more likely to be fooled, Spear Phishing, Name of a document that the target is editing; might show that the attacker knows the recipient's name; job title; phone number or other details
+Social engineering attack conducted through a voice channel, Vishing, It can be much more difficult for someone to refuse a request made in a phone call.
+Technique where attacker enters a secure area with an employee's permission?, Piggybacking, Maybe impersonate cleaning crew or say they lost their badge
+an attack directed specifically against upper levels of management in the organization, Whaling, Upper management may also be more vulnerable to ordinary phishing attacks because of their reluctance to learn basic security procedures.
+Put on a fake wifi to trick people and harvest credentials; what is called?, Evil Twin, Attacker might even use DoS the legitimate AP or put a fake captive portal to steal creds.
+Threat: Attacker try learn about the configuration of network & security systems via reconnaissance and research, Footprinting, gathering publicly available information; scanning network ports and websites; and using social engineering techniques
+Threat actor (digitally) masquerading as a trusted user or computer, Spoofing, cloning a valid MAC/IP address/software or logical token; using a false digital cert; imitating a legitimate email; or social engineering
+Threat: steal authentication token and use again to impersonate the original user, replay attack, This is a type of spoofing attack
+A way a Threat Agent might mask their REAL attack vector, DoS, might be used to occupy the security team when the threat actor’s real goal is stealing information from a database server.
+Threat actor covertly intercepting traffic between two hosts or networks, on-path, An evil twin is one example of an on-path attack; previously called Man-in-the-Middle attack
+Threat: refers to cutting the power to a computer or cutting a network cable, Physical DoS, You gotta get you hands dirty sometime
+Multiple compromised systems launching a DDoS attack is called?, botnet, First 1 or 2 devices compromized (Command & Control / C&C) used to compromise 100's or 1000's
+Linux: Where is the first fixed disk listed?, /dev/sda, the second would be listed /dev/sdb
+What would classic viruses usually leave in a file?, code signature, Adversaries were able to develop means of circumventing signature-based scanning.
+What do MDM suites look for to detect rooted or jailbroken devices?, code signature, Custom firmware with no valid developer code signature
+A vulnerability that allows threat actor to inject script via text field on a web app, input validation, One of the most widespread vulnerabilities in web apps is failure to validate this input properly
+Pass Attack: matches the hash to those produced by ordinary words, Dictionary, his dictionary could include information such as user and company names; pet names; significant dates; or any other data
+Pass Attack: against one of every possible combination it could be, Brute Force, Longer and more complex passwords increase the amount of time the attack takes to run
+XSS Meaning?, Cross Site Scripting, Exploits the fact that the browser is likely to trust scripts that appear to come from a trusted site. Often it is; but with malicious code injected.
+Security: MD5 meaning (Just MD)?, Message Digest, An older HASH algorithm that is slowly being phased out.
+The main biggest algorithm that does Asymetric encryption, RSA, The Rivest-Shamir-Adleman (RSA) encryption algorithm is an asymmetric encryption algorithm that is widely used in many products and services.
+Security: SHA meaning?, Secure Hash Algorithm, The newer hash algorithm mentioned in the course; SHA-256 is common (linux: sha256sum/sha512sum > create a hash of whatever)
+In Key Exchange the ephemeral symmetric cipher secret keys are also referred to as the, Session Keys, Temporary keys derived from the PMK; PTK (Pairwise Transient Key) - for unicast traffic between client and AP; GTK (Group Temporal Key) - for multicast/broadcast traffic
+TKIP Meaning? (related to Wi-Fi security), Temporal Key Integrity Protocol, TKIP encrypts each data packet with a (stronger) unique encryption key. Key component of WPA(1) (now depreciated)
+WPA2 uses the AES; what that means?, Advanced Encryption Standard, A cipher deployed within the CCMP (Counter Mode with Cipher Block Chaining Message Authentication Code Protocol) Symmetric 128-; 192-; or 256-bit block cipher
+WPA2: AES/CCMP replaces ?/?, RC4/TKIP, CCMP provides authenticated encryption; which is designed to make replay attacks harder. AES provides stronger encryption than RC4. CCMP provides better integrity than TKIP.
+WPA3: AES CCMP replaced with AES ?, GCMP, WPA3 replaced AES-CCMP with AES-GCMP (Galois Counter Mode Protocol). GCMP provides better performance and stronger authentication than CCMP. GCMP adds built-in message authentication and is more efficient for high-speed networks.
+In addition to other enhancements; WPA3 now protects..?, Management Frames, Management frames are used for association and authentication and disassociation and deauthentication messages between stations and access points as devices join and leave the network.
+WPA3 even networks with no passphrase get protected now. Wi-Fi ? ?, Enhanced Open, any station can still join the network; but traffic is protected against sniffing.
+Passphrase length for WPA2 PSK? #-#, 8-63, This is converted to a type of hash value; referred to as the Pairwise Master key (PMK); part of the 4-way handshake
+Security: SAE Meaning?, Simultaneous Auth of Equals, Used in WPA3 Personal Authentication; generates Pairwise Master Key (PMK); replaces Pre-Shared Key (PSK)
+Security: EAP Meaning (Enterprise/authenticates against a network directory)?, Extensible Authentication Protocol, enables systems to use hardware-based identifiers; eg. fingerprint/smart card readers for authentication; and establish secure tunnels through which to submit credentials.
+Standard for EAP communications over a LAN or WLAN for port-based authentication, 802.1X, WPA2-Enterprise or WPA3-Enterprise: 802.1X defines using EAPoL(W) which wraps the EAP authentication messages.
+RADIUS (R and A Mean?), Remote Authentication,RADIUS: Used for verifying the identity of clients before granting access to a network
+RADIUS (DIUS Means?), Dial In User Service,RADIUS: Originally designed for dial-up but now used for centralized AAA over IP networks
+TACACS+: first 3 letters?, Terminal Access Controller, Access Control System Plus. Often used in authenticating administrative access to routers; switches; and access points.
+Single sign-on authentication and authorization service based on a time-sensitive; ticket-granting system, Kerberos, Kerberos allows a user account to authenticate to a domain controller (DC) over a trusted local cabled segment (port 88)
+What is your main Kerberos authentication item called?, Ticket Granting Ticket, with this you can get specific 'Service Ticket's but they are time stamped for security! Time drift will make not work!
+Coax port for cable on SOHO router use what connector?, F, It is the usual screw on connector you know for cable modem.
+LAN ports on a home router are usually color-coded what color?, Yellow, Usually but not always
+If an employee leaves the company and their personal device is in MDM?, Enterprise Wipe, This removes any corporate accounts and files but leaves personal apps; accounts; settings; and files untouched.
+First thing a SOHO router will ask you to do after you connect from a PC?, change password, Change the Default Password to secure the administrator account
+SOHO Router Setup: Minimum characters considered a strong password?, 12, Changing the default username is also a good idea if possible.
+firewall downloads curated rep. DB's that associate IP addy ranges; FQDNs & URLs with content and bad shit, Content Filtering, Most home routers do this instead of 'packet filtering' which can block based on source and destination IP filtering.
+Type of port forwarding where the external port is forwarded to a different internal port, Port Mapping, Like if you had two PC's running servers on port 8181 you'd want two external ports to distinguish them
+When firewall detects outbound on a certain port (to an IP) it allow inbound on dif port (from that IP), Port Triggering, Used to set up applications that require more than one port.
+Do this after changing password and verifying WAN access on new SOHO router, firmware update, This is important to mitigate risks from software vulnerabilities
+physically restricts access to one person at a time at entrace, vestibule, where one gateway leads to an enclosed space protected by another barrier
+often deployed at airports and in public buildings to identify concealed weapons or other items, Magnetometer, can be hand-held or walk-through
+Much more difficult to clone than ordinary swipe cards ?/?, smart card/key fob, all of these are considered a 'hardware token'
+Biometric door lock that (usually) uses a small capacitive cell?, Fingerprint, moisture or dirt can prevent readings; and there are hygiene issues at shared-use gateways
+Biometric door lock: camera-based scanner that uses visible and/or infrared light, Palmprint, Unlike facial recognition; the user must make an intentional gesture to authenticate.
+One of the most accurate forms of biometrics, Retinal, Expensive and the process is relatively intrusive and complex. False negatives can be produced by diseases such as cataracts.
+Used with a cable tie to secure a laptop or other device to a desk or pillar, Kensington Lock, Like those metal wires that connect to laptops you see
+Prevent the covers of server equipment from being opened ?/?, Chasis Locks/Faceplates, These can prevent access to external USB ports and prevent someone from accessing the internal fixed disks.
+control access to servers; switches; and routers [key access or electronic lock], Lockable rack cabinets, for equipment installed in standard network racks.
+Manually triggered by staff using wireless pendant; concealed sensor or trigger; or call contact, Duress, electronic entry locks can also be programmed with a duress code that open gate but alert security
+Alarms that use Radio frequency ID (RFID) tags and readers, Proximity, This can form the basis of an alarm system to detect whether someone is trying to remove equipment
+Alarm based on either microwave radio reflection (eg. radar) or passive infrared (PIR), Motion, Passive Infrared detects moving heat sources. A motion-based alarm is linked to a detector triggered by movement within a room or other area.
+Sensors in Motion-based alarms use what technologies ?/?, Microwave/PIR, Microwave radio reflection ( radar; for example) or passive infrared (PIR); which detects moving heat sources.
+Alarm that would block a door or window opening or by a fence being cut, Circuit, when the circuit is opened or closed; depending on the type of alarm.
+The final and probably easy to overlook aspect of physical security?, Lighting, Make building seem more secure and let security and cameras (even facial rec) work better
+Typically a second layer of security designed to improve the resilience of perimeter gateways, Video, older-style CCTV (closed-circuit television) or with IP cameras; may work with facial or motion as well
+Reinforced cement/metal pillars around a building, Bollard, Prevent criminal or terrorist attack from running vehicle into building; that kind of thing
+where a threat actor is able to access a computer that has been left unlocked, Lunchtime Attack, Policies can configure screensavers that lock the desktop after a period of inactivity. Users should not depend on these; however.
+Fast lock the desktop in Windows!, Win-L, Users must develop the habit of doing this each time they leave a computer unattended.
+A clean desk policy ensures that *what?* (and Passwords) are not left in plain sight, PII, personally identifiable information: Paper copies of personal and confidential data must not be left where they could be read or stolen
+control what system configuration changes a user can make to a PC, rights and privs, Configuring rights or privileges is the responsibility of the network owner.
+Any use of the default administrator account must be logged and accounted for and generate?, Alert, If the default administrator account cannot be disabled; it must never be left configured with a default password.
+Why would the normally disabled guest account in Windows be enabled?,  passwordless file sharing,  in a Windows workgroup
+Where to unlock a user account in their active directory properties? (tab?), Account, in the Active Directory Users and Computers (dsa.msc)
+How to reset user password in the Directory System Agent?, Right Click, Right click the user and choose Reset Password
+Four important security account policies? (One word representing each), times attempts timeout logins, Restrict Login Times / Failed Attempts Lockout / Use Timeout & Screen Lockout / Concurrent Logins Rules
+Logical security technologies designed to prevent malicious software from running on a host, Execution Control, (regardless of what account privileges allow); a security system that does not entirely depend on the good behavior of individual users.
+Windows 10 where to find Autoplay in Settings?, Devices, Autoplay settings can also be configured via a drives properties dialog box.
+Kind of virus identification that looks at actions of what programs are doing?, heuristic, uses knowledge of the sort of things that viruses do to try to spot (and block) virus-like behavior
+Defender Antivirus can be disabled temporarily by toggling what button?, real-time protection, It will re-activate itself after a short period.
+Quickly launch Windows Defender Firewall settings?, firewall.cpl, Then 'Advanced Settings' to modify Inbound and Outbound rules (wf.msc) (Update & Security->Windows Security->Firewall & Network Protection)
+Quickly launch Advanced Firewall settings in Windows?, wf.msc, From top of tree 'Status Page' -> 'Windows Defender Firewall Properties' for specific options for each Network Profile
+During BitLocker setup what is also generated?, Recovery Key, This should be stored on removable media or written down and stored securely.
+What is the default minimum password length enforced by Windows?, 0, use secpol.msc or gpmc.msc for domain (can also get to it in gpedit.msc but secpol.msc is more focused)
+Account management policy that can protect against password guessing attacks?, lockout, disables the account after a number of incorrect sign-in attempts
+Software not necessarily malicious but with increased privacy risks is often categorized (by anti-malware) as?, PUA, Potentially Unwanted Application; such as Adware Browsers bundled with other software or rarely on OEM PC's
+Thing that add or change a browser feature via its application programming interface (API), Extension, The extension must be granted specific permissions to make configuration changes. Could run scripts to interact with the pages you are looking at.
+Browser add-on that play or show some sort of content embedded in a web page, Plug-In, plug-ins have been associated with numerous vulnerabilities over the years and are now rarely used or supported
+how to get to settings through URL in Firefox?, about:preferences, #general / #home / #search / #privacy / #sync / #experimental / #moreFromMozilla ; add to go
+how to get to settings through URL in Chrome?, chrome://settings, Privacy & Security -> Site Settings -> Notifications {where you can pick which sites can send notifications}
+how to get to settings through URL in Edge?, edge://settings, Profiles/Privacy;search; and services/Appearance/Default Browser/Start; home; and new tab page; and more!
+Quick run 'Internet Properties' Applet, inetcpl.cpl, They says 'Internet Options' in in the course sometimes. It the old style one.
+Advanced settings for Google Chrome?, chrome://flags, Gets to a LONG list of 'Experimental' features you can enable. chrome://flags
+Advanced settings for Firefox??, about:config, Click 'Show All' for list of all kinds of settings you can change. about:config
+Besides clearing cache and browsing data how else can you manage history?, incognito, no cookies; browsing history; form fields; passwords; or temp files will be stored when the session is closed
+Minimum length of passphrase for PSK authentication to mitigate risk of cracking?, 14, This is converted to a type of hash value; referred to as the pairwise master key (PMK)
+Trait of Trojans that add themselves to startup, persistence, So it runs when the computer starts or the user signs in
+malware concealed within an installer package for software that appears to be legitimate, Trojan, The malware will be installed alongside the program and execute with the same privileges.
+Malware that replicates between processes in system memory rather than files on disk, Worm, Worms can also exploit vulnerable client/server software to spread between hosts in a network.
+malicious code that uses the host’s scripting environment, Fileless Malware, As it may be disguised as script instructions or a document file rather than an executable image file; this type of malware can be harder to detect.
+Another name for malware that implements a Backdoor, Remote Access Trojan, RAT: threat actor must establish a connection from the compromised host to a command and control (C2 or C&C) host or network
+Malware that mess with browser; let on cookies; change search; bad pages?, Spyware, Also may monitor local app activity; take screens; use recording devices or redirect to spoofy sites.
+If you suspect a malware infection; Next step? - do this:, quarantine, Slow performance; App crashes; AV-Updates-Firewall stop working; File Sys Anomolies/Access Denied errors
+Steps 3/6 of Best Practices for malware removal relate to?, System Restore, Disable in Step 3; (4 - Remediate) / (5 - Schedule Scans & run Updates) ; Enable System Restore in Step 6 (other backups too like File History)
+If a user experiences redirection; check what?, hosts file, HOSTS is a legacy means of mapping domain names to IP's; Popular target for Malware; Also verify DNS servers configured.
+Malware on the host or some type of evil-twin AP intercepts request and presents its own spoofed certificate, On-Path, On Path attack by a Malicious Proxy; may or may not get warning; malware in the middle intercept and modify traffic that would normally be encrypted.
+Open command prompt during Windows Preinstall Environment - hotkeys?, Shift-F10, Many antivirus companies make bootable rescue disks that are basically Windows PE with their scanning software pre-loaded.
+a particularly popular way to disguise a Trojan, Rogue Antivirus, a website would display a pop-up disguised as a normal Windows dialog box with a fake security alert
+means that the A-V software intercepts an OS call to open a file and scans the file, on-access, This reduces performance somewhat but is essential to maintaining effective protection against malware.
+If real time protection for Windows Defender won't turn on - check what?, Services, Windows Defender Antivirus Service; but think Services for many Windows components not running; like spooler!
+The best kinds of passwords will use a, Memorable Phrase, a long and memorable passphrase is even more recommended than a short jumbled mess! Users might write those down cuz they are a pain.
+How are app updates notified to user on iOS?, app store icon, and delivered via the Updates page in the app store; Updates for iOS are delivered via Settings > General > Software Update
+How are updates delivered on Android phones?, Notification Bar, (swipe down from top) You can also go to Settings > System > Advanced > System updates.
+On mobile devices how does a "No-Root" firewall work, local vpn, Most firewall monitor app activity and prevent connections to ports or IP addresses; Most need root but installing an app with root access is challenging.
+COBO Meaning?, Corp owned Biz Only, Corporate Owned; Business Only: The device is the property of the company and may only be used for company business.
+COPE Meaning?, Corp owned Pers Enabled, Corporate Owned; Personally Enabled: Chosen/Supplied/Owned by company; Employee may use for personal things (within AUP)
+AUP Meaning?, Acceptable Use Policy, is a set of rules that outline how a service or technology can be used.
+CYOD Meaning?, Choose Your Own Device, Supplied/Owned by company but employee get to pick from list; Usually personally enabled.
+Create for MDM to pick/choose/enforce security requirements for Mobile Devices:, Profile, A profile of security requirements and policies to apply for different employees and different sites or areas within a site.
+in iOS what options will give data in e-mail & some apps a second round of encryption?, Data Protection, Uses a key derived from and protected by the user's credential. Not all user data is encrypted using the "Data Protection" (eg. SMS/Contacts/Pictures)
+Z-Wave or Zigbee what even are they, wireless mesh, These wireless standards use less power and make it easier for smart devices to forward data between nodes
+Main risk from smart device placement in workplace?, Shadow IT, A vulnerability in the device would let it maybe be used to access the network!
+Something that home-intended IoT devices can suffer from?, Weak Defaults, There may be recommended steps to secure the device and procedures to apply security patches that the customer never takes.
+Other potential issues with IoT devices ?/?, Documentation/Patches, can be poorly documented; and patch management/security response processes of vendors can be inadequate.
+iOS where swipe to get Control Center?, Top Right, can be accessed by swiping from the top-right corner (newer models) or bottom of the screen.
+iOS- Where in the Settings App is factory reset?, General, General page in Settings
+Android- Where is factory reset on 'Stock Android'?, System-Advanced, do not attempt a factory reset within 72 hours of changing your account password
+In iOS; a manual ROTATE control can be added via the AssistiveTouch option which is enabled via, Accessibility, When you turn on AssistiveTouch; you see a button appear onscreen; By default; tapping the button once opens the AssistiveTouch menu.
+Where is Force Stop on Android?, Settings-Apps, To Force Stop an App on Android: Settings->Apps and then Click any App and option is bottom right.
+In iOS; clearing an app from the multitasking list also does what?, Force Stop, Either swipe up or double tap the physical Home button; then swipe the app up off the screen.
+in iOS how to bring up Multitask List? (physical home button), Double Tap, or swipe up if there is not a physical button.
+iOS how to restart the phone?, hold volume side, The left and right side buttons (volume up or down is fine); then slide power off. Yes there is not a 'restart' button!
+If a Mobile App is acting up and Force Quitting doesn't help?, Cear App Cache, Clear from within the app or (in Android) using the Clear Cache option under App info. (restart device if still no go)
+What feature allows Private App Distribution on Apple?, Business Manager, Allows an MDM suite to push apps from the private channel to the device.
+What feature allows Private App Distribution on Android?, Managed Google Play, Allows an MDM suite to push apps from the private channel to the device.
+MDM uses what to determine what restrictions and requirements a device must meet?, Policies, Update/Patch Status; AV Status; Firewall configured; restriction of Apps/Corp Data/Mic/Camera/etc..
+Installing untrusted .APK files with 'Unknown Sources' enabled is known as, Sideloading, Android allows for selection of different stores and installation of untrusted apps from any third party if this option is enabled by the user
+Email & any other apps using this setting get an extra round of encryption on mobile, Data Protection, Using a key derived from and protected by the user's credential. Does not encrypt SMS; Contacts or Pictures
+iOS: a means of installing apps from outside the App Store without having to jailbreak, Developer Tools, XCode is the main one used for iOS development
+What TCP port does VNC use?, 5900, macOS 'Screen Sharing' feature is based on VNC and IS encrypted (not all VNC's are)
+What option protects the RDP server against denial of service attacks? (Acronym), NLA, Network Level Authentication - newer RDP clients should have - makes them auth before commiting resources.
+MSRA Meaning?, Microsoft Remote Assistance, +Chat Feature & Request Remote Control; mrsa.exe use ephemeral ports 49152-65535 (though it can use 3389 as well); *Password protected invitation file*
+Which Microsoft remote assistance tool uses ephermeral ports?, msra, Microsoft Remote Assistance (msra.exe) uses RDP protocol and ephemeral ports 49152-65535 (though it can use 3389 as well); Quick assist uses TCP/443
+How to launch Quick Assist in Windows 10? (hotkeys), Ctrl-Win-Q, an alternative to msra.exe; Quick Assist works over the encrypted HTTPS port TCP/443 (they say CTRL-START-Q)
+Tool that can distinguish between client accts for providing/recording/reporting billable support, RMM, Remote Monitoring & Management; principally designed for use by managed service providers (MSPs)
+Suite designed for control & authorization of devices within a single organization, UEM, Unified Endpoint Management; Any of: Agents for Security/Information/OS Version checking/Push Updates/Live Chat/Remote Shell
+EDR Meaning, Endpoint Detection and Response, Software agent that collects system data and logs for analysis by a monitoring system to provide early detection of threats.
+Challenge of knowing each host on network authorized and secure?, Network Visibility, Generally best to utilize Desktop Management & Remote Monitoring Tools
+What RDP client does Ubuntu use for connecting to remote machines?, Remmina, It allows connection only from a user on Linux to control a RDP server on another PC
+How to restore a single file with File History (what tab?), Previous Versions, Previous Versions tab in file properties or the File History applet.
+Win10: Where find "Files Backup" option in Settings?, Update & Security, 'File History' option or link to 'Backup & Restore (Windows 7)'. (course says: Settings>Update & Security>Backup)
+creates a new full backup from the previous full and incremental backups, Synthetic,  not generated directly from the original data but instead assembled from other backup jobs
+Fancy term for a Malicious Data Breach?, exfiltration, Data Exfiltration; breach of regulated data must normally be reported to the regulator and to individual persons impacted
+A kind of personal PII you wouldn't fill out on a form?, biometric data, If someone steals your biometric data... you're kinda screwed forever.
+Something that might be PII depending on context, IP Address, A static IP address could be used to identify you; a dynamic IP is probably not PII
+information that must be collected; processed; and stored in compliance with federal and/or state legislation, regulated data, If a company processes regulated data collected from customers who reside in different countries; it must comply with the relevant legislation for each country.
+An extra consideration for Regulated Data besides general care in handling?, Retention, There may be a minimum or maximum amount of time a company is expected to keep data.
+contains codes that allow the subject information to be reconstructed by the data provider, de-identified, An anonymized data set is one where the identifying data is removed completely
+IRP Meaning, Incident Response Plan, Larger orgs will provide a dedicated Computer Security Incident Response Team (CSIRT); The course objectives says CERT/Comp Emergecy Resp. Team
+Uses the capabilities of self-encrypting drives (SEDs) as a reliable sanitization method, Instant Secure Erase, or Crypto Erase. HDDs and SSDs. a SED encrypts all its contents by using a media encryption key (MEK).
+A fairly good non-obliteration way to clean data from a drive?, erasing/wiping, writing each location with 1's or 0's; suitable for all but the most confidential data; but it is time-consuming and requires special software.
+Built in Secure Erase or Instant Secure Erase (ISE/Crypo Erase) are examples of?, Low Level Format, Most disk vendors supply low level format tools to reset a disk to its factory condition. Verify the specific capability of each disk model
+how to shebang bash for a script?, #!/bin/bash, Linux shell scripts uses .sh extension by convention.
+What are the prebuilt modules in Powershell called?, cmdlets, and Powershell files are identified by the .PS1 extension
+What interpreter executes VBScript?, wscript.exe, Handles: VBScript (.VBS) and Javascript (.JS); cscript.exe shows output in command prompt; .wsf (windows script file) supports both (even in one script!)
+In what way is JavaScript supported on macOS? (Acronym), JXA, Javascript For Automation (There is also AppleScript)
+How to run the Python IDLE Shell, pythonw.exe, Windows python scripts associated with .pyw; IDLE = Integrated Development and Learning Environment
+Powershell: pick specific properties of something you just grabbed?, Select-Object, Get-WinEvent -LogName System -MaxEvents 10 | Select-Object TimeCreated; ID; LevelDisplayName; Message (obviously those should be commas)
+How to do a for sure restart in PowerShell? (ignore any warning), Restart-Computer -Force, in bash use 'shutdown -r'
+How to map a drive in PowerShell?, New-PSDrive, New-PSDrive -Name "L" -Persist -PSProvider FileSystem -Root "\\MS10\LABFILES" (error check to see if it exists first)
+How to run a 'Windows Installer' in a script?, msiexec, msiexec /i 7z2409-x64.msi /qn    (/a for admin install; /qn = no UI during the installation process)
+Powershell cmdlet to do some copying?, Copy-Item, Copy-Item -Path ''C:\Important'' -Destination ''D:\Backup'' -Recurse
+Powershell cmdlet that gives you more control over install process?, Start-Process, $process = Start-Process -FilePath "msiexec" -ArgumentList "/i C:\temp\software.msi /qn" -Wait -PassThru (then u can look at $process for info)
+Windows: can be called from a batch file to perform typical update tasks, wusa.exe, (Win Update Standalone) Powershell: PSWindowsUpdate module; contains numerous cmdlets for managing the update process.
+when introducing a script; the script and output should be subject to:, access controls, Also any system reconfiguration should be properly change managed.
+All script source code should be subject to:, access and version controls, to prevent unauthorized changes. Code should be scanned and tested for vulnerabilities and errors before it can be deployed.
+RDP to infected machine can put credentials at risk! What can help prevent?, RDPRA, RDP restricted admin (RDPRA) mode is one means of mitigating this risk. Also (Remote Credential Guard)
+How to toss output into the void in Bash?, &>/dev/null, redirects output to the null device
+What standard governs the processing of credit card transactions? (acronym), PCI DSS, Payment Card Industry Data Security Standard
+What the heck is the DSS in PCI DSS?, Data Security Standard, REMEMBER!!!!!!!!!!!!!
+In Bash the values $1; $2; and so on are used to refer to, arguments by position, (the order in which they are entered when executing the script).
+uses GPS and/or High Accuracy to calculate a device's position on a map, Location Service, can be used with a locator application to find the device if it is lost or stolen
+mobile symptom of overheating; low battery charge; or faulty battery or other hardware, random reboots, You can use the Settings menu to check battery health; and there are third-party diagnostic apps that can report hardware faults
+Where to configure iOS feature that allows file transfer between iOS and macOS devices? Settings-, General-Airdrop, The sender must be listed in the recipient’s contacts list; or AirDrop must be configured to receive files from everyone. (Uses Bluetooth)
+Step-by-step list of the actions that must be completed for any given task to comply with policy, standard operating procedure, SOP: Most IT procedures should be governed by SOPs. A policy is an overall statement of intent.
+If there is an area of Policy too complex for an SOP; possibly use:, Guidelines, for situations not fully assessed; too complex; or areas where deviation from procedure may be warranted
+CRM database meaning?, Customer relationship management, It may be possible to link a ticket to an employee database or CRM.
+First two basic details to capture after receiving a ticket? ?/?, customer/device, might be possible to link ticket employee/customer DB & device to a service tag or AssetID.
+Ticket Management: What do after users description of issue and your clarifying questions?, categorize, 3. The agent categorizes the support case; assesses how urgent it is; and determines how long it will take to fix.
+Type of ticket likely to be generated internally?, Problem, Problems are causes of incidents and will probably require analysis and service reconfiguration to solve.
+Type of ticket for errors and situations faced by users or customers?, Incident, Incidents may be further categorized by severity (impact and urgency); such as minor; major; and critical.
+Type of ticket for provisioning things IT has an SOP for, Request,  New user accounts; purchasing new hardware or software; deploying a web server; and so on
+A good alternate or way to supplement ticket categorization, keyword tags, A keyword system is more flexible but does depend on each technician tagging the ticket appropriately.
+What might be a good idea to include with Severity classification?, notification,  a notification system to make senior technicians and managers immediately aware of major and critical incidents as they arise.
+Two key aspects to keep in mind when writing notes on Tickets ?/?, Clear/Concise, State the minimum of fact and action required to describe the issue or process.
+What is another term for an Incident Report?, After-Action Report, (AAR) or "lessons learned"; often involves customer/tech/manager/stakeholder; to analyze and prevent repeat
+Word to describe deployed/spare physical systems & components on hand, Tangible, and Intangible refers to things like software licenses or data assets like IP (Intellectual Property)
+Asset DB Software that scan network/query hardware and software config & monitoring data, Inventory Management Suite, Bit different than an Asset-Management Database System that simply stores various info on assets.
+Docs showing how net nodes are connected or logically identified and connected, Topology Diagram, A [Network Topology Diagram] can be used to model physical and logical relationships at different levels of scale and detail
+shows the cabling layout between hosts; wall ports; patch panels; and switch/router ports, Schematic Diagram, Schematics can also be used to represent the logical structure of the network in terms of security zones; virtual LANs (VLANs) and IP subnets.
+The Asset Procurement Life Cycle (Pnemonic), ChaProDeMaDi, Change Procedures; Producrement; Deployment; Maintenance; Disposal
+What does ITIL Stand for (The IL), Infrastructure Library, A popular documentation of good and best practice activities and processes for delivering IT services
+What is a Configuration Item (CI) in ITIL?, Managed IT Asset, Any component (hardware; software; documentation) that requires formal change control and tracking procedures to deliver IT services. Eg: servers; applications; network devices; and even important documents.
+Settings that should be applied to the CI to ensure secure and reliable operation, Configuration Baseline, Approved template of security and operational settings that should be applied to a Configuration Item to ensure it operates securely and reliably.
+Metrics for expected performance & ongoing monitoring of a CI is called?, Performance Baseline, Documented measurements of how a Configuration Item should perform under normal conditions (speed; capacity; response times).
+The need to change is often described as one of two things ?/?, reactive/proactive, A change request is generated when a fault needs to be fixed; new business needs or processes are identified; or there is room for improvement in an existing SOP or system.
+RFC Meaning?, Request For Change, Need or reasons for change and the procedure for implementing the change are captured in a request-for-change (RFC) form.
+Two things that change request documentation should include: ?/?, purpose/scope, Purpose: Case for making the change and the benefits that will accrue / Scope: # of devices/users/customers affected; timescale; success/fail metrics
+sets out what someone is allowed to use a particular service or resource for (Acronym), AUP, Acceptable Use Policy: May be used in dif contexts; eg. how employees use eq. and services such as telephone or Internet access
+Upon receiving and acknowledging a customer request be sure clarify 3 things: Expectations/?/?, concerns/constraints, Customer concerns about cost or the impact on business processes / Your constraints—time; parts; costs; contractual obligations; and so on.
+For a Repair the customer will need a ticket-tracking number and what else?, RMA, Returned-Merchandise Authorization (RMA); also clear instructions how to pack it.
+Windows feature allowing rapid search of apps; data folders; messages and the web, Instant Search, More specifically refers to the search indexing feature that makes file searches faster
+Once you have a sense what the customer's problem is; how to clarify?, closed questions, clarify customer statements and prove or disprove your perception.
+Important thing in demonstrating attention and empathy to customers?, Active Listening, Begin with open ended questions and narrow with closed-questions.
+What should you avoid being when dealing with an angry customer ?/?, Dismissive/Judgemental, Try to calm the customer and move support to positive troubleshooting diagnosis and activity.
+Two types of fire extinguishers to use for electrical fire ?/?, CO2/Powder, CO2 usually has Black label (or Red/White); Dry Powder can be used but can damage electronic equipment.
+Why not use a Domestic Vacuum to clean PC components?, static, Use a PC vacuum cleaner or natural bristle brush for internal components like Motherboard/Adapter Cards or Fan Assembys
+Light Pink or Blue packaging that reduces static in general area, Dissipative, This is used to package non-static-sensitive components packed in proximity to static-sensitive components.
+Less bad than a surge/spike but can still cause a PC to power off?, under-voltage, Devices with large motors require high-starting; or inrush; current. This might cause the building supply voltage to dip briefly.
+Max amount of the rated Amperage you should use on on a surge protector? ?%, 80, For example; the devices connected to a 15 A protector should be drawing no more than 12 A; minding total building power also.
+Conversion factor from Watts to VA?, 1.67, VA rating is the maximum load the UPS can sustain. 10 W router & two 250 W computers; VA is (10 + 250 + 250) * 1.67 = 852 VA >> a 1K UPS should suffice.
+The total power capacity of UPS batteries is measured in?, Amp Hours, Amp hours is like how many gallons your gas tank holds (raw capacity) vs Runtime which is how far you can actually go (minutes)
+The total amount of energy the surge protector can absorb (basically its HP)?, Joules Rating, 600 joules or more offering better protection. Each surge event will degrade the capability of the suppressor.
+The level at which the protection circuitry in a surge protector will activate, Clamping voltage, with lower voltages (400 V or 300 V) offering better protection.
+Two situations besides just working with; where you would consult MSDS ?/?, Accident/Disposal, ingredients; health hazards; precautions; first aid; spill/leaks procedure; disposal process
+RMA Meaning?, return merchandise authorization, need clear instructions how to pack and return the item to a repair center along with a ticket-tracking number and return merchandise authorization
+HBA Meaning?, Host Bus Adapter, A Fibre Channel HBA enables connectivity and data transfer between devices in an FC-based storage area network (SAN).
+evidence cannot be seen with the naked eye, Latent, rather; it must be interpreted using a machine or process.
+Environmentally speaking; Computer equipment is typically classed as? (acronym), WEEE, waste electrical and electronic equipment; Batteries; Toner; Other electrics like PCs; cell phones; tablets; and display screens
+PHI Meaning?, Protected Health Information, Industry standard concerning complicance data for healthcare-related information.
+Frameworks for security controls are established by organizations such as the (Acronym), NIST, National Institute of Standards and Technology (NIST)
+Can be affixed to a device as a barcode label or radio frequency ID (RFID) sticker, Asset Tag, An RFID tag is a chip programmed with asset data. When in range of a scanner; the chip powers up and signals the scanner.
+An asset record for software should include (in addition to what a regular asset would), Licensing Details, with device/user allocations and limits. Regular stuff is invoice and warranty/support contract.
+Besides virus defs and scan engine updates what should regularly be checked for AV?, authorized exclusions, and that it is enabled; obviously
+Where to find 'Sign-In Options' in Windows 10?, Accounts, Use a fingerprint reader or PIN to access the computer rather than a password. Dynamic lock set here also (see phone far = lock)
+In Windows 10 where would you go to join PC to an Azure AD Domain?, Access Work or School, From Accounts->Access Work or School: Join the computer to a centrally managed domain network (asks for e-mail account)
+In Windows 10 where is Sync Settings/Windows Backup option?, Accounts, Accounts->Windows Backup (or Sync Settings according to course); Options greyed if local account.
+In Windows 10 Where is File History in Settings?, Update & Security, Update & Security->Files Backup; Add a drive option or link to Windows 7 Backup & Restore
+In Windows 10 how to quickly switch languages?, Win-Space, Install new ones from 'Time & Language'->'Language' (course says START-SPACE)
+Term for OS Install media with all the various patches and drivers already applied, Slipstreamed, The media could be CD-ROM; DVD; or USB-attached flash drive or external drive connected by USB.
+In the Windows System Properties screen what tab lets you configure System Restore options?, System Protection, which disk(s) how much disk capacity is used. Must be formatted with NTFS; minimum of 300 MB free; and over 1 GB in size.
+In Windows 10 Settings where do you rename the PC?, System-About, Also has links to related settings (Bitlocker/Devmgmt/Remote Desktop/Advanced Sysdm Tab)
+In Windows 10 what Settings screen do you configure Display or Sound devices?, System, Also: Notifications; Power/Sleep; Storage[Sense]; Tablet; Multitasking; Projecting; Shared Experiences; Sys Components; Clipboard; Remote Deskto; About
+In Windows 10 what Settings screen do you configure Mouse or Typing devices?, Devices, Also: Bluetooth & Other; Printers & Scanners; Touchpad; Pen & Windows Ink; Autoplay; USB
+In Windows 10 where do you find 'Storage' settings?, System, Storage Sense; Storage Spaces; Storage Usage Rundown with link to Apps (uninstall) page; other stuff
+What ACPI state means full Mechanical Shut Down!?, G3, S0 = Working; S1->S3 = Progressively Deeper Sleeps; S4 = Hibernate; S5 = Shutdown (but not unplugged or switch off)
+Where will you enable/disable 'fast startup' (Win 10)?, power buttons, powercfg.cpl->Choose what the power buttons do; Change settings currently unavailable; check/uncheck it.
+How to quick format the E drive as NTFS? (Windows Dos), Format E: /fs:NTFS /q, You can also do /v:label to set a volume label
+How is a disabled device shown in Device Manager?, down arrow, And a device with issue is shown with a yellow !
+How to bring up windows admin tools (right click on start) list like a cool person? (hotkeys), Win-X, Inc: Power Options; Event Viewer; System; Device Manager; Net Conns; Disk/Comp Mgmt; Powershell AND MORE
+Taskmgr Memory counter: frequently used files in memory to speed up access, Cached, Committed is total requestioned/total system+paged; Paged/Non-Paged is kernel & driver usage ONLY (can/can't be paged)
+On Resmon.exe; Continually rising numbers of either of these can indicate a problem ?/?, Threads/Hard Faults, Threads started by a process (CPU) or hard page faults/second (Memory)
+CMD: List directory ordered by Date [Last Modified], dir /o:d /t:w, /o:[n : name | s : size | e : extension | d : date] & /t:[c : created on | a : last access | w : last modified]
+Robocopy: robocopy (just what full switches) append results to log.txt + move files & directories, /log+log.txt /move, robocopy c:\source c:\destination /log+log.txt /move    (/mov will do just the files; /mir mirrors everything & deletes what not same in dest)
+Xcopy: assume destination is directory; copy hidden & sys files; copy files w/archive & turn it off (switches only), /i /h /m, /t = copy the directory structure only; /y suppress confirmation prompts; /s & /e copy everything - + empty
+How to show extended information of a disk/volume/partition in diskpart?, detail, For Format: select partition 1; format fs=NTFS label=somedrive quick; assign letter=Q:
+How to check for file system errors in read only mode (Windows), chkdsk, just chkdsk with no switches will do this.
+Linux: what is a file that links to the same data as another file using the ln command called?, hard link, A file isn't deleted until all the hard links pointing to it are deleted.
+Mac OS 10.15 is called?, Catalina, macOS is based on Unix. Check support.apple.com for the technical specification for any particular macOS release.
+Max OS 11 is called?, Big Sur, macOS is only supplied with Apple-built workstations (Apple Mac desktops and Apple iMac all-in-ones) and laptops (Apple MacBooks).
+Mac OS 12 is called?, Monterey, macOS supports the Magic Trackpad touch input device; but there is no support for touch screens.
+As a desktop OS; Linux tends to be used mostly in:, schools and universities, (more than in businesses or in homes); As a server OS it dominates the market for web servers; It is also used widely used in 'smart' and IoT devices.
+Chrome OS can run apps developed for which other OS?, Android, Linux->Chromium->Chrome OS; Chromebooks and Chromeboxes (full size PC's); Budget and education markets.
+Main advantage of iPadOS over iOS: ?/?, multitasking/stylus, better support for multitasking and the Apple Pencil stylus device.
+If a third-party company disposes of your hard drives; they should prove a:, cert of destruction, showing the make; model; and serial number of each drive + date of destruction and how it was destroyed.
+Extra stipulation for 64-bit drivers in Windows 64-bit?, Signed, If the vendor has not produced a 64-bit driver; the hardware device will not be usable.
+What is a digital signature?, Encrypted Hash, Cert/Driver is hashed with a specific algorithm & Encrypted using the signer's Private Key
+CO2 Fire Extinguishers typically have what color label?, BLACK, May also be RED or WHITE. Dry powder extinguishers can also be used; but can damage electronic equipment.
+How can a remote access server prove it's identity/authenticity to users that connect?, certificate, To mitigate the risk of evil twin–type attacks. The connection must use encryption to be made secure against snooping.
+RDP session and authentication data is always, Encrypted, This means that a malicious user with access to the same network cannot intercept credentials or interfere or capture anything transmitted during the session.
+Something to investigate/consider when using different VNC versions?, Security, Not all versions of VNC support connection security. macOS Screen Sharing is encrypted.
+Where to find/configure Remote Desktop on Windows 10 Settings?, System, Not avail in Home Edition; Advanced Settings: choose between allow older RDP clients and require NLA
+One way to run an RDP server on a Linux host?, XRDP, One open source implementation of RDP. It translates RDP protocol requests into commands that Linux can understand.
+What is the simplest Python interpreter/environment to set up in Windows?, CPython, With CPython in Windows: console interpreter= python.exe; windowed interpreter= pythonw.exe. Extension .PYW is associated with pythonw.exe.
+In Linux what keyword executes a script using Python 2 interpreter?, python, while python3 executes a script with version 3. As of 2020; Python 2 is EOL; so scripts should be updated to version 3 syntax.
+Another Linux shell they mention besides Bash and Zsh? (full name), Korn Shell, Developed by David Korn at AT&T; known for advanced scripting features and Bash compatibility
+LPL Meaning?, Logo'd Product List, previously called the Hardware Compatibility List (HCL). This is a catalog of tested devices and drivers.
+a smart card or USB form factor device that stores some cryptographic user identification data, Hardware Token, First registered with app/service/network. Connects/authorizes it via a password; PIN; fingerprint reader; or voice recognition.
+A SED encrypts its contents by using a, Media Encryption Key, MEK; Instant Secure Erase (ISE)/Crypto Erase uses the capabilities of self-encrypting drives (SEDs)
+RMM Meaning?, Remote monitoring and management, Principally designed for use by managed service providers (MSPs). An MSP is an outsourcing company that specializes in handling all IT support for its clients.
+Two things to consider before installing a Windows Feature Update ?/?, Compatibility/Backup, It is best to treat a Feature Update in the same way as you would an in-place upgrade.
+WSIM Meaning?, Windows System Image Manager, Used to choose options and generate an answer file for unattended installation (such as unattend.xml)
+Number of Primary Partitions allowed MBR/GPT?, 4/128, If need more than 4 with MBR; 1 partition can be configured as 'extended' and divided into as many logical; non-bootable drives as needed.
+A big difference between MBR and UEFI boot is that with UEFI the 'System' partition is:, always separate, MBR the the 'System' partition hosting BOOTMGR.EXE may be the same as where Windows is hosted. (Though it may also be seperate)
+What does GPT disk include to prevent old tools from accidentally wiping it?, Protective MBR, Sector 0 (first 512 bytes [even on a 4096 sector drive]) and then the GPT begins at Sector 1.
+Common key combination to boot to the Recovery Partition?, CTRL-F11, or just F11; but the exact key will be shown at boot (depends on the OEM provider)
+What is one thing that IS removed during a Windows refresh?, Desktop Applications, User personalization settings; data files; and apps installed via Windows Store are retained!
+Where should files created by an application or custom settings/preferences be saved?, %userprofile%, C:\Users\username\ Rather than the application directory; End users should not be able to modify application folders.
+Ways to purchase Windows Pro?, OEM/FPP/Volume, Enterprise and Education editions are Volume Licensing only.
+What slashes does Linux use for file paths?, Forward, Linux uses the / slash: /etc/passwd/; Windows uses back slash C:\fuckbag\fuck
+What protocol/port do TeamViewer & LogMeIn use? (common), TCP/443, But the real order of priority is: Teamviewer:[5938->443->80]; LogMeIn:[443->80] (still encrypted if 80 is used)
+What are App Permissions regarding the microphone called?, Voice Activation, Other:[Cam/Mic/Loc/Notifications/AcctInfo/Contacts /Calendar/Tasks/etc..] Windows Telemetry calls it 'Use of Speech'
+Windows 10 where do you find the Refresh/Reset options in Settings? (Full path), Update & Security-Recovery, 'Get Started' under 'Reset This PC' will present options for [Keep my Files] or [Remove Everything]
+Two main factors that govern backup operations: ?/?, Frequency/Retention, Frequency is the period between backup jobs. Retention is the period that any given backup job is kept for; may be Legal/Policy considerations.
+What is the most widely used backup rotation scheme?, GFS, Grandfather(Longest)-Father(Mid)-Son(Shortest); Grandfather may be Monthly/Full; Son may be Daily/Incremental
+What is simple best practice backup maxim to help ensure u ready for shit to go down?, 321,  three copies of your data (including production copy); across two media types; with one copy held offline and off site.
+Two options for verifying integrity of backups besides a test restore: ?/?, hash/chkdsk, Most software can hash to verify valid copy of source data; chkdsk on hard drives used for backup verifies media integrity.
+Protocols that Mac Airdrop can use? (most common) ?/?, WiFi/Bluetooth, Bluetooth for device discovery; Wi-Fi for file transfer; NFC added as well in iOS 17 allows tap-discover.
+An electrical device must be fitted with a fuse appropriate to its maximum:, current, such as 3A; 5A; or 13A. Too low: it will blow too easily; Too high: it may not blow when it should.
+Electrics: The potential difference between 2 points (pressure), Voltage, Volts = Current(Amps) * Resistance(Ohms)
+Electrics: Best equation for understanding the flow?, A=V/R, Volts coming in ÷ Resistance = Amount of Current Flowing (Amps) (120V ÷ 240Ω = 0.5A = 60W bulb)
+Windows: Remove the 'data' directory in the current folder recursively quietly(short form),  rd /s /q data, long form: rmdir /s /q data
+Linux: Remove the 'temp' directory and all its contents without prompting for confirmation, rm -rf temp, Extra: -r for recursive deletion -f for force (no prompts); be very careful with rm -rf!
+IPS Meaning, Intrusion Prevention System, Actively monitors network traffic in real-time and can automatically block or stop malicious activity when detected; unlike IDS which only alerts
+What 'Ease of Access' setting group is Speech listed under?, Interaction, Under Interaction Category: [Speech; Keyboard; Mouse; Eye Control]  (Narrator is under Vision)
+Another part of POSIX compliance in NTFS?, hard links, case-sensitive naming; hard links; and other key features required by UNIX/Linux applications
+Three less common extensions considered 'executable', dll/scr/jar, EXE MSI COM DLL SCR JAR are all listed as executable files that could be infected with a 'Virus'
+Technique that usually required to boot an iOS device with a 'Patched Kernel'?, tethered jailbreak, The computer provides the timing and code injection needed to make it work; [root privileges; sideload apps; change or add carriers; and customize the interface]
+If a contractor with system access does an attack what it called?, insider threat, Can be employee/contractor/business partner; anyone given access (also malicious/non-malicious)
+Windows Pro & Up: a lightweight; isolated desktop environment for safely running applications, Windows Sandbox, You would enable it through 'Turn windows features on and off'; NOT available on Home Edition.
+Two 'Hardware Controllers 'that RMM or UEM tools can use to implement OOB management: ?/?, vPRO/AMD Pro, OOB = Out of Band Management; Accessing remote devices utilizing a seperate connection/channel (management plane) from the main PC
+What does BIOS boot use that UEFI boot does not?, Boot Sector, BIOS finds boot sector of 'active' partition which passes off to BOOTMGR.EXE on that partition; UEFI
+Two ways RMM/UEM/MDM software can protect the network ?/?, EDR/Access Control, Endpoint Detection & Response / Access control to prevent hosts that do not meet OS version/update or other health policies from connecting to the network.
+What is something System Restore will restore ONLY if run from a Product Disk?, passwords, They will go back to when the restore point was made. Otherwise; System Restore does not usually reset passwords.
+Where to see 'View Installed Updates' in Windows 10?, Programs and Features, Then you can click on an update and you will see 'Uninstall Updates' button appear at top!
+Windows appears to boot but no sign in screen or no desktop after login; check?, Drivers, Drivers or other system files. If the system will boot to a GUI in Safe Mode; then replace the graphics adapter driver.
+If the system will not boot to a GUI at all; even using Safe Mode?, Repair, The Windows installation will probably have to be repaired or recovered from backup; possibly sfc/chkdsk?
+Something to enable to help diagnose issues/slowdowns in startup process?, Verbose, HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\ CurrentVersion\Policies\System\VerboseStatus=1 || CompConf->Administrative Templates->System\Display Highly Detailed Status Messages
+An overheating device may present performance issues due to, Throttling, System may be operating in a operating in a power-saving mode/CPU throttling mode - check airflow/temperature sensors
+First priority if an application crashes?, preserve data, Users should save regularly; or Autosave/File History/Onedrive? Give process time to resume - if no and u did all u can to recover; use Task Manager to kill it.
+What Windows command re-registers DLL files in the Registry?, regsvr32, Service won't start → Error mentions missing component → You find the DLL file exists but service can't use it → regsvr32 thatdll.dll → Service works again
+'One or more services failed to start'> 2 tools to help identify which one ?/?, eventvwr/services, Event Viewer shows actual failure details and error codes; Services will show current status.
+LSA Meaning?, Local Security Authority, Compares submitted credentials to the one stored in the Security Accounts Manager (SAM) database
+Other default hidden share besides C$?, ADMIN$, Goes to the Windows folder; Administrative shares can only be accessed by members of the local Administrators group.
+a type of DNS record that maps an alias domain name to a or true domain name, CNAME, Canonical Name; [nslookup -type:CNAME www.github.com] shows that www.github.com is an alias for github.com.
+What type of permissions protect locally and over network?, NTFS, (NTFS) permissions are applied for both network and local access and can be applied to folders and to individual files.
+MD5 what does the MD stand for?, Message Digest, 'Message Digest 5' Hash Algorithm <Generates a unique; 128-bit hash value>
+Provides net mapping and discovery for networks without dedicated name servers, LLTD, Link Layer Topology Discovery; Inside an Adapter from 'Change Adapter Options'/'ncpa.cpl'
+Windows: command to display the name of the local machine?, hostname, If the machine is configured as a server; client machines will need to use the hostname to access shared folders and printers.
+CAB Meaning?, Change Advisory Board, assess both the business case and the technical merits and risks of the change plan; should include users/stakeholders/techs/managers/phil from accounting
+ITIL: Things; Processes or People who contribute to the delivery of an IT service, Service Asset, A configuration item (CI) is an asset that requires specific management procedures for it to be used to deliver the service.
+If you are implementing a change you should have a, Rollback Plan, So that the change can be reversed if it has harmful or unforeseen consequences.
+Where is the manager and BCD on EFI System Partition (for windows)?, \EFI\Microsoft\, Course says "Each Windows installation has a subfolder under \EFI\Microsoft\ that contains a BCD and BOOTMGFW.EFI."
+Security controls applied or enforced by people:, Procedural, Procedural controls: xamples include incident response processes; management oversight; and security awareness training programs. (vs Logical by systems)
+Security controls applied and enforced by digital or cyber systems and software:, Logical, Examples include user authentication; antivirus software; and firewalls. (Enforced by people = Procedural)
+What does each ACE in an ACL identify the permissions for?, subject, A subject could be a human user; a computer; or a software service. A subject could be identified in several ways (MAC/IP/PORT/SID)
+In Windows folder where is the HKEY_LOCAL_MACHINE files?, system32\config, SAM/SECURITY/SOFTWARE/SYSTEM [CLASSES_ROOT = SOFTWARE\Classes from HKLM & HKCU hives] [CURRENT_CONFIG = HKLM\SYSTEM\CurrentControlSet\Hardware Profiles\Current]
+What portal to manage your Microsoft Account?, account.microsoft.com, Configuring access to a device by a Microsoft account creates a profile associated with a local account. Profile settings can be synchronized between devices via the online portal.
+Group besides 'Guests' that has same permissions as the standard Users group?, Power Users, It was a security concern; could escalate privileges to Admin; Only around for legacy support. (Guest is disabled by default)
+USB key or smart card w/ cryptographic module that hold auth encryption keys securely, Hard Token, 1: Registered w/svc or network; 2: User connects & auth with PIN/Passwd/finger/voice; 3: Token transmit creds & svc grants user access.  FIDO!
+Authentication method that seeks to mitigate these by transitioning to passwordless SSO, Hello for Business, Private key is stored within the TPM of the user device; Encrypts Secret; Server Public Key decrypts and knows it u!
+Active Directory is based on what standard?, X.500, is the international standard for directory services (like a blueprint); Active Directory implements many X.500 concepts but adds Microsoft-specific features
+Update all group policies; reapply new & old; reboot if necessary, gpupdate /force /boot, /logoff with also allow logoff if necessary.
+Where in the DC Windows folder is the AD Credential store?, NTDS\NTDS.DIT, %SystemRoot%\NTDS\NTDS.DIT; Contains the ENTIRE Active Directory database; (User accounts; passwords; group memberships; computer accounts)
+Where is 'Turn on/off password protected file sharing'?, All Networks, In advanced Sharing Settings; This (Off) works by enabling the Guest user account for network access only.(Public Folder sharing also here)
+In Windows Desktop what is max simultaneous share connections?, 20, Shared item Properties->'Sharing' tab->Advanced Sharing
+How do display a list of File Servers on the local network from CMD?, net view, or 'net view \\MYSERVER' to display shares on specific server; 'net use M: \\MYSERVER\DATA /persistent:yes' to map a shared folder persistently
+NTFS Permission to overrule them all?, Explicit Deny, However; Directly assigned permissions (explicit permissions) always override inherited permissions; including "deny" inherited permissions.
+If both share and NTFS permissions are applied to the same resource; which applies?, Most Restrictive, If group "Everyone" has <Read> for Share Perms and "Users" group has <Modify> for NTFS perms; the effective perms for a member of "Users" will be <Read>
+Besides Explicit Deny; what NTFS permission will windows grant between multiple sources?, Highest, Most effective allow permissions obtained from any source.
+How to quickly jump to start menu Startup folder?, shell:startup, But use Task Manager Startup tab to maintain the ones that were added to registry.
+Linux: How to execute multiple commands on one line?, semicolon, When you press ENTER; the commands execute sequentially.
+Browsers: support document editing in the context of the browser, apps, They are essentially a means of opening a document within a cloud app version of a word processor or spreadsheet.
+Linux: The graphical environment is driven by an open-source system called, xorg, (or just X); a version of the X Window Display System; Various desktop programs can be launched within X (Gnome; KDE; Cinnamon; Xfce)
+Linux: how to show line numbers in vi?, :set number, ':set nonumber' to remove them.  o = Open line below; O = Open line above
+Linux: find every text file starting from your home directory; strong escaping, find ~ -name '*.txt', also: -size (+100M;-1k;50c[bytes];+1G) | -type (f[files];d[directories];l[symb links]) | -user basinx | -perm (-644[at least];
+Social eng. tactic: communicating a lie or half-truth to get someone to believe a falsehood, pretexting, Pretext: a reason given in justification of a course of action that is not the real reason. Used in 'Impersonation'
+A likely first step to make a social engineering pretext seem credible, dumpster diving, However this may not even be necessary as many organizations are Customer Service focused and make this info easy to come by.
+What do an AP and RADIUS server need to trust each other?, shared secret, The shared secret allows the RADIUS server and access point to trust one another.
+The other two perimeter defense mechanisms a serious place might have ?/?, guards/fences, fences should be transparent/robust/secure vs climbing; Guards can monitor checkpoints and verify ID; allow or disallow access; and log physical entry occurrences.
+Three ways basic door locks can be set up ?/?/?, Key/Pin/Badge, 'Hardware Token' may be: Swipe Card; Smart Card or Key Fob. The latter 2 are much more difficult to clone than ordinary swipe cards.
+Some electronic entry locks can also be programmed with?, Duress Code, This will open the gateway but also alert security personnel that the lock has been operated under threat.
+Someplace you might find BIOS/UEFI passwords used?, Embedded Systems, Like extra security on a standalone computer that does not often require interactive logon.
+An extra form of authentication UEFI firmware may use if network enabled?, pre-boot, The system loads an auth application to contact an auth server on the network and allows the user to submit the creds for a particular account.
+Who is repsonsible for configuring Rights and Privileges?, network owner, whereas Configuring file permissions is the responsibility of the Data Owner or File Server administrator.
+Any use of the default administrator account must be:, logged and accounted, Using this account for sign-in should be an unusual event that generates an alert.
+IPC Meaning?, Interprocess Communication, Named pipes are a form of IP; meaning they facilitate communication between separate programs running on a computer or even across a network.
+If an account is locked out; what tab in the dsa user properties to unlock it?, Account, If a user account violates a security policy; such as an incorrect password being entered repeatedly; it may be locked against further use.
+For Linux who provides private/public key pairs for package signing?, Repo Owner, GPG (GNU Privacy Guard) manages the keyring of trusted public keys on your system
+One thing you might want to exclude from AV scanning?, Disk Images, Scanning the disk images of virtual machines can cause performance problems; Also some software can cause false positives.
+What button in Windows Security goes to firewall on/off/profile settings?, firewall & network Protection, activate or deactivate the firewall for a given network profile and to add exceptions that allow a process to accept inbound connections.
+ata on persistent storage—HDDs; SSDs; and thumb drives—is referred to as, data-at-rest, To protect data-at-rest against gotten; the information stored on a disk can be encrypted. EFS!
+To apply encryption with EFS on a File or Folder's property screen go:, general-advanced, Advanced button on the General tab then check off "Encrypt Contents to Secure Data"
+Files/Folders encrypted with EFS show up as what color?, Green, Any user other than the one who encrypted the file will receive an "Access Denied" error when trying to browse; copy; or print the file.
+One contingency along with EFS you might use *on a Domain*, recovery agents, It is possible to back up the key or (on a Windows domain) to set up recovery agents with the ability to decrypt data.
+Full disk encryption tool for removable drives?, BitLocker To Go, Does not rely on a TPM but still prompts for a Recovery Key
+Alternate ways Bitlocker can store the encryption key, smart card or USB, This USB needs to be inserted during boot so BitLocker can read the key
+A TPM Must be configured with an, owner password, often the system password set in firmware; Manage TPM settings from TPM Management snap-in (select TPM Administration from the BitLocker applet).
+Quickly get to saved passwords in firefox?, about:logins, For sync it's right on the main preferences screen or click your icon and go 'sync settings'
+besides storing and autofilling what can a password manager do?, suggest, it can suggest a strong password; also it can sync.
+Besides enable/disable cookies what other privacy feature do most browsers have?, tracking protection, Most browsers also have a tracking protection feature that can be set to strict or standard/balanced modes; also clearing cache/history & incognito
+Modern viruses are more likely to use ? to take control of system, covert methods, to take control of the host; versus older viruses which just tried to spread to other files as fast as possible.
+An IoT smart device network will generally require one of these, Hub/Control, A Hub to facilitate wireless networking; There must also be a control system; as most IoT devices are headless; meaning they have no user control interface.
+What do most 'smart devices' run on ?/?, Linux/Android, Linux or Android kernel; smart devices are vulnerable to some of the standard attacks associated with web applications and network functions.
+Where is Storage Usage information on iOS Settings?, General-Storage, If OS fails to update #1-Check Compatible; #2-Wifi/building power; #3-Do restart & try again; #4-Check Storage!!
+Where is Storage Usage information on Android Settings?, Storage, If OS fails to update #1-Check Compatible; #2-Wifi/building power; #3-Do restart & try again; #4-Check Storage!!
+Mobile device randomly reboots? 4 key, battery hardware storage apps, Settings Battery Health/3rd Party diagnostics/Check Space/Update OS/Apps or seek for Faulty App
+iOS: how to get task list on model without physical Home button?, Swipe up, Swipe up from bottom to middle; if you have physical Home button Double-Tap it.
+Android: how to get task list?, square button, from the navigation bar at the bottom of the screen. (though on my Android it's the 3 lines)
+One (internal) thing that can weaken signal strength on a mobile device?, Low Battery, It can be Throttling or actual reduced power/stability Also watch out for Interference/Distance to AP's & Thick Walls
+Another term for new Android OS image applied to the device. (besides Firmware?), Custom Rom, For some devices it is necessary to exploit a vulnerability or use custom firmware to gain Root Access
+Mobile setting that makes advanced configuration settings and diagnostic/log data available, Developer Mode, It can purposefully be misused to install bootleg apps. MDM can typically be configured to block devices that have developer mode enabled.
+Something to be aware of even when using an approved App Store?, App Spoofing, A malicious app will typically spoof a legitimate app by using a very similar name and use fake reviews and automated downloads to boost its apparent popularity.
+Places people might get illegitimate ripoffs of paid apps for free?, Bootleg App Store, Infringes copyrights & risks Malware; iOS Developer Tools is a way people can install apps from outside the App Store.
+Important step after enabling RDP server in windows?, Select Users, Users in the local administrators group are allowed to connect by default. You can select users from the local accounts database or from the domain that the machine is joined to.
+Where to configure NLA in Windows RDP server setting?, Advanced Settings, choose between allowing older RDP clients to connect and requiring RDP clients that support Network Level Authentication (NLA).
+One thing about mobile wifi vs PC wifi?, weaker, Radio is less powerful than the one on a computer and that a low battery charge will weaken the signal strength
+(SSN); passport; driving license; and birth/marriage certificates (Acronym), PGI, Personal Government-issued Information that is issued to individuals by federal or state governments is also PII.
+Good way to ensure valid licenses & # of license purchased is not exceeded?, management suite, The software product must be uninstalled if the license is allowed to expire or the number of devices/user accounts is reduced.
+Considerations for DRM regarding devices ?/?, Number/Authorization, the vendor may license the file for use on a restricted number of devices. You generally need to use your account with the vendor to authorize and deauthorize devices when they change.
+In step 7 of Incident Evidence Recovery list what put physical devices in?, tamper evident bags, and make sure fill out that CHAIN OF CUSTODY form and put in SECURE STORAGE!
+3 Major concerns when introducing scripts into the environment (Acronym), MCC, Malware (script could be compromised); Changes(non-malicious unforeseen or unexpected system change); Crashes(accidental DoS is through mishandling of resources.);
+Before deploying any script it must first be?, Tested, Test all code in a development environment/sandbox & monitor for missed bugs thereafter.
+Any changes to hosts required to run scripts must be included/monitored in new:, Configuration Baselines, Scripts that can only work by disabling security mechanisms are not safe enough to consider running.
+What alternet encryption can WPA use?, AES, Apparently it can be used but is not mandatory?
+Which windows versions are considered for SOHO/Small Biz usage?, Home/Pro, And just a note BrancheCache is available on every version except Home
+What other file system can Windows be installed on?, ReFS, Self-healing; Larger Volumes(35PB); Integrity Streams (uses checksums for metadata and optionally for file data; giving ReFS the ability to reliably detect corruptions.)
+Two types of Macs besides regular computer tower, iMac & Macbook, iMac is the whole thing built into the monitor; Macbook is obviously laptops
+an overall statement of intent, policy, Organizations needs to create written policies and procedures to help staff understand and fulfill their tasks and follow best practice
+after problem description & clarifying questions what 3 things must agent clarify?, category urgency timeline, The agent categorizes the support case; assesses how urgent it is; and determines how long it will take to fix.
+Complex requests that aren’t covered by existing procedures are better treated as, projects, Rather than handled via the ticketing system.
+A more sophisticated ticket incident system might measure both, impact and urgency, Severity levels can also drive a notification system to make senior technicians and managers immediately aware of major and critical incidents
+A fancier way to create a network schematic?, network mapping software, Or drawn manually by using a tool such as Microsoft Visio.
+What are MACs?, Moves Adds and Changes, The main difficulty in implementing a workable configuration management system is in determining the level of detail that must be preserved.
+Bring your request before the council!  Who is the council?, Change Advisory Board, must be confident that risk analysis has identified both bad shit and good shit that will happen from completing the change.
+May display terms of use or other restrictions before use of a computer or app is allowed, splash screen, might be configured to show at login to remind users of data handling requirements or other regulated use of a workstation or network app.
+What requirements may be displayed or issued to employess above and beyond AUP's?, regulatory compliance, Regarding perhaps of data handling requirements or other regulated use of a workstation or network app
+Business formal is only usually required for, initial client meetings, Business casual is typically sufficient for troubleshooting appointments.
+A main oragnization for safety regulations in the USA?, OSHA, Occupational Safety and Health Administration (OSHA); also there is state standards regarding employee safety.
+Employees have a responsibility to use equipment according to guidelines AND report:, hazards, Employees should also not interfere with any safety systems; including signs or warnings or devices such as firefighting equipment.
+The large metal equipment racks often used to house servers and network equipment must be, grounded, Do not disconnect the ground wire. If it must be removed; make sure it is replaced by a professional electrician.
+PAT meaning?, Portable Appliance Testing, It is important to test electrical devices regularly. In some countries; portable appliance testing (PAT) carried out by a qualified electrician or technician ensures that a device is safe to use.
+Types of extinguishers you DO NOT want to use for electronics?, water or foam, Foam extinguishers use water mixed with foam concentrate - so they still contain water!
+People who suffer from asthma or bronchitis should avoid, Changing Toner, When you using compressed air; working around toner spill; or working in a dusty environment; use an air-filter mask that fits over your mouth and nose.
+Final steps to protect components in antistatic bags?, fold and seal, To protect the contents of the bag fully; you should seal it or at least fold the top over and seal that down.
+Windows 10/11 where is notification settings?, system, global settings; app specific; do not disturb
+What is Modern Standby described as?, S0 Low Power Idle, utilizes a device's ability to function in an S0 low-power idle mode to maintain network connectivity without consuming too much energy.
+How do you check what power states are available on your system?, powercfg /a, you may not have some features like Modern Standby
+what was those hardware devices that display a mfa code right on em?, rfa token, Display a 6-8 digit number that changes every 30-60 seconds; rsa was company name
+Port & TCP or UDP> FTP: Data Connection, 20/TCP, Used for transferring files after control connection is established.
+Port & TCP or UDP> FTP: Control Connection, 21/TCP, Manages the FTP session and authentication.
+Port & TCP or UDP> SSH, 22/TCP, Secure remote login and command execution.
+Port & TCP or UDP> Telnet, 23/TCP, Unsecure text-based remote login (not recommended).
+Port & TCP or UDP> SMTP, 25/TCP, Used to send email between mail servers.
+Port & TCP or UDP> SMTP Secure, 587/TCP, Secure version of SMTP using STARTTLS.
+Port & TCP or UDP> DNS, 53/BOTH, Resolves hostnames to IP addresses (TCP for zone transfers; UDP for queries).
+Port & TCP or UDP> DHCP: Server Port>Provisions IP from here, 67/UDP, Server side of DHCP handshake.
+Port & TCP or UDP> DHCP: Client Port>Requests IP from here, 68/UDP, Client side of DHCP handshake.
+Port & TCP or UDP> HTTPS, 443/TCP, Secure web traffic using SSL/TLS.
+Port & TCP or UDP> POP, 110/TCP, Downloads email to a single device and deletes it from server.
+Port & TCP or UDP> POP Secure, 995/TCP, Secure version of POP using SSL/TLS.
+Port & TCP or UDP> NetBIOS over TCP/IP, 137-139/BOTH, Name datagram and session services for legacy systems.
+Port & TCP or UDP> IMAP, 143/TCP, Email access protocol that syncs across devices.
+Port & TCP or UDP> IMAP Secure, 993/TCP, Secure version of IMAP.
+Port & TCP or UDP> SNMP Query status from network devices, 161/UDP, Used by SNMP manager to poll devices.
+Port & TCP or UDP> SNMP Trap, 162/UDP, Used by devices to send alerts/events to SNMP manager.
+Port & TCP or UDP> LDAP, 389/TCP, Lightweight directory access (like AD) over TCP. Rarely UDP can be used
+Port & TCP or UDP> Syslog, 514/UDP, Protocol and supporting software that facilitates log collection
+Port & TCP or UDP> LDAPS, 636/TCP, Lightweight directory access (like AD) over TCP using SSL/TLS.
+Port & TCP or UDP> SMB, 445/TCP, Windows file and printer sharing over TCP.
+Port & TCP or UDP> RDP, 3389/TCP, Remote desktop protocol to connect to Windows systems.
+Port & TCP or UDP> mDNS, 5353/UDP, Used for local hostname resolution without DNS server.
+Port & TCP or UDP> WS-Discovery, 3702/UDP, Helps discover services on local network (mostly Windows). means Web Services Dynamic Discovery.
+2.4 GHz Channel 1-13 Frequencies, 2.412-2.472, Each channel steps 5 MHz; avoid overlap for better Wi-Fi; channel 14 is 2.484 (+12 jump)
+5 GHz Channel U-NII-1 20 Mhz channels low-high,36-48,Not in DFS range
+5 GHz Channel U-NII-2 20 Mhz channels low-high,52-64,Inside DFS range
+5 GHz Channel U-NII-2 (Extended) 20 Mhz channels low-high,100-140,Inside DFS range
+5 GHz Channel U-NII-3 20 Mhz channels low-high,149-161,Not in DFS range
+Adobe's PDL, PostScript,Used mostly for high-quality prints and graphics.
+HP's PDL (Acronym), PCL, Printer Control Language; efficient but less precise than PS.
+Microsoft's PDL (Acronym), XPS, XML-based print language used in Windows. XML Paper Specification
+IDC on Patch Panel (Meaning), Insulation Displacement Connector, Wire pierces insulation to connect without stripping.
+3D Print FFF (Meaning), fused filament fabrication, Consumer-friendly 3D print method (same as FDM).
+3D Print FDM (Meaning), fused deposition modeling, Another name for FFF; filament melted and layered.
+MDI (Meaning) *cabling*, Medium Dependent Interface, Used in networking—MDI vs MDI-X (crossover).
+What is the maximum number of primary partitions on an MBR disk?,4, Master Boot Record only supports 4 primary or 3 + 1 extended partition.
+What is the maximum number of partitions on a GPT disk?,128, GUID Partition Table supports up to 128 partitions with no extended/logical distinction (GUID = Globally Unique Identifier)
+USB 2.0 is a high speed standard that specifies a data rate of:, 480Mbps, shared between all devices attached to the same controller.
+USB 1.1 maximum speed, 12Mbps, Rarely asked/but may be mentioned as "Full Speed"
+TCP/IP protocol used to query and update resources in an X.500 directory., LDAP, primarily uses TCP (port 389) for unencrypted communication and TCP (port 636) for encrypted communication (LDAPS)
+AAA First A?,Authentication,Verifies identity—"Are you who you say you are?"
+AAA Second A?,Authorization,Grants access—"What are you allowed to do?"
+AAA Third A?,Accounting,Tracks activity—"What did you do and when?"
+Device Requesting Access in an AAA Setup, Supplicant,The device (like a user computer or phone) that is trying to gain access to the network
+Server that uses RADIUS or TACACS+, AAA,Performs authentication/authorization/and accounting tasks using protocols like RADIUS or TACACS+
+RADIUS (R and A Mean?), Remote Authentication,RADIUS: Used for verifying the identity of clients before granting access to a network
+RADIUS (DIUS Means?), Dial In User Service,RADIUS: Originally designed for dial-up but now used for centralized AAA over IP networks
+NAS Meaning related to AAA, Network Access Server, Acts as the gateway device between the user and the AAA server / Firewalls/Switches/VPN Gateways
+NAP Meaning related to AAA, Network Access Point, Evaluates device health/compliance before allowing full access / Often part of network access control (NAC) systems (eg. ISP NAC or Managed Switch Port)
+IEEE 802.3af PoE Watts <100m/>328ft,15.4/13,PoE Type 1/Delivers 15.4 W but device receives less over distance (Short: 14+/ Long ~13)
+IEEE meaning, Institute of Electrical and Electronics Engineers, does the 802.whatever standards.
+IEEE 802.3af PoE #mA@#V, 350mA@48V, Provides ~13W usable power to PD at 100m/Phones; access points; cameras
+IEEE 802.3at standard PoE Watts/mA,25/600,PoE Type 2 (PoE+)/Delivers up to 25 W/Used for higher-power WAPs and cameras/Cameras with heaters; better APs
+IEEE 802.3bt standard PoE Watts Type3/Type4,51/73,PoE++ Type 3 and 4/Device receives ~51 W or ~73 W/Source may deliver 60–100 W/Lighting; PTZ cams; multi-radio APs
+Adds PoE to a non PoE connection,power injector,One port on the injector is connected to the switch port. The other port is connected to the device. The overall cable length cannot exceed 100m.
+WPA2 Meaning (WPA2 or WPA3), WiFi Protected Access,A security standard for wireless networks - better user authentication than WEP
+WEP Meaning, Wired Equivalent Privacy, the oldest and most common Wi-Fi security protocol - vulnerable to security breaches
+Blank Pages or White Stripes (Laser Print Stage) Toner/driver is fine/toner seal removed, Transferring, Transfer Roller is dirty or damaged
+WPA2-Enterprise requires?, RADIUS server, Used in enterprise environments to authenticate users individually using 802.1X
+M.2 adapter sizes(mm) no spaces, 426080110, (B-Key = 6 Pin & SATA or x2)/(M-Key = 5 Pin & x4)/(B+M-Key = SATA or x2)
+FDI Meaning (PCH Feature), Flexible Display Interface, Transmits display output data from the integrated GPU (iGPU) inside the CPU to the PCH
+PCH Meaning, Platform Controller Hub, Replaced Southbridge and took over some Northbridge roles like clocking while CPU now handles RAM and PCIe
+DMI Meaning (Motherboards), Direct Media Interface, Connects the processor and the Platform Control Hub (PCH)
+RSSI Meaning, Received Signal Strength Indicator, measured in decibel-milliwatts (dBm). Closer to 0 is better (-30 dBm is great)
+SCADA Meaning (Embedded Systems), Supervisory Control And Data Acquisition, typically run as software on ordinary computers; gathering data from and managing plant devices and equipment with embedded PLCs; referred to as "field devices."
+Three items that define a problem, Cause Symptom Consequence, Once the symptoms are defined; narrow down the cause. Identifying the cause of the problem is an important problem-solving step.
+PLC Meaning (Embedded Systems), Programmable Logic Controller, Linked by a cabled network to actuators that operate valves/motors/circuit breakers/other mechanical components/sensors - Output and configuration done at HMI's.
+HDD slow read/write cause?, Bad Sectors Bad Blocks, Physical/logical drive issues cause performance drop; NOT disk thrashing (RAM issue)
+BCD store meaning on an MBR Disk, Boot Configuration Data, Where Windows boot options are stored. It includes boot configuration parameters for how to launch Windows. GRUB or LILO is Linux equivalent.
+GPT meaning in disk partitioning/boot scheme, GUID Partition Table, boot information is not restricted to a single sector but still serves the same basic purpose of identifying partitions and OS boot loaders.
+SMART meaning, Self-Monitoring Analysis and Reporting Technology, Fixed disk self-diagnostic program. SMART can alert the operating system if a failure is detected.
+VDI meaning, Virtual Desktop Infrastructure, Using VM's as a means of Provisioning corporate desktops; often accessed via thin clients. Server-side virtualization where desktop environments are hosted on a centralized server
+ONT meaning, Optical Network Terminal, installed at the customer’s premises converts the optical signal to an electrical one. Connected to the customer’s router using an RJ45 copper wire patch cord.
+OLT meaning, Optical Line Terminal, Located in a street cabinet. From the OLT- splitters direct each subscriber’s traffic over a short length of fiber to an optical network terminal (ONT) installed at the customer’s premises.
+PoP meaning, Point of Presence, A connection to an internet service provider's (ISP’s) network uses its nearest point of presence (PoP) such as a local telephone exchange.
+PON meaning, Passive Optical Network, In a PON- FTTP: a single fiber cable is run from the point of presence to a street cabinet; a splitter directs traffic over a shorter length fiber to ONT on premises.
+Small core fiber that carries long wavelength, Single Mode Fiber, SMF: supports data rates up to 10 Gbps and cable runs of many kilometers. 8-10 micron core/1310 or 1550 nm wavelength.
+Large core fiber that carries shorter wavelengths, Multi Mode Fiber, MMF: slower signal speeds and shorter distances - better for LANs than WANs. 50 or 62.5 micron core/850 or 1300 nm wavelength. Cheaper.
+VCSEL, Vertical Cavity Surface Emitting Laser, Low-cost laser used in Multi-mode fiber; faster than LED; good for short-range fiber like 10GBASE-SR
+Fiber: bayonet-style connector that uses a push-and-twist locking mechanism, Straight Tip, ST: bayonet-style; push-and-twist; used mostly on older multi-mode networks.
+Fiber: simple push/pull connector, Subscriber Connector, SC: simple push/pull insertion. Simplex and Duplex versions (duplex = 2 connectors clipped together). Single or Multi-Mode.
+Fiber: small/tabbed push/pull connector, Lucent Connector, LC: small form factor; Tabbed push/pull design. Small size allows higher port density than SC.
+When should a tech perform a backup during troubleshooting?, Step 1, Backups are part of identifying the problem to avoid data loss before performing repairs
+What does UEFI stand for?, Unified Extensible Firmware Interface, UEFI provides support for 64-bit CPU operation at boot; a full GUI and mouse operation at boot; networking functionality at boot; and better boot security.
+First step if you are working inside the case, ESD Wriststrap, Perform backups if possible prior to working inside the case as well.
+Applies a continuous audio signal on the cable, Tone Generator, A Toner Probe is used to detect the signal and follow the cable or identify from a bundle.
+Finish connecting cable to an IDC, Punchdown Tool, Cable Stripper and Snips needed to expose inner wires and snip Star Filler and Rip Cord.
+Finish connecting an RJ45 jack to cable, Crimper, Cable Stripper and Snips needed to expose inner wires and snip Star Filler and Rip Cord
+TIA meaning, Telecommunications Industry Association, TIA develops cabling and communications standards such as TIA/EIA-568 for structured cabling
+Multiple execution units and registers in a CPU, Chip Level Multiprocessing, (CMP): A multi-core CPU has multiple processors (cores) in one chip; allowing simultaneous execution of tasks
+The use of two or more physical CPUs in a multi-socket motherboard, Symmetric Multiprocessing, An SMP-aware OS can then make efficient use of CPUs on a multi-socket motherboard.
+EM64T Meaning, Extended Memory 64 Technology, Intels 64-bit processor architechture; also just called Intel64 (x86-64 generally / AMD64 from AMD)
+Two types of Ethernet Cable with different physical properties ?/?, Stranded/Solid Core, Each of the 8 wires is solid copper in solid-core cables; made of tiny strands in stranded cables.
+ALU Meaning?, arithmetic logic unit, A combinational digital circuit that performs arithmetic and bitwise operations on integer binary numbers.
+FPU Meaning?, floating point unit, Provides a faster way for the CPU to handle calculations with non-integer numbers.
+4 steps in CPU execution process, fetch decode execute writeback, Fetch gets instruction from memory; decode interprets it; execute performs it; writeback stores result in register or memory
+RISC Meaning?, reduced instruction set computing, A typical Advanced RISC Machines (ARM) design implements a system-on-chip (SoC). SoC means that all the controllers—video; sound; networking; and storage—are part of the CPU.
+Allows multiple threads to run through the CPU at the same time, Simultaneous Multithreading, (SMT): referred to as HyperThreading by Intel. One core runs multiple threads by using idle units (ALU/FPU/etc..) that the other thread isn't using
+Intel/AMD CPU level virtualization optimization designations (short form), VT-x/AMD-V, Required for Type 1 & 2 hypervisors to run VMs efficiently (Virtualization Technology / AMD Virtualization)
+Why is SLAT useful?, Reduces VM memory overhead, Handles second-level memory (address) translation in hardware to improve performance
+When removing a CPU with a heat sink and fan assembly how to remove heat sink, gentle twist, to remove the heat sink to avoid it sticking to the CPU.
+Common AMD desktop CPU socket/type, AM4/PGA, Pin Grid Array; The platform for select AMD Ryzen(gen 1-5); Athlon; and 7th Gen A-Series processors
+What is the EDB?, External Data Bus, connects the processor to adapters; the keyboard; the mouse; the hard drive; and other devices.
+What does Ryzen 7 mean?, High performance tier, AMD CPU tier similar to Intel i7
+What does the 5 in Ryzen 5800X mean?, generation, Higher generations = newer/better
+What does 800 mean in Ryzen 5800X?, Model within gen, Higher number = more powerful model
+What does the X mean in Ryzen 5800X?, extra performance, Indicates unlocked/high-performance model
+Intel LGA 1150 Socket generations (Core CPUs), 4-5, Supports Haswell and Broadwell CPUs released around 2013–2015; replaced by LGA 1151
+Intel LGA 1151 Socket generations (Core CPUs), 6-9, Common desktop CPUs like i5-8400 use this socket; DDR4 supported
+Intel LGA 1200 Socket generations (Core CPUs), 10-11, Replaced 1151 with slight design changes; still uses DDR4
+Intel LGA 1700 Socket generations (Core CPUs), 12-14, Supports DDR5 or DDR4 depending on motherboard; longer socket
+Sockets used by Intel Xeon Processors ?/?/?, 1150/1151/2011, LGA Workstation/server CPUs; not typically seen on desktops
+AMD Ryzen 1000–5000 Series Socket, AM4, Uses PGA Layout; Most Ryzen CPUs up to 2022 use this socket
+AMD Ryzen 7000 and newer Socket, AM5, Uses LGA layout and supports DDR5 memory
+AMD EPYC Socket, SP3, Used in servers and workstations; large LGA socket for multi-core CPUs
+25 pin or more common 9 pin DB-9, RS-232, legacy serial ports - also known as a COM port - not to be confused with 15 pin VGA ports
+SCSI Meaning/Max Data Rate (MBps), Small Computer System Interface/320, high density (HD) 68-pin or single connector attachment (SCA) 80-pin most common (A legacy parallel bus)
+UART Meaning, Universal Asynchronous Receiver Transmitter, Converts data between parallel and serial form; used in low-speed communication like debugging or with Bluetooth/USB and embedded systems
+What can use UART on modern mobile devices?, Bluetooth and USB, Bluetooth modules and USB controllers often use UART for low-level serial communication
+HMI Meaning, Human Machine Interface, Touchscreen or control panel that allows a person to interact with a machine or industrial system
+ICS Meaning, Industrial Control System, General term for systems used to control industrial processes; often includes PLCs and SCADA
+UTM Meaning, Unified Threat Management, All-in-one network security appliance with features like firewall; content filtering; and malware scanning
+A device programmed with scripts that can identify known malicious traffic patterns, Intrusion Detection System, Programmed with scripts. Monitors network traffic for suspicious activity and alerts admin; may take *some* action to block
+DMARC Meaning >  Domain based Message *what*?, Authentication Reporting and Conformance, DMARC verifies email senders by building on DNS; DKIM and SPF. Has a policy mechanism for senders to specify how authentication failures should be treated.
+Set of rules that control which users or systems can access network resources, Access Control List, ACLs can be configured on various network devices like routers; switches; and firewalls to regulate traffic
+Fancy term for a mail client, Message Submission Agent, Usually uses port 587 to submit mail to an SMTP server. Can also refer to that server in broader definitions.
+Fancy term for an SMTP server, Message Transfer Agent, uses DNS to find MX record and usually uses port 25 to send to remote mail server.
+SDN Meaning in cloud computing, Software Defined Networking, Centralized network control where software defines traffic flow using APIs; separates control from hardware for flexibility and automation
+Another name for SMB protocol, Common Internet File System, SMB/CIFS Implement WIndows-compatible file and printer sharing services on a local network
+What does PCI mean?, Peripheral Component Interconnect, An industry-standard; high-speed bus found in nearly all desktop computers.
+Charging a fully charged battery at a rate equal to its self-discharge rate, Trickle Charging, Repeated trickle charging can reduce battery life; use a power management plan/driver
+Store Li-ion batteries below what % charge/ºC, 40/20, Li-ion batteries are sensitive to heat
+First thing to test in a no power scenario, known good, Check that other equipment in the area is working; Try known-good equipment in outlet & cable plugged/known-good power cable
+Next steps in no power if outlet & cable confirmed, disconnect extra devices, May need higher wattage PSU or one of the devices is faulty. Can also test PSU with multimeter or power supply tester**.
+The per-use billing for resources consumed by the cloud, metered utilization, based on the type of resource such as storage; processing; bandwidth; or active users. should be accessible to the customer via a reporting dashboard.
+Citrix/Microsoft's Application Virtualization solutions, XenApp/App-V, Client accesses application hosted on a server or streams it from the server.
+CSP Meaning?, Cloud Service Provider, A public (or multitenant) model is offered over the internet by CSP's to cloud consumers; often referred to as tenants. (subscriptions or pay-as-you-go)
+Improves virtual *memory* performance in VM's Top/Intel/AMD, SLAT/EPT/RVI, Second Level Address Translation / Extended Page Table (Intel) / Rapid Virtualization Indexing (AMD)
+SAN Meaning, Storage Area Network, is a network of storage devices that can be accessed by multiple servers or computers; providing a shared pool of storage space.
+Malware moves from one VM to another and attempts to interact with the hypervisor,Escape,Breaking isolation between virtual machines is known as virtual machine escape
+Too many virtual machines are created without proper management,Sprawl,Virtual machine sprawl increases security and maintenance risks
+VM's installed without proper authorization,Rogue,System management software can detect rogue VM's; deployment procedures should be tightly drafted and monitored
+a type of malicious code embedded in software that remains dormant until specific conditions are met, logic bomb, You really don't want to be deploying VM images with these hiding in them
+Uses ground-basesd long-range fixed access wireless technology to provide internet access, wireless internet service provider, The WISP installs and maintains a directional antenna to bridge customers network and service provider
+Uses a VSAT antenna connected via coax to a DVB-S modem, Geostationary Orbital Satellite, Satellite does not move relative to the Very Small Aperture Terminal (VSAT) dish. DVB-S is Digital Video Broadcast Satellite. Low speed/High Latency (>600ms)
+Requires an antenna with a motor and "phased array" technology, Low Earth Orbital Satellite, LEO supports better bandwidth (around 70-100 Mbps) and lower latency (100-200 ms RTT)
+3G format that allows a removable SIM card in unlocked handsets, Global System for Mobile Communications,GSM: 3G works in 850/1900 MHz freq bands (mostly Americas) and 900/1800 in rest of world.
+3G format where handset directly managed by provider with no removable SIM card, Code Division Multiple Access, CDMA: Area served by each base in 3G refered to as a "cell". Cells have effective range up to 5 miles(8km)
+Minimal cellular service levels with speeds 50-400 Kbps (3 with spaces), G E 1X, Not even 3G - 2G era tech or in-between
+Approximate speed of regular 3G UMTS/CDMA networks (Mbps), 3, Universal Mobile Telecommunications Service (UMTS) on GSM / Evolution-Data Optimized (EV-DO) on CDMA
+Maximum speed of HSPA+ cellular (Mbps), 42, High Speed Packet Access (HSPA) provides improved data on GSM networks
+DiplayPort MST meaning and versions (#/#) for daisy chaining, Multi-Stream Transport 1.2/1.4, You can connect up to four monitors to a desktop or three to a laptop. Can handle two 4K monitors at 60Hz or one 8K monitor at 30Hz.
+Thunderbolt can daisy chain up to how many devices?, 6, including external GPUs; storage drives; docking stations; and monitors
+Thunderbolt 4 supports up to #/# of monitors: 4K at 60Hz/8K at 60Hz, 2/1, Max speed 40Gbps. A strong choice for users who need ultra-high-definition visuals.
+DisplayPort speeds per lane (Original/Current version 2.0 - Gbps), 2.7/20, Up to 4 bonded lanes = max speed of 80Gbps
+Next step in wired conn troubleshooting if cables good and connected?, loopback tool, This will verify the integrity of the network interface port by checking that it can receive a signal generated by itself.
+Next step if you confirm patch cable and interface ports are good?, test structured cable, Could also be a termination or external interference problem.
+Final steps in troubleshooting wired connectivity, speed/duplex/driver, speed/duplex settings should usually be set to autonegotiate. You can also try updating driver.
+If the temperature is too high the CPU and other components are likely to do what, throttling, Check temperature sensors and fan speeds. Maybe computer needs cleaning or cooling systems need to be replaced or upgraded.
+First thing to check in network speed troubleshooting (after narrowing down what they doing) 1/2, duplex/nominal speed, Should be 'autonegotiate'; then measure transfer rate independent of specific apps or network services.
+What can cause interference in network besides external factors, bad termination, Check the ends of cables for excessive untwisting of the wire pairs or improper termination. Can also use network tap to look for damaged frames.
+Record used to identify an email server for the domain so that other servers can send messages to it, Mail Exchange, MX: a DNS record that routes emails to specified mail servers.
+Uses a TXT record published via DNS to identify the hosts authorized to send email from that domain., Sender Policy Framework, With an SPF record in place; ISPs can verify that a mail server is authorized to send email for a specific domain.
+Uses cryptography to validate the source server for a given email message., DomainKeys Identified Mail, To configure DKIM; the organization uploads a public encryption key as a TXT record.
+Handles email auth failures with policy in DNS (acronym), DMARC, Builds on SPF and DKIM by adding control over failed authentication (e.g. reject/quarantine/monitor)
+What kind of lighting do most smartphone and tablet screens use?, edge lighting, LEDs arranged at top or bottom of the screen; a diffuser makes the light evenly bright across whole screen
+Two main drawbacks of OLED displays? ?/?, brightness/burn in, technically called active-matrix OLED (AMOLED) these are NOT considered LCD or TFT displays.
+What protocol allows secure upload/download of files to external users?, FTPS, Uses SSL/TLS to encrypt file transfers over FTP; ideal for sharing with outside collaborators
+What Windows-native protocol allows file and printer sharing internally?, SMB, Can be encrypted in newer versions like SMBv3 but not typically exposed to external users
+What legacy protocol supports name resolution and older Windows file sharing?, NetBIOS, Very outdated and insecure; uses ports 137–139 and shouldn't be used externally
+What does the "T" in 1000BASE-T stand for?, Twisted pair, Commonly copper cables like Cat5e/Cat6 used for Gigabit Ethernet
+FttC VDSL speeds asymmetric down/up symmetric down/up (in Mbps), 52/6 26/26, rated for 300m (1000 feet); Very High-Speed DSL 2 (VDSL2) gets 100 Mbps over 100m (300 feet)
+What do we call 192.168.10.0 on /24 subnet?, Network ID, First IP address in the subnet
+What do we call 192.168.10.255 in a /24 subnet?, Broadcast address, Last IP used to reach all devices in the subnet
+How many usable hosts are in a /24 subnet?, 254, 256 total minus 2 (network + broadcast)
+How many usable hosts are in a /16 subnet?, 65534, 65536 total minus 2 (network + broadcast)
+Core of the internet is high b/w fiber connecting what?, Internet Exchange Points, These trunk links and IXP's are mostly created by telecommunications companies and academic institutions.
+supports long distances over precise directional antennas; requires line-of-sight, Long Range Fixed Wireless, Point-to-point; uses ground-based high-gain microwave antennas that must be precisely aligned with one another. (up to 30 Miles)
+Range of precisely aligned high-gain directional antenna transmission (aprox), 30 miles, as long as they are unobstructed by physical objects. The antennas themselves are typically affixed to the top of tall buildings or mounted on tall poles.
+Wi-Fi signal strength is measured in, decibel milliwatts, dBm: signal strength represented as a ratio of measure to 1 mW; 1 mW is 0 dBm and negatives are fractions of a mW.
+The amount that a signal is boosted by directionality/measured in?, Antenna Gain/dBi, focusing the signal in a single direction rather than spreading it over a wide area.
+The sum of transmit power; antenna cable/connector loss and antenna gain, Effective Isotropic Radiated Power, EIRP is the sum of transmit power and gain; expressed in dBm.
+What is the maximum downtime per year with five nines of availability?,5.256,Aim for <5.256 minutes/year; for fewer nines move decimal right (more downtime); for more nines move it left (less downtime)
+ACPI Meaning?, advanced configuration and power interface, a power management standard that defines power states such as "sleep" and "hibernate."
+POST memory error beeps?, continuous, Problem with system memory or memory controller
+POST beeps for Power supply fault or motherboard problem?, repeating short, tip for black screen no beeps: 1) ask what has changed; 2) check cable and connections; 3) check faulty interface and devices
+POST beeps for Motherboard problem?, 1 long 1 short, tip for black screen no beeps: 4) check the PSU; 5) check for faulty CPU or system firmware (maybe update it)
+POST beeps for Video adapter problem?, 1 long 2 or 3 short, extra tip: keyboard issue or key stuck is 3 long beeps
+Graphics cards use what kind of memory?, GDDR, Graphics DDR: 3-D cards need a substantial amount of memory for processing and texture effects.
+Network layer protocol used for error reporting & diagnostics (ping/tracert too), Internet Control Message Protocol, ICMP: Mainly used to determine whether or not data is reaching intended destination in a timely manner.
+3D printing: a flat glass plate onto which the material is extruded. Usually heated to prevent warping, Print bed/build plate, The bed must be leveled for each print job—this is usually automated; but cheaper printer models require manual calibration.
+3D printing: a sheet placed onto the base plate to hold the object. Allows removal after completion, Bed/build surface, The bed surface material may need to be matched to the filament material for best results.
+Stereolithography (SLA) 3D printing uses what to print?, resin or photopolymer, uses liquid plastic resin or photopolymer to create objects which are cured using an ultraviolet laser.
+3D printing method that fuses layers together using a pulse laser, Selective laser sintering, SLS: The object is created from a powder and lowered into a tank as each layer is added. The powder can be plastic or metal.
+Two most popular plastics for fillament in 3D printing? ?/?, PLA/ABS, 'Polylactic Acid' (PLA) and 'Acrylonitrile Butadiene Styrene' (ABS). Most printers can use a range of filament types; but it is best to check compatibility.
+Bluetooth 4 introduced this non backwards compatible standard (acronym), BLE, Bluetooth Low Energy: designed for small battery-powered devices that transmit small amounts of data infrequently. ~1Mbps
+Bluetooth aprox range in feet (earliest/newest), 30/100, early max was 10m (30 feet); newer can go over 100 ft though signal strength will be weak. v5 legit says over 240 METERS.
+Bluetooth max theoretical speed (v2/v3 in Mbps), 3/24, EDR (Enhanced Data Rate) gives 3 Mbps in v2.0; v3.0 uses Wi-Fi for 24 Mbps bursts; v5.0 tops out at 2 Mbps in Low Energy mode.
+CHADDR Meaning, Client Hardware Address, stores the MAC address in "Client MAC address" field on DCHP protocol
+PCIe wattage supplied to dedicated graphics card slot/other cards, 75/25, An extra 75W power can be supplied via a PCIe power connector
+PSTN Meaning, Public Switched Telephone Network, Core is fiber optic; at the edge is still often legacy two pair copper cabling (POTS: Plain Old Telephone System)
+APIPA Meaning, Automatic Private IP Addressing, 169.254.x.x -> "Local Link Only" enables communication within local network
+HDMI 2.0 and 2.1 Premium High Speed / Ultra High Speed (Gbps), 18/48, High-Definition Multimedia Interface: supports both video and audio; plus remote control and digital content protection (HDCP)
+What old Thunderbolt 1 and 2 ports are the same shape as?, Mini DisplayPort, TB1/2 ports can carry Mini DP signals but Mini DP ports do not support Thunderbolt signals.
+An adaptation of an old interface still used for enterprise-class storage devices, Serial Attached SCSI, Faster and more reliable than SATA; supports dual-porting and full-duplex for redundancy and performance in servers.
+Another name for the x86-32 instruction set, IA-32, Intel Architecture 32
+IOPS Meaning (storage), IO Operations Per Second, A measure of a storage device's read/write speed. It refers to the number of input/output (I/O) operations the device can complete in a second.
+Allows devices to discover each other and automatically configure port forwarding on routers, UPnP, Convenient for home use; but considered insecure for enterprise networks.
+IPv6 link-local address prefix?, FE80::, Used for communication within a local network segment; required for autoconfiguration and mDNS.
+Global IPv6 Starts with a # or #? (#/#), 2/3, ISP might get 2001:0db8:abcd::/48; designate 2001:0db8:abcd:6e00::/56 city or region; and office might be 2001:0db8:abcd:6e11::/64 Lan!
+IPv6 auto-addressing using RA (no DHCP needed), SLAAC, Stateless Address Autoconfiguration: Uses Router Advertisements from ND to auto-configure global & link-local addresses without DHCP.
+IPv6 function to discover routers and local hosts, Neighbor Discovery, ND: Handles router/prefix discovery; duplicate address detection; and neighbor reachability.
+RFID Range Passive/Active, 25/100, passive device that only responds when scanned at close range (up to about 25 m) or a powered; active device with a range of 100 m.
+Paper types impact printer use, plain carbon tractor-fed, Ensure that the lever is in the correct position for friction feed or tractor feed as appropriate for the media being used.
+Moving roller in an impact printer, platen, Plain paper is held firmly against the platen; The holes on tractor-fed paper are secured over studded rollers at each end of the platen.
+IP meaning (device protection), Ingress Protection, A case or device will have two numbers; such as IP67. The first (6) is a rating for repelling solids and the second (7) is for repelling liquids.
+IP code for dust proof/immersion protection beyond 1m, IP68, If dust protection is unrated; the IP value will be IPX7 or IPX8. IP57 is dust protected and immersion protection UP to 1m.
+Legacy Serial Port is also known as what/commonly uses what connector?, RS-232/DB-9, RS-232 specifies a 25-pin hardware interface; but in practice; PC manufacturers used the cheaper 9-pin D-subminiature (DB-9) female port
+TCP connection sequence packet identifiers (???/???), SYN/ACK, Connection handshake sequence of SYN; SYN/ACK; and ACK packets. Assigns each packet a sequence number so that it can be tracked.
+TCP receiver code to force retransmission of a missing or damaged packet?, NACK, Also the termination of a session uses the FIN code. The client requesting connection ususally generates a random port number for responses.
+If one of the underlying devices in RAID array fails volume will be listed as, Degraded, Data on the volume will still be accessible and it should continue to function as a boot device if so configured. (Not RAID 0 tho)
+K on Intel Processors means?, Unlocked, High performance/Unlocked to be more specific
+A layer 2 protocol used to map MAC addresses to IP addresses, Address Resolution Protocol, The ARP packet contains a simple question: What is the MAC address corresponding to IP address
+Server-class motherboards include support for extra ?/?, ECC Ram/Cache, There are dedicated CPU ranges for servers; such as Intel’s Xeon and AMD’s Epyc brands.
+AMD Socket for Threadripper CPUs, sTRX4, Used for high-end desktop and workstation CPUs with up to 64 cores and massive PCIe lanes
+Laser printing issue - Black stripes or whole page black (stage?), Charging, Primary Charge Roller (PCR) is dirty or damaged or High Voltage Power Supply (HVPS) is fucked.
+Laser printing issue - Blank pages ?/?/?, driver/seals/transfer, Driver problem; toner installed without removing packing seals; or possible transfer roller damaged (image not transfering)
+Laser printing issue - Vertical or horizontal lines appear in same place (Repetitive Defects) ?/?, Feed Rollers/Drum, Dirty feed rollers (may be in toner or fuser too) or damaged/dirty photosensitive drum.
+Laser printing issue - Double/Echo images (stage?), Cleaning, drum has not been fully cleaned; repeat images on same page or next pages; printing a bunch may fix or replace drum/toner.
+Laser printing issue - Cast or Shadow like effect (issue?), Misalignment, Transfer belt or one/all of the cartridges may be misaligned. Reseat and run calibration utility.
+Laser printing issue - Color missing (solutions ?/?), Replace/Clean, replace the cartridge or clean the contacts between printer and cartridge.
+NFC Range(inches)/Max Speed(Kbps), 2/424, 2in = 6cm; NFC is mostly used for contactless payment readers; security ID tags; and shop shelf-edge labels for stock control.
+One Meter equals how many Feet?, 3.281, 1 Foot = 0.3048 Meters. For an approximate result; divide the length (Feet) by 3.281
+One Inch equal how many Centimeters?, 2.54, 1 Centimeter = 0.3937 Inches. Divide the length (Centimeters) by 2.54
+Unlicensed frequency for LRFW besides 2.4 and 5 Ghz, 900Mhz, Anyone can use these frequencies; meaning that interference is a risk.
+Works out a device's location by triangulating its proximity to other radio sources, Indoor Positioning System, derive a device's location when indoors by triangulating its proximity to radio sources such as Bluetooth beacons or Wi-Fi access points.
+SNR Meaning in wireless, Signal to Noise Ratio, Noise is also measured in dBm; but here values closer to zero are less welcome; as they represent higher noise levels.
+4G & 5G Standards that removed the CDMA/GSM distinction ?/?, LTE/LTE-A, LTE-Advanced (on 4G/4G+) has a maximum downlink of 300 Mb/s in theory; real world is more like 20–90 Mb/s
+WPS meaning, WiFi Protected Setup, Enables simplified connection to a (usually home) Wi-Fi; most often using push button.
+Real world speeds of 5G (Mbps), 50-300, They hoped for 1 Gb/s rate but that didn't play out.
+principal means of secure access to UNIX and Linux servers and to most types of network appliances, SSH,
+Which protocol is used for secure file transfer over SSH?, SFTP, Runs over port 22 and is built into the SSH protocol not to be confused with FTPS which uses FTP over TLS on ports 989 and 990
+Port 989/990/protocol, Data/Control/FTPS, Implicit FTPS — secure from the moment you connect uses these ports - Explicit FTPS uses control 21 and a random port for data.
+DDR3/4/5 max size in GB ?/?/?, 8/32/128, According to the course anyways -> shit is always improving.
+allows a Windows client to access a Linux host as though it were a Windows file or print server, Samba Software, provides support for SMB in UNIX- or Linux-based machines and network attached storage (NAS) appliances
+database of information maintained by an SNMP agent, Management Information Base, MIB: holds statistics relating to the activity of the device. An example of such a statistic is the number of frames per second handled by a switch.
+Syslog severity level code, PRI, Priority value: Facility and Severity of the message. Facility represents the part of the system sending the message; Severity marks its importance.
+CPU Power 8 Pin vs/4 Pin names, EPS12V/ATX12V, Power connectors always have half square and halve rounded connectors
+Input VAC values in North America vs Europe (low-line)/(high-line), 120/230, Most PSUs are dual voltage and are auto-switching; some have a manual switch; *Some are fixed voltage!*
+ATX Meaning in power supplies/motherboards, Advanced Technology Extended, Most systems are now based on the ATX12V version 2 specification. This defines a 24-pin (2x12) P1 form factor.
+Attached to each device in closed loop water cooling to remove heat by convection, Water blocks and brackets, These are attached in a similar way to heat sink/fan assemblies and then connected to the water loop.
+PCI Max Transfer Speed (MBps), 133, That is 32 bits divided by 8 to get 4 bytes; then multiplied by the clock rate of 33.3Mhz
+Full-size ATX board size (in), 12x9.6, (305 mm x 244 mm). An ATX board can contain up to seven expansion slots.
+Micro-ATX (mATX) board size (in), 9.6x9.6, (244 mm x 244 mm) square board. mATX boards can have a maximum of four expansion slots.
+Mini-ITX board size (in), 6.7x6.7, (170 mm x 170 mm) square board. These are designed for small cases; but do note that most mini-ITX boards can be mounted in ATX cases.
+USB 3 headers on motherboard use (pinxpin), 2x10, can be cabled to two ports.
+3 or 4 pin Molex KK connectors are for?, Fans, 4-pin fan connectors support pulse width modulation (PWM) signal carried by the blue wire. 3-pin fans are controlled by varying the voltage.
+What Cat Cable specification has two speed specs #/long/short, 6/1/10, [1 Gbps at @ 100 m (328 ft)] and [10 Gbps @ 55 m (180 ft)]
+Monitor communications passing over the switch using mirror port, switched port analyzer, The sensor is attached to a specially configured port on a network switch. The mirror port receives copies of frames addressed to nominated access ports.
+Cable that uses treated PVC or fluorinated ethylene polymer (FEP) jackets, Plenum Cable, CMP: Communications Multipurpose Plenum (General-purpose cables are marked as CMG or MMG for PVC jackets; and CM or MP for plenum-rated cables.)
+What laser printer component causes ghost images if it fails to remove leftover toner?, Drum or cleaning blade, Residual toner from previous print cycle causes faint duplicates
+What does the static eliminator strip or corona wire do in a laser printer?, Removes charge from paper, Prevents paper from sticking or attracting extra toner after transfer
+Which inkjet technology uses heat to form a bubble that ejects ink?, Thermal bubble,A tiny heater boils ink to form a bubble that pushes droplets out. HP; Canon; Brother
+Which inkjet technology uses vibration from a crystal to eject ink?, Piezoelectric,A voltage flexes a piezo crystal to force ink out without heat. Epson
+IDE Meaning, Integrated Drive Electronics, Also known as PATA (Parallel Advanced Technology Attachment).  Pin 1 indicated by a red stripe on the side of cable.
+HBA Meaning (Re: SCSI), Host Bus Adapter, One SCSI host bus adapter (HBA) can control multiple devices attached by internal ribbon cables or external SCSI cables.
+An advanced type of cable tester, Certifier, Can report detailed information about cable performance and interference.
+EIDE cable connector colors: Device 0/Device 1/Motherboard, black/grey/blue, Enhanced integrated drive electronics. Pin 1 has red stripe on that side.
+Inkjet carriage system uses these 3 to move print head ?/?/?, stepper motor/pulley/belt, Plus a guide shaft to keep the print head stable; and sensors to detect the position of the print head.
+Prevents more than one sheet entering an inkjet printer, seperation roller, A load roller turns against the paper stack to move the top sheet while a separation roller prevents more than one sheet entering.
+The power supply standard that changed from 20 to 24 pin main MB connector, ATX-12V, This can also refer to the 4 pin square CPU connector; it's whatever.
+Generic/Intel/AMD alternate names for EM64T, x86-64/Intel64/AMD64, Extends the x86 instruction set for 64-bit operation.
+How is DDR5 different from DDR4 in terms of channel layout?,2 32-bit channels,DDR5 still transfers 64 bits per cycle total but uses two 32-bit channels to reduce latency and improve multi-core performance
+HSM Meaning, Hardware Security Module, A secure USB key or thumb drive used to store cryptographic material; user must authenticate before they can access the keys stored on the module.
+Which security feature stores and compares hashes of boot components?,TPM,This is part of TPM’s measured boot process to detect tampering
+What is a network drop?,Ethernet wall jack,It’s where a device connects to the network using structured cabling and is often tested during hardware troubleshooting
+RMA Meaning?, Returned Materials Authorization, If a part or system is under warranty; you can return the broken part for a replacement with RMA ticket from vendor.
+A passive network TAP uses ?/?, Inductor/optical splitter, No logic decisions are made; so the monitor port receives every frame—corrupt or malformed or not—and the copying is unaffected by load.
+An active network TAP uses?, Signal Regeneration,  Gigabit signaling over copper wire is too complex for a passive tap to monitor; and some types of fiber links may be adversely affected by optical splitting.
