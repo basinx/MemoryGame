@@ -1,1 +1,37 @@
-Port & TCP or UDP> SNMP Trap, 162/UDP, Used by devices to send alerts/events to SNMP manager.
+# Question, Answer, Extra Info
+# do not add any extra commas in the question or answer fields; substitute with semicolons if needed
+Mnemonic for 6 principals of responsible AI?, farepita, Fairness; Reliability (and Safety); Privacy (and Security); Inclusiveness; Transparency; Accountability
+MS DATA: % of new code now written by AI?, 46, 46%; From Module 2 - Page 2
+MS Data: % faster overall developer productivity?, 55, 55%; From Module 2 - Page 2
+MS Data: % of developers feeling more focused on satisfying work?, 74, 74%; From Module 2 - Page 2
+What OpenAI system is Github Copilot powered by?, Codex,  OpenAI Codex has broad knowledge of how people use code and is more capable than GPT-3 in code generation.
+Non VS IDE's that support Copilot: Vim/Neovim and ?, JetBrains, JetBrains IDEs (such as IntelliJ IDEA; PyCharm; WebStorm; and others) support GitHub Copilot through a dedicated plugin.
+Non VS IDE's that support Copilot: JetBrains and ?, Vim/Neovim, Vim and Neovim support GitHub Copilot through a dedicated plugin.
+How does MS define Github Copilot?, AI pair programmer, GitHub Copilot is an AI pair programmer that helps you write code faster and with less work.
+3 listed 'Copilot Features' besides code completion (1st word) ?/?/?, chat/pull/cli, Chat (natively integrated in VS Code and VS); AI Powered tags in pull-request descriptions; GH Copilot for CLI
+Github Copilot Free completions/chat requests per month?, 2000/50, 2000 completions; 50 chat requests per month; access to both GPT-4o and Claude 3.5 Sonnet models
+First thing to click to get started with GH Copilot free in VS Code?, Icon, Click the GitHub Copilot icon and then click 'Sign in to Use GitHub Copilot for Free'
+How many code completions and chat requests in GH Copilot Pro?, Unlimited, Unlimited code completions and chat requests for everything beyond Free
+GH Copilot Pro cost?, $10, $10 USD per month
+A specific type of code generation available in Pro but not Free?, test, Unit test generation is available in Copilot Pro but not in Copilot Free
+What do you get more of with GH Copilot Pro+?, Premium Requests, Premium requests and also Priority infrastructure access
+GH Copilot Business has centralized management for what controls?, management and policy, Centralized management for access & policy; additional security and compliance features.
+Another place you can use Chat listed for GH Copilot Business?, Mobile, Chat is obviously available for all versions but they say also Mobile for Business/Enterprise
+Two things they say GH CP Business has 'filtering' for ?/?, vulnerabilities/public code, Security Vulnerabilities and Public Code filtering; Code referencing for cases where public code is used or referenced.
+A kind of legal protection that you get with GH Copilot Business/Enterprise?, IP indemnity, Intellectual Property (IP) indemnity; Also enterprise-grade security; safety and privacy.
+What does Enterprise integrate with that Business does not? Github ? ?, Enterprise Cloud, Also includes personalized code suggestions based on internal/private code
+GHCP Enterprise supports AI-powered tags and summaries for?, Pull Requests, AI-powered tags and summaries for Pull Requests
+What does (only) GH Copilot Enterprise allow you to customize or fine-tune?, Copilot Models, Fine-tune or customize Copilot models on your own codebase
+GHCP Enterprise can do this; and generate this; across your code base ?/?, search/documentation, AI-powered search and documentation generation across your codebase
+GHCP Enterprise provides these throughout the Github platform?, Action Buttons, it also provides integration into GitHub as a chat interface; so developers can converse about their codebase.
+What key and the right arrow will accept part of an inline suggestion?, Control, Control + Right Arrow; it goes about a word at a time
+What key to accept the full inline suggestion?, Tab, Tab key; The course says the right arrow key will do it but it does not work for me
+What key to see the next inline suggestion? Alt+?, ], Alt + ] to see the next suggestion; Alt + [ to see the previous suggestion
+How to get the Command Pallete in VS Code ?-?-?, Ctrl-Shift-P, Ctrl + Shift + P (or F1) to open the Command Palette; Type Copilot to see all Copilot commands
+How to open Inline Chat ?-?, Ctrl-I, Ctrl + I to open Inline Chat
+
+
+
+
+
+
