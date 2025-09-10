@@ -21,6 +21,7 @@ Two things they say GH CP Business has 'filtering' for ?/?, vulnerabilities/publ
 A kind of legal protection that you get with GH Copilot Business/Enterprise?, IP indemnity, Intellectual Property (IP) indemnity; Also enterprise-grade security; safety and privacy.
 What does Enterprise integrate with that Business does not? Github ? ?, Enterprise Cloud, Also includes personalized code suggestions based on internal/private code
 GHCP Enterprise supports AI-powered tags and summaries for?, Pull Requests, AI-powered tags and summaries for Pull Requests
+GHCP Enterprise can give code suggestions based on ?/? code?, Internal/Private, Personalized code suggestions based on your internal and private code
 What does (only) GH Copilot Enterprise allow you to customize or fine-tune?, Models, Fine-tune or customize Copilot Models on your own codebase
 GHCP Enterprise can do this; and generate this; across your code base ?/?, search/documentation, GH Copilot Enterprise has: AI-powered search and documentation generation across your codebase
 GHCP Enterprise provides these throughout the Github platform?, Action Buttons, it also provides integration into GitHub as a chat interface; so developers can converse about their codebase.
@@ -31,6 +32,8 @@ How to get the Command Pallete in VS Code ?-?-?, Ctrl-Shift-P, Ctrl + Shift + P 
 How to open Inline Chat ?-?, Ctrl-I, Ctrl + I to open Inline Chat
 How to open/close GH Copilot Chat in VS Code ?-?-?, Ctrl-Alt-I, Ctrl + Alt + I to open/close GitHub Copilot Chat
 (Strongly) Supported languages besides J/JS/C+#/Python: ?/?/?, TypeScript/Ruby/Go, Among languages it claims 'Strong Capabilities' in. [Python; Java(Script); TypeScript; Ruby; Go; C#; C++]
+Mneumonic for 5 ways GHCP can adapt suggestions?, MeNaFoCoDe, MEthod Implementation; NAming Conventions; FOrmatting; COmment Style; DEsign Patterns
+Two key processes GHCP uses to provide good suggestions ?/?, NLP/Context, Natural Language Processing (NLP) and Context Analysis (Analyzing surrounding code & comments)
 
 
 
