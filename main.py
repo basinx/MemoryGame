@@ -1,12 +1,13 @@
 import pygame
 import random
-import csv
 import time
-import difflib
 import os
 from datetime import datetime
 from pathlib import Path
 from ui_helpers import draw_text, draw_wrapped_text, button, TextInputBox
+from data_loader import load_questions
+from utils import calculate_similarity, get_documents_folder
+from sound_manager import SoundManager
 
 # Initialize Pygame and the mixer for sound.
 pygame.init()
@@ -16,36 +17,12 @@ pygame.display.set_caption("A+ Typing Game")
 font = pygame.font.Font(None, 36)
 clock = pygame.time.Clock()
 
-# Load sound files.
-# Place your MP3 files (correct.mp3 and wrong.mp3) in your working folder.
-correct_sound = pygame.mixer.Sound("sounds/success.mp3")
-wrong_sound = pygame.mixer.Sound("sounds/failure.mp3")
+# sound_manager instance
+sound_manager = SoundManager()
 
 # Default game settings
 default_game_length = 180  # seconds
 default_question_time = 15  # seconds
-
-
-# Calculate string similarity percentage
-def calculate_similarity(answer1, answer2):
-    """Calculate similarity between two strings using difflib.SequenceMatcher"""
-    return difflib.SequenceMatcher(None, answer1.lower().strip(), answer2.lower().strip()).ratio()
-
-# Load questions from CSV
-def load_questions(filename="questions.csv"):
-    questions = []
-    with open(filename, newline='', encoding='utf-8') as csvfile:
-        reader = csv.reader(csvfile)
-        for row in reader:
-            # Exclude sections commented out with #
-            # Expecting three columns: question, answer, extra info.
-            if not row or row[0].startswith('#'):
-                continue
-            if len(row) == 3:
-                questions.append((row[0], row[1], row[2]))
-            elif len(row) == 2:
-                questions.append((row[0], row[1], ""))
-    return questions
 
 
 # Game States
@@ -60,7 +37,7 @@ CLEAR_MODE = "clear"
 
 # Main Game Class
 class TypingGame:
-    def __init__(self):
+    def __init__(self, sound_manager):
         self.state = MENU
         self.pause_start = None  # Timestamp captured on pause
         self.questions = load_questions()
@@ -87,6 +64,7 @@ class TypingGame:
         self.clear_mode_correct = 0  # Track correct answers in Clear Mode
         self.wrong_answers = []  # Track wrong answers for file output
         self.wrong_answers_file = None  # Path to saved wrong answers file
+        self.sound_manager = sound_manager
 
         # Create text input boxes for settings.
         self.input_box_game_length = TextInputBox(300, 300, 200, 40, str(default_game_length), font)
@@ -136,13 +114,6 @@ class TypingGame:
         self.next_question()
         self.state = PLAYING
 
-    def get_documents_folder(self):
-        """Get the OS-independent Documents folder path"""
-        if os.name == 'nt':  # Windows
-            return Path.home() / 'Documents'
-        else:  # Unix-like (Linux, macOS)
-            return Path.home() / 'Documents'
-
     def save_wrong_answers(self):
         """Save wrong answers to a text file in Documents folder"""
         if not self.wrong_answers:
@@ -155,8 +126,8 @@ class TypingGame:
         filename = f'WrongAnswers{date_str}{time_str}.txt'
         
         # Get Documents folder path
-        docs_folder = self.get_documents_folder()
-        
+        docs_folder = get_documents_folder()
+
         # Create Documents folder if it doesn't exist
         docs_folder.mkdir(exist_ok=True)
         
@@ -326,7 +297,7 @@ class TypingGame:
                     self.feedback = f"Correct x{multiplier}"
                     self.feedback_color = (0, 255, 0)
                     if self.sound_enabled:
-                        correct_sound.play()
+                        self.sound_manager.play_correct()
                 else:
                     # Check similarity for partial credit
                     similarity = calculate_similarity(user_answer, correct_answer)
@@ -347,7 +318,7 @@ class TypingGame:
                         self.feedback = f"Close! - half points! x{multiplier}"
                         self.feedback_color = (255, 225, 0)  # Yellow for partial credit
                         if self.sound_enabled:
-                            correct_sound.play()
+                            self.sound_manager.play_correct()
                     else:
                         self.feedback = "Incorrect"
                         self.feedback_color = (255, 0, 0)
@@ -361,7 +332,7 @@ class TypingGame:
                         }
                         self.wrong_answers.append(wrong_entry)
                         if self.sound_enabled:
-                            wrong_sound.play()
+                            self.sound_manager.play_wrong()
                 self.next_question()
             elif event.key == pygame.K_BACKSPACE:
                 self.user_input = self.user_input[:-1]
@@ -419,7 +390,7 @@ class TypingGame:
 
 
 # Main loop
-game = TypingGame()
+game = TypingGame(sound_manager)
 running = True
 while running:
     screen.fill((0, 0, 0))
