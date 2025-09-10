@@ -6,6 +6,7 @@ import difflib
 import os
 from datetime import datetime
 from pathlib import Path
+from ui_helpers import draw_text, draw_wrapped_text, button, TextInputBox
 
 # Initialize Pygame and the mixer for sound.
 pygame.init()
@@ -45,79 +46,6 @@ def load_questions(filename="questions.csv"):
             elif len(row) == 2:
                 questions.append((row[0], row[1], ""))
     return questions
-
-
-# UI Helper Functions
-def draw_text(surface, text, pos, font, color=(255, 255, 255)):
-    text_surface = font.render(text, True, color)
-    surface.blit(text_surface, pos)
-
-def draw_wrapped_text(surface, text, pos, font, color=(255, 255, 255), max_width=700):
-    words = text.split(' ')
-    lines = []
-    current_line = ''
-
-    for word in words:
-        test_line = current_line + word + ' '
-        if font.size(test_line)[0] <= max_width:
-            current_line = test_line
-        else:
-            lines.append(current_line)
-            current_line = word + ' '
-    lines.append(current_line)
-
-    x, y = pos
-    for line in lines:
-        line_surface = font.render(line, True, color)
-        surface.blit(line_surface, (x, y))
-        y += font.get_height()
-
-
-def button(rect, text):
-    pygame.draw.rect(screen, (0, 128, 255), rect)
-    draw_text(screen, text, (rect[0] + 10, rect[1] + 10), font)
-    return rect
-
-
-# Text input box class with auto-overwrite on click.
-class TextInputBox:
-    def __init__(self, x, y, w, h, text=''):
-        self.rect = pygame.Rect(x, y, w, h)
-        self.color_inactive = (200, 200, 200)
-        self.color_active = (255, 255, 255)
-        self.color = self.color_inactive
-        self.text = text
-        self.txt_surface = font.render(text, True, (0, 0, 0))
-        self.active = False
-
-    def handle_event(self, event):
-        if event.type == pygame.MOUSEBUTTONDOWN:
-            # Toggle active state if clicked inside the box.
-            if self.rect.collidepoint(event.pos):
-                self.active = True
-                # Clear text on click so new typing overwrites previous entry.
-                self.text = ""
-                self.txt_surface = font.render(self.text, True, (0, 0, 0))
-                self.color = self.color_active
-            else:
-                self.active = False
-                self.color = self.color_inactive
-        if event.type == pygame.KEYDOWN and self.active:
-            if event.key == pygame.K_RETURN:
-                self.active = False
-                self.color = self.color_inactive
-            elif event.key == pygame.K_BACKSPACE:
-                self.text = self.text[:-1]
-            else:
-                self.text += event.unicode
-            self.txt_surface = font.render(self.text, True, (0, 0, 0))
-
-    def draw(self, surface):
-        # Draw a background for the text box that changes shade when active.
-        bg_color = (150, 150, 150) if self.active else (200, 200, 200)
-        pygame.draw.rect(surface, bg_color, self.rect)
-        pygame.draw.rect(surface, self.color, self.rect, 2)
-        surface.blit(self.txt_surface, (self.rect.x + 5, self.rect.y + 5))
 
 
 # Game States
@@ -161,8 +89,8 @@ class TypingGame:
         self.wrong_answers_file = None  # Path to saved wrong answers file
 
         # Create text input boxes for settings.
-        self.input_box_game_length = TextInputBox(300, 300, 200, 40, str(default_game_length))
-        self.input_box_question_time = TextInputBox(300, 370, 200, 40, str(default_question_time))
+        self.input_box_game_length = TextInputBox(300, 300, 200, 40, str(default_game_length), font)
+        self.input_box_question_time = TextInputBox(300, 370, 200, 40, str(default_question_time), font)
 
     def pause(self):
         if self.state == PLAYING:
@@ -462,47 +390,32 @@ class TypingGame:
             self.input_box_game_length.draw(screen)
             draw_text(screen, "Question Time (s):", (300, 340), font)
             self.input_box_question_time.draw(screen)
-            button((300, 430, 200, 50), "Start Game")
-            button((300, 490, 200, 50), "Clear Mode")
+            button((300, 430, 200, 50), "Start Game", screen, font)
+            button((300, 490, 200, 50), "Clear Mode", screen, font)
         elif self.state == PLAYING:
-
             draw_wrapped_text(screen, f"{self.current_question[0]}", (40, 200), font)
             draw_text(screen, f"> {self.user_input}", (40, 300), font)
-            # where the info text was
             self.draw_all_information()
-
         elif self.state == PAUSED:
-
-            # we do not want to draw the question while paused - no cheating!
-            # draw_wrapped_text(screen, f"{self.current_question[0]}", (40, 200), font)
             draw_text(screen, f"> {self.user_input}", (40, 300), font)
-
-            # … plus any feedback/learning‑mode lines you normally show …
             self.draw_all_information()
-            # Overlay (semi‑transparent dark layer)
             overlay = pygame.Surface((800, 600), pygame.SRCALPHA)
-            overlay.fill((0, 0, 0, 150))  # RGBA – last value is alpha
+            overlay.fill((0, 0, 0, 150))
             screen.blit(overlay, (0, 0))
-
             pause_msg = font.render("PAUSED – press F9 to resume", True, (255, 255, 0))
             rect = pause_msg.get_rect(center=(400, 300))
             screen.blit(pause_msg, rect)
         elif self.state == GAME_OVER:
             draw_text(screen, "Game Over", (335, 200), font)
             draw_text(screen, f"Final Score: {self.score}", (315, 250), font)
-            
-            # Show Clear Mode specific stats
             if self.game_mode == CLEAR_MODE:
                 clear_stats_text = f"Questions Completed: {self.clear_mode_correct}"
                 draw_text(screen, clear_stats_text, (280, 280), font)
-            
-            # Show wrong answers file message if file was created
             if hasattr(self, 'wrong_answers_file') and self.wrong_answers_file:
                 msg = f"Questions missed written to: {os.path.basename(self.wrong_answers_file)}"
                 draw_wrapped_text(screen, msg, (200, 130), font, color=(255, 255, 0), max_width=700)
-            
-            button((300, 350, 200, 50), "Restart")
-            button((300, 420, 200, 50), "Main Menu")
+            button((300, 350, 200, 50), "Restart", screen, font)
+            button((300, 420, 200, 50), "Main Menu", screen, font)
 
 
 # Main loop
