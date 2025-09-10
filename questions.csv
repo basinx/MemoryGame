@@ -32,8 +32,10 @@ How to get the Command Pallete in VS Code ?-?-?, Ctrl-Shift-P, Ctrl + Shift + P 
 How to open Inline Chat ?-?, Ctrl-I, Ctrl + I to open Inline Chat
 How to open/close GH Copilot Chat in VS Code ?-?-?, Ctrl-Alt-I, Ctrl + Alt + I to open/close GitHub Copilot Chat
 (Strongly) Supported languages besides J/JS/C+#/Python: ?/?/?, TypeScript/Ruby/Go, Among languages it claims 'Strong Capabilities' in. [Python; Java(Script); TypeScript; Ruby; Go; C#; C++]
-Mneumonic for 5 ways GHCP can adapt suggestions?, MeNaFoCoDe, MEthod Implementation; NAming Conventions; FOrmatting; COmment Style; DEsign Patterns
+Mneumonic for 5 ways GHCP can adapt suggestions to better match your style?, MeNaFoCoDe, MEthod Implementation; NAming Conventions; FOrmatting; COmment Style; DEsign Patterns
 Two key processes GHCP uses to provide good suggestions ?/?, NLP/Context, Natural Language Processing (NLP) and Context Analysis (Analyzing surrounding code & comments)
+Where do they SAY the Chat Icon for GH Copilot Chat is?, Left Navbar, But as far as I can tell you have to click the copilot icon on top right and Open Chat (or Ctrl-Alt-I)
+What to type to reference a specific file in GH Copilot Chat?, #file:, Although I notice you can just type # and the file name the hit enter; it will fill in '#file:filename'
 
 
 
