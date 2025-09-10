@@ -37,6 +37,7 @@ Two key processes GHCP uses to provide good suggestions ?/?, NLP/Context, Natura
 Where do they SAY the Chat Icon for GH Copilot Chat is?, Left Navbar, But as far as I can tell you have to click the copilot icon on top right and Open Chat (or Ctrl-Alt-I)
 What to type to reference a specific file in GH Copilot Chat?, #file:, Although I notice you can just type # and the file name the hit enter; it will fill in '#file:filename'
 Best way to reference the entire project/solution in GH Copilot Chat?, @workspace, also #codebase appears to do the same thing though they are defined differently; @ = chat participant/# = chat variable
+What command will tell GH Copilot to generate comments?, /doc, Appears to only work with Inline chat (Ctrl-I); not the full chat (Ctrl-Alt-I)
 
 
 
