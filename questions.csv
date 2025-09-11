@@ -39,7 +39,7 @@ What to type to reference a specific file in GH Copilot Chat?, #file:, Although 
 Best way to reference the entire project/solution in GH Copilot Chat?, @workspace, also #codebase appears to do the same thing though they are defined differently; @ = chat participant or agent/# = chat variable
 What command will tell GH Copilot to generate comments?, /doc, Appears to only work with Inline chat (Ctrl-I); not the full chat (Ctrl-Alt-I)
 Fancy kind of authentication available in Business/Enterprise?, SAML SSO, (Security Assertion Markup Language) Single Sign-On (SAML SSO) authentication
-Something you can track with Business/Enterprise not available with Free/Pro?, Usage, Usage Metrics about how your organization is using GitHub Copilot; Suggestions accepted; chat usage and more!
+Something you can track with Business/Enterprise not available with Free/Pro?, Usage Metrics, Usage Metrics about how your organization is using GitHub Copilot; Suggestions accepted; chat usage and more!
 Command to ask Copilot to improve efficiency of code?, /optimize, May have been removed; but it is mentioned in the course
 Command to use a Copilot 'agent' to create a new project with specific requirements?, @workspace /new, You can also use the “@workspace /new” smart action which allows you to generate a completely new project from scratch based on your requirements.
 Command to ask questions about Visual Studio Code IDE?, @vscode, You can also ask questions about Visual Studio Code IDE itself using the “@vscode” command.
