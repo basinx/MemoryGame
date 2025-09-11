@@ -43,6 +43,7 @@ Something you can track with Business/Enterprise not available with Free/Pro?, U
 Command to ask Copilot to improve efficiency of code?, /optimize, May have been removed; but it is mentioned in the course
 Command to use a Copilot 'agent' to create a new project with specific requirements?, @workspace /new, You can also use the “@workspace /new” smart action which allows you to generate a completely new project from scratch based on your requirements.
 Command to ask questions about Visual Studio Code IDE?, @vscode, You can also ask questions about Visual Studio Code IDE itself using the “@vscode” command.
+Two other areas on GitHub that GHCP can help with? (buttons beside 'pull requests' on github), Issues/Actions, Issue: Analysis; Solution Brainstorming; Reproduction steps / Actions: Error Analysis; Solution Suggestions; Best Practices; Context Awareness
 
 
 
