@@ -27,7 +27,7 @@ GHCP Enterprise can do this; and generate this; across your code base ?/?, searc
 GHCP Enterprise provides these throughout the Github platform?, Action Buttons, it also provides integration into GitHub as a chat interface; so developers can converse about their codebase.
 What key and the right arrow will accept part of an inline suggestion?, Ctrl, Ctrl + Right Arrow; it goes about a word at a time
 What key to accept the full inline suggestion?, Tab, Tab key; The course says the right arrow key will do it but it does not work for me
-What key to see the next inline suggestion? Alt+?, ], Alt + ] to see the next suggestion; Alt + [ to see the previous suggestion (note: course indicates it is ctr+enter but no??)
+What key to see the next inline suggestion? Alt+?, ], Alt + ] to see the next suggestion; Alt + [ to see the previous suggestion (note: course indicates it is ctr+enter at one point; but no??)
 How to get the Command Pallete in VS Code ?-?-?, Ctrl-Shift-P, Ctrl + Shift + P (or F1) to open the Command Palette; Type Copilot to see all Copilot commands
 How to open Inline Chat ?-?, Ctrl-I, Ctrl + I to open Inline Chat
 How to open/close GH Copilot Chat in VS Code ?-?-?, Ctrl-Alt-I, Ctrl + Alt + I to open/close GitHub Copilot Chat
@@ -36,14 +36,17 @@ Mneumonic for 5 ways GHCP can adapt suggestions to better match your style?, MeN
 Two key processes GHCP uses to provide good suggestions ?/?, NLP/Context, Natural Language Processing (NLP) and Context Analysis (Analyzing surrounding code & comments)
 Where do they SAY the Chat Icon for GH Copilot Chat is?, Left Navbar, But as far as I can tell you have to click the copilot icon on top right and Open Chat (or Ctrl-Alt-I)
 What to type to reference a specific file in GH Copilot Chat?, #file:, Although I notice you can just type # and the file name the hit enter; it will fill in '#file:filename'
-Best way to reference the entire project/solution in GH Copilot Chat?, @workspace, also #codebase appears to do the same thing though they are defined differently; @ = chat participant or agent/# = chat variable
+Best way to reference the entire project/solution in GH Copilot Chat?, @workspace, also #codebase appears to do the same thing though they are defined differently; @ = chat participant or agent / # = chat variable
 What command will tell GH Copilot to generate comments?, /doc, Appears to only work with Inline chat (Ctrl-I); not the full chat (Ctrl-Alt-I)
 Fancy kind of authentication available in Business/Enterprise?, SAML SSO, (Security Assertion Markup Language) Single Sign-On (SAML SSO) authentication
 Something you can track with Business/Enterprise not available with Free/Pro?, Usage Metrics, Usage Metrics about how your organization is using GitHub Copilot; Suggestions accepted; chat usage and more!
 Command to ask Copilot to improve efficiency of code?, /optimize, May have been removed; but it is mentioned in the course
 Command to use a Copilot 'agent' to create a new project with specific requirements?, @workspace /new, You can also use the “@workspace /new” smart action which allows you to generate a completely new project from scratch based on your requirements.
-Command to ask questions about Visual Studio Code IDE?, @vscode, You can also ask questions about Visual Studio Code IDE itself using the “@vscode” command.
-Two other areas on GitHub that GHCP can help with? (buttons beside 'pull requests' on github), Issues/Actions, Issue: Analysis; Solution Brainstorming; Reproduction steps / Actions: Error Analysis; Solution Suggestions; Best Practices; Context Awareness
+Command to ask questions about the Visual Studio Code IDE?, @vscode, You can also ask questions about Visual Studio Code IDE itself using the “@vscode” command.
+Two other areas on GitHub that GHCP can help with? (buttons beside 'pull requests' on github) ?/?, Issues/Actions, Issue: Analysis; Solution Brainstorming; Reproduction steps / Actions: Error Analysis; Solution Suggestions; Best Practices; Context Awareness
+Two things they say GHCP 'Code Review' can look at ?/?, Security/Performance, Identify potential security vulnerabilities or best practice violations; Suggest improvements for code efficiency and performance
+What does the 'Code Review' feature require that you have available? (Acronym), PRU, it uses 'Premium Request Units' as part of Copilot's advanced capabilities.
+
 
 
 
