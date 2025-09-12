@@ -51,6 +51,7 @@ GHCP for CLI: how to ask what a specific command does?, explain, [gh copilot exp
 GHCP for CLI: how to ask ask for a command based on what you want to accomplish?, suggest, [gh copilot suggest "what you want to do"] eg: gh copilot suggest "Undo the last commit"
 What you need to configure to let GHCP CLI execute commands on its own?, alias, They provide instructions for setting up the 'ghcs' alias to do this.
 GitHub Copilot CLI doesn't retain your prompts; but it keeps your ?, Usage Analytics, Enter the command 'gh copilot config'; select "Optional Usage Analytics"; then select "No" if you want to opt out.
+Which slash command in GitHub Copilot Chat is used to generate unit tests for selected code?, /tests, /tests;   tests with an S.  not /test
 
 
 
