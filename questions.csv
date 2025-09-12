@@ -47,6 +47,8 @@ Two other areas on GitHub that GHCP can help with? (buttons beside 'pull request
 Two things they say GHCP 'Code Review' can look at ?/?, Security/Performance, Identify potential security vulnerabilities or best practice violations; Suggest improvements for code efficiency and performance
 What does the 'Code Review' feature require that you have available? (Acronym), PRU, it uses 'Premium Request Units' as part of Copilot's advanced capabilities.
 What can copilot examine to help find root cause of 'action errors'?, Log Files, And then it can suggest potential fixes based on the error context.
+GHCP for CLI: how to ask what a specific command does?, explain, [gh copilot explain "command"] eg: gh copilot explain "traceroute" will give you a summary of what the command does
+GHCP for CLI: how to ask ask for a command based on what you want to accomplish?, suggest, [gh copilot suggest "what you want to do"] eg: gh copilot suggest "Undo the last commit"
 
 
 
