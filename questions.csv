@@ -46,7 +46,7 @@ Command to ask questions about the Visual Studio Code IDE?, @vscode, You can als
 Two other areas on GitHub that GHCP can help with? (buttons beside 'pull requests' on github) ?/?, Issues/Actions, Issue: Analysis; Solution Brainstorming; Reproduction steps / Actions: Error Analysis; Solution Suggestions; Best Practices; Context Awareness
 Two things they say GHCP 'Code Review' can look at ?/?, Security/Performance, Identify potential security vulnerabilities or best practice violations; Suggest improvements for code efficiency and performance
 What does the 'Code Review' feature require that you have available? (Acronym), PRU, it uses 'Premium Request Units' as part of Copilot's advanced capabilities.
-
+What can copilot examine to help find root cause of 'action errors'?, Log Files, And then it can suggest potential fixes based on the error context.
 
 
 
