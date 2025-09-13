@@ -58,7 +58,8 @@ Githubs assurance that your data is handled securely and responsibly:, Data Prot
 provides detailed info about how GHCP works; including security; privacy; compliance; and IP safeguards, Trust Center, This resource helps organizations feel confident using GitHub Copilot while adhering to best practices and legal requirements. (IP = Intelectual Property)
 Where to find 'Matching Public Code' inside your Org/Enterprise settings? Copilot/?, Suggestions, Your Enterprises or Your Organizations->Settings->Copilot->Suggestions; Set 'Matching Public Code' to 'Block'
 You man manage Content Exclusions in the settings pages for a ? or ? (?/?), repo/org, From 'Settings' on the main page of a repository; or go to 'Your Organizations' (under Profile Photo) and click 'Settings' beside an Organization.
-
+ in Visual Studio Code and Visual Studio; content exclusions are not applied when you use what 'chat participant'?, @github, There may also be other IDE specific limitations; @github does not appear to work anymore but it is mentioned in this context in the course.
+ 
 
 
 
