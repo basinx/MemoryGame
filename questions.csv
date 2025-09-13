@@ -60,6 +60,7 @@ Where to find 'Matching Public Code' inside your Org/Enterprise settings? Copilo
 You man manage Content Exclusions in the settings pages for a ? or ? (?/?), repo/org, From 'Settings' on the main page of a repository; or go to 'Your Organizations' (under Profile Photo) and click 'Settings' beside an Organization.
 in Visual Studio Code and Visual Studio; content exclusions are not applied when you use what 'chat participant'?, @github, There may also be other IDE specific limitations; @github does not appear to work anymore but it is mentioned in this context in the course.
 GHCP may bypass Content Exclusions if it gets this information from the IDE?, Semantic, If the IDE provides the information in a nonexcluded file. This includes type information and hover-over definitions for symbols or function calls used in code.
+Content Exclusion settings can take up to ? minutes to apply in your IDE?, 30, 30 Minutes; To apply changes immediately: reload the content exclusion settings in your IDE.
 
 
 
