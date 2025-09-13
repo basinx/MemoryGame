@@ -21,7 +21,7 @@ Two things they say GH CP Business has 'filtering' for ?/?, vulnerabilities/publ
 A kind of legal protection that you get with GH Copilot Business/Enterprise?, IP indemnity, Intellectual Property (IP) indemnity; Also enterprise-grade security; safety and privacy.
 What does Enterprise integrate with that Business does not? Github ? ?, Enterprise Cloud, Also includes personalized code suggestions based on internal/private code
 GHCP Enterprise supports AI-powered tags and summaries for?, Pull Requests, AI-powered tags and summaries for Pull Requests
-GHCP Enterprise can give code suggestions based on ?/? code?, Internal/Private, Personalized code suggestions based on your internal and private code
+GHCP Enterprise can give code suggestions based on ?/? code?, Internal/Private, Personalized code suggestions based on your internal and private code (not available in Business)
 What does (only) GH Copilot Enterprise allow you to customize or fine-tune?, Models, Fine-tune or customize Copilot Models on your own codebase
 GHCP Enterprise can do this; and generate this; across your code base ?/?, search/documentation, GH Copilot Enterprise has: AI-powered search and documentation generation across your codebase
 GHCP Enterprise provides these throughout the Github platform?, Action Buttons, it also provides integration into GitHub as a chat interface; so developers can converse about their codebase.
@@ -52,6 +52,11 @@ GHCP for CLI: how to ask ask for a command based on what you want to accomplish?
 What you need to configure to let GHCP CLI execute commands on its own?, alias, They provide instructions for setting up the 'ghcs' alias to do this.
 GitHub Copilot CLI doesn't retain your prompts; but it keeps your ?, Usage Analytics, Enter the command 'gh copilot config'; select "Optional Usage Analytics"; then select "No" if you want to opt out.
 Which slash command in GitHub Copilot Chat is used to generate unit tests for selected code?, /tests, /tests;   tests with an S.  not /test
+With Business/Enterprise your data is excluded from what 'by default'?, Training, Your data is excluded from training the underlying models by default. Excluding content from Copilot analysis also available with these plans.
+What settings must be blocked for Github to assume IP Indemnity?, Matching public code, The account must be set to block code suggestions that match public code.
+Githubs assurance that your data is handled securely and responsibly:, Data Privacy Agreement, GitHub offers a DPA that outlines the measures taken to protect your data and ensure compliance with data privacy regulations.
+
+
 
 
 
