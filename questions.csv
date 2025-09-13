@@ -62,7 +62,7 @@ in Visual Studio Code and Visual Studio; content exclusions are not applied when
 GHCP may bypass Content Exclusions if it gets this information from the IDE?, Semantic, If the IDE provides the information in a nonexcluded file. This includes type information and hover-over definitions for symbols or function calls used in code.
 Content Exclusion settings can take up to ? minutes to apply in your IDE?, 30, 30 Minutes; To apply changes immediately: reload the content exclusion settings in your IDE.
 If Content Exclusions aren't working as excpected; double check the ? of the exclusions?, scope, Content exclusion settings apply only to members of the organization in which you configured the exclusion. Ensure that all relevant team members have the appropriate settings applied.
-
+What will you see on the Copilot icon if a content exclusion applies to the file?, diagonal line, Hover over the icon to see whether an organization or the parent repository disabled GitHub Copilot for the file.
 
 
 
