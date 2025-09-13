@@ -56,6 +56,7 @@ With Business/Enterprise your data is excluded from what 'by default'?, Training
 What settings must be blocked for Github to assume IP Indemnity?, Matching public code, The account must be set to block code suggestions that match public code.
 Githubs assurance that your data is handled securely and responsibly:, Data Protection Agreement, GitHub offers a DPA that outlines the measures taken to protect your data and ensure compliance with data privacy regulations.
 provides detailed info about how GHCP works; including security; privacy; compliance; and IP safeguards, Trust Center, This resource helps organizations feel confident using GitHub Copilot while adhering to best practices and legal requirements. (IP = Intelectual Property)
+Where to find 'Matching Public Code' inside your Org/Enterprise settings? Copilot/?, Suggestions, Your Enterprises or Your Organizations->Settings->Copilot->Suggestions; Set 'Matching Public Code' to 'Block'
 
 
 
