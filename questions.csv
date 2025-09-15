@@ -66,14 +66,3 @@ What will you see on the Copilot icon if a content exclusion applies to the file
 Principles of Prompt Engineering? ?/?/Short/Surround, Single/Specific, Always focus your prompt on a single; well-defined task or question / Ensure that your instructions are explicit and detailed.
 Principles of Prompt Engineering? Single/Specific/?/?, Short/Surround, Keep prompts concice and to the point / Utilize descriptive filenames; keep related files open; use comments to provide context
 To enhance GHCP's understanding of context; engineers often provide, examples, 'one-shot' or 'few-shot' learning (one example or a few) / zero-shot means no examples; just the request
-
-
-
-
-
-
-
-
-
-
-
