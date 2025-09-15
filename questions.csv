@@ -53,11 +53,11 @@ What you need to configure to let GHCP CLI execute commands on its own?, alias, 
 GitHub Copilot CLI doesn't retain your prompts; but it keeps your ?, Usage Analytics, Enter the command 'gh copilot config'; select "Optional Usage Analytics"; then select "No" if you want to opt out.
 Which slash command in GitHub Copilot Chat is used to generate unit tests for selected code?, /tests, /tests;   tests with an S.  not /test
 With Business/Enterprise your data is excluded from what 'by default'?, Training, Your data is excluded from training the underlying models by default. Excluding content from Copilot analysis/suggestions also available with these plans.
-What settings must be blocked for Github to assume IP Indemnity?, public code, The account must be set to block code suggestions that match public code.
+What setting must be blocked for Github to assume IP Indemnity?, public code, The account must be set to block code suggestions that match public code.
 Githubs assurance that your data is handled securely and responsibly:, Data Protection Agreement, GitHub offers a DPA that outlines the measures taken to protect your data and ensure compliance with data privacy regulations.
 provides detailed info about how GHCP works; including security; privacy; compliance; and IP safeguards, Trust Center, This resource helps organizations feel confident using GitHub Copilot while adhering to best practices and legal requirements. (IP = Intelectual Property)
 Where to find 'Matching Public Code' inside your Org/Enterprise settings? Copilot/?, Suggestions, Your Enterprises or Your Organizations->Settings->Copilot->Suggestions; Set 'Matching Public Code' to 'Block'
-You man manage Content Exclusions in the settings pages for a ? or ? (?/?) (shortened form), repo/org, From 'Settings' on the main page of a repository; or go to 'Your Organizations' (under Profile Photo) and click 'Settings' beside an Organization.
+You can manage Content Exclusions in the settings pages for a ? or ? (?/?) (shortened form), repo/org, From 'Settings' on the main page of a repository; or go to 'Your Organizations' (under Profile Photo) and click 'Settings' beside an Organization.
 in Visual Studio Code and Visual Studio; content exclusions are not applied when you use what 'chat participant'?, @github, There may also be other IDE specific limitations; @github does not appear to work anymore but it is mentioned in this context in the course.
 GHCP may bypass Content Exclusions if it gets this information from the IDE?, Semantic, If the IDE provides Semantic information in a nonexcluded file. This includes type information and hover-over definitions for symbols or function calls used in code.
 Content Exclusion settings can take up to ? minutes to apply in your IDE?, 30, 30 Minutes; To apply changes immediately: reload the content exclusion settings in your IDE.
@@ -66,3 +66,4 @@ What will you see on the Copilot icon if a content exclusion applies to the file
 Principles of Prompt Engineering? ?/?/Short/Surround, Single/Specific, Always focus your prompt on a single; well-defined task or question / Ensure that your instructions are explicit and detailed.
 Principles of Prompt Engineering? Single/Specific/?/?, Short/Surround, Keep prompts concice and to the point / Utilize descriptive filenames; keep related files open; use comments to provide context
 To enhance GHCP's understanding of context; engineers often provide, examples, 'one-shot' or 'few-shot' learning (one example or a few) / zero-shot means no examples; just the request
+Something you can do inside Pull Requests ONLY with GHCP Enterprise?, Colab Chat, Colaborative Chat; I'm unclear what this means exactly but that's what it says in the course (Module 10 - Page 2)
