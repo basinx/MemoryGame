@@ -1,0 +1,4 @@
+# Question, Answer, Extra Info
+# do not include extraneous commas in the fields - use semicolons if needed
+When did Linus Torvalds start work on Linux?, 1991, Mostly; Linux uses the same principles and basic ideas of Unix; but Linux itself doesn’t contain Unix code - it is an independent project.
+Who launched the Debial GNU/Linux Project/When?, Ian Murdock/1993, The Debian GNU/Linux distribution is the biggest distribution of the Debian distribution family.
