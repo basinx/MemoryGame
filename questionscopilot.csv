@@ -1,0 +1,69 @@
+# Question, Answer, Extra Info
+# do not add any extra commas in the question or answer fields; substitute with semicolons if needed
+Mnemonic for 6 principals of responsible AI?, farepita, FAirness; REliability (and safety); Privacy (and security); Inclusiveness; Transparency; Accountability
+MS DATA: % of new code now written by AI?, 46, 46% of new code now written by AI; From Module 2 - Page 2
+MS Data: % faster overall developer productivity?, 55, 55% faster overall developer productivity; From Module 2 - Page 2
+MS Data: % of developers feeling more focused on satisfying work?, 74, 74% of developers feeling more focused on satisfying work; From Module 2 - Page 2
+What OpenAI system is Github Copilot powered by?, Codex,  OpenAI Codex has broad knowledge of how people use code and is more capable than GPT-3 in code generation.
+Non VS IDE's that support Copilot: Vim/Neovim and ?, JetBrains, JetBrains IDEs (such as IntelliJ IDEA; PyCharm; WebStorm; and others) support GitHub Copilot through a dedicated plugin.
+Non VS IDE's that support Copilot: JetBrains and ?, Vim/Neovim, Vim and Neovim support GitHub Copilot through a dedicated plugin.
+How does MS define Github Copilot?, AI pair programmer, GitHub Copilot is an AI pair programmer that helps you write code faster and with less work.
+3 listed 'Copilot Features' besides code completion (from Module 1 - Page 2) ????/????/???, chat/pull/cli, Chat (natively integrated in VS Code and VS); AI Powered tags in pull-request descriptions; GH Copilot for CLI
+Github Copilot Free completions/chat requests per month?, 2000/50, 2000 completions; 50 chat requests per month; access to both GPT-4o and Claude 3.5 Sonnet models
+First thing to click to get started with GH Copilot free in VS Code?, Copilot Icon, Click the GitHub Copilot icon and then click 'Sign in to Use GitHub Copilot for Free'; This also appears on startup screen after a fresh VS Code install.
+How many code completions and chat requests in GH Copilot Pro?, Unlimited, Unlimited code completions and chat requests for everything beyond Free
+GH Copilot Pro cost?  $?, 10, $10 USD per month
+A specific type of code generation available in Pro but not Free?, test, Unit test generation is available in Copilot Pro but not in Copilot Free
+What do you get more of with GH Copilot Pro+?, Premium Requests, Premium requests and also Priority infrastructure access
+GH Copilot Business has what controls centralized ?/?, management/policy, Centralized management for access & policy; additional security and compliance features.
+Another place you can use Chat listed for GH Copilot Business?, Mobile, Chat is obviously available for all versions but they say also Mobile for Business/Enterprise
+Two things they say GH CP Business has 'filtering' for ?/?, vulnerabilities/public code, Security Vulnerabilities and Public Code filtering; Code referencing for cases where public code is used or referenced. (Any plan; even free; can filter public code though)
+A kind of legal protection that you get with GH Copilot Business/Enterprise?, IP indemnity, Intellectual Property (IP) indemnity; Also enterprise-grade security; safety and privacy.
+What does Enterprise integrate with that Business does not? Github ? ?, Enterprise Cloud, Also includes personalized code suggestions based on internal/private code
+GHCP Enterprise supports AI-powered tags and summaries for?, Pull Requests, AI-powered tags and summaries for Pull Requests
+GHCP Enterprise can give code suggestions based on ?/? code?, Internal/Private, Personalized code suggestions based on your internal and private code (not available in Business)
+What does (only) GH Copilot Enterprise allow you to customize or fine-tune?, Models, Fine-tune or customize Copilot Models on your own codebase
+GHCP Enterprise can do this; and generate this; across your code base ?/?, search/documentation, GH Copilot Enterprise has: AI-powered search and documentation generation across your codebase
+GHCP Enterprise provides these throughout the Github platform?, Action Buttons, it also provides integration into GitHub as a chat interface; so developers can converse about their codebase.
+What key and the right arrow will accept part of an inline suggestion?, Ctrl, Ctrl + Right Arrow; it goes about a word at a time
+What key to accept the full inline suggestion?, Tab, Tab key; The course says the right arrow key will do it but it does not work for me
+What key to see the next inline suggestion? Alt+?, ], Alt + ] to see the next suggestion; Alt + [ to see the previous suggestion (note: course indicates it is ctr+enter at one point; but no??)
+How to get the Command Pallete in VS Code ?-?-?, Ctrl-Shift-P, Ctrl + Shift + P (or F1) to open the Command Palette; Type Copilot to see all Copilot commands
+How to open Inline Chat ?-?, Ctrl-I, Ctrl + I to open Inline Chat
+How to open/close GH Copilot Chat in VS Code ?-?-?, Ctrl-Alt-I, Ctrl + Alt + I to open/close GitHub Copilot Chat
+(Strongly) Supported languages besides J/JS/C+#/Python: ?/?/?, TypeScript/Ruby/Go, Among languages it claims 'Strong Capabilities' in. [Python; Java(Script); TypeScript; Ruby; Go; C#; C++]
+Mneumonic for 5 ways GHCP can adapt suggestions to better match your style?, MeNaFoCoDe, MEthod Implementation; NAming Conventions; FOrmatting; COmment Style; DEsign Patterns
+Two key processes GHCP uses to provide good suggestions ?/?, NLP/Context, Natural Language Processing (NLP) and Context Analysis (Analyzing surrounding code & comments)
+Where do they SAY the Chat Icon for GH Copilot Chat is?, Left Navbar, But as far as I can tell you have to click the copilot icon on top right and Open Chat (or Ctrl-Alt-I)
+What to type to reference a specific file in GH Copilot Chat?, #file:, Although I notice you can just type # and the file name the hit enter; it will fill in '#file:filename'
+Best way to reference the entire project/solution in GH Copilot Chat?, @workspace, also #codebase appears to do the same thing though they are defined differently; @ = chat participant or agent / # = chat variable
+What command will tell GH Copilot to generate comments?, /doc, Appears to only work with Inline chat (Ctrl-I); not the full chat (Ctrl-Alt-I)
+Fancy kind of authentication available in Business/Enterprise?, SAML SSO, (Security Assertion Markup Language) Single Sign-On (SAML SSO) authentication
+Something you can track with Business/Enterprise not available with Free/Pro?, Usage Metrics, Usage Metrics about how your organization is using GitHub Copilot; Suggestions accepted; chat usage and more!
+Command to ask Copilot to improve efficiency of code?, /optimize, May have been removed; but it is mentioned in the course
+Command to use a Copilot 'agent' to create a new project with specific requirements?, @workspace /new, You can also use the “@workspace /new” smart action which allows you to generate a completely new project from scratch based on your requirements.
+Command to ask questions about the Visual Studio Code IDE?, @vscode, You can also ask questions about Visual Studio Code IDE itself using the “@vscode” command.
+Two other areas on GitHub that GHCP can help with? (buttons beside 'pull requests' on github) ?/?, Issues/Actions, Issue: Analysis; Solution Brainstorming; Reproduction steps / Actions: Error Analysis; Solution Suggestions; Best Practices; Context Awareness
+Two specific concerns they say GHCP 'Code Review' can look at ?/?, Security/Performance, Identify potential security vulnerabilities or best practice violations; Suggest improvements for code efficiency and performance;   ** can probably suggest many other things too **
+What does the 'Code Review' feature require that you have available? (Acronym), PRU, it uses 'Premium Request Units' as part of Copilot's advanced capabilities.
+What can copilot examine to help find root cause of 'action errors'?, Log Files, And then it can suggest potential fixes based on the error context.
+GHCP for CLI: how to ask what a specific command does?, explain, [gh copilot explain "command"] eg: gh copilot explain "traceroute" will give you a summary of what the command does
+GHCP for CLI: how to ask ask for a command based on what you want to accomplish?, suggest, [gh copilot suggest "command do to a thing"] eg: gh copilot suggest "Undo the last commit"
+What you need to configure to let GHCP CLI execute commands on its own?, alias, They provide instructions for setting up the 'ghcs' alias to do this.
+GitHub Copilot CLI doesn't retain your prompts; but it keeps your ?, Usage Analytics, Enter the command 'gh copilot config'; select "Optional Usage Analytics"; then select "No" if you want to opt out.
+Which slash command in GitHub Copilot Chat is used to generate unit tests for selected code?, /tests, /tests;   tests with an S.  not /test
+With Business/Enterprise your data is excluded from what 'by default'?, Training, Your data is excluded from training the underlying models by default. Excluding content from Copilot analysis/suggestions also available with these plans.
+What setting must be blocked for Github to assume IP Indemnity?, public code, The account must be set to block code suggestions that match public code.
+Githubs assurance that your data is handled securely and responsibly:, Data Protection Agreement, GitHub offers a DPA that outlines the measures taken to protect your data and ensure compliance with data privacy regulations.
+provides detailed info about how GHCP works; including security; privacy; compliance; and IP safeguards, Trust Center, This resource helps organizations feel confident using GitHub Copilot while adhering to best practices and legal requirements. (IP = Intelectual Property)
+Where to find 'Matching Public Code' inside your Org/Enterprise settings? Copilot/?, Suggestions, Your Enterprises or Your Organizations->Settings->Copilot->Suggestions; Set 'Matching Public Code' to 'Block'
+You can manage Content Exclusions in the settings pages for a ? or ? (?/?) (shortened form), repo/org, From 'Settings' on the main page of a repository; or go to 'Your Organizations' (under Profile Photo) and click 'Settings' beside an Organization.
+in Visual Studio Code and Visual Studio; content exclusions are not applied when you use what 'chat participant'?, @github, There may also be other IDE specific limitations; @github does not appear to work anymore but it is mentioned in this context in the course.
+GHCP may bypass Content Exclusions if it gets this information from the IDE?, Semantic, If the IDE provides Semantic information in a nonexcluded file. This includes type information and hover-over definitions for symbols or function calls used in code.
+Content Exclusion settings can take up to ? minutes to apply in your IDE?, 30, 30 Minutes; To apply changes immediately: reload the content exclusion settings in your IDE.
+If Content Exclusions aren't working as expected; double check the ? of the exclusions?, scope, Content exclusion settings apply only to members of the organization in which you configured the exclusion. Ensure that all relevant team members have the appropriate settings applied.
+What will you see on the Copilot icon if a content exclusion applies to the file?, diagonal line, Hover over the icon to see whether an organization or the parent repository disabled GitHub Copilot for the file.
+Principles of Prompt Engineering? ?/?/Short/Surround, Single/Specific, Always focus your prompt on a single; well-defined task or question / Ensure that your instructions are explicit and detailed.
+Principles of Prompt Engineering? Single/Specific/?/?, Short/Surround, Keep prompts concice and to the point / Utilize descriptive filenames; keep related files open; use comments to provide context
+To enhance GHCP's understanding of context; engineers often provide, examples, 'one-shot' or 'few-shot' learning (one example or a few) / zero-shot means no examples; just the request
+Something you can do inside Pull Requests ONLY with GHCP Enterprise?, Colab Chat, Colaborative Chat; I'm unclear what this means exactly but that's what it says in the course (Module 10 - Page 2)
