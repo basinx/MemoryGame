@@ -1,4 +1,7 @@
 # Question, Answer, Extra Info
 # do not include extraneous commas in the fields - use semicolons if needed
 When did Linus Torvalds start work on Linux?, 1991, Mostly; Linux uses the same principles and basic ideas of Unix; but Linux itself doesn’t contain Unix code - it is an independent project.
-Who launched the Debial GNU/Linux Project/When?, Ian Murdock/1993, The Debian GNU/Linux distribution is the biggest distribution of the Debian distribution family.
+Who launched the Debian GNU/Linux Project/When?, Ian Murdock/1993, The Debian GNU/Linux distribution is the biggest distribution of the Debian distribution family.
+Ubuntu distributions release short/long?, 6mo/2yr, The distribution has a scheduled release every six months with a long-term support release every 2 years.
+GNU/Linux promotes Richard Stallman’s vision of, freedom, freedoms of the user to run; study; distribute and improve the software. This is why it does not provide any proprietary software by default.
+Ubuntu is a ? based distribution?, Debian, Ubuntu was created by Mark Shuttleworth and his team in 2004; with the mission to bring an easy to use Linux desktop environment.
