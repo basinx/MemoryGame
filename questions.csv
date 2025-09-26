@@ -9,3 +9,4 @@ The Red Hat Linux distribution was started in ? and rebranded to RHEL in ? (?/?)
 What distro is like a free of charge version of RHEL with no commercial support?, CentOS, Both RHEL and CentOS are optimized for use in server environments.
 A Red Hat distribution aimed at desktop computers and year founded ?/?, Fedora/2003, Fedora is very progressive and adopts new technologies very quickly and is sometimes considered a test-bed for new technologies which later might be included in RHEL.
 SUSE Linux when it was released?, 1994, SUSE releases SUSE Linux Enterprise Server; which is their commercial edition. This is less frequently released and is suitable for; enterprise and production deployment.
+What is the full name of the fancy config tool in SUSE?, Yet Another Setup Tool, Yast; is a very powerful tool that can be used to configure almost every aspect of the system.
