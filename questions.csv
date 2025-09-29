@@ -20,5 +20,5 @@ Three commands associated with Debian package management ?/?/?, dpkg/apt/apt-get
 Acronym for the 4 freedoms by Richard Stallman, UCCI, Use; Change; Copy; Improve > Right to use as you see fit (1); learn/change the software (2); distribute original (3) or improved/updated versions (4).
 When did Richard Stallman found the GNU project?, 1985, almost 10 years before the emergence of Linux.
 FSF meaning, Free Software Foundation, has formulated the GNU General Public License (GPL) as one of the most important licenses for free software
-FSF License for free software with modifications that do not have to be released? (acronym), LGPL, Lesser General Public License
+FSF License for free software with modifications that do not have to be released? (acronym), LGPL, Lesser General Public License; often needed when using Libraries in your software.
 FSF License which covers selling access to hosted software, AGPL, Affero General Public License
