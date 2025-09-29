@@ -17,4 +17,5 @@ Raspbian is based on, Debian, Raspbian is a free operating system based on Debia
 What platform-unique distro does Amazon use besides Amazon Linux?, Kali Linux, while Google offers the use of FreeBSD and Windows Servers; Linux Essentials (Version 1.6) | 1.1 Linux Evolution and Popular Operating Systems Version
 Three commands associated with Red Hat package management ?/?/?, rpm/yum/dnf, rpm is the low-level tool; yum and dnf are higher-level tools that automatically handle dependencies.
 Three commands associated with Debian package management ?/?/?, dpkg/apt/apt-get, dpkg is the low-level tool; apt and apt-get are higher-level tools that automatically handle dependencies.
-
+Acronym for the 4 freedoms by Richard Stallman, UCCI, Use; Change; Copy; Improve > Right to use as you see fit (1); learn/change the software (2); distribute original (3) or improved/updated versions (4).
+When did Richard Stallman found the GNU project?, 1985, almost 10 years before the emergence of Linux.
