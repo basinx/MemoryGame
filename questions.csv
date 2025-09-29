@@ -26,4 +26,5 @@ Another way to avoid license conflicts is, dual licensing, This means that the s
 Eric S. Raymond and Bruce Perens founded what/when? (acronym), OSI/1998, Open Source Initiative; to promote and protect open source software and communities. (no relation to OSI model)
 Three main BSD OS's that they mention?, Free/Open/Net, FreeBSD; OpenBSD; NetBSD Berkeley Software Distribution (BSD) is a variant of the Unix operating system originally developed at the University of Berkeley
 What kind of license gives editors the right to decide how to license their version?, permissive, The licenses underlying berkeley Software Distribution (BSD) Operating Systems is an example
+The Simplified BSD License or FreeBSD License contains only ? clauses?, 2, Basically just saying it must contain copyright notice and disclaimer and the same list of 2 conditions.
 
