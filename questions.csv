@@ -20,4 +20,24 @@ Three commands associated with Debian package management ?/?/?, dpkg/apt/apt-get
 What is the document that describes how OpenPGP works?, RFC 4880, OpenPGP = Open Pretty Good Privacy; RFC = Request For Comments; GNU Privacy Guard (GPG) is a free implementation of the OpenPGP standard.
 Cloud based password manager they mention?, Bitwarden, Bitwarden is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.
 the de-facto standard for block encryption for Linux systems, dm-crypt, It can be used with LUKS (Linux Unified Key Setup) extension; a specification that implements a platform-independent standard for use with various tools.
-
+Acronym for the 4 freedoms by Richard Stallman, UCCI, Use; Change; Copy; Improve > Right to use as you see fit (1); learn/change the software (2); distribute original (3) or improved/updated versions (4).
+When did Richard Stallman found the GNU project?, 1985, almost 10 years before the emergence of Linux.
+FSF meaning, Free Software Foundation, has formulated the GNU General Public License (GPL) as one of the most important licenses for free software
+FSF License for free software with modifications that do not have to be released? (acronym), LGPL, Lesser General Public License; often needed when using Libraries in your software.
+FSF License which covers selling access to hosted software, AGPL, Affero General Public License
+Another way to avoid license conflicts is, dual licensing, This means that the software is available under two different licenses; and the user can choose which one to comply with (may pay for more rights).
+Eric S. Raymond and Bruce Perens founded what/when? (acronym), OSI/1998, Open Source Initiative; to promote and protect open source software and communities. (no relation to OSI model)
+Three main BSD OS's that they mention?, Free/Open/Net, FreeBSD; OpenBSD; NetBSD Berkeley Software Distribution (BSD) is a variant of the Unix operating system originally developed at the University of Berkeley
+What kind of license gives editors the right to decide how to license their version?, permissive, The licenses underlying berkeley Software Distribution (BSD) Operating Systems is an example
+The Simplified BSD License or FreeBSD License contains only ? clauses?, 2, Basically just saying it must contain copyright notice and disclaimer and the same list of 2 conditions.
+Which Creative Commons license is similar to copyleft?, BY-SA, ShareAlike; You can remix; tweak; and build upon the work even for commercial purposes; as long as you credit the author and license your new creations under the identical terms.
+Creative Commons license where the work may only be passed on unmodified, BY-ND, NoDerivs; You can reuse the work for any purpose; including commercially; but it cannot be shared with others in adapted form; and credit must be provided to the author.
+The most restrictive Creative Commons license, BY-NC-ND, NonCommercial-NoDerivs; You can download the works and share them with others as long as you credit the author; but you can’t change them in any way or use them commercially.
+A common approach; especially for large projects; to get money in the initial phases?, crowdfunding, Crowdfunding is a way of raising money from a large number of people; typically via the Internet.
+two things that free software projects and offer to make money ?/?, support/customization, Many free software projects offer paid support and/or customization services; to generate revenue.
+A type of monetization that may be available if a software becomes well known?, peripheral, Peripheral products; such as books/merchandise/certifications; may be sold to generate revenue.
+The two major Desktop Environments ?/?, GNOME/KDE, GNOME is the default desktop environment for many major Linux distributions; including Fedora and Ubuntu (since 2017). KDE Plasma is another popular desktop environment; known for its configurability and visual appeal.
+How to switch terminal in Linux? ?-?-?#, ctrl-alt-f, ctrl-alt-f1 through f7
+What is LibreOffice's presentation tool called?, Impress, also: Writer (word processing); Calc (spreadsheets); Impress (presentations); Draw (vector graphics); Base (databases); and Math (formula editing).
+3 main open source Hypervisors for Linux?, Xen/KVM/VirtualBox, Xen and KVM are type 1 hypervisors (though KVM is a bit of a hybrid since it requires Linux); while VirtualBox is a type 2 hypervisor.
+tool used to manage on-prem Linux based cloud infrastructure?, OpenStack, Allows for a complete IaaS cloud environment on premise by leveraging the power of computer cluster in your own datacenter.
