@@ -19,5 +19,5 @@ Three commands associated with Red Hat package management ?/?/?, rpm/yum/dnf, rp
 Three commands associated with Debian package management ?/?/?, dpkg/apt/apt-get, dpkg is the low-level tool; apt and apt-get are higher-level tools that automatically handle dependencies.
 What is the document that describes how OpenPGP works?, RFC 4880, OpenPGP = Open Pretty Good Privacy; RFC = Request For Comments; GNU Privacy Guard (GPG) is a free implementation of the OpenPGP standard.
 Cloud based password manager they mention?, Bitwarden, Bitwarden is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.
-
+the de-facto standard for block encryption for Linux systems, dm-crypt, It can be used with LUKS (Linux Unified Key Setup) extension; a specification that implements a platform-independent standard for use with various tools.
 
