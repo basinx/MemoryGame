@@ -41,3 +41,4 @@ How to switch terminal in Linux? ?-?-?#, ctrl-alt-f, ctrl-alt-f1 through f7
 What is LibreOffice's presentation tool called?, Impress, also: Writer (word processing); Calc (spreadsheets); Impress (presentations); Draw (vector graphics); Base (databases); and Math (formula editing).
 3 main open source Hypervisors for Linux?, Xen/KVM/VirtualBox, Xen and KVM are type 1 hypervisors (though KVM is a bit of a hybrid since it requires Linux); while VirtualBox is a type 2 hypervisor.
 tool used to manage on-prem Linux based cloud infrastructure?, OpenStack, Allows for a complete IaaS cloud environment on premise by leveraging the power of computer cluster in your own datacenter.
+Easiest quick way to do 'Stackable' style encryption on Linux?, EncFS, does not require root privileges to implement and it can work on an existing filesystem without modifications
