@@ -17,4 +17,7 @@ Raspbian is based on, Debian, Raspbian is a free operating system based on Debia
 What platform-unique distro does Amazon use besides Amazon Linux?, Kali Linux, while Google offers the use of FreeBSD and Windows Servers; Linux Essentials (Version 1.6) | 1.1 Linux Evolution and Popular Operating Systems Version
 Three commands associated with Red Hat package management ?/?/?, rpm/yum/dnf, rpm is the low-level tool; yum and dnf are higher-level tools that automatically handle dependencies.
 Three commands associated with Debian package management ?/?/?, dpkg/apt/apt-get, dpkg is the low-level tool; apt and apt-get are higher-level tools that automatically handle dependencies.
+What is the document that describes how OpenPGP works?, RFC 4880, OpenPGP = Open Pretty Good Privacy; RFC = Request For Comments; GNU Privacy Guard (GPG) is a free implementation of the OpenPGP standard.
+
+
 
