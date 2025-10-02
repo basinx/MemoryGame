@@ -44,3 +44,5 @@ tool used to manage on-prem Linux based cloud infrastructure?, OpenStack, Allows
 Easiest quick way to do 'Stackable' style encryption on Linux?, EncFS, does not require root privileges to implement and it can work on an existing filesystem without modifications (Claude said there was some security vulnerabilities though).
 Command to list loaded 'Modules' in linux?, lsmod, Modules are pieces of code that can be loaded and unloaded into the kernel upon demand; without the need to reboot the system.
 Great tool for cross-platform encryption?, VeraCrypt, VeraCrypt is a free and open-source disk encryption software; based on TrueCrypt; that is available for Windows; macOS; and Linux.
+A LaTeX presentation tool, Beamer, Beamer is a LaTeX class for creating presentations that are typically in PDF format.
+Symbols to see on terminal for normal user/root?, $/#, The dollar sign ($) indicates a normal user prompt; while the hash sign (#) indicates a root user prompt.
