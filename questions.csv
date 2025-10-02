@@ -47,3 +47,4 @@ Great tool for cross-platform encryption?, VeraCrypt, VeraCrypt is a free and op
 A LaTeX presentation tool, Beamer, Beamer is a LaTeX class for creating presentations that are typically in PDF format.
 Symbols to see on terminal for normal user/root?, $/#, The dollar sign ($) indicates a normal user prompt; while the hash sign (#) indicates a root user prompt.
 command that will show whether a specific command is internal or external?, type, e.g. type cd (cd is a shell builtin) / type cat (cat is /usr/bin/cat)
+Three symbols that still function inside double quotes?, $`\, Dollar Sign ($); Backquote (`); Backslash (\)
