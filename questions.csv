@@ -18,6 +18,6 @@ What platform-unique distro does Amazon use besides Amazon Linux?, Kali Linux, w
 Three commands associated with Red Hat package management ?/?/?, rpm/yum/dnf, rpm is the low-level tool; yum and dnf are higher-level tools that automatically handle dependencies.
 Three commands associated with Debian package management ?/?/?, dpkg/apt/apt-get, dpkg is the low-level tool; apt and apt-get are higher-level tools that automatically handle dependencies.
 What is the document that describes how OpenPGP works?, RFC 4880, OpenPGP = Open Pretty Good Privacy; RFC = Request For Comments; GNU Privacy Guard (GPG) is a free implementation of the OpenPGP standard.
-
+Cloud based password manager they mention?, Bitwarden, Bitwarden is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.
 
 
