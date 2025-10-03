@@ -243,7 +243,7 @@ class TypingGame:
                         self.sound_manager.play_correct()
                 else:
                     similarity = calculate_similarity(user_answer, correct_answer)
-                    if similarity >= 0.8:
+                    if similarity >= 0.9:
                         self.questions_correct += 0.5
                         if self.game_mode == "clear":
                             self.clear_mode_correct += 1
