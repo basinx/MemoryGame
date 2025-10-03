@@ -51,3 +51,4 @@ command that will show whether a specific command is internal or external?, type
 Three symbols that still function inside double quotes?, $`\, Dollar Sign ($); Backquote (`); Backslash (\)
 command to create a new file or update existing files timestamp?, touch, e.g. touch newfile.txt
 command to remove a variable after you create it?, unset, e.g. unset myvar
+command to display all environment variables or can run a command in modified environment?, end, e.g. env or env VAR=value command
