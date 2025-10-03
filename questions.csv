@@ -52,3 +52,5 @@ Three symbols that still function inside double quotes?, $`\, Dollar Sign ($); B
 command to create a new file or update existing files timestamp?, touch, e.g. touch newfile.txt
 command to remove a variable after you create it?, unset, e.g. unset myvar
 command to display all environment variables or can run a command in modified environment?, end, e.g. env or env VAR=value command
+command to append newdir to path?, PATH = $PATH:newdir, e.g. PATH=$PATH:/home/user/bin
+command: make file named myfile executable?, chmod +x myfile, e.g. chmod +x myscript.sh
