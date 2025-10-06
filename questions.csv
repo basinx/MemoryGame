@@ -55,4 +55,6 @@ command to display all environment variables or can run a command in modified en
 command to append newdir to path?, PATH = $PATH:newdir, e.g. PATH=$PATH:/home/user/bin
 command: make file named myfile executable?, chmod +x myfile, e.g. chmod +x myscript.sh
 command to see location of a command?, which, e.g. which ls (shows usr/bin/ls) -a switch will show all locations
+command to grab first column from a file using regular spaces, awk '{print $1}', e.g. awk '{print $1}' file.txt; -F switch can be used to specify a different delimiter
+command to get the number of lines in file.txt?, wc -l file.txt, e.g. wc -l file.txt; wc -w (words); wc -c (bytes)
 
