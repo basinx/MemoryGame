@@ -59,5 +59,7 @@ command to grab first column from a file using regular spaces, awk '{print $1}',
 command to get the number of lines in file.txt?, wc -l file.txt, e.g. wc -l file.txt; wc -w (words); wc -c (bytes)
 how do you see the manual page for /etc/passwd?, man 5 passwd, category 5 means 'config files & file formats' so 5 indicates you want the page for the config file not the passwd command (that would be 1 or default)
 command to see first 10 lines of a file?, head, e.g. head file.txt; -n switch to specify different number of lines
+symbols to use to search forward and backwards in less (together no space), /?, / to search forward; ? to search backwards
+
 
 
