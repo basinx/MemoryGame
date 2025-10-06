@@ -61,6 +61,7 @@ how do you see the manual page for /etc/passwd?, man 5 passwd, category 5 means 
 command to see first 10 lines of a file?, head, e.g. head file.txt; -n switch to specify different number of lines
 symbols to use to search forward and backwards in less (together no space), /?, / to search forward; ? to search backwards
 how to get help in the 'info' command: old/new, ?/h, ? for help; h for help in new version (they might ask old on the test??)
+where is most documentation located?, /usr/share/doc, /usr/share/doc is the standard location for documentation files on Linux systems.
 
 
 
