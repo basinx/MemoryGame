@@ -63,9 +63,13 @@ symbols to use to search forward and backwards in less (together no space), /?, 
 how to get help in the 'info' command: old/new, ?/h, ? for help; h for help in new version (they might ask old on the test??)
 where is most documentation located?, /usr/share/doc, /usr/share/doc is the standard location for documentation files on Linux systems.
 what program ensures the locate command can find files?, updatedb, updatedb is run periodically but you can run it manually if need be (usually requires root)
-
-
-
-
+What category is category for Manual pages about Games?, 6, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellanea; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about User Commands?, 1, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellanea; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about System Calls, 2, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellanea; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about C Library Functions?, 3, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellanea; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about Drivers & Device Files?, 4, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellanea; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about Miscellaneous?, 7, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellanea; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about System Admin Commands?, 8, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellanea; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about Kernel Functions?, 9, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellanea; 8 = System administration commands; 9 = Kernel routines (not standard)
 
 
