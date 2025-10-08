@@ -72,6 +72,7 @@ What category is category for Manual pages about Miscellaneous?, 7, 1 = User com
 What category is category for Manual pages about System Admin Commands?, 8, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellanea; 8 = System administration commands; 9 = Kernel routines (not standard)
 What category is category for Manual pages about Kernel Functions?, 9, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellanea; 8 = System administration commands; 9 = Kernel routines (not standard)
 How to specify sort by STATUS time in ls; using long format?, --time=ctime, full command may be; ls --sort=time --time=ctime
-how to toss error messages?, 2>/dev/null, e.g. ls /nonexistent 2>/dev/null
+how to toss error messages?, 2>/dev/null, e.g. ls /nonexistent 2>/dev/null; > or 1> tosses standard output; &> tosses both stdout and stderr
+
 
 
