@@ -75,5 +75,7 @@ How to specify sort by STATUS time in ls; using long format?, --time=ctime, full
 how to toss error messages?, 2>/dev/null, e.g. ls /nonexistent 2>/dev/null; > or 1> tosses standard output; &> tosses both stdout and stderr
 what command uses a pre-loaded database to find files?, locate, e.g. locate filename; -b = basename; -i = ignore case; -r = regex
 how to inverse a grep?, -v, e.g. grep -v 'pattern' file.txt
+how would you list the contents of dave's home directory (you are not dave)?, ls ~dave, You can use the tilde (~) followed by the username to refer to another user's home directory.
+
 
 
