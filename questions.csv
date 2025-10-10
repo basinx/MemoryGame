@@ -76,6 +76,12 @@ how to toss error messages?, 2>/dev/null, e.g. ls /nonexistent 2>/dev/null; > or
 what command uses a pre-loaded database to find files?, locate, e.g. locate filename; -b = basename; -i = ignore case; -r = regex
 how to inverse a grep?, -v, e.g. grep -v 'pattern' file.txt
 how would you list the contents of dave's home directory (you are not dave)?, ls ~dave, You can use the tilde (~) followed by the username to refer to another user's home directory.
+command to list directories but not thier contents with ls?, ls -d */, e.g. ls -d */ (lists only directories in the current directory)
+command to list directory contents in long format; sorted by modification time; in reverse?, ls -ltr, e.g. ls -ltr (t = sort by modification time; r = reverse order)
+command to ls long format; sorted by extension?, ls -lX, e.g. ls -lX (X = sort by extension)
+command to ls long format; sorted by file size; reversed?, ls -lSr, e.g. ls -lSr (S = sort by file size; r = reverse order)
+list folder contents in long form; human readable format, ls -lh, e.g. ls -lh (h = human readable sizes like 1K; 234M; 2G)
+
 
 
 
