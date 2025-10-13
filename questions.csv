@@ -81,7 +81,7 @@ command to list directory contents in long format; sorted by modification time; 
 command to ls long format; sorted by extension?, ls -lX, e.g. ls -lX (X = sort by extension)
 command to ls long format; sorted by file size; reversed?, ls -lSr, e.g. ls -lSr (S = sort by file size; r = reverse order)
 list folder contents in long form; human readable format, ls -lh, e.g. ls -lh (h = human readable sizes like 1K; 234M; 2G)
-
+How to quickly bookmark a folder path in Nautilus?, ctrl-d, You can then access it from the sidebar
 
 
 
