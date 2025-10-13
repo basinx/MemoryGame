@@ -83,6 +83,7 @@ command to ls long format; sorted by file size; reversed?, ls -lSr, e.g. ls -lSr
 list folder contents in long form; human readable format, ls -lh, e.g. ls -lh (h = human readable sizes like 1K; 234M; 2G)
 How to quickly bookmark a folder path in Nautilus?, ctrl-d, You can then access it from the sidebar
 extract tom.tar.gz to /tom folder, tar -xvzf tom.tar.gz -C /tom, e.g. tar -xvzf tom.tar.gz -C /tom (x = extract; v = verbose; z = gzip; f = file; C = change to directory)
+where to put .desktop files to add them to your applications screen: ?/applications, ~/.local/share, ~/.local/share/applications for user only; /usr/share/applications; for all users
 
 
 
