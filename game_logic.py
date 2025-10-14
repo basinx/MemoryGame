@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 from ui_helpers import draw_text, draw_wrapped_text, button, TextInputBox
 from data_loader import load_questions
-from utils import calculate_similarity, get_documents_folder
+from utils import calculate_similarity, get_documents_folder, case_sensitive_answer
 
 class TypingGame:
     def __init__(self, sound_manager, font, screen, default_game_length=180, default_question_time=15):
@@ -224,9 +224,14 @@ class TypingGame:
         if self.state == "playing" and event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER:
                 self.questions_answered += 1
-                # these had .lower() before but I want it case sensitive now
-                user_answer = self.user_input.strip()
                 correct_answer = self.current_question[1].strip()
+                case_sensitive = case_sensitive_answer(correct_answer)
+                if case_sensitive is not None:
+                    correct_answer = case_sensitive
+                    user_answer = self.user_input.strip()
+                else:
+                    correct_answer = correct_answer.lower()
+                    user_answer = self.user_input.strip().lower()
                 if user_answer == correct_answer:
                     self.questions_correct += 1
                     if self.game_mode == "clear":
