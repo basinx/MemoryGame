@@ -87,6 +87,7 @@ where to put .desktop files to add them to your applications screen: ?/applicati
 Where do you find common/essential commands in the linux filesystem?, usr/bin, /usr/bin = all user command binaries (both essential and non-essential now); /usr/sbin = admin/system utilities. (/bin & /sbin are just symlinks to these in modern OS's)
 Where do you find system configuration files?, /etc, Holds plain-text config files for the operating system and for many services and applications. whole system/usually owned by root (need sudo)
 Where do you usually find log files?, /var, Contains data that grows over time: logs; caches; spools; lock files; databases; etc. (/var/log; /var/cache; /var/spool.. etc)
+a quick way to return to your home folder?, cd, cd with no arguments will return you to your home folder.
 
 
 
