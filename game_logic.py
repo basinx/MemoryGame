@@ -153,7 +153,12 @@ class TypingGame:
             feedback_rect = feedback_surface.get_rect(center=(400, 350))
             self.screen.blit(feedback_surface, feedback_rect)
             if self.learning_mode:
-                answer_text = f"Answer: {self.last_question_answer}"
+                #check if the answer has >> at the start and strip those characters if it does and display it as case sensitive
+                case_sensitive = case_sensitive_answer(self.last_question_answer)
+                if case_sensitive is not None:
+                    answer_text = f"Answer: {case_sensitive}"
+                else:
+                    answer_text = f"Answer: {self.last_question_answer}"
                 answer_surface = self.font.render(answer_text, True, (255, 255, 0))
                 answer_rect = answer_surface.get_rect(center=(400, 390))
                 self.screen.blit(answer_surface, answer_rect)
