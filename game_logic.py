@@ -224,8 +224,9 @@ class TypingGame:
         if self.state == "playing" and event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER:
                 self.questions_answered += 1
-                user_answer = self.user_input.strip().lower()
-                correct_answer = self.current_question[1].strip().lower()
+                # these had .lower() before but I want it case sensitive now
+                user_answer = self.user_input.strip()
+                correct_answer = self.current_question[1].strip()
                 if user_answer == correct_answer:
                     self.questions_correct += 1
                     if self.game_mode == "clear":
