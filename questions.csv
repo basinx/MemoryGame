@@ -84,6 +84,9 @@ list folder contents in long form; human readable format, ls -lh, e.g. ls -lh (h
 How to quickly bookmark a folder path in Nautilus?, ctrl-d, You can then access it from the sidebar
 extract tom.tar.gz to /tom folder, tar -xvzf tom.tar.gz -C /tom, e.g. tar -xvzf tom.tar.gz -C /tom (x = extract; v = verbose; z = gzip; f = file; C = change to directory)
 where to put .desktop files to add them to your applications screen: ?/applications, ~/.local/share, ~/.local/share/applications for user only; /usr/share/applications; for all users
+Where do you find common/essential commands in the linux filesystem?, usr/bin, /usr/bin = all user command binaries (both essential and non-essential now); /usr/sbin = admin/system utilities. (/bin & /sbin are just symlinks to these in modern OS's)
+Where do you find system configuration files?, /etc, Holds plain-text config files for the operating system and for many services and applications. whole system/usually owned by root (need sudo)
+
 
 
 
