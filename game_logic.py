@@ -156,7 +156,7 @@ class TypingGame:
                 #check if the answer has >> at the start and strip those characters if it does and display it as case sensitive
                 case_sensitive = case_sensitive_answer(self.last_question_answer)
                 if case_sensitive is not None:
-                    answer_text = f"Answer: {case_sensitive}"
+                    answer_text = f"Answer(CS): {case_sensitive}"
                 else:
                     answer_text = f"Answer: {self.last_question_answer}"
                 answer_surface = self.font.render(answer_text, True, (255, 255, 0))
