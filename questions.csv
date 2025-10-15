@@ -89,6 +89,7 @@ Where do you find system configuration files?, /etc, Holds plain-text config fil
 Where do you usually find log files?, /var, Contains data that grows over time: logs; caches; spools; lock files; databases; etc. (/var/log; /var/cache; /var/spool.. etc)
 a quick way to return to your home folder?, cd, cd with no arguments will return you to your home folder.
 fast way to get a summary of usage of all folders in current directory?, du -sh *, e.g. du -sh * (s = summarize; h = human readable)
+how to list only hidden DIRECTORIES?, ls -d .*/, e.g. ls -d .*/ (lists only hidden directories in the current directory) don't need the -a switch since .* only matches hidden files
 
 
 
