@@ -80,7 +80,7 @@ command to list directories but not thier contents with ls?, ls -d */, e.g. ls -
 command to list directory contents in long format; sorted by modification time; in reverse?, ls -ltr, e.g. ls -ltr (t = sort by modification time; r = reverse order)
 command to ls long format; sorted by extension?, >>ls -lX, e.g. ls -lX (X = sort by extension)
 command to ls long format; sorted by file size; reversed?, >>ls -lSr, e.g. ls -lSr (S = sort by file size; r = reverse order)
-list folder contents in long form; human readable format, ls -lh, e.g. ls -lh (h = human readable sizes like 1K; 234M; 2G)
+list folder contents in long form; human readable format, >>ls -lh, e.g. ls -lh (h = human readable sizes like 1K; 234M; 2G)
 How to quickly bookmark a folder path in Nautilus?, ctrl-d, You can then access it from the sidebar
 extract tom.tar.gz to /tom folder (display all files as they extract), >>tar -xvzf tom.tar.gz -C /tom, e.g. tar -xvzf tom.tar.gz -C /tom (x = extract; v = verbose; z = gzip; f = file; C = change to directory)
 where to put .desktop files to add them to your applications screen: ?/applications, ~/.local/share, ~/.local/share/applications for user only; /usr/share/applications; for all users
@@ -88,10 +88,10 @@ Where do you find common/essential commands in the linux filesystem?, usr/bin, /
 Where do you find system configuration files?, /etc, Holds plain-text config files for the operating system and for many services and applications. whole system/usually owned by root (need sudo)
 Where do you usually find log files?, /var, Contains data that grows over time: logs; caches; spools; lock files; databases; etc. (/var/log; /var/cache; /var/spool.. etc)
 a quick way to return to your home folder?, cd, cd with no arguments will return you to your home folder.
-fast way to get a summary of usage of all folders in current directory (human readable)?, du -sh *, e.g. du -sh * (s = summarize; h = human readable)
-how to list only hidden DIRECTORIES?, ls -d .*/, e.g. ls -d .*/ (lists only hidden directories in the current directory) don't need the -a switch since .* only matches hidden files
-what switch will make the mv command prompt before overwriting?, -i, e.g. mv -i source dest (i = interactive; prompts before overwrite)
-
+fast way to get a summary of usage of all folders in current directory (human readable)?, >>du -sh *, e.g. du -sh * (s = summarize; h = human readable)
+how to list only hidden DIRECTORIES?, >>ls -d .*/, e.g. ls -d .*/ (lists only hidden directories in the current directory) don't need the -a switch since .* only matches hidden files
+what switch will make the mv command prompt before overwriting?, >>-i, e.g. mv -i source dest (i = interactive; prompts before overwrite)
+how do recursive remove but ask first everything?, >>rm -ri,
 
 
 
