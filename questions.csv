@@ -91,7 +91,7 @@ a quick way to return to your home folder?, cd, cd with no arguments will return
 fast way to get a summary of usage of all folders in current directory (human readable)?, >>du -sh *, e.g. du -sh * (s = summarize; h = human readable)
 how to list only hidden DIRECTORIES?, >>ls -d .*/, e.g. ls -d .*/ (lists only hidden directories in the current directory) don't need the -a switch since .* only matches hidden files
 what switch will make the mv command prompt before overwriting?, >>-i, e.g. mv -i source dest (i = interactive; prompts before overwrite)
-how do recursive remove but ask first everything?, >>rm -ri,
+how do recursive remove but ask first everything?, >>rm -ri, test
 
 
 
