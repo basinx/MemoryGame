@@ -95,6 +95,8 @@ what switch will make the mv command prompt before overwriting?, >>-i, e.g. mv -
 how do recursive remove but ask first everything?, >>rm -ri, e.g. rm -ri foldername (r = recursive; i = interactive; prompts before each removal)
 Acronym for the service used to join a domain in modern linux?, SSSD, System Security Services Daemon; provides access to different identity and authentication providers.
 Two tools that can be used to set up your own PERSONAL cloud storage?, Nextcloud/ownCloud, Both are open-source software that allows you to create and manage your own cloud storage solution on a server you control. (like personal dropbox/calendar/notes/etc..)
+with 'systemctl list-units' what switches to show only active services?, --type=service --state=active, e.g. systemctl list-units --type=service --state=active
+
 
 
 
