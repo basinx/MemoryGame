@@ -1,4 +1,6 @@
+# Questions for ms-900 certification (ms 365/cloud fundamentals)
 # Question, Answer, Extra Info
 # do not include extraneous commas in the fields - use semicolons if needed
 Three things you are always responsible for when using a cloud provider?, data/devices/accounts, info and data stores; devices allowed to connect; accounts and identities of people/services/devices in your org.
-
+Three things the cloud provider is always responsible for?, datacenter/network/hosts, physical security; network infrastructure; host hardware and virtualization layer.
+a set of technologies that helps manage your cloud environment, Azure Arc, whether it's a public cloud solely on Azure; a private cloud in your datacenter; a hybrid configuration; or even a multi-cloud environment
