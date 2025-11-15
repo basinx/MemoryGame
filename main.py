@@ -70,6 +70,13 @@ while running:
                 game.input_box_game_length.color = game.input_box_game_length.color_active if game.input_box_game_length.active else game.input_box_game_length.color_inactive
                 game.input_box_question_time.active = (game.menu_focus_index == 2)
                 game.input_box_question_time.color = game.input_box_question_time.color_active if game.input_box_question_time.active else game.input_box_question_time.color_inactive
+                # clear error state on the box that receives focus via Tab
+                if game.menu_focus_index == 0:
+                    game.input_box_question_file.set_error(False)
+                elif game.menu_focus_index == 1:
+                    game.input_box_game_length.set_error(False)
+                elif game.menu_focus_index == 2:
+                    game.input_box_question_time.set_error(False)
                 # when focus moves to buttons (3 or 4) ensure inputs are inactive
                 if game.menu_focus_index in (3, 4):
                     game.input_box_question_file.active = False
