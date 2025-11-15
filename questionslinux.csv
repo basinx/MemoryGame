@@ -1,0 +1,107 @@
+# Question, Answer, Extra Info
+# do not include extraneous commas in the fields - use semicolons if needed
+When did Linus Torvalds start work on Linux?, 1991, Mostly; Linux uses the same principles and basic ideas of Unix; but Linux itself doesn’t contain Unix code - it is an independent project.
+Who launched the Debian GNU/Linux Project/When?, Ian Murdock/1993, The Debian GNU/Linux distribution is the biggest distribution of the Debian distribution family.
+Ubuntu distributions release short/long?, 6mo/2yr, The distribution has a scheduled release every six months with a long-term support release every 2 years.
+GNU/Linux promotes Richard Stallman’s vision of, freedom, freedoms of the user to run; study; distribute and improve the software. This is why it does not provide any proprietary software by default.
+Ubuntu is a ? based distribution?, Debian, Ubuntu was created by Mark Shuttleworth and his team in 2004; with the mission to bring an easy to use Linux desktop environment.
+The Red Hat Linux distribution was started in ? and rebranded to RHEL in ? (?/?), 1994/2003, Red Hat Enterprise Linux; comes with software that aims to ease the use of Linux in professional server environments. Some of its components require fee-based subscriptions or licenses.
+What distro is like a free of charge version of RHEL with no commercial support?, CentOS, Both RHEL and CentOS are optimized for use in server environments.
+A Red Hat distribution aimed at desktop computers and year founded ?/?, Fedora/2003, Fedora is very progressive and adopts new technologies very quickly and is sometimes considered a test-bed for new technologies which later might be included in RHEL.
+SUSE Linux when it was released?, 1994, SUSE releases SUSE Linux Enterprise Server; which is their commercial edition. This is less frequently released and is suitable for; enterprise and production deployment.
+What is the full name of the fancy config tool in SUSE?, Yet Another Setup Tool, Yast; This tool allows administrators to install and configure software and hardware; set up servers and networks.
+Linux version used mainly by penetration testers, Kali, Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing.
+Two of the most popular Linux embedded software projects/versions ?/?, Android/Raspbian, Mainly for mobile phones/raspberry pi
+Who created the GNU Project?, Richard Stallman, Richard Stallman announced his intention to develop a free software Unix-like operating system called GNU (GNU's Not Unix!).
+Android can also run on, tv/watch/console/car, Among other things (they mention cameras and pc's too)
+Raspbian is based on, Debian, Raspbian is a free operating system based on Debian optimized for the Raspberry Pi hardware.
+What platform-unique distro does Amazon use besides Amazon Linux?, Kali Linux, while Google offers the use of FreeBSD and Windows Servers
+Mnemonic for things to consider when choosing a distro?, coperscasta, Cost; Performance; Scalability; Stability (and hardware demand on the system)
+Three commands associated with Red Hat package management ?/?/?, rpm/yum/dnf, rpm is the low-level tool; yum and dnf are higher-level tools that automatically handle dependencies.
+Three commands associated with Debian package management ?/?/?, dpkg/apt-get/apt, dpkg is the low-level tool; apt and apt-get are higher-level tools that automatically handle dependencies.
+What is the document that describes how OpenPGP works?, RFC 4880, OpenPGP = Open Pretty Good Privacy; RFC = Request For Comments; GNU Privacy Guard (GPG) is a free implementation of the OpenPGP standard.
+Cloud based password manager they mention?, Bitwarden, Bitwarden is a free and open-source password management service that stores sensitive information such as website credentials in an encrypted vault.
+the de-facto standard for block encryption for Linux systems, dm-crypt, It can be used with LUKS (Linux Unified Key Setup) extension; a specification that implements a platform-independent standard for use with various tools.
+Acronym for the 4 freedoms by Richard Stallman, UCCI, Use; Change; Copy; Improve > Right to use as you see fit (1); learn/change the software (2); distribute original (3) or improved/updated versions (4).
+When did Richard Stallman found the GNU project?, 1985, almost 10 years before the emergence of Linux.
+FSF meaning, Free Software Foundation, has formulated the GNU General Public License (GPL) as one of the most important licenses for free software
+FSF License for free software with modifications that do not have to be released? (acronym), LGPL, Lesser General Public License; often needed when using Libraries in your software.
+FSF License which covers selling access to hosted software, AGPL, Affero General Public License
+Another way to avoid license conflicts is, dual licensing, This means that the software is available under two different licenses; and the user can choose which one to comply with (may pay for more rights).
+Eric S. Raymond and Bruce Perens founded what/when? (acronym), OSI/1998, Open Source Initiative; to promote and protect open source software and communities. (no relation to OSI model)
+Three main BSD OS's that they mention?, Free/Open/Net, FreeBSD; OpenBSD; NetBSD Berkeley Software Distribution (BSD) is a variant of the Unix operating system originally developed at the University of Berkeley
+What kind of license gives editors the right to decide how to license their version?, permissive, The licenses underlying berkeley Software Distribution (BSD) Operating Systems is an example
+The Simplified BSD License or FreeBSD License contains only ? clauses?, 2, Basically just saying it must contain copyright notice and disclaimer and the same list of 2 conditions.
+Which Creative Commons license is similar to copyleft?, BY-SA, ShareAlike; You can remix; tweak; and build upon the work even for commercial purposes; as long as you credit the author and license your new creations under the identical terms.
+Creative Commons license where the work may only be passed on unmodified, BY-ND, NoDerivs; You can reuse the work for any purpose; including commercially; but it cannot be shared with others in adapted form; and credit must be provided to the author.
+The most restrictive Creative Commons license, BY-NC-ND, NonCommercial-NoDerivs; You can download the works and share them with others as long as you credit the author; but you can’t change them in any way or use them commercially.
+A common approach; especially for large projects; to get money in the initial phases?, crowdfunding, Crowdfunding is a way of raising money from a large number of people; typically via the Internet.
+two things that free software projects and offer to make money ?/?, support/customization, Many free software projects offer paid support and/or customization services; to generate revenue.
+A type of monetization that may be available if a software becomes well known?, peripheral, Peripheral products; such as books/merchandise/certifications; may be sold to generate revenue.
+The two major Desktop Environments ?/?, GNOME/KDE, GNOME is the default desktop environment for many major Linux distributions; including Fedora and Ubuntu (since 2017). KDE Plasma is another popular desktop environment; known for its configurability and visual appeal.
+How to switch terminal in Linux? ?-?-?#, ctrl-alt-f, ctrl-alt-f1 through f7
+What is LibreOffice's presentation tool called?, Impress, also: Writer (word processing); Calc (spreadsheets); Impress (presentations); Draw (vector graphics); Base (databases); and Math (formula editing).
+3 main open source Hypervisors for Linux?, Xen/KVM/VirtualBox, Xen and KVM are type 1 hypervisors (though KVM is a bit of a hybrid since it requires Linux); while VirtualBox is a type 2 hypervisor.
+tool used to manage on-prem AWS-like Linux based cloud infrastructure?, OpenStack, Allows for a complete IaaS cloud environment on premise by leveraging the power of computer cluster in your own datacenter.
+Easiest quick way to do 'Stackable' style encryption on Linux?, EncFS, does not require root privileges to implement and it can work on an existing filesystem without modifications (Claude said there was some security vulnerabilities though).
+Command to list loaded 'Modules' in linux?, lsmod, Modules are pieces of code that can be loaded and unloaded into the kernel upon demand; without the need to reboot the system.
+Great tool for cross-platform encryption?, VeraCrypt, VeraCrypt is a free and open-source disk encryption software; based on TrueCrypt; that is available for Windows; macOS; and Linux.
+A LaTeX presentation tool, Beamer, Beamer is a LaTeX class for creating presentations that are typically in PDF format.
+Symbols to see on terminal for normal user/root?, $/#, The dollar sign ($) indicates a normal user prompt; while the hash sign (#) indicates a root user prompt.
+command that will show whether a specific command is internal or external?, type, e.g. type cd (cd is a shell builtin) / type cat (cat is /usr/bin/cat)
+Three symbols that still function inside double quotes?, $`\, Dollar Sign ($); Backquote (`); Backslash (\)
+command to create a new file or update existing files timestamp?, touch, e.g. touch newfile.txt
+command to remove a variable after you create it?, unset, e.g. unset myvar
+command to display all environment variables or can run a command in modified environment?, env, e.g. env or env VAR=value command
+command to append newdir to path?, >>PATH = $PATH:newdir, e.g. PATH=$PATH:/home/user/bin
+command: make file named myfile executable?, chmod +x myfile, e.g. chmod +x myscript.sh
+command to see location of a command?, which, e.g. which ls (shows usr/bin/ls) -a switch will show all locations
+command to grab first column from a file using regular spaces, awk '{print $1}', e.g. awk '{print $1}' file.txt; -F switch can be used to specify a different delimiter
+command to get the number of lines in file.txt?, wc -l file.txt, e.g. wc -l file.txt; wc -w (words); wc -c (bytes)
+how do you see the manual page for /etc/passwd?, man 5 passwd, category 5 means 'config files & file formats' so 5 indicates you want the page for the config file not the passwd command (that would be 1 or default)
+command to see first 10 lines of a file?, head, e.g. head file.txt; -n switch to specify different number of lines
+symbols to use to search forward and backwards in less (together no space), /?, / to search forward; ? to search backwards
+how to get help in the 'info' command: old/new, ?/h, ? for help; h for help in new version (they might ask old on the test??)
+where is most documentation located?, /usr/share/doc, /usr/share/doc is the standard location for documentation files on Linux systems.
+what program ensures the locate command can find files?, updatedb, updatedb is run periodically but you can run it manually if need be (usually requires root)
+What category is category for Manual pages about Games?, 6, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellaneous; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about User Commands?, 1, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellaneous; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about System Calls, 2, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellaneous; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about C Library Functions?, 3, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellaneous; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about Drivers & Device Files?, 4, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellaneous; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about Miscellaneous?, 7, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellaneous; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about System Admin Commands?, 8, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellaneous; 8 = System administration commands; 9 = Kernel routines (not standard)
+What category is category for Manual pages about Kernel Functions?, 9, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellaneous; 8 = System administration commands; 9 = Kernel routines (not standard)
+How to specify sort by STATUS time in ls; using long format? ls -l --sort=time ???, --time=ctime, full command: ls -l --sort=time --time=ctime (ls -ltc works as short form)
+how to toss error messages?, 2>/dev/null, e.g. ls /nonexistent 2>/dev/null; > or 1> tosses standard output; &> tosses both stdout and stderr
+what command uses a pre-loaded database to find files?, locate, e.g. locate filename; -b = basename; -i = ignore case; -r = regex
+how to inverse a grep? (just the switch), -v, e.g. grep -v 'pattern' file.txt
+how would you list the contents of dave's home directory (you are not dave)?, ls ~dave, You can use the tilde (~) followed by the username to refer to another user's home directory.
+command to list directories but not thier contents with ls?, ls -d */, e.g. ls -d */ (lists only directories in the current directory)
+command to list directory contents in long format; sorted by modification time; in reverse?, ls -ltr, e.g. ls -ltr (t = sort by modification time; r = reverse order)
+command to ls long format; sorted by extension?, >>ls -lX, e.g. ls -lX (X = sort by extension)
+command to ls long format; sorted by file size; reversed?, >>ls -lSr, e.g. ls -lSr (S = sort by file size; r = reverse order)
+list folder contents in long form; human readable format, >>ls -lh, e.g. ls -lh (h = human readable sizes like 1K; 234M; 2G)
+How to quickly bookmark a folder path in Nautilus?, ctrl-d, You can then access it from the sidebar
+extract tom.tar.gz to /tom folder (display all files as they extract), >>tar -xvzf tom.tar.gz -C /tom, e.g. tar -xvzf tom.tar.gz -C /tom (x = extract; v = verbose; z = gzip; f = file; C = change to directory)
+where to put .desktop files to add them to your applications screen: ?/applications, ~/.local/share, ~/.local/share/applications for user only; /usr/share/applications; for all users
+Where do you find common/essential commands in the linux filesystem?, usr/bin, /usr/bin = all user command binaries (both essential and non-essential now); /usr/sbin = admin/system utilities. (/bin & /sbin are just symlinks to these in modern OS's)
+Where do you find system configuration files?, /etc, Holds plain-text config files for the operating system and for many services and applications. whole system/usually owned by root (need sudo)
+Where do you usually find log files?, /var, Contains data that grows over time: logs; caches; spools; lock files; databases; etc. (/var/log; /var/cache; /var/spool.. etc)
+a quick way to return to your home folder?, cd, cd with no arguments will return you to your home folder.
+fast way to get a summary of usage of all folders in current directory (human readable)?, >>du -sh *, e.g. du -sh * (s = summarize; h = human readable)
+how to list only hidden DIRECTORIES?, >>ls -d .*/, e.g. ls -d .*/ (lists only hidden directories in the current directory) don't need the -a switch since .* only matches hidden files
+what switch will make the mv command prompt before overwriting?, >>-i, e.g. mv -i source dest (i = interactive; prompts before overwrite)
+how do recursive remove but ask first everything?, >>rm -ri, e.g. rm -ri foldername (r = recursive; i = interactive; prompts before each removal)
+Acronym for the service used to join a domain in modern linux?, SSSD, System Security Services Daemon; provides access to different identity and authentication providers.
+Two tools that can be used to set up your own PERSONAL cloud storage?, Nextcloud/ownCloud, Both are open-source software that allows you to create and manage your own cloud storage solution on a server you control. (like personal dropbox/calendar/notes/etc..)
+with 'systemctl list-units' what switches to show only active services?, --type=service --state=active, e.g. systemctl list-units --type=service --state=active
+
+
+
+
+
+
+
+
+
