@@ -371,7 +371,7 @@ class TypingGame:
         pause_rect = pause_surface.get_rect(topright=(790, 70))
         self.screen.blit(pause_surface, pause_rect)
         if self.state == "menu":
-            draw_text(self.screen, "A+ Typing Game", (300, 100), self.font)
+            draw_text(self.screen, "Memorization Game", (280, 100), self.font)
             # new Question File field above Game Length
             draw_text(self.screen, "Question File:", (300, 200), self.font)
             self.input_box_question_file.draw(self.screen)

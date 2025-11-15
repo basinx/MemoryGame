@@ -13,7 +13,7 @@ from game_logic import TypingGame
 pygame.init()
 pygame.mixer.init()
 screen = pygame.display.set_mode((800, 600))
-pygame.display.set_caption("A+ Typing Game")
+pygame.display.set_caption("Memorization Game")
 font = pygame.font.Font(None, 36)
 clock = pygame.time.Clock()
 
