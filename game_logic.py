@@ -44,6 +44,13 @@ class TypingGame:
         self.input_box_game_length = TextInputBox(300, 300, 200, 40, str(default_game_length), font)
         self.input_box_question_time = TextInputBox(300, 370, 200, 40, str(default_question_time), font)
 
+        # Backspace repeat configuration/state for in-game typing
+        self.initial_backspace_delay_ms = 700  # ms before repeating starts
+        self.backspace_repeat_interval_ms = 50  # ms between repeats
+        self._backspace_held = False
+        self._backspace_start_ticks = 0
+        self._backspace_last_repeat_ticks = 0
+
     def pause(self):
         if self.state == "playing":
             self.state = "paused"
@@ -58,25 +65,48 @@ class TypingGame:
             self.state = "playing"
 
     def reset_game(self):
-        # read numeric fields
+        # read numeric fields with validation
+        errors = False
+        gl_text = self.input_box_game_length.text.strip()
+        qt_text = self.input_box_question_time.text.strip()
+        # initialize parsed values with current defaults to avoid unbound local warnings
+        game_length_val = self.game_length
+        question_time_val = self.question_time
+        # validate game length
         try:
-            self.game_length = int(self.input_box_game_length.text)
-        except ValueError:
-            self.game_length = 180
+            game_length_val = int(gl_text)
+            if game_length_val <= 0:
+                raise ValueError
+            self.input_box_game_length.set_error(False)
+        except Exception:
+            self.input_box_game_length.set_error(True)
+            errors = True
+        # validate question time
         try:
-            self.question_time = int(self.input_box_question_time.text)
-        except ValueError:
-            self.question_time = 15
+            question_time_val = int(qt_text)
+            if question_time_val <= 0:
+                raise ValueError
+            self.input_box_question_time.set_error(False)
+        except Exception:
+            self.input_box_question_time.set_error(True)
+            errors = True
+        # assign only if valid
+        if not self.input_box_game_length.error:
+            self.game_length = game_length_val
+        if not self.input_box_question_time.error:
+            self.question_time = question_time_val
         # read question filename from input box
         self.question_filename = self.input_box_question_file.text.strip() or "questions.csv"
         # validate question file exists before starting; if missing, mark error and stay in menu
         if not os.path.exists(self.question_filename):
-            # highlight the question file box and keep in menu state
             self.input_box_question_file.set_error(True)
-            self.state = "menu"
-            return
+            errors = True
         else:
             self.input_box_question_file.set_error(False)
+        # if any errors, stay in menu
+        if errors:
+            self.state = "menu"
+            return
         # load questions from the specified file
         try:
             self.questions = load_questions(self.question_filename)
@@ -224,6 +254,14 @@ class TypingGame:
                 }
                 self.wrong_answers.append(wrong_entry)
                 self.next_question()
+        # Handle backspace repeat for in-game typing
+        if self._backspace_held and self.user_input:
+            now = pygame.time.get_ticks()
+            elapsed = now - self._backspace_start_ticks
+            if elapsed >= self.initial_backspace_delay_ms:
+                if now - self._backspace_last_repeat_ticks >= self.backspace_repeat_interval_ms:
+                    self.user_input = self.user_input[:-1]
+                    self._backspace_last_repeat_ticks = now
 
     def handle_mouse_click(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
@@ -304,9 +342,19 @@ class TypingGame:
                             self.sound_manager.play_wrong()
                 self.next_question()
             elif event.key == pygame.K_BACKSPACE:
+                # immediate delete and start repeat tracking
                 self.user_input = self.user_input[:-1]
+                self._backspace_held = True
+                self._backspace_start_ticks = pygame.time.get_ticks()
+                self._backspace_last_repeat_ticks = self._backspace_start_ticks
             else:
                 self.user_input += event.unicode
+        elif self.state == "playing" and event.type == pygame.KEYUP:
+            if event.key == pygame.K_BACKSPACE:
+                # stop repeating when released
+                self._backspace_held = False
+                self._backspace_start_ticks = 0
+                self._backspace_last_repeat_ticks = 0
 
     def draw(self):
         self.screen.fill((0, 0, 0))
@@ -331,8 +379,17 @@ class TypingGame:
             self.input_box_game_length.draw(self.screen)
             draw_text(self.screen, "Question Time (s):", (300, 340), self.font)
             self.input_box_question_time.draw(self.screen)
-            button((300, 430, 200, 50), "Start Game", self.screen, self.font)
-            button((300, 490, 200, 50), "Clear Mode", self.screen, self.font)
+            # draw buttons and highlight the one that has keyboard focus (menu_focus_index: 3=start, 4=clear)
+            start_rect = pygame.Rect(300, 430, 200, 50)
+            clear_rect = pygame.Rect(300, 490, 200, 50)
+            button(start_rect, "Start Game", self.screen, self.font)
+            button(clear_rect, "Clear Mode", self.screen, self.font)
+            # visual focus indicator (yellow border) when main menu tab focus is on buttons
+            focus_index = getattr(self, 'menu_focus_index', None)
+            if focus_index == 3:
+                pygame.draw.rect(self.screen, (255, 255, 0), start_rect, 3)
+            elif focus_index == 4:
+                pygame.draw.rect(self.screen, (255, 255, 0), clear_rect, 3)
         elif self.state == "playing":
             draw_wrapped_text(self.screen, f"{self.current_question[0]}", (40, 200), self.font)
             draw_text(self.screen, f"> {self.user_input}", (40, 300), self.font)
@@ -358,4 +415,3 @@ class TypingGame:
                 draw_wrapped_text(self.screen, msg, (200, 130), self.font, color=(255, 255, 0), max_width=700)
             button((300, 350, 200, 50), "Restart", self.screen, self.font)
             button((300, 420, 200, 50), "Main Menu", self.screen, self.font)
-

@@ -58,10 +58,10 @@ class TextInputBox:
     def handle_event(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN:
             if self.rect.collidepoint(event.pos):
-                # clicking activates and clears the current text
+                # activate without clearing text; keep current content
                 self.active = True
-                self.text = ""
-                self.txt_surface = self.font.render(self.text, True, (0, 0, 0))
+                if not self.txt_surface and self.font:
+                    self.txt_surface = self.font.render(self.text, True, (0, 0, 0))
                 self.color = self.color_active
                 # clear any prior error when user clicks to edit
                 self.error = False

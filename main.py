@@ -21,6 +21,8 @@ clock = pygame.time.Clock()
 sound_manager = SoundManager()
 
 game = TypingGame(sound_manager, font, screen)
+# Initialize menu focus index (0: question_file, 1: game_length, 2: question_time, 3: start, 4: clear)
+game.menu_focus_index = 0
 
 # Default game settings
 default_game_length = 180  # seconds
@@ -55,39 +57,54 @@ while running:
             game.learning_mode = not game.learning_mode
         game.handle_mouse_click(event)
         if game.state == "menu":
+            # button rects for click/focus detection
+            start_rect = pygame.Rect(300, 430, 200, 50)
+            clear_rect = pygame.Rect(300, 490, 200, 50)
             if event.type == pygame.KEYDOWN and event.key == pygame.K_TAB:
-                # cycle through Question File -> Game Length -> Question Time
-                if game.input_box_question_file.active:
+                # cycle through Question File -> Game Length -> Question Time -> Start -> Clear
+                game.menu_focus_index = (getattr(game, 'menu_focus_index', 0) + 1) % 5
+                # update focus states
+                game.input_box_question_file.active = (game.menu_focus_index == 0)
+                game.input_box_question_file.color = game.input_box_question_file.color_active if game.input_box_question_file.active else game.input_box_question_file.color_inactive
+                game.input_box_game_length.active = (game.menu_focus_index == 1)
+                game.input_box_game_length.color = game.input_box_game_length.color_active if game.input_box_game_length.active else game.input_box_game_length.color_inactive
+                game.input_box_question_time.active = (game.menu_focus_index == 2)
+                game.input_box_question_time.color = game.input_box_question_time.color_active if game.input_box_question_time.active else game.input_box_question_time.color_inactive
+                # when focus moves to buttons (3 or 4) ensure inputs are inactive
+                if game.menu_focus_index in (3, 4):
                     game.input_box_question_file.active = False
-                    game.input_box_question_file.color = game.input_box_question_file.color_inactive
-                    game.input_box_game_length.active = True
-                    game.input_box_game_length.text = ""
-                    game.input_box_game_length.txt_surface = font.render(game.input_box_game_length.text, True,(0, 0, 0))
-                    game.input_box_game_length.color = game.input_box_game_length.color_active
-                elif game.input_box_game_length.active:
                     game.input_box_game_length.active = False
-                    game.input_box_game_length.color = game.input_box_game_length.color_inactive
-                    game.input_box_question_time.active = True
-                    game.input_box_question_time.text = ""
-                    game.input_box_question_time.txt_surface = font.render(game.input_box_question_time.text, True,(0, 0, 0))
-                    game.input_box_question_time.color = game.input_box_question_time.color_active
-                elif game.input_box_question_time.active:
                     game.input_box_question_time.active = False
+                    game.input_box_question_file.color = game.input_box_question_file.color_inactive
+                    game.input_box_game_length.color = game.input_box_game_length.color_inactive
                     game.input_box_question_time.color = game.input_box_question_time.color_inactive
-                    game.input_box_question_file.active = True
-                    game.input_box_question_file.text = ""
-                    game.input_box_question_file.txt_surface = font.render(game.input_box_question_file.text, True,(0, 0, 0))
-                    game.input_box_question_file.color = game.input_box_question_file.color_active
-                else:
-                    game.input_box_question_file.active = True
-                    game.input_box_question_file.text = ""
-                    game.input_box_question_file.txt_surface = font.render(game.input_box_question_file.text, True,(0, 0, 0))
-                    game.input_box_question_file.color = game.input_box_question_file.color_active
                 continue
+            # handle Enter on focused button to start/clear
+            if event.type == pygame.KEYDOWN and (event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER):
+                if getattr(game, 'menu_focus_index', 0) == 3:
+                    game.game_mode = "normal"
+                    game.reset_game()
+                    continue
+                elif getattr(game, 'menu_focus_index', 0) == 4:
+                    game.game_mode = "clear"
+                    game.reset_game()
+                    continue
             # handle events for all three input boxes
             game.input_box_question_file.handle_event(event)
             game.input_box_game_length.handle_event(event)
             game.input_box_question_time.handle_event(event)
+            # set focus index when user clicks into a control
+            if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                if game.input_box_question_file.rect.collidepoint(event.pos):
+                    game.menu_focus_index = 0
+                elif game.input_box_game_length.rect.collidepoint(event.pos):
+                    game.menu_focus_index = 1
+                elif game.input_box_question_time.rect.collidepoint(event.pos):
+                    game.menu_focus_index = 2
+                elif start_rect.collidepoint(event.pos):
+                    game.menu_focus_index = 3
+                elif clear_rect.collidepoint(event.pos):
+                    game.menu_focus_index = 4
         if game.state == "playing":
             game.handle_input(event)
     # Update input boxes each frame so held-backspace repeat works
