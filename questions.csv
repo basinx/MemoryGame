@@ -8,3 +8,4 @@ A new building; repaving the parking lot; building a datacenter; or buying a com
 Renting a convention center; leasing a company vehicle; or signing up for cloud services are all examples of:, OpEx, OpEx is spending money on services or products over time.
 Adding more CPU's or RAM to a virtual machine is an example of:, vertical scaling, vertical scaling (or scaling up) means increasing or decreasing the capabilities of resources
 Adding additional virtual machines or containers is an example of:, horizontal scaling, horizontal scaling (or scaling out) means adding (or subtracting) more instances of resources
+Two types of predictability in MS Azure Well-Architechted Framework ?/?, performance/cost, Performance predictability ensures that your applications consistently meet performance requirements under varying loads; Cost predictability helps you manage and forecast your cloud expenses effectively.
