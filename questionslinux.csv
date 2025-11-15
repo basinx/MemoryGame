@@ -31,7 +31,7 @@ Another way to avoid license conflicts is, dual licensing, This means that the s
 Eric S. Raymond and Bruce Perens founded what/when? (acronym), OSI/1998, Open Source Initiative; to promote and protect open source software and communities. (no relation to OSI model)
 Three main BSD OS's that they mention?, Free/Open/Net, FreeBSD; OpenBSD; NetBSD Berkeley Software Distribution (BSD) is a variant of the Unix operating system originally developed at the University of Berkeley
 What kind of license gives editors the right to decide how to license their version?, permissive, The licenses underlying berkeley Software Distribution (BSD) Operating Systems is an example
-The Simplified BSD License or FreeBSD License contains only ? clauses?, 2, Basically just saying it must contain copyright notice and disclaimer and the same list of 2 conditions.
+The Simplified BSD License or FreeBSD License contains only ? clauses?, 2, Basically just saying it must contain copyright notice and disclaimer and the same list of 2 conditions. Berkeley Software Distribution (BSD) is a variant of Unix originally developed at the University of Berkeley
 Which Creative Commons license is similar to copyleft?, BY-SA, ShareAlike; You can remix; tweak; and build upon the work even for commercial purposes; as long as you credit the author and license your new creations under the identical terms.
 Creative Commons license where the work may only be passed on unmodified, BY-ND, NoDerivs; You can reuse the work for any purpose; including commercially; but it cannot be shared with others in adapted form; and credit must be provided to the author.
 The most restrictive Creative Commons license, BY-NC-ND, NonCommercial-NoDerivs; You can download the works and share them with others as long as you credit the author; but you can’t change them in any way or use them commercially.
@@ -62,7 +62,7 @@ how do you see the manual page for /etc/passwd?, man 5 passwd, category 5 means 
 command to see first 10 lines of a file?, head, e.g. head file.txt; -n switch to specify different number of lines
 symbols to use to search forward and backwards in less (together no space), /?, / to search forward; ? to search backwards
 how to get help in the 'info' command: old/new, ?/h, ? for help; h for help in new version (they might ask old on the test??)
-where is most documentation located?, /usr/share/doc, /usr/share/doc is the standard location for documentation files on Linux systems.
+where is most documentation located?, /usr/share/doc, /usr/share/doc is the standard location for documentation files on Linux systems. (usr stands for user system resources - It contains read-only user data and programs)
 what program ensures the locate command can find files?, updatedb, updatedb is run periodically but you can run it manually if need be (usually requires root)
 What category is category for Manual pages about Games?, 6, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellaneous; 8 = System administration commands; 9 = Kernel routines (not standard)
 What category is category for Manual pages about User Commands?, 1, 1 = User commands; 2 = System calls; 3 = C library functions; 4 = Drivers & Device files; 5 = Config Files & File Formats; 6 = Games; 7 = Miscellaneous; 8 = System administration commands; 9 = Kernel routines (not standard)
@@ -96,6 +96,7 @@ how do recursive remove but ask first everything?, >>rm -ri, e.g. rm -ri foldern
 Acronym for the service used to join a domain in modern linux?, SSSD, System Security Services Daemon; provides access to different identity and authentication providers.
 Two tools that can be used to set up your own PERSONAL cloud storage?, Nextcloud/ownCloud, Both are open-source software that allows you to create and manage your own cloud storage solution on a server you control. (like personal dropbox/calendar/notes/etc..)
 with 'systemctl list-units' what switches to show only active services?, --type=service --state=active, e.g. systemctl list-units --type=service --state=active
+how to output every item in the PATH variable on a new line?, echo $PATH | tr ':' '\n', e.g. echo $PATH | tr ':' '\n' (tr = translate)
 
 
 
