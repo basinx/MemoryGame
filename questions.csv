@@ -3,7 +3,7 @@
 # do not include extraneous commas in the fields - use semicolons if needed
 Three things you are always responsible for when using a cloud provider?, data/devices/accounts, info and data stores; devices allowed to connect; accounts and identities of people/services/devices in your org.
 Three things the cloud provider is always responsible for?, datacenter/network/hosts, physical security; network infrastructure; host hardware and virtualization layer.
-a set of technologies that helps manage your cloud environment, Azure Arc, whether it's a public cloud solely on Azure; a private cloud in your datacenter; a hybrid configuration; or even a multi-cloud environment
+a set of (Microsoft) technologies that helps manage your cloud environment, Azure Arc, whether it's a public cloud solely on Azure; a private cloud in your datacenter; a hybrid configuration; or even a multi-cloud environment
 A new building; repaving the parking lot; building a datacenter; or buying a company vehicle are examples of:, CapEx, CapEx is typically a one-time; up-front expenditure to purchase or secure tangible resources.
 Renting a convention center; leasing a company vehicle; or signing up for cloud services are all examples of:, OpEx, OpEx is spending money on services or products over time.
 Adding more CPU's or RAM to a virtual machine is an example of:, vertical scaling, vertical scaling (or scaling up) means increasing or decreasing the capabilities of resources

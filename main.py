@@ -90,6 +90,11 @@ while running:
             game.input_box_question_time.handle_event(event)
         if game.state == "playing":
             game.handle_input(event)
+    # Update input boxes each frame so held-backspace repeat works
+    if game.state == "menu":
+        game.input_box_question_file.update()
+        game.input_box_game_length.update()
+        game.input_box_question_time.update()
     game.update()
     game.draw()
     pygame.display.flip()

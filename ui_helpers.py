@@ -47,6 +47,14 @@ class TextInputBox:
         self.error = False
         self.error_color = (255, 0, 0)
 
+        # Backspace repeat configuration/state
+        # initial delay before repeating (ms) and repeat interval (ms)
+        self.initial_backspace_delay_ms = 700
+        self.backspace_repeat_interval_ms = 50
+        self._backspace_held = False
+        self._backspace_start_ticks = 0
+        self._backspace_last_repeat_ticks = 0
+
     def handle_event(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN:
             if self.rect.collidepoint(event.pos):
@@ -60,15 +68,47 @@ class TextInputBox:
             else:
                 self.active = False
                 self.color = self.color_inactive
-        if event.type == pygame.KEYDOWN and self.active:
-            if event.key == pygame.K_RETURN:
-                self.active = False
-                self.color = self.color_inactive
-            elif event.key == pygame.K_BACKSPACE:
-                self.text = self.text[:-1]
-            else:
-                self.text += event.unicode
-            self.txt_surface = self.font.render(self.text, True, (0, 0, 0))
+        # Key events while active
+        if self.active:
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_RETURN:
+                    self.active = False
+                    self.color = self.color_inactive
+                elif event.key == pygame.K_BACKSPACE:
+                    # immediate delete on keydown
+                    self.text = self.text[:-1]
+                    # start held-state timing for repeat
+                    self._backspace_held = True
+                    self._backspace_start_ticks = pygame.time.get_ticks()
+                    self._backspace_last_repeat_ticks = self._backspace_start_ticks
+                else:
+                    self.text += event.unicode
+                # update rendered surface
+                self.txt_surface = self.font.render(self.text, True, (0, 0, 0))
+            elif event.type == pygame.KEYUP:
+                # stop repeating when backspace released
+                if event.key == pygame.K_BACKSPACE:
+                    self._backspace_held = False
+                    self._backspace_start_ticks = 0
+                    self._backspace_last_repeat_ticks = 0
+
+    def update(self):
+        """Call once per frame to handle repeating backspace while held.
+        This method is a no-op if the box is not active or backspace isn't held.
+        """
+        if not self.active:
+            return
+        if self._backspace_held and self.text:
+            now = pygame.time.get_ticks()
+            elapsed = now - self._backspace_start_ticks
+            if elapsed >= self.initial_backspace_delay_ms:
+                # enough time passed to start repeating
+                if now - self._backspace_last_repeat_ticks >= self.backspace_repeat_interval_ms:
+                    # delete one char and advance last repeat time
+                    self.text = self.text[:-1]
+                    self._backspace_last_repeat_ticks = now
+                    # update rendered surface
+                    self.txt_surface = self.font.render(self.text, True, (0, 0, 0))
 
     def draw(self, surface):
         # background color slightly different when active
