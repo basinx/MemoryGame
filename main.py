@@ -56,7 +56,15 @@ while running:
         game.handle_mouse_click(event)
         if game.state == "menu":
             if event.type == pygame.KEYDOWN and event.key == pygame.K_TAB:
-                if game.input_box_game_length.active:
+                # cycle through Question File -> Game Length -> Question Time
+                if game.input_box_question_file.active:
+                    game.input_box_question_file.active = False
+                    game.input_box_question_file.color = game.input_box_question_file.color_inactive
+                    game.input_box_game_length.active = True
+                    game.input_box_game_length.text = ""
+                    game.input_box_game_length.txt_surface = font.render(game.input_box_game_length.text, True,(0, 0, 0))
+                    game.input_box_game_length.color = game.input_box_game_length.color_active
+                elif game.input_box_game_length.active:
                     game.input_box_game_length.active = False
                     game.input_box_game_length.color = game.input_box_game_length.color_inactive
                     game.input_box_question_time.active = True
@@ -66,16 +74,18 @@ while running:
                 elif game.input_box_question_time.active:
                     game.input_box_question_time.active = False
                     game.input_box_question_time.color = game.input_box_question_time.color_inactive
-                    game.input_box_game_length.active = True
-                    game.input_box_game_length.text = ""
-                    game.input_box_game_length.txt_surface = font.render(game.input_box_game_length.text, True,(0, 0, 0))
-                    game.input_box_game_length.color = game.input_box_game_length.color_active
+                    game.input_box_question_file.active = True
+                    game.input_box_question_file.text = ""
+                    game.input_box_question_file.txt_surface = font.render(game.input_box_question_file.text, True,(0, 0, 0))
+                    game.input_box_question_file.color = game.input_box_question_file.color_active
                 else:
-                    game.input_box_game_length.active = True
-                    game.input_box_game_length.text = ""
-                    game.input_box_game_length.txt_surface = font.render(game.input_box_game_length.text, True,(0, 0, 0))
-                    game.input_box_game_length.color = game.input_box_game_length.color_active
+                    game.input_box_question_file.active = True
+                    game.input_box_question_file.text = ""
+                    game.input_box_question_file.txt_surface = font.render(game.input_box_question_file.text, True,(0, 0, 0))
+                    game.input_box_question_file.color = game.input_box_question_file.color_active
                 continue
+            # handle events for all three input boxes
+            game.input_box_question_file.handle_event(event)
             game.input_box_game_length.handle_event(event)
             game.input_box_question_time.handle_event(event)
         if game.state == "playing":

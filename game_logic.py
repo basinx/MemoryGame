@@ -1,3 +1,4 @@
+import pygame
 import random
 import time
 import os
@@ -10,7 +11,9 @@ class TypingGame:
     def __init__(self, sound_manager, font, screen, default_game_length=180, default_question_time=15):
         self.state = "menu"
         self.pause_start = None
-        self.questions = load_questions()
+        # delay loading questions until start; keep filename default
+        self.questions = []
+        self.question_filename = "questions.csv"
         self.available_questions = []
         self.game_mode = "normal"
         self.score = 0
@@ -37,6 +40,7 @@ class TypingGame:
         self.sound_manager = sound_manager
         self.font = font
         self.screen = screen
+        self.input_box_question_file = TextInputBox(150, 230, 500, 40, self.question_filename, font)
         self.input_box_game_length = TextInputBox(300, 300, 200, 40, str(default_game_length), font)
         self.input_box_question_time = TextInputBox(300, 370, 200, 40, str(default_question_time), font)
 
@@ -54,6 +58,7 @@ class TypingGame:
             self.state = "playing"
 
     def reset_game(self):
+        # read numeric fields
         try:
             self.game_length = int(self.input_box_game_length.text)
         except ValueError:
@@ -62,6 +67,24 @@ class TypingGame:
             self.question_time = int(self.input_box_question_time.text)
         except ValueError:
             self.question_time = 15
+        # read question filename from input box
+        self.question_filename = self.input_box_question_file.text.strip() or "questions.csv"
+        # validate question file exists before starting; if missing, mark error and stay in menu
+        if not os.path.exists(self.question_filename):
+            # highlight the question file box and keep in menu state
+            self.input_box_question_file.set_error(True)
+            self.state = "menu"
+            return
+        else:
+            self.input_box_question_file.set_error(False)
+        # load questions from the specified file
+        try:
+            self.questions = load_questions(self.question_filename)
+        except Exception as e:
+            print(f"Error loading questions from {self.question_filename}: {e}")
+            self.input_box_question_file.set_error(True)
+            self.state = "menu"
+            return
         if self.game_mode == "clear":
             self.available_questions = self.questions.copy()
         self.score = 0
@@ -142,12 +165,10 @@ class TypingGame:
             remaining = max(0, self.question_timer - time.time())
             fraction = remaining / total
             bar_width = int(710 * fraction)
-            import pygame
             pygame.draw.rect(self.screen, (100, 100, 100), (40, 170, 710, 10))
             pygame.draw.rect(self.screen, (0, 200, 0), (40, 170, bar_width, 10))
 
     def draw_all_information(self):
-        import pygame
         if self.feedback and time.time() < self.feedback_timer:
             feedback_surface = self.font.render(self.feedback, True, self.feedback_color)
             feedback_rect = feedback_surface.get_rect(center=(400, 350))
@@ -205,7 +226,6 @@ class TypingGame:
                 self.next_question()
 
     def handle_mouse_click(self, event):
-        import pygame
         if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
             if self.state == "menu":
                 start_btn = pygame.Rect(300, 430, 200, 50)
@@ -225,7 +245,6 @@ class TypingGame:
                     self.state = "menu"
 
     def handle_input(self, event):
-        import pygame
         if self.state == "playing" and event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER:
                 self.questions_answered += 1
@@ -290,7 +309,6 @@ class TypingGame:
                 self.user_input += event.unicode
 
     def draw(self):
-        import pygame
         self.screen.fill((0, 0, 0))
         sound_text = f"F11 > Sound: {'On' if self.sound_enabled else 'Off'}"
         lm_text = f"F12 > Learning Mode: {'On' if self.learning_mode else 'Off'}"
@@ -306,6 +324,9 @@ class TypingGame:
         self.screen.blit(pause_surface, pause_rect)
         if self.state == "menu":
             draw_text(self.screen, "A+ Typing Game", (300, 100), self.font)
+            # new Question File field above Game Length
+            draw_text(self.screen, "Question File:", (300, 200), self.font)
+            self.input_box_question_file.draw(self.screen)
             draw_text(self.screen, "Game Length (s):", (300, 270), self.font)
             self.input_box_game_length.draw(self.screen)
             draw_text(self.screen, "Question Time (s):", (300, 340), self.font)

@@ -40,16 +40,23 @@ class TextInputBox:
         self.color = self.color_inactive
         self.text = text
         self.font = font
+        # render text surface only if font provided
         self.txt_surface = font.render(text, True, (0, 0, 0)) if font else None
         self.active = False
+        # new: error state for validation (e.g., missing question file)
+        self.error = False
+        self.error_color = (255, 0, 0)
 
     def handle_event(self, event):
         if event.type == pygame.MOUSEBUTTONDOWN:
             if self.rect.collidepoint(event.pos):
+                # clicking activates and clears the current text
                 self.active = True
                 self.text = ""
                 self.txt_surface = self.font.render(self.text, True, (0, 0, 0))
                 self.color = self.color_active
+                # clear any prior error when user clicks to edit
+                self.error = False
             else:
                 self.active = False
                 self.color = self.color_inactive
@@ -64,8 +71,20 @@ class TextInputBox:
             self.txt_surface = self.font.render(self.text, True, (0, 0, 0))
 
     def draw(self, surface):
+        # background color slightly different when active
         bg_color = (150, 150, 150) if self.active else (200, 200, 200)
+        # if error, tint background slightly and draw red border
+        if self.error:
+            bg_color = (255, 220, 220)
+            border_color = self.error_color
+        else:
+            border_color = self.color
         pygame.draw.rect(surface, bg_color, self.rect)
-        pygame.draw.rect(surface, self.color, self.rect, 2)
+        pygame.draw.rect(surface, border_color, self.rect, 2)
+        # ensure txt_surface exists to avoid crashes
+        if not self.txt_surface and self.font:
+            self.txt_surface = self.font.render(self.text, True, (0, 0, 0))
         surface.blit(self.txt_surface, (self.rect.x + 5, self.rect.y + 5))
 
+    def set_error(self, val=True):
+        self.error = val
