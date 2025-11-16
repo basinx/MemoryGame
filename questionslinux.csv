@@ -97,6 +97,7 @@ Acronym for the service used to join a domain in modern linux?, SSSD, System Sec
 Two tools that can be used to set up your own PERSONAL cloud storage?, Nextcloud/ownCloud, Both are open-source software that allows you to create and manage your own cloud storage solution on a server you control. (like personal dropbox/calendar/notes/etc..)
 with 'systemctl list-units' what switches to show only active services?, --type=service --state=active, e.g. systemctl list-units --type=service --state=active
 how to output every item in the PATH variable on a new line?, echo $PATH | tr ':' '\n', e.g. echo $PATH | tr ':' '\n' (tr = translate)
+how to see a nice colorful breakdown of folder structure from your current location?, >>tree -C, e.g. tree -C (C = colorize the output [appears to be on by default]) (n = no color)
 
 
 
