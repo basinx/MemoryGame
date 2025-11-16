@@ -29,6 +29,7 @@ class TypingGame:
         self.feedback_timer = 0
         self.last_question_answer = ""
         self.last_question_info = ""
+        self.last_question_case_sensitive = False
         self.learning_mode = False
         self.sound_enabled = True
         self.correct_streak = 0
@@ -163,7 +164,13 @@ class TypingGame:
 
     def next_question(self):
         if self.current_question is not None:
-            self.last_question_answer = self.current_question[1]
+            case_sensitive_last = case_sensitive_answer(self.current_question[1].strip())
+            if case_sensitive_last is not None:
+                self.last_question_case_sensitive = True
+                self.last_question_answer = f"{case_sensitive_last}"
+            else:
+                self.last_question_case_sensitive = False
+                self.last_question_answer = self.current_question[1].strip()
             self.last_question_info = self.current_question[2]
         if self.game_mode == "clear":
             if not self.available_questions:
@@ -204,10 +211,8 @@ class TypingGame:
             feedback_rect = feedback_surface.get_rect(center=(400, 350))
             self.screen.blit(feedback_surface, feedback_rect)
             if self.learning_mode:
-                #check if the answer has >> at the start and strip those characters if it does and display it as case sensitive
-                case_sensitive = case_sensitive_answer(self.last_question_answer)
-                if case_sensitive is not None:
-                    answer_text = f"Answer(CS): {case_sensitive}"
+                if self.last_question_case_sensitive:
+                    answer_text = f"Answer(CS): {self.last_question_answer}"
                 else:
                     answer_text = f"Answer: {self.last_question_answer}"
                 answer_surface = self.font.render(answer_text, True, (255, 255, 0))
@@ -310,8 +315,8 @@ class TypingGame:
                     if self.sound_enabled:
                         self.sound_manager.play_correct()
                 else:
-                    similarity = calculate_similarity(user_answer, correct_answer)
-                    if similarity >= 0.9:
+                    similarity = calculate_similarity(user_answer, correct_answer, case_sensitive is not None)
+                    if similarity >= 0.90:
                         self.questions_correct += 0.5
                         if self.game_mode == "clear":
                             self.clear_mode_correct += 1
@@ -331,12 +336,21 @@ class TypingGame:
                         self.feedback = "Incorrect"
                         self.feedback_color = (255, 0, 0)
                         self.correct_streak = 0
-                        wrong_entry = {
-                            'question': self.current_question[0],
-                            'correct_answer': self.current_question[1],
-                            'user_answer': self.user_input.strip(),
-                            'extra_info': self.current_question[2] if len(self.current_question) > 2 else ''
-                        }
+                        case_sensitive_correct_answer = case_sensitive_answer(self.current_question[1].strip())
+                        if case_sensitive_correct_answer is not None:
+                            wrong_entry = {
+                                'question': self.current_question[0],
+                                'correct_answer': case_sensitive_correct_answer,
+                                'user_answer': self.user_input.strip(),
+                                'extra_info': self.current_question[2] if len(self.current_question) > 2 else ''
+                            }
+                        else:
+                            wrong_entry = {
+                                'question': self.current_question[0],
+                                'correct_answer': self.current_question[1],
+                                'user_answer': self.user_input.strip(),
+                                'extra_info': self.current_question[2] if len(self.current_question) > 2 else ''
+                            }
                         self.wrong_answers.append(wrong_entry)
                         if self.sound_enabled:
                             self.sound_manager.play_wrong()

@@ -1,0 +1,7 @@
+answer is "aBc4", >>aBc4, Testing case sensitivity 1
+answer is "XyZ9", >>XyZ9, Testing case sensitivity 2
+answer is "123Ab", >>123Ab, Testing alphanumeric mix
+answer is "Test!", >>Test!, Testing special characters
+answer is "AAbbABBaaaBBC", >>AAbbABBaaaBBC, Testing repeated characters
+answer is "AnyCaSe", AnyCaSe, Testing non case sensitive match
+answer is "A medium length string to see how it shows up", >>A medium length string to see how it shows up, Testing medium length strings
