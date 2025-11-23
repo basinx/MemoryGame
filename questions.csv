@@ -37,4 +37,7 @@ New Copilot feature to co-create content in real time alongside Teammates and AI
 Sharepoint feature to Create; share and manage live and on-demand videos within a small team; or across an organization, Stream, Microsoft Stream allows users to upload; share; and manage video content securely within their organization; facilitating communication and collaboration through video.
 In Teams; A Team is a collection of ?/?/?, People/Content/Tools, People are the members of the team; Content includes files; documents; and resources shared within the team; Tools refer to apps and integrations. Teams can be public or private.
 A Team has a limit of up to how many members (at the time of the MS-900 material)?, 10000, The new number appears to be 25000 members as of 2024 but the MS-900 material states 10000.
+Three types of Teams Channels ?/?/?, Standard/Private/Shared, Standard channels are open to all team members; Private channels restrict access to specific members; Shared channels allow collaboration with people outside the team.
+Files are shared in a Team Channel from what Tab/Stored Where?, Files/Sharepoint, The Files tab in a Teams channel provides access to documents and files shared within that channel; these files are stored in a SharePoint site associated with the team.
+
 
