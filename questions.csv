@@ -41,5 +41,6 @@ Three types of Teams Channels ?/?/?, Standard/Private/Shared, Standard channels 
 Files are shared in a Team Channel from what Tab/Stored Where?, Files/Sharepoint, The Files tab in a Teams channel provides access to documents and files shared within that channel; these files are stored in a SharePoint site associated with the team.
 Copilot in Teams can give highlights from past ?/?/? days, 1/7/30, Copilot can summarize key points; action items; and decisions from meetings held in the past 1; 7; or 30 days.
 Copilot CANNOT reference ?/?/? shared in a chat thread, Images/Components/Files, It cannot reference Images; Loop Components; or Files shared in a chat thread.
-Loop components are ?/? content blocks, portable/live, Loop components are portable/live-updating content blocks that can be shared and collaborated on across Microsoft 365 apps.
+Loop components are ?/? content blocks, portable/live, Loop components are portable/live-updating content blocks that can be shared and collaborated on across Microsoft 365 apps. (eg A table; list; task list; or paragraph)
+
 
