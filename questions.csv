@@ -64,6 +64,7 @@ Something Intune can automate deployment for that isnt app/OS?, Policy, Intune c
 Something Intune offers that is specifically for USERS (not IT)?, Portal, The Company Portal app allows users to securely access corporate resources; install apps; and manage their devices enrolled in Intune.
 Basically an on-prem predecessor to Intune? (Acronym), SCCM, System Center Configuration Manager (SCCM) is an on-premises management solution that provides similar capabilities to Intune; including software deployment; patch management; and device configuration.
 If you need to manage a combination of both cloud and on-premises endpoints; you can use:, Cloud Attach, Three main features of Cloud Attach listed: [Co-management; Tenant Attach; and Endpoint Analytics] Cloud Attach allows extending on-prem capabilities to cloud-managed devices.
+Two AUTO Endpoint management tools: Auto ?/?, Pilot/Patch, Autopilot simplifies device provisioning and setup for new devices; Autopatch automates the deployment of Windows and Office updates to ensure devices stay secure and up-to-date.
 
 
 
