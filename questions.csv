@@ -69,6 +69,8 @@ Endpoint Mgmt tool where can add users and groups; create and manage policies; a
 The only cloud solution that delivers multi-session user access on Windows, Azure Virtual Desktop, Azure Virtual Desktop allows multiple users to access a single Windows machine simultaneously; providing a cost-effective solution for remote desktop and application delivery. (Win365 = one user)
 What technology does Azure VD use to manage multiple desktops/users?, FSLogix, FSLogix is a set of technologies that enhance user profile management in virtual desktop environments; enabling faster logins; improved application performance; and seamless user experiences. (It containers user profiles)
 Windows 365/Azure Virtual Desktop have ?/? cost structures, Fixed/Variable, Windows 365 uses a fixed pricing model based on the number of users and selected configurations; Azure Virtual Desktop employs a variable pricing model based on actual resource consumption; such as compute; storage; and networking.
+How often are Feature updates released?, Semi-Annual, Feature updates for Windows are typically released twice a year; usually in the spring and fall.
+How often are Quality updates released?, Monthly, <non-security releases or combined security + non-security releases.> Typically on the second Tuesday of each month (Patch Tuesday).
 
 
 
