@@ -66,6 +66,8 @@ Basically an on-prem predecessor to Intune? (Acronym), SCCM, System Center Confi
 If you need to manage a combination of both cloud and on-premises endpoints; you can use:, Cloud Attach, Three main features of Cloud Attach listed: [Co-management; Tenant Attach; and Endpoint Analytics] Cloud Attach allows extending on-prem capabilities to cloud-managed devices.
 Two AUTO Endpoint management tools: Auto ?/?, Pilot/Patch, Autopilot simplifies device provisioning and setup for new devices; Autopatch automates the deployment of Windows and Office updates to ensure devices stay secure and up-to-date.
 Endpoint Mgmt tool where can add users and groups; create and manage policies; and monitor your policies using report data, Intune Admin Center, The Intune Admin Center is a web-based portal that provides a centralized interface for managing devices; users; and policies within Microsoft Intune.
+The only cloud solution that delivers multi-session user access on Windows, Azure Virtual Desktop, Azure Virtual Desktop allows multiple users to access a single Windows machine simultaneously; providing a cost-effective solution for remote desktop and application delivery. (Win365 = one user)
+
 
 
 
