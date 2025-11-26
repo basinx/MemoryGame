@@ -67,6 +67,7 @@ If you need to manage a combination of both cloud and on-premises endpoints; you
 Two AUTO Endpoint management tools: Auto ?/?, Pilot/Patch, Autopilot simplifies device provisioning and setup for new devices; Autopatch automates the deployment of Windows and Office updates to ensure devices stay secure and up-to-date.
 Endpoint Mgmt tool where can add users and groups; create and manage policies; and monitor your policies using report data, Intune Admin Center, The Intune Admin Center is a web-based portal that provides a centralized interface for managing devices; users; and policies within Microsoft Intune.
 The only cloud solution that delivers multi-session user access on Windows, Azure Virtual Desktop, Azure Virtual Desktop allows multiple users to access a single Windows machine simultaneously; providing a cost-effective solution for remote desktop and application delivery. (Win365 = one user)
+What technology does Azure VD use to manage multiple desktops/users?, FSLogix, FSLogix is a set of technologies that enhance user profile management in virtual desktop environments; enabling faster logins; improved application performance; and seamless user experiences. (It containers user profiles)
 
 
 
