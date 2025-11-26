@@ -63,5 +63,6 @@ The name of the security model that 365 Endpoint Management tools use?, Zero Tru
 Something Intune can automate deployment for that isnt app/OS?, Policy, Intune can automate the deployment of security and configuration policies to ensure devices comply with organizational standards.
 Something Intune offers that is specifically for USERS (not IT)?, Portal, The Company Portal app allows users to securely access corporate resources; install apps; and manage their devices enrolled in Intune.
 Basically an on-prem predecessor to Intune? (Acronym), SCCM, System Center Configuration Manager (SCCM) is an on-premises management solution that provides similar capabilities to Intune; including software deployment; patch management; and device configuration.
+If you need to manage a combination of both cloud and on-premises endpoints; you can use:, Cloud Attach, Cloud Attach allows organizations to extend their on-premises management capabilities to cloud-based devices; enabling unified endpoint management across environments.
 
 
