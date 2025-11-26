@@ -72,6 +72,7 @@ Windows 365/Azure Virtual Desktop have ?/? cost structures, Fixed/Variable, Wind
 How often are Feature updates released?, Annually, It used to be twice a year but now they are released once a year (in the second half of the year).
 How often are Quality updates released?, Monthly, <non-security releases or combined security + non-security releases.> Typically on the second Tuesday of each month (Patch Tuesday).
 New features are delivered to the Windows Insider community during the development cycle through process called ?, flighting, This allows organizations to see what Microsoft is developing and start testing (a choice of release channel). Microsoft recommends that all organizations have at least a few devices enrolled in this program.
+Long-term servicing channel receives new updates every ? years, 2-3, The Long-Term Servicing Channel (LTSC) is designed for specialized devices and scenarios where stability and long-term support are critical; it receives feature updates every 2-3 years.
 
 
 
