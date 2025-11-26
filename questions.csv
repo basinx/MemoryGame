@@ -71,6 +71,7 @@ What technology does Azure VD use to manage multiple desktops/users?, FSLogix, F
 Windows 365/Azure Virtual Desktop have ?/? cost structures, Fixed/Variable, Windows 365 uses a fixed pricing model based on the number of users and selected configurations; Azure Virtual Desktop employs a variable pricing model based on actual resource consumption; such as compute; storage; and networking.
 How often are Feature updates released?, Semi-Annual, Feature updates for Windows are typically released twice a year; usually in the spring and fall.
 How often are Quality updates released?, Monthly, <non-security releases or combined security + non-security releases.> Typically on the second Tuesday of each month (Patch Tuesday).
+New features are delivered to the Windows Insider community during the development cycle through process called ?, flighting, This allows organizations to see what Microsoft is developing and start testing as soon as possible. Microsoft recommends that all organizations have at least a few devices enrolled in this program.
 
 
 
