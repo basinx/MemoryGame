@@ -74,6 +74,7 @@ How often are Quality updates released?, Monthly, <non-security releases or comb
 New features are delivered to the Windows Insider community during the development cycle through process called ?, flighting, This allows organizations to see what Microsoft is developing and start testing (a choice of release channel). Microsoft recommends that all organizations have at least a few devices enrolled in this program.
 Long-term servicing channel receives new updates every ? years, 2-3, The Long-Term Servicing Channel (LTSC) is designed for specialized devices and scenarios where stability and long-term support are critical; it receives feature updates every 2-3 years.
 A group of users or devices that receive a particular update together, Deployment Ring, Deployment Rings allow organizations to gradually roll out updates to different groups of users or devices; eg ring structure: Preview > Limited > Broad
+Run from the command line and uses a configuration file to determine what settings to apply when deploying Office:, Office Deployment Tool, The Office Deployment Tool (ODT) allows administrators to customize and manage Office installations; Install from the Office Content Delivery Network (CDN)
 
 
 
