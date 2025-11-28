@@ -76,6 +76,7 @@ Long-term servicing channel receives new updates every ? years, 2-3, The Long-Te
 A group of users or devices that receive a particular update together, Deployment Ring, Deployment Rings allow organizations to gradually roll out updates to different groups of users or devices; eg ring structure: Preview > Limited > Broad
 Run from the command line and uses a configuration file to determine what settings to apply when deploying Office:, Office Deployment Tool, The Office Deployment Tool (ODT) allows administrators to customize and manage Office installations; Install from the Office Content Delivery Network (CDN) or a local source.
 Windows 365 is a cloud-based service that automatically creates, cloud PCs, Windows 365 automatically provisions and manages Cloud PCs; providing users with a personalized Windows experience accessible from any device with an internet connection.
+What is the term for the new mode of continuously updating windows with Feature and Quality updates?, Windows as a Service, Windows as a Service (WaaS) is a model where Windows is continuously updated with new features and improvements; rather than receiving major updates every few years.
 
 
 
