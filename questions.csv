@@ -75,6 +75,8 @@ New features are delivered to the Windows Insider community during the developme
 Long-term servicing channel receives new updates every ? years, 2-3, The Long-Term Servicing Channel (LTSC) is designed for specialized devices and scenarios where stability and long-term support are critical; it receives feature updates every 2-3 years.
 A group of users or devices that receive a particular update together, Deployment Ring, Deployment Rings allow organizations to gradually roll out updates to different groups of users or devices; eg ring structure: Preview > Limited > Broad
 Run from the command line and uses a configuration file to determine what settings to apply when deploying Office:, Office Deployment Tool, The Office Deployment Tool (ODT) allows administrators to customize and manage Office installations; Install from the Office Content Delivery Network (CDN) or a local source.
+Windows 365 is a cloud-based service that automatically creates, cloud PCs, Windows 365 automatically provisions and manages Cloud PCs; providing users with a personalized Windows experience accessible from any device with an internet connection.
+
 
 
 
