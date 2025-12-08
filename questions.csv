@@ -88,6 +88,7 @@ Reports in the M365 Admin center are available for the last ?/?/?/? days, 7/30/9
 This score reflects People and Technology experience measurements and can be compared Organizations similar to yours, Adoption, Adoption score provides insights into your organization's digital transformation journey through its use of Microsoft 365 and the technology experiences that support it.
 A percentage that acts as indicator for how aligned you are with Microsoft's security best practice recommendations, Identity Secure Score, helps you to objectively measure your identity security posture; plan identity security improvements; and review the success of your improvements.
 An identity for an application that has been registered with MS Entra ID, Service Principal, The service principal enables core features such as authentication and authorization of the application to resources that are secured by the Microsoft Entra tenant.
+What type of 'Workload Identity' can be System or User assigned?, Managed, Managed identities provide an identity for applications to use when connecting to Azure resources that support Microsoft Entra authentication and can be used without any extra cost.
 
 
 
