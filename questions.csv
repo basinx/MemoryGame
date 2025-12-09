@@ -91,7 +91,7 @@ An identity for an application that has been registered with MS Entra ID, Servic
 What type of 'Workload Identity' can be System or User assigned?, Managed, Managed identities provide an identity for applications to use when connecting to Azure resources that support Microsoft Entra authentication and can be used without any extra cost.
 Specific name for one method MS provides for inter-directory provisioning, Entra Cloud Sync, It accomplishes this by using the Microsoft Entra cloud provisioning agent. The agent provides a lightweight inter-directory provisioning experience that acts as a bridge between Microsoft Entra ID and Active Directory.
 The standard used to automate the exchanging of user or group identity information between identity domains, SCIM, System for Cross-domain Identity Management (SCIM) is an open standard that enables the automation of user provisioning and deprovisioning across different identity domains; It is becoming the de facto standard for provisioning.
-
+Name for the feature of Entra External ID that provides handy account management and SSO features for customers? (Acronym), CIAM, Customer Identity and Access Management (CIAM) provides features such as self-service sign-up; profile management; password reset; and single sign-on (SSO) for customer-facing applications.
 
 
 
