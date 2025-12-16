@@ -92,6 +92,7 @@ What type of 'Workload Identity' can be System or User assigned?, Managed, Manag
 Specific name for one method MS provides for inter-directory provisioning, Entra Cloud Sync, It accomplishes this by using the Microsoft Entra cloud provisioning agent. The agent provides a lightweight inter-directory provisioning experience that acts as a bridge between Microsoft Entra ID and Active Directory.
 The standard used to automate the exchanging of user or group identity information between identity domains, SCIM, System for Cross-domain Identity Management (SCIM) is an open standard that enables the automation of user provisioning and deprovisioning across different identity domains; It is becoming the de facto standard for provisioning.
 Name for the feature of Entra External ID that provides handy account management and SSO features for customers? (Acronym), CIAM, Customer Identity and Access Management (CIAM) provides features such as self-service sign-up; profile management; password reset; and single sign-on (SSO) for customer-facing applications.
+SSE stands for?, Secure Service Edge, Secure Service Edge (SSE) is a cloud-delivered security model that combines various security services to protect users; devices; and data regardless of their location.
 
 
 
