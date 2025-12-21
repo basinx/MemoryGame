@@ -97,6 +97,7 @@ Mneumonic for the 5 things Conditional Access considers?, RADUL, Risk/Applicatio
 "the probability that a given identity or account is compromised.", User Risk, User risk is calculated based on various factors; such as sign-in behavior; device health; and location anomalies; leaked credentials; to assess the likelihood that an identity has been compromised.
 "the probability that a given sign-in, or authentication request, isn't authorized by the identity owner.", Sign-in Risk, Sign-in risk is determined by analyzing various signals; such as unfamiliar locations; atypical sign-in times; and impossible travel scenarios; to evaluate the legitimacy of a sign-in attempt.
 What is Microsoft's unified data governance and compliance platform called?, Purview, Microsoft Purview provides a comprehensive set of tools and services to help organizations manage data governance; compliance; and risk management across their entire data estate.
+The term for the conditions that determine which access controls to use in Conditional Access?, Assignments, Assignments define the specific conditions; such as users; groups; devices; applications; location; or risk that trigger the evaluation of Conditional Access policies.
 
 
 
