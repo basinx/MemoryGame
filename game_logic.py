@@ -38,6 +38,8 @@ class TypingGame:
         self.clear_mode_correct = 0
         self.wrong_answers = []
         self.wrong_answers_file = None
+        # record end_time for when game finishes; reset on new game
+        self.end_time = None
         self.sound_manager = sound_manager
         self.font = font
         self.screen = screen
@@ -131,6 +133,8 @@ class TypingGame:
         self.questions_correct = 0
         self.clear_mode_correct = 0
         self.wrong_answers = []
+        # record end_time for when game finishes; reset on new game
+        self.end_time = None
         self.next_question()
         self.state = "playing"
 
@@ -175,6 +179,8 @@ class TypingGame:
         if self.game_mode == "clear":
             if not self.available_questions:
                 self.wrong_answers_file = self.save_wrong_answers()
+                # mark the time the game ended so displayed elapsed is frozen
+                self.end_time = time.time()
                 self.state = "game_over"
                 return
             if len(self.available_questions) > 1:
@@ -245,6 +251,8 @@ class TypingGame:
             self.time_left = self.game_length - int(time.time() - self.start_time)
             if self.time_left <= 0:
                 self.wrong_answers_file = self.save_wrong_answers()
+                # record the end time (timeout)
+                self.end_time = time.time()
                 self.state = "game_over"
             elif time.time() > self.question_timer:
                 self.questions_answered += 1
@@ -420,6 +428,38 @@ class TypingGame:
         elif self.state == "game_over":
             draw_text(self.screen, "Game Over", (335, 200), self.font)
             draw_text(self.screen, f"Final Score: {self.score}", (315, 250), self.font)
+
+            # --- New: Time taken and average time per question ---
+            # If end_time wasn't recorded by the game logic, set it now so the displayed elapsed stops growing
+            if getattr(self, 'end_time', None) is None:
+                self.end_time = time.time()
+
+            elapsed = 0.0
+            if getattr(self, 'start_time', None):
+                # use end_time when present so elapsed doesn't continue to grow after game over
+                if getattr(self, 'end_time', None) is not None:
+                    elapsed = self.end_time - self.start_time
+                else:
+                    elapsed = time.time() - self.start_time
+                # If the game ended because time ran out, cap elapsed at the configured game length
+                if getattr(self, 'time_left', None) is not None and self.time_left <= 0:
+                    elapsed = min(elapsed, float(self.game_length))
+            # format mm:ss and include seconds with one decimal for clarity
+            mins = int(elapsed) // 60
+            secs = int(elapsed) % 60
+            elapsed_text = f"Time Taken: {mins}:{secs:02d} ({elapsed:.1f}s)"
+            draw_text(self.screen, elapsed_text, (150, 510), self.font)
+
+            avg = 0.0
+            # Average time per correct question (uses questions_correct which may be fractional for half-points)
+            if getattr(self, 'questions_correct', 0) > 0:
+                avg = elapsed / float(self.questions_correct)
+                avg_text = f"Average Time Per Correct Question: {avg:.2f}s"
+            else:
+                avg_text = "Average Time Per Correct Question: N/A"
+            draw_text(self.screen, avg_text, (150, 540), self.font)
+            # --- End new stats ---
+
             if self.game_mode == "clear":
                 clear_stats_text = f"Questions Completed: {self.clear_mode_correct}"
                 draw_text(self.screen, clear_stats_text, (280, 280), self.font)
