@@ -100,6 +100,7 @@ What is Microsoft's unified data governance and compliance platform called?, Pur
 The term for the conditions that determine which access controls to use in Conditional Access?, Assignments, Assignments define the specific conditions; such as users; groups; devices; applications; location; or risk that trigger the evaluation of Conditional Access policies.
 Microsofts SSE solution/unifying term for both Microsoft Entra Internet Access and Microsoft Entra Private Access, Global Secure Access, Zero Trust network; identity; and endpoint access controls so that you can secure access to any app or resource; from any location; device; or identity.
 SWG meaning?, Secure Web Gateway, A Secure Web Gateway (SWG) is a security solution that protects users from web-based threats by enforcing corporate and regulatory policies; filtering malicious content; and monitoring web traffic.
+A security feature where apps and Microsoft Entra constantly communicate to ensure user access is up-to-date and secure, Continuous Access Evaluation, Continuous Access Evaluation (CAE) allows Microsoft Entra ID to evaluate access requests in real-time; ensuring that access decisions are based on the most current information about the user's context and risk level.
 
 
 
