@@ -104,6 +104,8 @@ A security feature where apps and Microsoft Entra constantly communicate to ensu
 Wheres the widgets that summarize info about Microsoft Internet and Private access (Inside the Entra Admin Center)?, Global Secure Access Dashboard, Global Secure Access snapshot; Alerts and notifications; Usage profiling; Cross-tenant access; Web category filtering; Device status
 Custom roles require which license(s)?, p1/p2, Custom roles in Microsoft Entra ID require either Microsoft Entra ID Premium P1 or P2 licenses; depending on the complexity and scope of the custom roles being created.
 Three built in 'Administrator' roles?, Global/User/Billing, Global Administrator has full access to all administrative features; User Administrator can manage user accounts and groups; Billing Administrator can manage subscriptions and billing information.
+IDTR Meaning (in regards to Defender)?, Identity Threat Detection and Response, Defender for Identity cloud service uses (parsed) signals from on prem sensors to deliver this response; Prevent Breaches/Detect threats/Investigate/Respond
+A cloud-based security solution that uses signals from your on-premises identity infrastructure servers to detect threats, Defender for Identity, Mainly sensors on domain controllers and servers running Active Directory Federated Services and Active Directory Certificate Services
 
 
 
