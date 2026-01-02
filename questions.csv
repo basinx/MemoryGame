@@ -111,6 +111,7 @@ The Identities node on the left navigation panel of the Microsoft Defender porta
 4 things Defender Vulnerability Management can monitor?, software shares extensions certs, Software vulnerabilities; Network shares; Browser extensions; and Certificates.
 CVE meaning?, Common Vulnerabilities and Exposures, CVE is a standardized identifier for known cybersecurity vulnerabilities; allowing organizations to easily reference and share information about specific security issues.
 The Vulnerability management node is listed under ? in the Defender portal, Endpoints, Dashboard/Recommendations/Remediation/Inventories/Weaknesses/Event timeline/Baselines assessment
+CVSS meaning, Common Vulnerability Scoring System, CVSS is a standardized framework for rating the severity of security vulnerabilities; providing a numerical score that reflects the potential impact and exploitability of a vulnerability.
 
 
 
