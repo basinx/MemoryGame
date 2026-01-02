@@ -107,6 +107,7 @@ Three built in 'Administrator' roles?, Global/User/Billing, Global Administrator
 IDTR Meaning (in regards to Defender)?, Identity Threat Detection and Response, Defender for Identity cloud service uses (parsed) signals from on prem sensors to deliver this response; Prevent Breaches/Detect threats/Investigate/Respond
 A cloud-based security solution that uses signals from your on-premises identity infrastructure servers to detect threats, Defender for Identity, Mainly sensors on domain controllers and servers running Active Directory Federated Services and Active Directory Certificate Services
 By monitoring user activity/info/permissions/groups MS Defender for Identity can create a ? for each user, behavioral baseline, Defender for Identity then identifies anomalies with adaptive built-in intelligence.
+The Identities node on the left navigation panel of the Microsoft Defender portal includes ?/?/?, Dashboard/Health/Tools, The Identities node provides access to the Defender for Identity dashboard; health status of identity deployment & sensors; and tools to help manage your MS Defender for Identity environment.
 
 
 
