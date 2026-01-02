@@ -113,7 +113,8 @@ CVE meaning?, Common Vulnerabilities and Exposures, CVE is a standardized identi
 The Vulnerability management node is listed under ? in the Defender portal, Endpoints, Dashboard/Recommendations/Remediation/Inventories/Weaknesses/Event timeline/Baselines assessment
 CVSS meaning, Common Vulnerability Scoring System, CVSS is a standardized framework for rating the severity of security vulnerabilities; providing a numerical score that reflects the potential impact and exploitability of a vulnerability.
 IOC meaning?, Indicator of Compromise, An Indicator of Compromise (IOC) is a piece of forensic data that indicates a potential security breach or malicious activity within a network or system.
-The Windows Defender Threat Intelligence: Threat Analytics dashboard summarizes in 3 ways ?/?/?, latest/impact/exposure, Latest threat reports / Highest impact to your organization / Highest exposure based on your environment.
+The Windows Defender Threat Intelligence: Threat Analytics dashboard summarizes in 3 ways ?/?/?, latest/impact/exposure, Latest threat reports / Highest impact to your organization / Highest exposure based on your environment (severity of vulnerability * number of devices in org).
+
 
 
 
