@@ -110,6 +110,7 @@ By monitoring user activity/info/permissions/groups MS Defender for Identity can
 The Identities node on the left navigation panel of the Microsoft Defender portal includes ?/?/?, Dashboard/Health/Tools, The Identities node provides access to the Defender for Identity dashboard; health status of identity deployment & sensors; and tools to help manage your MS Defender for Identity environment.
 4 things Defender Vulnerability Management can monitor?, software shares extensions certs, Software vulnerabilities; Network shares; Browser extensions; and Certificates.
 CVE meaning?, Common Vulnerabilities and Exposures, CVE is a standardized identifier for known cybersecurity vulnerabilities; allowing organizations to easily reference and share information about specific security issues.
+The Vulnerability management node is listed under ? in the Defender portal, Endpoints, Dashboard/Recommendations/Remediation/Inventories/Weaknesses/Event timeline/Baselines assessment
 
 
 
