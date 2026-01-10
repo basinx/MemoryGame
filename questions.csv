@@ -116,6 +116,9 @@ IOC meaning?, Indicator of Compromise, An Indicator of Compromise (IOC) is a pie
 The Windows Defender Threat Intelligence: Threat Analytics dashboard summarizes in 3 ways ?/?/?, latest/impact/exposure, Latest threat reports / Highest impact to your organization / Highest exposure based on your environment (severity of vulnerability * number of devices in org).
 Mneumonic for the 4 Guided Response types of Copilot in XDR?, TriCoInReme, Triage; Containment; Investigation; Remediation. Each card contains information about the recommended action; including why the action is recommended; similar incidents; and more.
 To access the natural language to KQL query assistant; users with access to Copilot select:, Advanced Hunting, Copilot provides prompts you can use to start hunting for threats with Copilot; or you can write your own natural language question; in the prompt bar; to generate a KQL query.
+Where can you get a device summary for a device involved in an incident?, Assets Page, From the Assets page; you can search for a specific device to view its summary; including security posture; recent alerts; and other relevant information.
+How to move to the 'Standalone Experience' from Defender XDR?, Open In Security Copilot, ...->Open In Security Copilot; This launches the standalone Security Copilot experience; where you can access all Copilot features and capabilities without the context of a specific incident.
+
 
 
 
