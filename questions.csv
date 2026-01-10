@@ -119,7 +119,8 @@ To access the natural language to KQL query assistant; users with access to Copi
 Where can you get a device summary for a device involved in an incident?, Assets Page, From the Assets page; you can search for a specific device to view its summary; including security posture; recent alerts; and other relevant information.
 How to move to the 'Standalone Experience' from Defender XDR?, Open In Security Copilot, ...->Open In Security Copilot; This launches the standalone Security Copilot experience; where you can access all Copilot features and capabilities without the context of a specific incident.
 CASB Meaning?, Cloud Access Security Broker, A Cloud Access Security Broker (CASB) is a security solution that provides 4 areas/pillars of security for cloud apps: visibility to detect all cloud services; data security; threat protection; and compliance.
-
+helps organizations govern; protect; and manage data; wherever it lives across their entire data estate-(Data Compliance)?, Microsoft Purview, Microsoft Purview provides a comprehensive set of tools and services to help organizations manage data governance; compliance; and risk management across their entire data estate.
+cmdlet in Exchange Online PowerShell command to search Purview Audit Logs?, Search-UnifiedAuditLog, The Search-UnifiedAuditLog cmdlet allows administrators to search the unified audit log in Microsoft 365; enabling them to retrieve audit records for various activities across different services.
 
 
 
