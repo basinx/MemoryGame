@@ -127,4 +127,5 @@ Acronym for 4 key elements of Compliance Manager?, CARI, Controls/Assessments/Re
 Acronym for 4 aspects of Purview Communication Compliance Workflow, CIRM, Configure/Investigate/Remediate/Monitor; Communication Compliance helps organizations detect; capture; and take action on inappropriate messages within Microsoft 365.
 Retention labels support ? review before deleting items, disposition, Disposition review allows organizations to review items that are due for deletion based on retention policies; ensuring that important data is not inadvertently deleted.
 What determines WHO can use retention labels and WHERE they can be used?, Policies, Retention policies define the scope and application of retention labels; specifying which users or groups can apply the labels and where they can be used within Microsoft 365 services.
+Type of Record label not enabled by default; must be enabled by an Admin using Powershell:, Regulatory, Regulatory records are used to meet specific regulatory requirements for data retention and management; they provide additional controls and protections for sensitive information. Cannot be removed!
 
