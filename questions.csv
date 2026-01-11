@@ -126,4 +126,5 @@ Where to find eDiscovery in the Microsoft Purview Portal?, Risk & Compliance, Th
 Acronym for 4 key elements of Compliance Manager?, CARI, Controls/Assessments/Regulations/Improvement Actions; Purview Compliance Manager shows the current compliance score; helps admins to see what needs attention; and guides them to key improvement actions.
 Acronym for 4 aspects of Purview Communication Compliance Workflow, CIRM, Configure/Investigate/Remediate/Monitor; Communication Compliance helps organizations detect; capture; and take action on inappropriate messages within Microsoft 365.
 Retention labels support ? review before deleting items, disposition, Disposition review allows organizations to review items that are due for deletion based on retention policies; ensuring that important data is not inadvertently deleted.
+What determines WHO can use retention labels and WHERE they can be used?, Policies, Retention policies define the scope and application of retention labels; specifying which users or groups can apply the labels and where they can be used within Microsoft 365 services.
 
