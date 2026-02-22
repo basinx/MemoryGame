@@ -299,16 +299,57 @@ class TypingGame:
         if self.state == "playing" and event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RETURN or event.key == pygame.K_KP_ENTER:
                 self.questions_answered += 1
-                correct_answer = self.current_question[1].strip()
-                case_sensitive = case_sensitive_answer(correct_answer)
+                raw_correct = self.current_question[1].strip()
+                case_sensitive = case_sensitive_answer(raw_correct)
+                # prepare the processed correct answer string and the user's input according to case sensitivity
                 if case_sensitive is not None:
-                    correct_answer = case_sensitive
-                    user_answer = self.user_input.strip()
+                    processed_correct = case_sensitive
+                    processed_user = self.user_input.strip()
                 else:
-                    correct_answer = correct_answer.lower()
-                    user_answer = self.user_input.strip().lower()
-                if user_answer == correct_answer:
-                    self.questions_correct += 1
+                    processed_correct = raw_correct.lower()
+                    processed_user = self.user_input.strip().lower()
+
+                # Support slash-separated multiple answers on both sides by splitting into lists
+                correct_items = [p.strip() for p in processed_correct.split('/') if p.strip()]
+                user_items = [p.strip() for p in processed_user.split('/') if p.strip()]
+
+                matched_all = True
+                any_fuzzy = False
+
+                # Quick path: if either side is empty, treat as simple string comparison
+                if not correct_items:
+                    correct_items = [processed_correct]
+                if not user_items:
+                    user_items = [processed_user]
+
+                # Attempt to match each user item to one of the remaining correct items
+                remaining = correct_items.copy()
+                for ui in user_items:
+                    found = False
+                    for ci in remaining:
+                        # exact match
+                        if ui == ci:
+                            found = True
+                            remaining.remove(ci)
+                            break
+                        # similarity check per-item
+                        sim = calculate_similarity(ui, ci, case_sensitive is not None)
+                        if sim >= 0.90:
+                            found = True
+                            any_fuzzy = True
+                            remaining.remove(ci)
+                            break
+                    if not found:
+                        matched_all = False
+                        break
+
+                # Also require that all correct items were matched (no omissions)
+                if remaining:
+                    matched_all = False
+
+                if matched_all:
+                    # full or half points depending on whether any fuzzy matches occurred
+                    self.questions_correct += 1 if not any_fuzzy else 0.5
                     if self.game_mode == "clear":
                         self.clear_mode_correct += 1
                         if self.current_question in self.available_questions:
@@ -317,51 +358,41 @@ class TypingGame:
                     multiplier = 1
                     if self.correct_streak >= 3:
                         multiplier = self.correct_streak - 1
-                    self.score += 10 * multiplier
-                    self.feedback = f"Correct x{multiplier}"
-                    self.feedback_color = (0, 255, 0)
-                    if self.sound_enabled:
-                        self.sound_manager.play_correct()
-                else:
-                    similarity = calculate_similarity(user_answer, correct_answer, case_sensitive is not None)
-                    if similarity >= 0.90:
-                        self.questions_correct += 0.5
-                        if self.game_mode == "clear":
-                            self.clear_mode_correct += 1
-                            if self.current_question in self.available_questions:
-                                self.available_questions.remove(self.current_question)
-                        self.correct_streak += 1
-                        multiplier = 1
-                        if self.correct_streak >= 3:
-                            multiplier = self.correct_streak - 1
+                    if not any_fuzzy:
+                        self.score += 10 * multiplier
+                        self.feedback = f"Correct x{multiplier}"
+                        self.feedback_color = (0, 255, 0)
+                        if self.sound_enabled:
+                            self.sound_manager.play_correct()
+                    else:
                         half_points = int((10 * multiplier) / 2)
                         self.score += half_points
                         self.feedback = f"Close! - half points! x{multiplier}"
                         self.feedback_color = (255, 225, 0)
                         if self.sound_enabled:
                             self.sound_manager.play_correct()
+                else:
+                    self.feedback = "Incorrect"
+                    self.feedback_color = (255, 0, 0)
+                    self.correct_streak = 0
+                    case_sensitive_correct_answer = case_sensitive_answer(self.current_question[1].strip())
+                    if case_sensitive_correct_answer is not None:
+                        wrong_entry = {
+                            'question': self.current_question[0],
+                            'correct_answer': case_sensitive_correct_answer,
+                            'user_answer': self.user_input.strip(),
+                            'extra_info': self.current_question[2] if len(self.current_question) > 2 else ''
+                        }
                     else:
-                        self.feedback = "Incorrect"
-                        self.feedback_color = (255, 0, 0)
-                        self.correct_streak = 0
-                        case_sensitive_correct_answer = case_sensitive_answer(self.current_question[1].strip())
-                        if case_sensitive_correct_answer is not None:
-                            wrong_entry = {
-                                'question': self.current_question[0],
-                                'correct_answer': case_sensitive_correct_answer,
-                                'user_answer': self.user_input.strip(),
-                                'extra_info': self.current_question[2] if len(self.current_question) > 2 else ''
-                            }
-                        else:
-                            wrong_entry = {
-                                'question': self.current_question[0],
-                                'correct_answer': self.current_question[1],
-                                'user_answer': self.user_input.strip(),
-                                'extra_info': self.current_question[2] if len(self.current_question) > 2 else ''
-                            }
-                        self.wrong_answers.append(wrong_entry)
-                        if self.sound_enabled:
-                            self.sound_manager.play_wrong()
+                        wrong_entry = {
+                            'question': self.current_question[0],
+                            'correct_answer': self.current_question[1],
+                            'user_answer': self.user_input.strip(),
+                            'extra_info': self.current_question[2] if len(self.current_question) > 2 else ''
+                        }
+                    self.wrong_answers.append(wrong_entry)
+                    if self.sound_enabled:
+                        self.sound_manager.play_wrong()
                 self.next_question()
             elif event.key == pygame.K_BACKSPACE:
                 # immediate delete and start repeat tracking
