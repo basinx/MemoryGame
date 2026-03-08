@@ -8,4 +8,5 @@ Two types of 'domains' that availability sets are grouped by ?/?, update/fault, 
 Ways of running a small program or script: older/newer?, webjob/functions, WebJobs can be run through Azure App service on a more fixed cost basis; Azure Functions stand alone and only bill for the time your code is running
 BPG Meaning?, Border Gateway Protocol, Commonly used in the Internet to exchange routing and reachability information between two or more networks.
 This allows two virtual networks to connect directly to each other, peering, Networks can be in separate regions; Traffic is private and travels on MS backbone
+Command to switch from bash/PowerShell to pure Azure in a fancier CLI?, az interactive, You can type az commands directly here.
 
