@@ -16,4 +16,5 @@ Type of storage account if you need support for network file system (NFS), Premi
 Premium Block Blobs & Premium File Share storage accounts support which redundancy options?, LRS/ZRS, Premium storage account type for block blobs and append blobs. Recommended for scenarios with high transaction rates or that use smaller objects or require consistently low storage latency.
 Type of storage account that only supports LRS redundancy?, Premium Page Blobs, Only supports LRS redundancy because it is designed for high-performance workloads that require low latency and high IOPS; it is not intended for scenarios that require geo-redundancy or zone-redundancy.
 Storage account names must be between ?/? characters long?, 3/24, Storage account names must be between 3 and 24 characters in length; they can contain only lowercase letters and numbers; and must be unique across Azure.
+Azure Blob Storage Cool/Cold/Archive tiers: at least ?/?/? days?, 30/90/180, All four tiers can be set at the blob level; during or after upload. Only Hot/Cool/Cold can be set at the account level
 
