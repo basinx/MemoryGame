@@ -20,4 +20,5 @@ Azure Blob Storage Cool/Cold/Archive tiers: at least ?/?/? days?, 30/90/180, All
 Data in the cool and cold access tiers can tolerate slightly lower?, availability, But cool/cold data still requires high durability; retrieval latency; and throughput characteristics similar to hot data. (doesn't have to be up all the time but when you need it you want it now)
 SMB Azure file shares can be cached on Windows Servers using?, Azure File Sync, a service that allows you to centralize your file shares in Azure Files while keeping the flexibility; performance; and compatibility of an on-premises file server.
 Each individual Azure Queue message can be up to ? in size?, 64KB, Azure Queue Storage is a service for storing large numbers of messages that can be accessed from anywhere in the world via authenticated calls using HTTP or HTTPS
+Acronym for defense in depth layers?, PIPNCAD, Physical Security / Identity & Access / Perimeter / Network / Compute Application / Data
 
