@@ -21,4 +21,6 @@ Data in the cool and cold access tiers can tolerate slightly lower?, availabilit
 SMB Azure file shares can be cached on Windows Servers using?, Azure File Sync, a service that allows you to centralize your file shares in Azure Files while keeping the flexibility; performance; and compatibility of an on-premises file server.
 Each individual Azure Queue message can be up to ? in size?, 64KB, Azure Queue Storage is a service for storing large numbers of messages that can be accessed from anywhere in the world via authenticated calls using HTTP or HTTPS
 Acronym for defense in depth layers?, PIPNCAD, Physical Security / Identity & Access / Perimeter / Network / Compute Application / Data
+CSPM Meaning?, Cloud Security Posture Management, a category of security tools that help organizations identify and remediate risks in their cloud environments; it provides continuous monitoring; assessment; and compliance management for cloud resources and configurations.
+Perform anomaly detection on your Azure activity logs using the native integration with?, Defender for Cloud Apps, Defender for Cloud Apps (formerly Microsoft Cloud App Security) is a cloud access security broker (CASB) that provides visibility; control; and threat protection for cloud applications.
 
