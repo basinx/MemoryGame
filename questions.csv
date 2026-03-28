@@ -27,4 +27,6 @@ Defender for Cloud helps you detect threats across: ?/?/?, PaaS/Data/Networks, A
 Defender for Cloud; 3 things it do for security?, Assess/Secure/Defend, Continuously assess – Know your security posture. Identify and track vulnerabilities. Secure – Harden resources and services with Azure Security Benchmark. Defend – Detect and resolve threats to resources; workloads; and services.
 provides a set of guidelines for security and compliance best practices based on common compliance frameworks, Azure Security Benchmark, Recommendations help you reduce the attack surface across each of your resources are supported by Azure Security Benchmark
 Bandwidth refers to data moving in and out of Azure datacenters. Which can sometimes be free?, Inbound, For outbound data transfers (data leaving Azure datacenters); data transfer pricing is based on zones; A zone is a geographical grouping of Azure regions for billing purposes.
+Acronym for the 5 sections of Azure Advisor?, SPROC, Security; Performance; Reliability; Operational Excellence; Cost
+Acronym for the 3 levels of Service Health view?, ASR, Azure Status; Service Health; Resource Health
 
