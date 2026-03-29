@@ -29,4 +29,4 @@ provides a set of guidelines for security and compliance best practices based on
 Bandwidth refers to data moving in and out of Azure datacenters. Which can sometimes be free?, Inbound, For outbound data transfers (data leaving Azure datacenters); data transfer pricing is based on zones; A zone is a geographical grouping of Azure regions for billing purposes.
 Acronym for the 5 sections of Azure Advisor?, SPROC, Security; Performance; Reliability; Operational Excellence; Cost
 Acronym for the 3 levels of Service Health view?, ASR, Azure Status; Service Health; Resource Health
-
+Tool where you write and run queries against the data Azure Monitor collects, Log Analytics, Azure Log Analytics; it uses a powerful query language called Kusto Query Language (KQL) to analyze and visualize your monitoring data.
