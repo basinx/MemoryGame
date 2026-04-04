@@ -7,7 +7,7 @@ Two types of 'domains' that availability sets are grouped by ?/?, update/fault, 
 Provides a dedicated private connectivity to Azure that doesn't travel over the internet?, ExpressRoute, a service that provides a private connection between your on-premises infrastructure and Azure datacenters; it offers higher security; reliability; and speed compared to typical internet connections.
 Ways of running a small program or script: older/newer?, webjob/functions, WebJobs can be run through Azure App service on a more fixed cost basis; Azure Functions stand alone and only bill for the time your code is running
 BPG Meaning?, Border Gateway Protocol, Commonly used in the Internet to exchange routing and reachability information between two or more networks.
-This allows two virtual networks to connect directly to each other, peering, Networks can be in separate regions; Traffic is private and travels on MS backbone
+This allows two Azure virtual networks to connect directly to each other; so they appear as one, peering, Networks can be in separate regions; Traffic is private and travels on MS backbone
 Command to switch from bash/PowerShell to pure Azure in a fancier CLI?, az interactive, You can type az commands directly here.
 LRS = ?? Redundant Storage / # of nines uptime rating?, Locally/11, Locally Redundant Storage (LRS) replicates your data three times (x3) within a single data center in the same region; it provides 99.999999999% (11 nines) durability of objects over a given year.
 GRS = ?? Redundant Storage / # of nines uptime rating?, Geo/16, Geo-Redundant Storage (GRS) replicates your data to a secondary region hundreds of miles away from the primary region; it provides 99.99999999999999% (16 nines) durability of objects over a given year.
@@ -30,3 +30,10 @@ Bandwidth refers to data moving in and out of Azure datacenters. Which can somet
 Acronym for the 5 sections of Azure Advisor?, SPROC, Security; Performance; Reliability; Operational Excellence; Cost
 Acronym for the 3 levels of Service Health view?, ASR, Azure Status; Service Health; Resource Health
 Tool where you write and run queries against the data Azure Monitor collects, Log Analytics, Azure Log Analytics; it uses a powerful query language called Kusto Query Language (KQL) to analyze and visualize your monitoring data.
+Three things you are always responsible for when using a cloud provider?, data/devices/accounts, info and data stores; devices allowed to connect; accounts and identities of people/services/devices in your org.
+Three things the cloud provider is always responsible for?, datacenter/network/hosts, physical security; network infrastructure; host hardware and virtualization layer.
+Adding more CPU's or RAM to a virtual machine is an example of:, vertical scaling, vertical scaling (or scaling up) means increasing or decreasing the capabilities of resources
+Adding additional virtual machines or containers is an example of:, horizontal scaling, horizontal scaling (or scaling out) means adding (or subtracting) more instances of resources
+Two types of predictability in MS Azure Well-Architechted Framework ?/?, performance/cost, Performance predictability ensures that your applications consistently meet performance requirements under varying loads; Cost predictability helps you manage and forecast your cloud expenses effectively.
+Term for feature that can deploy additional resources to meet the demand, autoscaling, Autoscaling automatically adjusts the number of active servers or resources based on current demand; ensuring optimal performance and cost-efficiency.
+Feature/tools often available in cloud environments to help better plan resource deployments, data analytics, Data analytics tools can analyze historical usage patterns and predict future resource needs; helping organizations optimize their cloud deployments.
