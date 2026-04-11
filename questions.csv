@@ -39,3 +39,4 @@ Term for feature that can deploy additional resources to meet the demand, autosc
 Feature/tools often available in cloud environments to help better plan resource deployments, data analytics, Data analytics tools can analyze historical usage patterns and predict future resource needs; helping organizations optimize their cloud deployments.
 What item in shared responsibility has a hard line down the middle and is never iffy?, OS, On-Prem and IaaS = YOU / PaaS and SaaS = Cloud Provider
 Azure has a cloud based solution for this virtualization platform, VMWare, Azure VMware Solution (AVS) is a service that allows you to run your VMware workloads natively on Azure; it provides a seamless migration path for VMware-based applications and workloads to the cloud.
+Term focusing on the speed and ease of allocating and deallocating resources, Agility, Agility refers to the speed and ease while Elasticity is more about the automatic scaling of resources based on demand.
