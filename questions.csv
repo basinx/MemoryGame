@@ -51,4 +51,5 @@ What can you use to ensure Azure resources stay in compliance with corporate sta
 A group of related Azure policies is known as?, Initiative, An initiative is a collection of Azure Policy definitions that are grouped together towards a specific goal or purpose; it allows you to manage and assign multiple policies as a single unit.
 evaluates resources and makes recommendations to improve reliability; security; performance and cost?, Azure Advisor, Azure Advisor is a personalized cloud consultant that helps you follow best practices to optimize your Azure deployments;
 After an outage; Service Health provides official incident reports called:, Root Cause Analyses, Root Cause Analyses (RCAs) are detailed reports that provide insights into the cause of an outage or service disruption; they include information about the incident; its impact; and the steps taken to resolve it.
+What can you use to automatically detect performance anomalies for web apps?, Application Insights, Application Insights is an application performance management (APM) service that provides real-time monitoring and analytics for your web applications
 
