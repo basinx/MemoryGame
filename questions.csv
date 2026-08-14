@@ -9,4 +9,5 @@
 'Data Link' is what # on the OSI model?, 2, This layer is responsible for node-to-node data transfer and error detection
 'Physical' is what # on the OSI model?, 1, This layer is responsible for the physical connection between devices and the transmission of raw bit streams over a physical medium
 Alternate acronym for MAC addresses?, DLC, Data Link Control; apparently refers to the exact same thing
-On what OSI layer would a frame get 'fragmented'?, 3, Fragmentation occurs at the Network layer
+On what OSI layer would a packet would get 'fragmented'?, 3, Fragmentation of packets occurs at the Network layer if the packet size exceeds the Maximum Transmission Unit (MTU) of the network
+On what OSI layer would data 'segmentation' occur?, 4, Segmentation of data occurs at the Transport layer to break down large messages into smaller segments for transmission
