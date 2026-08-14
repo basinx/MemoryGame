@@ -8,3 +8,4 @@
 'Network' is what # on the OSI model?, 3, This is where IP addressing and routing occurs
 'Data Link' is what # on the OSI model?, 2, This layer is responsible for node-to-node data transfer and error detection
 'Physical' is what # on the OSI model?, 1, This layer is responsible for the physical connection between devices and the transmission of raw bit streams over a physical medium
+Alternate acronym for MAC addresses?, DLC, Data Link Control; apparently refers to the exact same thing
