@@ -12,3 +12,5 @@ Alternate acronym for MAC addresses?, DLC, Data Link Control; apparently refers 
 On what OSI layer would a packet would get 'fragmented'?, 3, Fragmentation of packets occurs at the Network layer if the packet size exceeds the Maximum Transmission Unit (MTU) of the network
 On what OSI layer would data 'segmentation' occur?, 4, Segmentation of data occurs at the Transport layer to break down large messages into smaller segments for transmission
 On what OSI layer would Tunneling protocols be used?, 5, Tunneling protocols (such as PPTP; L2TP; and GRE) operate at the Session layer.
+IDS and IPS - what does the I stand for?, Intrusion, Intrusion Detection System (IDS) and Intrusion Prevention System (IPS) monitor network traffic for suspicious activity and can take action to block or prevent potential threats.
+
