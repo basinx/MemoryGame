@@ -14,7 +14,8 @@ On what OSI layer would data 'segmentation' occur?, 4, Segmentation of data occu
 On what OSI layer would Tunneling protocols be used?, 5, Tunneling protocols (such as PPTP; L2TP; and GRE) operate at the Session layer.
 IDS and IPS - what does the I stand for?, Intrusion, Intrusion Detection System (IDS) and Intrusion Prevention System (IPS) monitor network traffic for suspicions activity and can take action. May be integrated into NG firewalls.
 One server goes out but users do not notice a change; what is probably in place?, Load Balancer, Load balancers distribute incoming network traffic across multiple servers to ensure no single server becomes overwhelmed; can tell if server down and direct traffic elsewhere.
-Network storage devices: Block Level Access/File Level Access (Acronyms)?, SAN/NAS, SAN (Storage Area Network) provides block-level access to storage devices; NAS (Network Attached Storage) provides file-level access to storage devices over a network.
+Network storage devices: Block Level Access/File Level Access (Acronyms)?, SAN/NAS, SAN (Storage Area Network) provides block-level access to storage devices; NAS (Network Attached Storage) abstracts the file system for you and provides file-level access to storage devices over a network.
+
 
 
 
