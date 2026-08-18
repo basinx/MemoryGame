@@ -15,6 +15,7 @@ On what OSI layer would Tunneling protocols be used?, 5, Tunneling protocols (su
 IDS and IPS - what does the I stand for?, Intrusion, Intrusion Detection System (IDS) and Intrusion Prevention System (IPS) monitor network traffic for suspicions activity and can take action. May be integrated into NG firewalls.
 One server goes out but users do not notice a change; what is probably in place?, Load Balancer, Load balancers distribute incoming network traffic across multiple servers to ensure no single server becomes overwhelmed; can tell if server down and direct traffic elsewhere.
 Network storage devices: Block Level Access\File Level Access (Acronyms)?, SAN\NAS, SAN (Storage Area Network) provides block-level access to storage devices and clients OS manages the filesystem; NAS (Network Attached Storage) abstracts the file system for you and provides file-level access.
+What OSI layer does an access point operate at?, 2, Bridges wireless clients to the wired network based on MAC addresses; same fundamental job as a switch just over radio.
 
 
 
