@@ -10,6 +10,7 @@ def calculate_similarity(answer1, answer2, case_sensitive=False):
         return difflib.SequenceMatcher(None, answer1.lower().strip(), answer2.lower().strip()).ratio()
 
 #a function that checks if a string begins with >> and returns a clean string without the >> if it does or None if it does not
+#the comparison will either use returned string with case intact or move to the next line where it strips the case if none is returned
 def case_sensitive_answer(answer):
     """Check if a string begins with >> and return a clean string without the >> if it does, or None if it does not"""
     if answer.startswith(">>"):
