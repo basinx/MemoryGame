@@ -17,6 +17,7 @@ One server goes out but users do not notice a change; what is probably in place?
 Network storage devices: Block Level Access\File Level Access (Acronyms)?, SAN\NAS, SAN (Storage Area Network) provides block-level access to storage devices and clients OS manages the filesystem; NAS (Network Attached Storage) abstracts the file system for you and provides file-level access.
 What OSI layer does an access point operate at?, 2, Bridges wireless clients to the wired network based on MAC addresses; same fundamental job as a switch just over radio. (802.11 Wireless <----> 802.3 Wired)
 Uses local caching servers to speed up delivery of data and content to users? (Acronym), CDN, Content Delivery Network (CDN) are geographically distributed caching servers that duplicate the data locally to increase speed of delivery to users
+Single device that would handle encryption/decryption for traffic coming in to a site; often integrated into firewalls?, Concentrator, A concentrator or head-end device is a network device that handles encryption and decryption of traffic
 
 
 
