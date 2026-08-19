@@ -18,6 +18,8 @@ Network storage devices: Block Level Access\File Level Access (Acronyms)?, SAN\N
 What OSI layer does an access point operate at?, 2, Bridges wireless clients to the wired network based on MAC addresses; same fundamental job as a switch just over radio. (802.11 Wireless <----> 802.3 Wired)
 Uses local caching servers to speed up delivery of data and content to users? (Acronym), CDN, Content Delivery Network (CDN) are geographically distributed caching servers that duplicate the data locally to increase speed of delivery to users
 Single device that is often central connection point for VPN traffic; high-volume encryption/decryption; often integrated into firewalls?, Concentrator, A concentrator or head-end device acts as a central connection point for all users or branch offices connecting to a VPN; can also be software.
+Default TTL for Mac/Linux? (hops), 64, Default Time To Live (TTL) value for packets on Mac and Linux systems is 64 hops
+Default TTL for Windows? (hops), 128, Default Time To Live (TTL) value for packets on Windows systems is 128 hops
 
 
 
