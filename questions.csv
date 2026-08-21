@@ -20,8 +20,7 @@ Uses local caching servers to speed up delivery of data and content to users? (A
 Single device that is often central connection point for VPN traffic; high-volume encryption/decryption; often integrated into firewalls?, Concentrator, A concentrator or head-end device acts as a central connection point for all users or branch offices connecting to a VPN; can also be software.
 Default TTL for Mac/Linux? (hops), 64, Default Time To Live (TTL) value for packets on Mac and Linux systems is 64 hops
 Default TTL for Windows? (hops), 128, Default Time To Live (TTL) value for packets on Windows systems is 128 hops
-
-
+Acronym related to replacing dedicated hardware appliances (firewall; router; etc..) with software versions?, NFV, Network Function Virtualization - runs network functions as software/VMs instead of dedicated physical hardware.
 
 
 
