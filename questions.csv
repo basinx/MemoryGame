@@ -22,7 +22,7 @@ Default TTL for Mac/Linux? (hops), 64, Default Time To Live (TTL) value for pack
 Default TTL for Windows? (hops), 128, Default Time To Live (TTL) value for packets on Windows systems is 128 hops
 Acronym related to replacing dedicated hardware appliances (firewall; router; etc..) with software versions?, NFV, Network Function Virtualization - runs network functions as software/VMs instead of dedicated physical hardware. Likely happening in most cloud environments.
 VPC Meaning?, Virtual Private Cloud, A pool of resources created in a public cloud; often connected via a 'transit gateway' (cloud router) to other VPCs or on-premises networks(?)
-RIP = ? ? Protocol?, Routing Information, Oldest/simplest routing protocol; picks paths by hop count only; maxes out at 15 hops; mostly outdated; if used at all it's typically small local networks only.
+RIP = ? ? Protocol?, Routing Information, Oldest/simplest routing protocol; picks paths by hop count only; maxes out at 15 hops; mostly outdated; if used at all it's typically inside one organizations network.
 BGP = ? ? Protocol?, Border Gateway, Routes between separate large networks/ISPs; runs the entire internet at the largest scale.
 OSPF Meaning?, Open Shortest Path First, Link-state protocol; picks paths by cost/bandwidth not just hop count; common for routing inside one organization's network.
 
