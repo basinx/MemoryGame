@@ -25,6 +25,7 @@ VPC Meaning?, Virtual Private Cloud, A pool of resources created in a public clo
 RIP = ? ? Protocol?, Routing Information, Oldest/simplest routing protocol; picks paths by hop count only; maxes out at 15 hops; mostly outdated; if used at all it's typically inside one organizations network.
 BGP = ? ? Protocol?, Border Gateway, Routes between separate large networks/ISPs; runs the entire internet at the largest scale.
 OSPF Meaning?, Open Shortest Path First, Link-state protocol; picks paths by cost/bandwidth not just hop count; common for routing inside one organization's network.
+Uses the slash notation (eg /25) to allow networks to be split into smaller subnets (acronym)?, CIDR, Classless Inter-Domain Routing (CIDR) allows for more efficient use of IP address space by allowing variable-length subnet masks (VLSM) and the use of slash notation to represent network prefixes.
 
 
 
