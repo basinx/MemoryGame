@@ -3,7 +3,7 @@
 # do not include extraneous commas in the fields - use semicolons if needed
 'Application' is what # on the OSI model?, 7, Top layer of the OSI model
 'Presentation' is what # on the OSI model?, 6, Second layer of the OSI model
-'Session' is what # on the OSI model?, 5, Third layer of the OSI model
+'Session' is what # on the OSI model?, 5, Whether it be a VPN tunnel; SSL session; or a remote desktop session; this layer is responsible for establishing; managing; and terminating sessions between applications
 'Transport' is what # on the OSI model?, 4, Fourth layer of the OSI model
 'Network' is what # on the OSI model?, 3, This is where IP addressing and routing occurs
 'Data Link' is what # on the OSI model?, 2, This layer is responsible for node-to-node data transfer and error detection
