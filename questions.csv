@@ -4,7 +4,7 @@
 'Application' is what # on the OSI model?, 7, Top layer of the OSI model
 'Presentation' is what # on the OSI model?, 6, Second layer of the OSI model
 'Session' is what # on the OSI model?, 5, Whether it be a VPN tunnel; SSL session; or a remote desktop session; this layer is responsible for establishing; managing; and terminating sessions between applications
-'Transport' is what # on the OSI model?, 4, Fourth layer of the OSI model
+'Transport' is what # on the OSI model?, 4, Handles port numbers to get data to the right application; TCP adds reliability/ordering/3 way handshake (SYN/SYN-ACK/ACK); UDP doesn't.
 'Network' is what # on the OSI model?, 3, This is where IP addressing and routing occurs
 'Data Link' is what # on the OSI model?, 2, This layer is responsible for node-to-node data transfer and error detection
 'Physical' is what # on the OSI model?, 1, This layer is responsible for the physical connection between devices and the transmission of raw bit streams over a physical medium
@@ -13,7 +13,7 @@ On what OSI layer would a packet would get 'fragmented'?, 3, Fragmentation of pa
 On what OSI layer would data 'segmentation' occur?, 4, Segmentation of data occurs at the Transport layer to break down large messages into smaller segments for transmission
 On what OSI layer would Tunneling protocols be used?, 5, Tunneling protocols (such as PPTP; L2TP; and GRE) operate at the Session layer.
 IDS and IPS - what does the I stand for?, Intrusion, Intrusion Detection System (IDS) and Intrusion Prevention System (IPS) monitor network traffic for suspicions activity and can take action. May be integrated into NG firewalls.
-One server goes out but users do not notice a change; what is probably in place?, Load Balancer, Load balancers distribute incoming network traffic across multiple servers to ensure no single server becomes overwhelmed; can tell if server down and direct traffic elsewhere.
+One server goes down but users do not notice a change; what is probably in place?, Load Balancer, Load balancers distribute incoming network traffic across multiple servers to ensure no single server becomes overwhelmed; can tell if server down and direct traffic elsewhere.
 Network storage devices: Block Level Access\File Level Access (Acronyms)?, SAN\NAS, SAN (Storage Area Network) provides block-level access to storage devices and clients OS manages the filesystem; NAS (Network Attached Storage) abstracts the file system for you and provides file-level access.
 What OSI layer does an access point operate at?, 2, Bridges wireless clients to the wired network based on MAC addresses; same fundamental job as a switch just over radio. (802.11 Wireless <----> 802.3 Wired)
 Uses local caching servers to speed up delivery of data and content to users? (Acronym), CDN, Content Delivery Network (CDN) are geographically distributed caching servers that duplicate the data locally to increase speed of delivery to users
