@@ -26,7 +26,8 @@ RIP = ? ? Protocol?, Routing Information, Oldest/simplest routing protocol; pick
 BGP = ? ? Protocol?, Border Gateway, Routes between separate large networks/ISPs; runs the entire internet at the largest scale.
 OSPF Meaning?, Open Shortest Path First, Link-state protocol; picks paths by cost/bandwidth not just hop count; common for routing inside one organization's network.
 Uses the slash notation (eg /25) to allow networks to be split into smaller subnets (acronym)?, CIDR, Classless Inter-Domain Routing (CIDR) allows for more efficient use of IP address space by allowing variable-length subnet masks (VLSM) and the use of slash notation to represent network prefixes.
-
+Used to control cloud traffic at a high level; often across multiple subnets (Comptia term; acronym), NSL, Network Security List (NSL) - shown as applying broadly to everything in one or more subnets; different cloud providers do handle this differently and have more specific terms
+Used to control cloud traffic at a more granular level; able to apply to specific devices (Comptia term; acronym), NSG, Network Security Group (NSG) - able to apply to specific devices in a subnet; or presumably to specific subnets themselves (maybe this depends on the cloud provider - for the test just remember this is specific devices))
 
 
 
