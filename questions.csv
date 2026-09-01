@@ -29,6 +29,8 @@ Uses the slash notation (eg /25) to allow networks to be split into smaller subn
 Used to control cloud traffic at a high level; often across multiple subnets (Comptia term; acronym), NSL, Network Security List (NSL) - shown as applying broadly to everything in one or more subnets; different cloud providers do handle this differently and have more specific terms
 Used to control cloud traffic at a more granular level; able to apply to specific devices (Comptia term; acronym), NSG, Network Security Group (NSG) - able to apply to specific devices in a subnet; or presumably to specific subnets themselves (maybe this depends on the cloud provider - for the test just remember this is specific devices))
 Software that sits between other pieces of software; handling communication and integration between them, Middleware, Examples include message queues; application servers; and web servers; API gateways; Authentication/session management layers (managed by the provider in a PaaS environment)
+Which layer 4 protocol does not have flow control?, UDP, User Datagram Protocol (UDP) is a connectionless rotocol used for fast; real-time data like video streaming or gaming where lost packets are less important than speed
+
 
 
 
