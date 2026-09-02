@@ -30,6 +30,9 @@ Used to control cloud traffic at a high level; often across multiple subnets (Co
 Used to control cloud traffic at a more granular level; able to apply to specific devices (Comptia term; acronym), NSG, Network Security Group (NSG) - able to apply to specific devices in a subnet; or presumably to specific subnets themselves (maybe this depends on the cloud provider - for the test just remember this is specific devices))
 Software that sits between other pieces of software; handling communication and integration between them, Middleware, Examples include message queues; application servers; and web servers; API gateways; Authentication/session management layers (managed by the provider in a PaaS environment)
 Which layer 4 protocol does not have flow control?, UDP, User Datagram Protocol (UDP) is a connectionless rotocol used for fast; real-time data like video streaming or gaming where lost packets are less important than speed
+The range for Dynamic/Ephemeral ports is (normally) #-#?, 49152-65535, Dynamic or ephemeral ports are typically assigned by the operating system for short-lived connections and are in the range of 49152 to 65535
+The range for Registered ports is (normally) #-#?, 1024-49151, Registered ports are assigned by IANA for specific services and applications and are in the range of 1024 to 49151
+The range for Well Known ports is (normally) #-#?, 0-1023, Well-known ports are mostly reserved for system or widely used services and are in the range of 0 to 1023 (the usual suspects)
 
 
 
