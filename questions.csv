@@ -33,6 +33,7 @@ Which layer 4 protocol does not have flow control?, UDP, User Datagram Protocol 
 The range for Dynamic/Ephemeral ports is (normally) #-#?, 49152-65535, Dynamic or ephemeral ports are typically assigned by the operating system for short-lived connections and are in the range of 49152 to 65535
 The range for Registered ports is (normally) #-#?, 1024-49151, Registered ports are assigned by IANA for specific services and applications and are in the range of 1024 to 49151 (sometimes included in ephemeral range)
 The range for Well Known ports is (normally) #-#?, 0-1023, Well-known ports are mostly reserved for system or widely used services and are in the range of 0 to 1023 (the usual suspects)
+A technique that combines multiple signals or data streams into a single composite signal, Multiplexing, Multiplexing is a technique that combines multiple signals or data streams into a single composite signal for transmission over a shared medium; examples include Time Division Multiplexing (TDM) and Frequency Division Multiplexing (FDM)
 
 
 
