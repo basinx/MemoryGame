@@ -43,6 +43,7 @@ Port: Telnet, 23, Telnet uses port 23 for unencrypted remote login and command e
 Port: Unencrypted SMTP, 25, Simple Mail Transfer Protocol (SMTP) uses port 25 for sending email messages between mail servers unencrypted
 Port: SMTPS (Implicit SSL/TLS), 465, SMTPS (Simple Mail Transfer Protocol Secure) uses port 465 for sending email messages securely over SSL/TLS; Encrypted from the start
 Port: STARTTLS (Explicit SSL/TLS), 587, STARTTLS is an extension to SMTP that allows for the upgrade of an existing unencrypted connection to a secure connection using SSL/TLS; typically uses port 587 for sending email securely.
+Port: DNS, 53, Domain Name System (DNS) uses UDP port 53 for standard queries and TCP port 53 for larger transfers like zone transfers or DNSSEC responses; use nslookup (or Resolve-DnsName in PowerShell) on Windows; or dig on Linux/Mac; to query DNS info manually.
 
 
 
