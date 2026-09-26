@@ -48,7 +48,8 @@ Protocol/Ports: DHCP, UDP/67/68, Dynamic Host Configuration Protocol (DHCP) uses
 Protocol/Port: TFTP, UDP/69, Trivial File Transfer Protocol (TFTP) uses UDP port 69 for simple file transfers; it is a lightweight version of FTP and does not provide authentication; encryption or directory browsing.
 Protocol/Ports: HTTP (Unsecure/Secure), TCP/80/443, Hypertext Transfer Protocol (HTTP) uses TCP port 80 for unencrypted web traffic and TCP port 443 for HTTPS (traffic encrypted with SSL/TLS))
 Protocol/Port: NTP, UDP/123, Network Time Protocol (NTP) uses UDP port 123 for synchronizing the clocks of computer systems/switches/routers/firewalls/etc..; sync is critical for log files/auth details/outages/kerberos auth/etc..
-
+Protocol/Port: SNMP, UDP/161, Simple Network Management Protocol (SNMP) uses UDP port 161 for a network management system to query device status and push configuration changes to managed devices (routers/switches/servers/etc.).
+Protocol/Port: SNMP Trap, UDP/162, SNMP Trap uses UDP port 162 for devices to send unsolicited notifications (traps) to a network management system about significant events or changes in status.
 
 
 
