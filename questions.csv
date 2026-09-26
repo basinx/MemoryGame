@@ -39,7 +39,7 @@ Port: FTP Control Connection, 21, File Transfer Protocol (FTP) uses port 21 for 
 Port: SSH, 22, Secure Shell (SSH) uses port 22 for secure remote login and command execution; also used for secure file transfers via SCP (Secure Copy Protocol) and SFTP (SSH File Transfer Protocol).
 Rides on top of SSH for simple file copying, SCP, Secure Copy Protocol (SCP) is a simple file transfer protocol that rides on top of SSH and uses port 22 for secure file copying between hosts.
 Rides on top of SSH for more advanced file transfers, SFTP, SSH File Transfer Protocol (SFTP) is a more advanced file transfer protocol that rides on top of SSH and uses port 22 for secure file transfers with additional features like directory listings and file management.
-
+Port: Telnet, 23, Telnet uses port 23 for unencrypted remote login and command execution; it is considered insecure and has largely been replaced by SSH. (Telnet sends everything — including login credentials — in plaintext)
 
 
 
