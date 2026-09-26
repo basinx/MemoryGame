@@ -40,10 +40,11 @@ Port: SSH, 22, Secure Shell (SSH) uses port 22 for secure remote login and comma
 Rides on top of SSH for simple file copying, SCP, Secure Copy Protocol (SCP) is a simple file transfer protocol that rides on top of SSH and uses port 22 for secure file copying between hosts.
 Rides on top of SSH for more advanced file transfers, SFTP, SSH File Transfer Protocol (SFTP) is a more advanced file transfer protocol that rides on top of SSH and uses port 22 for secure file transfers with additional features like directory listings and file management.
 Port: Telnet, 23, Telnet uses port 23 for unencrypted remote login and command execution; it is considered insecure and has largely been replaced by SSH. (Telnet sends everything — including login credentials — in plaintext)
-Port: Unencrypted SMTP, 25, Simple Mail Transfer Protocol (SMTP) uses port 25 for sending email messages between mail servers unencrypted
-Port: SMTPS (Implicit SSL/TLS), 465, SMTPS (Simple Mail Transfer Protocol Secure) uses port 465 for sending email messages securely over SSL/TLS; Encrypted from the start
-Port: STARTTLS (Explicit SSL/TLS), 587, STARTTLS is an extension to SMTP that allows for the upgrade of an existing unencrypted connection to a secure connection using SSL/TLS; typically uses port 587 for sending email securely.
+Port: Unencrypted SMTP, 25, Simple Mail Transfer Protocol (SMTP) uses port 25 for sending email messages between mail servers unencrypted (Always TCP)
+Port: SMTPS (Implicit SSL/TLS), 465, SMTPS (Simple Mail Transfer Protocol Secure) uses port 465 for sending email messages securely over SSL/TLS; Encrypted from the start (TCP)
+Port: STARTTLS (Explicit SSL/TLS), 587, STARTTLS is an extension to SMTP that allows for the upgrade of an existing unencrypted connection to a secure connection using SSL/TLS; typically uses port 587 for sending email securely. (TCP)
 Port: DNS, 53, Domain Name System (DNS) uses UDP port 53 for standard queries and TCP port 53 for larger transfers like zone transfers or DNSSEC responses; use nslookup (or Resolve-DnsName in PowerShell) on Windows; or dig on Linux/Mac; to query DNS info manually.
+DHCP Protocol/Ports, UDP/67/68, Dynamic Host Configuration Protocol (DHCP) uses UDP port 67 for the server and UDP port 68 for the client; DHCP is used to automatically assign IP addresses and other network configuration parameters to devices on a network.
 
 
 
