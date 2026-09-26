@@ -47,6 +47,8 @@ Port: DNS, 53, Domain Name System (DNS) uses UDP port 53 for standard queries an
 Protocol/Ports: DHCP, UDP/67/68, Dynamic Host Configuration Protocol (DHCP) uses UDP port 67 for the server and UDP port 68 for the client; DHCP is used to automatically assign IP addresses and other network configuration parameters to devices on a network.
 Protocol/Port: TFTP, UDP/69, Trivial File Transfer Protocol (TFTP) uses UDP port 69 for simple file transfers; it is a lightweight version of FTP and does not provide authentication; encryption or directory browsing.
 Protocol/Ports: HTTP (Unsecure/Secure), TCP/80/443, Hypertext Transfer Protocol (HTTP) uses TCP port 80 for unencrypted web traffic and TCP port 443 for HTTPS (traffic encrypted with SSL/TLS))
+Protocol/Port: NTP, UDP/123, Network Time Protocol (NTP) uses UDP port 123 for synchronizing the clocks of computer systems/switches/routers/firewalls/etc..; sync is critical for log files/auth details/outages/kerberos auth/etc..
+
 
 
 
