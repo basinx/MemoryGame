@@ -50,7 +50,8 @@ Protocol/Ports: HTTP (Unsecure/Secure), TCP/80/443, Hypertext Transfer Protocol 
 Protocol/Port: NTP, UDP/123, Network Time Protocol (NTP) uses UDP port 123 for synchronizing the clocks of computer systems/switches/routers/firewalls/etc..; sync is critical for log files/auth details/outages/kerberos auth/etc..
 Protocol/Port: SNMP, UDP/161, Simple Network Management Protocol (SNMP) uses UDP port 161 for a network management system to query device status and push configuration changes to managed devices (routers/switches/servers/etc.).
 Protocol/Port: SNMP Trap, UDP/162, SNMP Trap uses UDP port 162 for devices to send unsolicited notifications (traps) to a network management system about significant events or changes in status.
-
+Protocol/Port: LDAP, TCP/389, Lightweight Directory Access Protocol (LDAP) uses TCP port 389 for querying and modifying directory services; often used for authentication and authorization in enterprise environments.
+Protocol/Port: LDAPS, TCP/636, LDAPS (LDAP over SSL/TLS) uses TCP port 636 for secure communication with directory services; it encrypts LDAP traffic using SSL/TLS to protect sensitive information like user credentials and directory data.
 
 
 
