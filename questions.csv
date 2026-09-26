@@ -36,6 +36,7 @@ The range for Well Known ports is (normally) #-#?, 0-1023, Well-known ports are 
 A technique that combines multiple signals or data streams into a single composite signal, Multiplexing, Multiplexing is a technique that combines multiple signals or data streams into a single composite signal for transmission over a shared medium; examples include Time Division Multiplexing (TDM) and Frequency Division Multiplexing (FDM)
 Port: FTP Data Connection, 20, File Transfer Protocol (FTP) uses port 20 for data transfer in active mode (versus passive mode; which uses a random port in the dynamic/ephemeral range instead).
 Port: FTP Control Connection, 21, File Transfer Protocol (FTP) uses port 21 for control commands and responses between the client and server e.g. USER/PASS for login; CWD to change directory; LIST to view files; RETR/STOR to trigger downloads/uploads.
+Port: SSH, 22, Secure Shell (SSH) uses port 22 for secure remote login and command execution; also used for secure file transfers via SCP (Secure Copy Protocol) and SFTP (SSH File Transfer Protocol).
 
 
 
