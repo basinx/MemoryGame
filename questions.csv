@@ -34,8 +34,9 @@ The range for Dynamic/Ephemeral ports is (normally) #-#?, 49152-65535, Dynamic o
 The range for Registered ports is (normally) #-#?, 1024-49151, Registered ports are assigned by IANA for specific services and applications and are in the range of 1024 to 49151 (sometimes included in ephemeral range)
 The range for Well Known ports is (normally) #-#?, 0-1023, Well-known ports are mostly reserved for system or widely used services and are in the range of 0 to 1023 (the usual suspects)
 A technique that combines multiple signals or data streams into a single composite signal, Multiplexing, Multiplexing is a technique that combines multiple signals or data streams into a single composite signal for transmission over a shared medium; examples include Time Division Multiplexing (TDM) and Frequency Division Multiplexing (FDM)
-Port: FTP Data Connection, 20, File Transfer Protocol (FTP) uses port 20 for data transfer in active mode (versus passive mode which uses a different random port for data transfer).
-Port: FTP Control Connection, 21, File Transfer Protocol (FTP) uses port 21 for control commands and responses between the client and server.
+Port: FTP Data Connection, 20, File Transfer Protocol (FTP) uses port 20 for data transfer in active mode (versus passive mode; which uses a random port in the dynamic/ephemeral range instead).
+Port: FTP Control Connection, 21, File Transfer Protocol (FTP) uses port 21 for control commands and responses between the client and server e.g. USER/PASS for login; CWD to change directory; LIST to view files; RETR/STOR to trigger downloads/uploads.
+
 
 
 
