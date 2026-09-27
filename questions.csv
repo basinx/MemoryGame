@@ -53,4 +53,4 @@ Protocol/Port: SNMP Trap, UDP/162, SNMP Trap uses UDP port 162 for devices to se
 Protocol/Port: LDAP, TCP/389, Lightweight Directory Access Protocol (LDAP) uses TCP port 389 for querying and modifying directory services; often used for authentication and authorization in enterprise environments.
 Protocol/Port: LDAPS, TCP/636, LDAPS (LDAP over SSL/TLS) uses TCP port 636 for secure communication with directory services; it encrypts LDAP traffic using SSL/TLS to protect sensitive information like user credentials and directory data.
 Protocol/Port/Alternate (older) Acronym: SMB, TCP/445/CIFS, Server Message Block (SMB) uses TCP port 445 for file and printer sharing in Windows networks; Common Internet File System (CIFS) is older now-deprecated dialect of SMB that had security vulnerabilities (essentially SMB1)
-
+Protocol/Port: Syslog, UDP/514, Syslog uses UDP port 514 for sending log messages from devices to a centralized log server; it is commonly used for monitoring and troubleshooting network devices and systems.
