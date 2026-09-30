@@ -74,4 +74,8 @@ Multicast traffic IP range (just the first octets) x-x,224-239,IPv4 multicast us
 Network routing method that picks the best recipient among multiple with the same IP?, Anycast, Anycast is a network routing style where multiple devices share the same IP address; the network routes traffic to the nearest or best-performing device based on routing metrics; commonly used for content delivery networks (CDNs) and DNS servers.
 Wireless Standard Designation (#)/The organization that created it:, 802.11/IEEE, The IEEE (Institute of Electrical and Electronics Engineers) is the organization that develops and maintains the 802.11 wireless networking standards; Standards committee IEEE 802 is responsible for LAN/MAN standards
 What does the M in LAN/MAN stand for?, Metropolitan, PAN = Personal Area Network; LAN = Local Area Network; MAN = Metropolitan Area Network; WAN = Wide Area Network
+The letters for Wi-Fi 4/5/6?, n/ac/ax, Wi-Fi 4 = 802.11n; Wi-Fi 5 = 802.11ac; Wi-Fi 6 = 802.11ax
+Nominal Speed for Wifi-4
+DFS Meaning? (Just type the DF), Dynamic Frequency, Dynamic Frequency Selection (DFS) is a mechanism that allows Wi-Fi devices to detect radar signals and switch to a different channel to avoid interference; it is required for certain 5 GHz channels in many countries.
+
 
