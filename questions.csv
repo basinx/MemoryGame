@@ -81,4 +81,6 @@ Letter/Nominal Speed for WiFi-6 (per 80 Mhz stream)/theoretical maximum,AX/600/9
 Letter/Nominal Speed for WiFi-7 (per 160 Mhz stream)/theoretical maximum,BE/1376/46120,Wi-Fi 7 (802.11be) has a nominal speed of about 1376 Mbps per 160 MHz spatial stream; with 16 spatial streams using 320 MHz channels it can reach a theoretical maximum of 46120 Mbps.
 DFS Meaning? (Just type the DF), Dynamic Frequency, Dynamic Frequency Selection (DFS) is a mechanism that allows Wi-Fi devices to detect radar signals and switch to a different channel to avoid interference; it is required for certain 5 GHz channels in many countries.
 Nominal speeds for 802.11 a/b/g, 54/11/54, 802.11a = 54 (5 Ghz); 802.11b = 11 (2.4 Ghz); 802.11g = 54 (2.4 Ghz)
+Acronyms for 2G cellular networks in US (AT&T+T-Mobile/Verizon+Sprint),GSM/CDMA,GSM = Global System for Mobile Communications; CDMA = Code Division Multiple Access; GSM evolved toward UMTS for 3G; CDMA evolved toward CDMA2000/EV-DO (Evolution Data Optimized)
+
 
