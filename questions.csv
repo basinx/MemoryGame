@@ -88,9 +88,9 @@ Acronym for the technology that uses multiple antennas for multiple spatial stre
 5G theoretical max download rate (Gbps)/expected speed (Mbit/s from messers slide), 10/100-900, 5G theoretical maximum download rate is 10 Gbps; actual expected speeds are typically in the range of 100-900 Mbps depending on network conditions and deployment.
 Satellite Networking common speeds (Mbps) down/up (from messers slide), 100/5, Satellite internet connections typically have download speeds around 100 Mbps and upload speeds around 5 Mbps; latency is usually higher due to the long distance signals must travel to and from satellites.
 Latency for Satellite Networking (ms-round trip) Traditional/Starlink Current/Starlink Future, 500/40/20, Traditional geostationary satellite: Messer says 250 up and down so 500 round trip; Starlink current is about 40 ms; Starlink future is expected to be around 20 (Messer says higher frequencies 2 Ghz+)
-
-
-
+Types of Satellites (Traditional/Starlink), GEO/LEO, Traditional satellites are typically in Geostationary Earth Orbit (GEO) at about 35786 km above the equator; Starlink satellites are in Low Earth Orbit (LEO) at about 550 km (below 2000 anyway) above the Earth.
+Ethernet Standard Designation (#)/The organization that created it, 802.3/IEEE, The IEEE (Institute of Electrical and Electronics Engineers) is the organization that develops and maintains the 802.3 Ethernet networking standards; Standards committee IEEE 802 is responsible for LAN/MAN standards
+Gigabit Ethernet standard that goes over Fiber?, 1000BASE-SX, 1000BASE-SX is a Gigabit Ethernet standard that uses short-wavelength (850 nm) multimode fiber optic cables for high-speed data transmission over relatively short distances (up to 550 meters).
 
 
 
