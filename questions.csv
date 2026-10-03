@@ -86,6 +86,8 @@ Acronyms for 2G cellular networks in US (AT&T+T-Mobile/Verizon+Sprint),GSM/CDMA,
 LTE-A theoretical download rate,300 Mbps,LTE-Advanced is an improved version of LTE; Messer uses approximately 300 Mbps
 Acronym for the technology that uses multiple antennas for multiple spatial streams,MIMO,Multiple Input Multiple Output (MIMO) uses multiple antennas at the transmitter and receiver; 2x2 is common; 4x4 can provide higher data rates. (MU-MIMO for multiple users)
 5G theoretical max download rate (Gbps)/expected speed (Mbit/s from messers slide), 10/100-900, 5G theoretical maximum download rate is 10 Gbps; actual expected speeds are typically in the range of 100-900 Mbps depending on network conditions and deployment.
+Satellite Networking common speeds (Mbps) down/up (from messers slide), 100/5, Satellite internet connections typically have download speeds around 100 Mbps and upload speeds around 5 Mbps; latency is usually higher due to the long distance signals must travel to and from satellites.
+Latency for Satellite Networking (ms-round trip) Traditional/Starlink Current/Starlink Future, 500/40/20, Traditional geostationary satellite: Messer says 250 up and down so 500 round trip; Starlink current is about 40 ms; Starlink future is expected to be around 20
 
 
 
