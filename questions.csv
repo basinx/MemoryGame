@@ -93,6 +93,7 @@ Ethernet Standard Designation (#)/The organization that created it, 802.3/IEEE, 
 Gigabit Ethernet standard that goes over Fiber (short wavelength)?, 1000BASE-SX, 1000BASE-SX is a Gigabit Ethernet standard that uses short-wavelength (850 nm) multimode fiber optic cables for high-speed data transmission over relatively short distances (up to 550 meters).
 Gigabit Ethernet standard that goes over Fiber (long wavelength)?, 1000BASE-LX, 1000BASE-LX is a Gigabit Ethernet standard that uses long-wavelength (1310 nm) single-mode fiber optic cables for high-speed data transmission over longer distances (up to 10 kilometers).
 OM meaning (regarding fiber optic cable),Optical Multimode,OM = Optical Multimode; a category of multimode fiber optic cable. OM followed by a number (e.g.; OM1; OM2; OM3; OM4; OM5) indicates the cable's performance characteristics and maximum data transmission distance.
+Acronyms for the two types of fiber (Shorter Distance/Longer Distance), MMF/SMF, MMF = Multimode Fiber (850 nm commonly); SMF = Single-mode Fiber (1310 or 1550 nm commonly); MMF is used for shorter distances; SMF is used for longer distances.
 
 
 
