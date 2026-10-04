@@ -95,6 +95,7 @@ Gigabit Ethernet standard that goes over Fiber (long wavelength)?, 1000BASE-LX, 
 OM meaning (regarding fiber optic cable),Optical Multimode,OM = Optical Multimode; a category of multimode fiber optic cable. OM followed by a number (e.g.; OM1; OM2; OM3; OM4; OM5) indicates the cable's performance characteristics and maximum data transmission distance.
 Acronyms for the two types of fiber (Shorter Distance/Longer Distance), MMF/SMF, MMF = Multimode Fiber (850 nm commonly); SMF = Single-mode Fiber (1310 or 1550 nm commonly); MMF is used for shorter distances; SMF is used for longer distances.
 The even longer Fiber type designations (40km/70-80km/fiber mode ??F),EX/ZX/SMF,EX = Extended reach (40 km; 1310 nm); ZX = Very long reach (70-80 km; 1550 nm); both use Single-mode Fiber (SMF).
+What is Fiber immune to that Copper is not?,EMI,Fiber is immune to electromagnetic interference (EMI) because they use light; or as Messer puts it do not have RF signals (while Ethernet uses electrical signals that can be affected by EMI; hence twisting; shielding; etc.)
 
 
 
