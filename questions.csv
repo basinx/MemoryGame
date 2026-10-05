@@ -97,6 +97,4 @@ Acronyms for the two types of fiber (Shorter Distance/Longer Distance), MMF/SMF,
 The even longer Fiber type designations (40km/70-80km/fiber mode ??F),EX/ZX/SMF,EX = Extended reach (40 km; 1310 nm); ZX = Very long reach (70-80 km; 1550 nm); both use Single-mode Fiber (SMF).
 What is Fiber immune to that Copper is not?,EMI,Fiber is immune to electromagnetic interference (EMI) because they use light; or as Messer puts it do not have RF signals (while Ethernet uses electrical signals that can be affected by EMI; hence twisting; shielding; etc.)
 Term for the property of the core/cladding of fiber that the Core has high of and the Cladding low, Refractive Index, The core has a higher refractive index than the cladding which causes light to be guided along the core through total internal reflection; this is a fundamental principle of fiber optic communication.
-
-
-
+Minimum cable category for 1000BASE-T?,Cat 5,1000BASE-T (Gigabit Ethernet over twisted pair) was originally specified to run over Category 5; Cat 5e is the modern/common recommendation.
