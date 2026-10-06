@@ -108,6 +108,7 @@ Twinax copper will limit the distance you can connect to about ?m, 5, Twinaxial 
 an enclosed space or chamber—such as the area above a drop ceiling or below a raised floor, Plenum, A plenum is an enclosed space or chamber used for air circulation in buildings; it is often used for running network cables; and plenum-rated cables are designed to meet fire safety standards for use in these spaces.
 Two acronyms for materials used in plenum-rated cable?,FEP/PVC,FEP = Fluorinated Ethylene Propylene; PVC = Polyvinyl Chloride; both can be used in plenum-rated cable construction depending on the cable design and rating. (Messer says low-smoke PVC specifically)
 Three C's of the pieces of a Fiber Optic Cable ?/?/?, Core/Cladding/Coating, The three main components of a fiber optic cable are the core (the light-carrying center); the cladding (the layer surrounding the core that reflects light back into the core); and the coating (the protective outer layer that shields the fiber from damage and environmental factors).
+SFP+ supports up to ? Gbps, 16, SFP+ (Enhanced Small Form-factor Pluggable) is an upgraded version of the SFP transceiver that supports data rates up to 16 Gbps; commonly used for 10 Gigabit Ethernet and Fibre Channel applications.
 
 
 
