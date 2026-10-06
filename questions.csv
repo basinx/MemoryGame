@@ -100,4 +100,8 @@ Term for the property of the core/cladding of fiber that the Core has high of an
 Minimum cable category for 1000BASE-T?,Cat 5,1000BASE-T (Gigabit Ethernet over twisted pair) was originally specified to run over Category 5; Cat 5e is the modern/common recommendation.
 What actually determines how much data you can move across copper wire (like Cat 5/5e/etc..), Signal Encoding, The actual data rate over copper wire is determined by the signal encoding method used; higher-order modulation schemes can transmit more bits per symbol; allowing for higher data rates over the same physical medium.
 Technical standard name for the coaxial cable used for cable TV and internet?,RG-6,RG-6 is a type of coaxial cable commonly used for cable television and broadband internet; it has a characteristic impedance of 75 ohms and is designed for high-frequency signals with relatively low loss.
+A word used for insulating material between conductors, Dielectric, The dielectric is the insulating material between the inner conductor and the outer shield in a coaxial cable; it affects the cable's capacitance and impedance characteristics.
+A word for the ability of something to store electrical charge, Capacitance, Capacitance is the ability of a component or material to store electrical charge; in cables; higher capacitance can lead to signal degradation over long distances.
+A word for the opposition to the flow of an AC/electrical signal, Impedance, Impedance is the opposition to the flow of alternating current (AC) in a circuit; it combines resistance and reactance; and is measured in ohms; cables have characteristic impedance that affects signal transmission.
+
 
