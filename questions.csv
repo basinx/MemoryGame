@@ -119,6 +119,6 @@ ESP Meaning?, Encapsulating Security Payload, Encapsulating Security Payload (ES
 The smaller - more compact Fiber connector with a clip/The slightly bigger one that just snaps in (Acronyms), LC/SC, LC (Lucent Connector) is a smaller fiber optic connector with a clip mechanism; SC (Subscriber Connector) is a slightly larger connector that uses a push-pull snap-in mechanism.
 MPO Meaning (fiber), Multi-fiber Push On, MPO (Multi-fiber Push On) is a type of fiber optic connector that can connect multiple fibers (12 was listed) in a single connector; it is commonly used in high-density fiber optic applications and data centers.
 Coaxial cable has what kind of a connector?, F, F-type connector is a coaxial cable connector commonly used for cable television; satellite television; and broadband internet connections; Coax is usually 18 AWG; RG-6; 75 ohm; and has a threaded F-type connector.
-
-
+What digital WAN transmission standard is associated with T3 leased lines and operates at 44.736 Mbps?,DS3,Digital Signal Level 3; commonly called T3; traditionally uses 75-ohm coaxial cable with BNC connectors; used for high-capacity WAN connections.
+BNC = Bayonet ?-?, Neill-Concelman, BNC (Bayonet Neill-Concelman) is a type of coaxial cable connector that uses a bayonet-style locking mechanism; it is commonly used for RF and video applications; including T3/DS3 connections.
 
