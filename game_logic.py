@@ -334,7 +334,7 @@ class TypingGame:
                             break
                         # similarity check per-item
                         sim = calculate_similarity(ui, ci, case_sensitive is not None)
-                        if sim >= 0.90:
+                        if sim >= 0.80:
                             found = True
                             any_fuzzy = True
                             remaining.remove(ci)
