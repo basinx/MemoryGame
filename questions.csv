@@ -121,4 +121,5 @@ MPO Meaning (fiber), Multi-fiber Push On, MPO (Multi-fiber Push On) is a type of
 Coaxial cable has what kind of a connector?, F, F-type connector is a coaxial cable connector commonly used for cable television; satellite television; and broadband internet connections; Coax is usually 18 AWG; RG-6; 75 ohm; and has a threaded F-type connector.
 What digital WAN transmission standard is associated with T3 leased lines and operates at 44.736 Mbps?,DS3,Digital Signal Level 3; commonly called T3; traditionally uses 75-ohm coaxial cable with BNC connectors; used for high-capacity WAN connections.
 BNC = Bayonet ?-?, Neill-Concelman, BNC (Bayonet Neill-Concelman) is a type of coaxial cable connector that uses a bayonet-style locking mechanism; it is commonly used for RF and video applications; including T3/DS3 connections.
+Name for the type of switching that often goes with spine and leaf in datacenters?, Top of Rack, Top of Rack (ToR) switching is a network architecture commonly used in data centers; where each server rack has its own switch at the top of the rack; which connects to the spine switches in the network core.
 
