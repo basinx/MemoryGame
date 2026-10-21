@@ -118,6 +118,7 @@ ST Meaning (fiber), Straight Tip, ST (Straight Tip) is a type of fiber optic con
 ESP Meaning?, Encapsulating Security Payload, Encapsulating Security Payload (ESP) is a protocol used in IPSec VPNs to provide confidentiality (encryption); authentication; and integrity for IP packets; it encapsulates the original packet and adds a new header and trailer for secure transmission.
 The smaller - more compact Fiber connector with a clip/The slightly bigger one that just snaps in (Acronyms), LC/SC, LC (Lucent Connector) is a smaller fiber optic connector with a clip mechanism; SC (Subscriber Connector) is a slightly larger connector that uses a push-pull snap-in mechanism.
 MPO Meaning (fiber), Multi-fiber Push On, MPO (Multi-fiber Push On) is a type of fiber optic connector that can connect multiple fibers (12 was listed) in a single connector; it is commonly used in high-density fiber optic applications and data centers.
+Coaxial cable has what kind of a connector?, F, F-type connector is a coaxial cable connector commonly used for cable television; satellite television; and broadband internet connections; Coax is usually 18 AWG; RG-6; 75 ohm; and has a threaded F-type connector.
 
 
 
