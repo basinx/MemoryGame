@@ -155,7 +155,3 @@ Type of Entra Device Identity best for bring your own device (BYOD) or mobile de
 Type of Entra Device Identity best for corporate owned devices?, Joined, A Microsoft Entra joined device is a device joined to Microsoft Entra ID through an organizational account; which is then used to sign in to the device.
 In compliance: a requirement of a regulation; standard; or policy?, Control, It defines how you assess and manage system configuration; organizational process; and people responsible for meeting a specific requirement of a regulation; standard; or policy.
 A grouping of controls from a specific regulation; standard; or policy?, Assessment, Completing the actions within an assessment help you meet the requirements of a standard; regulation; or law.
-CIDR notation range for class E?, 240.0.0.0/4, Class E addresses are reserved for experimental purposes and are not used in public networks. The CIDR notation for Class E is 240.0.0.0/4. First Octet 240-255. First 4 bits: 1111
-CIDR notation for class D addresses?, 224.0.0.0/4, Class D addresses are reserved for multicast communications and are not used in public networks. The CIDR notation for Class D is 224.0.0.0/4. First Octet 224-239. First 4 bits: 1110
-Two acronyms associated with routers coordinating ownership of Virtual IP's, VRRP/HSRP, Virtual Router Redundancy Protocol (VRRP) and Hot Standby Router Protocol (HSRP) are both protocols that allow multiple routers to work together to provide high availability for IP networks by advertising a virtual IP address.
-
