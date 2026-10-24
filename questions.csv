@@ -131,6 +131,7 @@ Two acronyms associated with routers coordinating ownership of Virtual IP's, VRR
 Acronym related to the link-local IP address, APIPA, Automatic Private IP Addressing (APIPA) is a feature in Windows that allows a device to automatically assign itself an IP address in the 169.254.0.0/16 range. 65536 addresses
 The standard that defines the ranges of private IP addresses?, RFC 1918, RFC 1918 defines the ranges of private IP addresses that are not routable on the public internet
 Class B private IP range CIDR notation?, 172.16.0.0/12, Range from 172.16.0.0 - 172.31.255.255; CIDR notation is 172.16.0.0/12
-Contiguous networks in each private IP range? 10/172/192?, 1/16/256, Class A private IP range (10.0.0.0/8); Class B private IP range (172.16.0.0/12); Class C private IP range (192.168.0.0/16)
+Contiguous classful networks in each private IP range? 10/172/192?,1/16/256,10.0.0.0/8 = 1 Class A network; 172.16.0.0/12 = 16 Class B networks; 192.168.0.0/16 = 256 Class C networks
+
 
 
