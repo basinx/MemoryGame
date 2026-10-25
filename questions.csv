@@ -132,6 +132,11 @@ Acronym related to the link-local IP address, APIPA, Automatic Private IP Addres
 The standard that defines the ranges of private IP addresses?, RFC 1918, RFC 1918 defines the ranges of private IP addresses that are not routable on the public internet
 Class B private IP range CIDR notation?, 172.16.0.0/12, Range from 172.16.0.0 - 172.31.255.255; CIDR notation is 172.16.0.0/12
 Contiguous classful networks in each private IP range? 10/172/192?,1/16/256,10.0.0.0/8 = 1 Class A network; 172.16.0.0/12 = 16 Class B networks; 192.168.0.0/16 = 256 Class C networks
+The first Octet of a Class A address goes from 0-?, 127, Class A first octet range 0–127; 0 and 127 reserved for special purposes; usable Class A network numbers 1–126; 8 network bits; First bit = 0; 16;777;216 addresses per network
+The first Octet of a Class B address goes from ?-?, 128-191, Class B addresses have a first octet range of 128-191; This means leading bits 10; 16 Network bits; 16384 networks; 65536 addresses per network
+The first Octet of a Class C address goes from ?-?, 192-223, Class C addresses have a first octet range of 192-223; This means leading bits 110; 24 Network bits; 2;097;152 Networks; 256 addresses per network
+The first Octet of a Class D address goes from ?-?, 224-239, Class D addresses have a first octet range of 224-239; This means leading bits 1110; used for multicast; no network/host bits
+The first Octet of a Class E address goes from ?-?, 240-255, Class E addresses have a first octet range of 240-255; This means leading bits 1111; reserved for experimental use; no network/host bits
 
 
 
