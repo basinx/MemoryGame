@@ -140,3 +140,7 @@ The first Octet of a Class E address goes from ?-?, 240-255, Class E addresses h
 1111 1100 subnet mask in Decimal?,252,1111 1100 in binary is equivalent to 252; so if subnetting a Class C 192.168.1.0/24 network with a /30 mask 255.255.255.252: 30-24 = 6 borrowed subnet bits = 64 subnets; 32-30 = 2 host bits; 2^2 = 4 total addresses per subnet; 2 usable hosts per subnet
 VLSM Meaning?, Variable Length Subnet Masks, Variable Length Subnet Masks (VLSM) is a technique (using subnet masks) that allows for more efficient use of IP address space by allowing subnets of different sizes to be created within the same network
 2^15 = ?,32768,so a Class A 10.0.0.0/8 network subnetted into /23 networks has 2^15 (23-8 bits) = 32768 subnets; 2^9 (32-23 bits) = 512 addresses per subnet
+2^13 = ?,8192,Class A 10.0.0.0/8 subnetted into /21 networks; 21-8 = 13 borrowed bits; 8192 subnets; 2048 addresses per subnet
+2^14 = ?,16384,Class A 10.0.0.0/8 subnetted into /22 networks; 22-8 = 14 borrowed bits; 16384 subnets; 1024 addresses per subnet
+2^15 = ?,32768,Class A 10.0.0.0/8 subnetted into /23 networks; 23-8 = 15 borrowed bits; 32768 subnets; 512 addresses per subnet
+2^16 = ?,65536,Class A 10.0.0.0/8 subnetted into /24 networks; 24-8 = 16 borrowed bits; 65536 subnets; 256 addresses per subnet
