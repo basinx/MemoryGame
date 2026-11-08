@@ -145,3 +145,4 @@ VLSM Meaning?, Variable Length Subnet Masks, Variable Length Subnet Masks (VLSM)
 2^16 = ?,65536,Class A 10.0.0.0/8 subnetted with /24; 24-8 = 16 borrowed bits; 65536 subnets; 256 addresses per subnet
 What coordinates ongoing SD-WAN configuration and policy updates?,Orchestration,SD-WAN controllers coordinate network devices; distribute routing and policy updates; ZTP primarily handles initial device configuration
 SD-WAN feature for automatic device configuration without manual intervention?,Zero-Touch,Zero-Touch Provisioning (ZTP); automatically configures SD-WAN devices; commonly used for initial deployment; centralized SD-WAN orchestration can also distribute updates when network resources change
+Acronym for interconnecting multiple cloud-based data centers?, DCI, Data Center Interconnect (DCI) is a technology that connects multiple data centers; often used for disaster recovery; load balancing; and high availability across geographically dispersed locations.
